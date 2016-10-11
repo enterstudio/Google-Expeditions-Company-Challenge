@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DragAtom.cs">
+    <Files>
+      <File FileName="Assets/DragAtom.cs" Line="92" Column="34" />
+      <File FileName="Assets/GoogleVR/Scripts/GazeInputModule.cs" Line="138" Column="53" />
+      <File FileName="Assets/GoogleVR/Scripts/UI/IGvrGazeResponder.cs" Line="19" Column="24" />
+      <File FileName="Assets/GoogleVR/Scripts/UI/IGvrGazePointer.cs" Line="52" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

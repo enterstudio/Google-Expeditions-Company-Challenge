@@ -294,7 +294,7 @@ public class GazeInputModule : BaseInputModule {
     return null;
   }
 
-  Vector3 GetIntersectionPosition() {
+  public Vector3 GetIntersectionPosition() {
     // Check for camera
     Camera cam = pointerData.enterEventCamera;
     if (cam == null) {
@@ -306,6 +306,7 @@ public class GazeInputModule : BaseInputModule {
 
     return intersectionPosition;
   }
+		
 
   void DisableGazePointer() {
     if (gazePointer == null) {

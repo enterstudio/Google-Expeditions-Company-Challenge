@@ -14,6 +14,7 @@
 
 using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Collider))]
 public class DragAtom : MonoBehaviour, IGvrGazeResponder {
@@ -55,26 +56,22 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	}
 	#endif  //  !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
 
-
 	public void Track(){
 		tracker = !tracker;
 	}
 
 	public void Update(){
 		if (tracker) {
-			
-//	        GetComponent<Camera>() instead. (UnityUpgradable)'
-			//Debug.Log((Camera.main.ToString()));
+			GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
 
-			float mouseX = Input.GetAxis ("Mouse X");
-			float mouseY = Input.GetAxis ("Mouse Y");
+			Vector3 test =  gazeTest.GetIntersectionPosition();
+			float mouseX = test.x;
+			float mouseY = test.y;
 
-			Debug.Log(mouseX + " " + mouseY);
+			transform.position = new Vector3 (mouseX, mouseY, transform.position.z);
 
+			Debug.Log("Intersection pos: " + test);
 
-			transform.position += new Vector3 (mouseX * (float)0.1, mouseY * (float)0.1 , transform.position.z);
-
-			Debug.Log("Update called");
 			//Vector3 current_scale = transform.localScale;
 			//transform.localScale = new Vector3(current_scale.x * (float)1.001, current_scale.y * (float)1.001, current_scale.z * (float)1.001);
 		}
