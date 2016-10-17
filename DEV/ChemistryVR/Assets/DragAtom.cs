@@ -34,7 +34,7 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	}
 
 	public void SetGazedAt(bool gazedAt) {
-		GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
+		// tooltip implementation would go here
 	}
 
 	public void Reset() {
@@ -69,8 +69,6 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 			float mouseY = test.y;
 
 			transform.position = new Vector3 (mouseX, mouseY, transform.position.z);
-
-			Debug.Log("Intersection pos: " + test);
 
 			//Vector3 current_scale = transform.localScale;
 			//transform.localScale = new Vector3(current_scale.x * (float)1.001, current_scale.y * (float)1.001, current_scale.z * (float)1.001);
