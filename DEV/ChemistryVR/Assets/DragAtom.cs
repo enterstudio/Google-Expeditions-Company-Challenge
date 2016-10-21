@@ -84,6 +84,15 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		transform.localScale = new Vector3(current_scale.x * 2, current_scale.y * 2, current_scale.z * 2);
 	}
 
+	public void TeleportCameraToObject() {
+		GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
+		Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+
+		Vector3 test =  gazeTest.GetIntersectionPosition();
+
+		cam.transform.position = new Vector3 (test.x, 1, test.z);
+	}
+
 	#region IGvrGazeResponder implementation
 
 	/// Called when the user is looking on a GameObject with this script,
@@ -107,9 +116,23 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 
 	//Called in order to duplicate current game object, with current coordinates but shifted over slightly
 	public void DuplicateModel() {
-		Vector3 parent_pos = transform.position;
-		Vector3 child_pos = new Vector3 (parent_pos.x + 2, parent_pos.y, parent_pos.z);
-		Instantiate (gameObject, child_pos, transform.rotation);
+		Debug.Log ("Clicked Duplication Button");
+
+		if (gameObject.active == false) {
+			ActivateModel ();
+		} else {
+			Vector3 parent_pos = transform.position;
+			Vector3 child_pos = new Vector3 (parent_pos.x + 1, parent_pos.y, parent_pos.z);
+			GameObject thing = Instantiate (gameObject, child_pos, transform.rotation) as GameObject;
+			Debug.Log (gameObject.transform.localScale + " is local and lossy is " + gameObject.transform.lossyScale);
+
+			thing.transform.localScale = gameObject.transform.lossyScale;
+		}
+	}
+
+	public void ActivateModel() {
+		Debug.Log ("Activate model button pressed");
+		gameObject.SetActive (true);
 	}
 
 	#endregion
