@@ -105,5 +105,12 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		TeleportRandomly();
 	}
 
+	//Called in order to duplicate current game object, with current coordinates but shifted over slightly
+	public void DuplicateModel() {
+		Vector3 parent_pos = transform.position;
+		Vector3 child_pos = new Vector3 (parent_pos.x + 2, parent_pos.y, parent_pos.z);
+		Instantiate (gameObject, child_pos, transform.rotation);
+	}
+
 	#endregion
 }
