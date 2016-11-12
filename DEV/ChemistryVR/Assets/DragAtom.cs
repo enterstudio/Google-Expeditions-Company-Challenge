@@ -20,6 +20,11 @@ using UnityEngine.EventSystems;
 public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	private Vector3 startingPosition;
 	private bool tracker = false;
+	private bool moving = false;
+	private Vector3 movement_start;
+	private Vector3 movement_end;
+
+	private float speed;
 
 	void Start() {
 		startingPosition = transform.localPosition;
@@ -57,6 +62,12 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	#endif  //  !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
 
 	public void Track(){
+		if (tracker) {
+			transform.parent = null;
+		} else {
+			transform.parent = Camera.main.transform;
+		}
+
 		tracker = !tracker;
 	}
 
@@ -65,13 +76,25 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 			GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
 
 			Vector3 test =  gazeTest.GetIntersectionPosition();
-			float mouseX = test.x;
-			float mouseY = test.y;
 
-			transform.position = new Vector3 (mouseX, mouseY, transform.position.z);
+			// following line is working implementation
+			//transform.position = new Vector3 (test.x, test.y, transform.position.z);
+			transform.parent = Camera.main.transform;
 
 			//Vector3 current_scale = transform.localScale;
 			//transform.localScale = new Vector3(current_scale.x * (float)1.001, current_scale.y * (float)1.001, current_scale.z * (float)1.001);
+		}
+
+		if (moving) {
+			Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+			speed = 4;
+			float step = speed * Time.deltaTime;
+
+			if (cam.transform.position != movement_end) {
+				cam.transform.position = Vector3.MoveTowards (cam.transform.position, movement_end, step);
+			} else {
+				moving = false;
+			}
 		}
 	}
 
@@ -88,9 +111,12 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
 		Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
 
-		Vector3 test =  gazeTest.GetIntersectionPosition();
+		Vector3 curr_intersect =  gazeTest.GetIntersectionPosition();
+		movement_start = cam.transform.position;
+		movement_end = new Vector3(curr_intersect.x, 1, curr_intersect.z);
+		moving = true;
 
-		cam.transform.position = new Vector3 (test.x, 1, test.z);
+		//cam.transform.position = new Vector3 (curr_intersect.x, 1, curr_intersect.z);
 	}
 
 	#region IGvrGazeResponder implementation
