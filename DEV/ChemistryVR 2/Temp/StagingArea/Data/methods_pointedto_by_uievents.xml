@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="DragAtom">
+			<method name="OnGazeEnter"/>
+			<method name="OnGazeExit"/>
+			<method name="TeleportFast"/>
+			<method name="DuplicateModel"/>
+			<method name="DuplicateModel"/>
+			<method name="DuplicateModel"/>
+			<method name="DuplicateModel"/>
+			<method name="TeleportCameraToObject"/>
+			<method name="TeleportCameraToObject"/>
+			<method name="TeleportCameraToObject"/>
+			<method name="OnGazeEnter"/>
+			<method name="OnGazeExit"/>
+			<method name="Track"/>
+			<method name="Update"/>
+			<method name="OnGazeEnter"/>
+			<method name="OnGazeExit"/>
+			<method name="Track"/>
+			<method name="Update"/>
+			<method name="TeleportCameraToObject"/>
+		</type>
+		<type fullname="GoToScene">
+			<method name="LoadScene"/>
+			<method name="ResetLevel"/>
+		</type>
+		<type fullname="FlashCamera">
+			<method name="TakePhoto"/>
+		</type>
+	</assembly>
+</linker>

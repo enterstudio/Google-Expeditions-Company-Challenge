@@ -25,6 +25,8 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	private Vector3 movement_end;
 
 	private float speed;
+	private float distanceToObject;
+	private Vector3 originalAngle;
 
 	void Start() {
 		startingPosition = transform.localPosition;
@@ -62,10 +64,15 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	#endif  //  !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
 
 	public void Track(){
-		if (tracker) {
-			transform.parent = null;
+		if (tracker) {			
+			//transform.parent = null;
 		} else {
-			transform.parent = Camera.main.transform;
+			//transform.parent = Camera.main.transform;
+
+			Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+
+			distanceToObject = Vector3.Distance (transform.position, cam.transform.position);
+			originalAngle = cam.transform.forward;
 		}
 
 		tracker = !tracker;
@@ -74,15 +81,36 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	public void Update(){
 		if (tracker) {
 			GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
-
 			Vector3 test =  gazeTest.GetIntersectionPosition();
+
+			Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+
+			//var ray = new Ray(Camera.main.position, cam.forward);
+			Ray rayFromCenter = new Ray(cam.transform.position, cam.transform.forward);
+			Vector3 currentAngle = cam.transform.forward;
+
+			float diffInAngles = Vector3.Angle (originalAngle, currentAngle);
+			float diffInAnglesRad = diffInAngles * Mathf.Deg2Rad;
+
+			float cosOfTransform = Mathf.Cos (diffInAnglesRad);
+
+			float x = distanceToObject/cosOfTransform;
+
+			Debug.Log ("Original Angle is " + originalAngle + " and curr is " + currentAngle + " and diff is " + diffInAngles);
+			Debug.Log ("cosine between = " + cosOfTransform);
+			Debug.Log("old distance was " + distanceToObject + " and new distance should be " + x);
+
+			Vector3 newPos = rayFromCenter.GetPoint (x);
+			Debug.Log("New position of object should be " + newPos);
+
+			transform.position = newPos;
 
 			// following line is working implementation
 			//transform.position = new Vector3 (test.x, test.y, transform.position.z);
-			transform.parent = Camera.main.transform;
 
-			//Vector3 current_scale = transform.localScale;
-			//transform.localScale = new Vector3(current_scale.x * (float)1.001, current_scale.y * (float)1.001, current_scale.z * (float)1.001);
+			// attach the object to the camera
+			//transform.parent = Camera.main.transform;
+
 		}
 
 		if (moving) {
