@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/chemistry.unity
+- path: Assets/IntroSceneSpace.unity
   isLoaded: 1
   isActive: 1

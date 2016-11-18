@@ -35,6 +35,8 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	private bool fadeIn = false;
 	private bool fadeOut = false;
 
+	private bool doFade = false;
+
 
 	private int partsConnected = 0;
 
@@ -152,6 +154,7 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		}
 
 		if (fadeIn) {
+			Debug.Log (gameObject.name);
 			flashCanvas.alpha = flashCanvas.alpha + Time.deltaTime;
 			Debug.Log("Flash should happen with alpha " + flashCanvas.alpha);
 			if (flashCanvas.alpha >= 1)
@@ -162,6 +165,7 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		}
 
 		if (fadeOut) {
+			Debug.Log (gameObject.name);
 			flashCanvas.alpha = flashCanvas.alpha - Time.deltaTime;
 			Debug.Log("Flash should happen with alpha " + flashCanvas.alpha);
 			if (flashCanvas.alpha <= 0)

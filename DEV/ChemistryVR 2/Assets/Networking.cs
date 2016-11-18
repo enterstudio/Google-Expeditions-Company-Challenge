@@ -58,16 +58,16 @@ public class Networking : MonoBehaviour {
 
 		byte[] bytes = texture.EncodeToJPG();
 
-		yield return 0;
-
 		string encodedText = System.Convert.ToBase64String (bytes);
+		Debug.Log (encodedText);
 
 		yield return 0;
 
-		string json = "{\"data\": \"" + encodedText + "\"}";
+		string json = "{\"data\": \"" + "data:image/gif;base64," + encodedText + "\"}";
 		string result = "";
 
 		yield return 0;
+
 
 		//WWWForm form = new WWWForm ();
 
