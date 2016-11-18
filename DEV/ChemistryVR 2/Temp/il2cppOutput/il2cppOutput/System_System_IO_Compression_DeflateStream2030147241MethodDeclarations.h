@@ -39,6 +39,8 @@ struct UnmanagedReadOrWrite_t2055733333;
 #include "mscorlib_System_IO_SeekOrigin4120335598.h"
 #include "System_System_IO_Compression_DeflateStream_Unmanag2055733333.h"
 
+// System.Void System.IO.Compression.DeflateStream::.ctor(System.IO.Stream,System.IO.Compression.CompressionMode)
+extern "C"  void DeflateStream__ctor_m2170106875 (DeflateStream_t2030147241 * __this, Stream_t1561764144 * ___compressedStream0, int32_t ___mode1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.DeflateStream::.ctor(System.IO.Stream,System.IO.Compression.CompressionMode,System.Boolean)
 extern "C"  void DeflateStream__ctor_m3321842210 (DeflateStream_t2030147241 * __this, Stream_t1561764144 * ___compressedStream0, int32_t ___mode1, bool ___leaveOpen2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Compression.DeflateStream::.ctor(System.IO.Stream,System.IO.Compression.CompressionMode,System.Boolean,System.Boolean)

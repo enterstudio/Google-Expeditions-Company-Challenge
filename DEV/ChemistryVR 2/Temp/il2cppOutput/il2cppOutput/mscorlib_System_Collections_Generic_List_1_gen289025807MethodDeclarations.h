@@ -100,6 +100,8 @@
 #define List_1_Reverse_m2715830579(__this, method) ((  void (*) (List_1_t289025807 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::Sort()
 #define List_1_Sort_m1049344847(__this, method) ((  void (*) (List_1_t289025807 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m528699253(__this, ___comparer0, method) ((  void (*) (List_1_t289025807 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m3188839010(__this, ___comparison0, method) ((  void (*) (List_1_t289025807 *, Comparison_1_t1932168738 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::ToArray()

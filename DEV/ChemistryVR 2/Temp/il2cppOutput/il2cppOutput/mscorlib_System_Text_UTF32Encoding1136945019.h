@@ -24,25 +24,25 @@ struct  UTF32Encoding_t1136945019  : public Encoding_t2012439129
 {
 public:
 	// System.Boolean System.Text.UTF32Encoding::bigEndian
-	bool ___bigEndian_28;
+	bool ___bigEndian_29;
 	// System.Boolean System.Text.UTF32Encoding::byteOrderMark
-	bool ___byteOrderMark_29;
+	bool ___byteOrderMark_30;
 
 public:
-	inline static int32_t get_offset_of_bigEndian_28() { return static_cast<int32_t>(offsetof(UTF32Encoding_t1136945019, ___bigEndian_28)); }
-	inline bool get_bigEndian_28() const { return ___bigEndian_28; }
-	inline bool* get_address_of_bigEndian_28() { return &___bigEndian_28; }
-	inline void set_bigEndian_28(bool value)
+	inline static int32_t get_offset_of_bigEndian_29() { return static_cast<int32_t>(offsetof(UTF32Encoding_t1136945019, ___bigEndian_29)); }
+	inline bool get_bigEndian_29() const { return ___bigEndian_29; }
+	inline bool* get_address_of_bigEndian_29() { return &___bigEndian_29; }
+	inline void set_bigEndian_29(bool value)
 	{
-		___bigEndian_28 = value;
+		___bigEndian_29 = value;
 	}
 
-	inline static int32_t get_offset_of_byteOrderMark_29() { return static_cast<int32_t>(offsetof(UTF32Encoding_t1136945019, ___byteOrderMark_29)); }
-	inline bool get_byteOrderMark_29() const { return ___byteOrderMark_29; }
-	inline bool* get_address_of_byteOrderMark_29() { return &___byteOrderMark_29; }
-	inline void set_byteOrderMark_29(bool value)
+	inline static int32_t get_offset_of_byteOrderMark_30() { return static_cast<int32_t>(offsetof(UTF32Encoding_t1136945019, ___byteOrderMark_30)); }
+	inline bool get_byteOrderMark_30() const { return ___byteOrderMark_30; }
+	inline bool* get_address_of_byteOrderMark_30() { return &___byteOrderMark_30; }
+	inline void set_byteOrderMark_30(bool value)
 	{
-		___byteOrderMark_29 = value;
+		___byteOrderMark_30 = value;
 	}
 };
 

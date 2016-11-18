@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t1024771604;
 struct RaycastResultU5BU5D_t2754024893;
 // System.Predicate`1<UnityEngine.EventSystems.RaycastResult>
 struct Predicate_1_t3373718247;
+// System.Collections.Generic.IComparer`1<UnityEngine.EventSystems.RaycastResult>
+struct IComparer_1_t2042708110;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t2479022551;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m451187117_gshared (List_1_t835879620 * __this, 
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort()
 extern "C"  void List_1_Sort_m2623460629_gshared (List_1_t835879620 * __this, const MethodInfo* method);
 #define List_1_Sort_m2623460629(__this, method) ((  void (*) (List_1_t835879620 *, const MethodInfo*))List_1_Sort_m2623460629_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m3313986671_gshared (List_1_t835879620 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m3313986671(__this, ___comparer0, method) ((  void (*) (List_1_t835879620 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3313986671_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m3081456075_gshared (List_1_t835879620 * __this, Comparison_1_t2479022551 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m3081456075(__this, ___comparison0, method) ((  void (*) (List_1_t835879620 *, Comparison_1_t2479022551 *, const MethodInfo*))List_1_Sort_m3081456075_gshared)(__this, ___comparison0, method)

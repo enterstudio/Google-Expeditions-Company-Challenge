@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t1627910234;
 struct PlayableU5BU5D_t910723999;
 // System.Predicate`1<UnityEngine.Experimental.Director.Playable>
 struct Predicate_1_t3976856877;
+// System.Collections.Generic.IComparer`1<UnityEngine.Experimental.Director.Playable>
+struct IComparer_1_t2645846740;
 // System.Comparison`1<UnityEngine.Experimental.Director.Playable>
 struct Comparison_1_t3082161181;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m2605755605_gshared (List_1_t1439018250 * __this
 // System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::Sort()
 extern "C"  void List_1_Sort_m1133824749_gshared (List_1_t1439018250 * __this, const MethodInfo* method);
 #define List_1_Sort_m1133824749(__this, method) ((  void (*) (List_1_t1439018250 *, const MethodInfo*))List_1_Sort_m1133824749_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m388884887_gshared (List_1_t1439018250 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m388884887(__this, ___comparer0, method) ((  void (*) (List_1_t1439018250 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m388884887_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Experimental.Director.Playable>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m418527104_gshared (List_1_t1439018250 * __this, Comparison_1_t3082161181 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m418527104(__this, ___comparison0, method) ((  void (*) (List_1_t1439018250 *, Comparison_1_t3082161181 *, const MethodInfo*))List_1_Sort_m418527104_gshared)(__this, ___comparison0, method)

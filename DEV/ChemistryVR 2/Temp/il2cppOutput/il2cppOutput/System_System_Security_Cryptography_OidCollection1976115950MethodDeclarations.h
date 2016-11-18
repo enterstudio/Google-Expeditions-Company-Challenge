@@ -20,11 +20,14 @@ struct Il2CppArray;
 struct IEnumerator_t3464575207;
 // System.Security.Cryptography.Oid
 struct Oid_t2466812144;
+// System.String
+struct String_t;
 // System.Object
 struct Il2CppObject;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array1146569071.h"
+#include "mscorlib_System_String7231557.h"
 #include "System_System_Security_Cryptography_Oid2466812144.h"
 
 // System.Void System.Security.Cryptography.OidCollection::.ctor()
@@ -39,7 +42,11 @@ extern "C"  int32_t OidCollection_get_Count_m924395419 (OidCollection_t197611595
 extern "C"  bool OidCollection_get_IsSynchronized_m2984568922 (OidCollection_t1976115950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.Int32)
 extern "C"  Oid_t2466812144 * OidCollection_get_Item_m1851824850 (OidCollection_t1976115950 * __this, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.String)
+extern "C"  Oid_t2466812144 * OidCollection_get_Item_m2028693921 (OidCollection_t1976115950 * __this, String_t* ___oid0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.OidCollection::get_SyncRoot()
 extern "C"  Il2CppObject * OidCollection_get_SyncRoot_m887599928 (OidCollection_t1976115950 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.OidCollection::Add(System.Security.Cryptography.Oid)
 extern "C"  int32_t OidCollection_Add_m1834548415 (OidCollection_t1976115950 * __this, Oid_t2466812144 * ___oid0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Security.Cryptography.OidCollection::set_ReadOnly(System.Boolean)
+extern "C"  void OidCollection_set_ReadOnly_m3730819443 (OidCollection_t1976115950 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

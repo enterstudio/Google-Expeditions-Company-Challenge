@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t1375985722;
 struct UILineInfoU5BU5D_t2354741311;
 // System.Predicate`1<UnityEngine.UILineInfo>
 struct Predicate_1_t3724932365;
+// System.Collections.Generic.IComparer`1<UnityEngine.UILineInfo>
+struct IComparer_1_t2393922228;
 // System.Comparison`1<UnityEngine.UILineInfo>
 struct Comparison_1_t2830236669;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m1574161409_gshared (List_1_t1187093738 * __this
 // System.Void System.Collections.Generic.List`1<UnityEngine.UILineInfo>::Sort()
 extern "C"  void List_1_Sort_m937286465_gshared (List_1_t1187093738 * __this, const MethodInfo* method);
 #define List_1_Sort_m937286465(__this, method) ((  void (*) (List_1_t1187093738 *, const MethodInfo*))List_1_Sort_m937286465_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.UILineInfo>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m2307672003_gshared (List_1_t1187093738 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m2307672003(__this, ___comparer0, method) ((  void (*) (List_1_t1187093738 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m2307672003_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UILineInfo>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m844468436_gshared (List_1_t1187093738 * __this, Comparison_1_t2830236669 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m844468436(__this, ___comparison0, method) ((  void (*) (List_1_t1187093738 *, Comparison_1_t2830236669 *, const MethodInfo*))List_1_Sort_m844468436_gshared)(__this, ___comparison0, method)

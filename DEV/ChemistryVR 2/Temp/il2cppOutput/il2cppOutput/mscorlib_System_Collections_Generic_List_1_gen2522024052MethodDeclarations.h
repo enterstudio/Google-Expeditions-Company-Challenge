@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t2710916036;
 struct Int32U5BU5D_t3230847821;
 // System.Predicate`1<System.Int32>
 struct Predicate_1_t764895383;
+// System.Collections.Generic.IComparer`1<System.Int32>
+struct IComparer_1_t3728852542;
 // System.Comparison`1<System.Int32>
 struct Comparison_1_t4165166983;
 
@@ -166,6 +168,9 @@ extern "C"  void List_1_Reverse_m2252004355_gshared (List_1_t2522024052 * __this
 // System.Void System.Collections.Generic.List`1<System.Int32>::Sort()
 extern "C"  void List_1_Sort_m2573638271_gshared (List_1_t2522024052 * __this, const MethodInfo* method);
 #define List_1_Sort_m2573638271(__this, method) ((  void (*) (List_1_t2522024052 *, const MethodInfo*))List_1_Sort_m2573638271_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Int32>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m3458811461_gshared (List_1_t2522024052 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m3458811461(__this, ___comparer0, method) ((  void (*) (List_1_t2522024052 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3458811461_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<System.Int32>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m926428562_gshared (List_1_t2522024052 * __this, Comparison_1_t4165166983 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m926428562(__this, ___comparison0, method) ((  void (*) (List_1_t2522024052 *, Comparison_1_t4165166983 *, const MethodInfo*))List_1_Sort_m926428562_gshared)(__this, ___comparison0, method)

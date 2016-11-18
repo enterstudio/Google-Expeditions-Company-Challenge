@@ -66,8 +66,12 @@ extern "C"  int64_t SslStream_get_Position_m833298281 (SslStream_t490807902 * __
 extern "C"  void SslStream_set_Position_m1453586112 (SslStream_t490807902 * __this, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Security.SslStream::get_IsAuthenticated()
 extern "C"  bool SslStream_get_IsAuthenticated_m800088812 (SslStream_t490807902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Security.SslStream::get_ReadTimeout()
+extern "C"  int32_t SslStream_get_ReadTimeout_m2679126988 (SslStream_t490807902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Security.SslStream::set_ReadTimeout(System.Int32)
 extern "C"  void SslStream_set_ReadTimeout_m3143165177 (SslStream_t490807902 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Security.SslStream::get_WriteTimeout()
+extern "C"  int32_t SslStream_get_WriteTimeout_m1840838243 (SslStream_t490807902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate System.Net.Security.SslStream::OnCertificateSelection(System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection)
 extern "C"  X509Certificate_t3076817455 * SslStream_OnCertificateSelection_m280533825 (SslStream_t490807902 * __this, X509CertificateCollection_t3220522733 * ___clientCerts0, X509Certificate_t3076817455 * ___serverCert1, String_t* ___targetHost2, X509CertificateCollection_t3220522733 * ___serverRequestedCerts3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.Security.SslStream::BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object)

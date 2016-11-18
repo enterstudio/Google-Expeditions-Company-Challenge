@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t2480905709;
 struct TypeU5BU5D_t3324972640;
 // System.Predicate`1<proto.PhoneEvent/Types/Type>
 struct Predicate_1_t534885056;
+// System.Collections.Generic.IComparer`1<proto.PhoneEvent/Types/Type>
+struct IComparer_1_t3498842215;
 // System.Comparison`1<proto.PhoneEvent/Types/Type>
 struct Comparison_1_t3935156656;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m1265105411_gshared (List_1_t2292013725 * __this
 // System.Void System.Collections.Generic.List`1<proto.PhoneEvent/Types/Type>::Sort()
 extern "C"  void List_1_Sort_m4068359295_gshared (List_1_t2292013725 * __this, const MethodInfo* method);
 #define List_1_Sort_m4068359295(__this, method) ((  void (*) (List_1_t2292013725 *, const MethodInfo*))List_1_Sort_m4068359295_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<proto.PhoneEvent/Types/Type>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m1720706117_gshared (List_1_t2292013725 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m1720706117(__this, ___comparer0, method) ((  void (*) (List_1_t2292013725 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m1720706117_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<proto.PhoneEvent/Types/Type>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m4161425298_gshared (List_1_t2292013725 * __this, Comparison_1_t3935156656 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m4161425298(__this, ___comparison0, method) ((  void (*) (List_1_t2292013725 *, Comparison_1_t3935156656 *, const MethodInfo*))List_1_Sort_m4161425298_gshared)(__this, ___comparison0, method)

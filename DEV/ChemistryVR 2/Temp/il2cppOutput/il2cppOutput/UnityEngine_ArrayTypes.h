@@ -75,10 +75,10 @@ struct Font_t4241557075;
 struct CanvasGroup_t3702418109;
 // UnityEngine.RectTransform
 struct RectTransform_t972643934;
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t667441552;
 // UnityEngine.AudioSource
 struct AudioSource_t1740077639;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t667441552;
 
 #include "mscorlib_System_Array1146569071.h"
 #include "UnityEngine_UnityEngine_Object3071478659.h"
@@ -126,8 +126,8 @@ struct AudioSource_t1740077639;
 #include "UnityEngine_UnityEngine_Font4241557075.h"
 #include "UnityEngine_UnityEngine_CanvasGroup3702418109.h"
 #include "UnityEngine_UnityEngine_RectTransform972643934.h"
-#include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
 #include "UnityEngine_UnityEngine_AudioSource1740077639.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
 
 #pragma once
 // UnityEngine.Object[]
@@ -863,21 +863,6 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// UnityEngine.MonoBehaviour[]
-struct MonoBehaviourU5BU5D_t129089073  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) MonoBehaviour_t667441552 * m_Items[1];
-
-public:
-	inline MonoBehaviour_t667441552 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline MonoBehaviour_t667441552 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t667441552 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
 // UnityEngine.AudioSource[]
 struct AudioSourceU5BU5D_t44861630  : public Il2CppArray
 {
@@ -888,6 +873,21 @@ public:
 	inline AudioSource_t1740077639 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline AudioSource_t1740077639 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, AudioSource_t1740077639 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.MonoBehaviour[]
+struct MonoBehaviourU5BU5D_t129089073  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) MonoBehaviour_t667441552 * m_Items[1];
+
+public:
+	inline MonoBehaviour_t667441552 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline MonoBehaviour_t667441552 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t667441552 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

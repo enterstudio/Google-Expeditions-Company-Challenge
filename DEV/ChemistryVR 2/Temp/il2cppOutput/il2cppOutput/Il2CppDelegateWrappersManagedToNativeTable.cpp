@@ -24,6 +24,8 @@ extern "C" void DelegatePInvokeWrapper_UnmanagedReadOrWrite_t2055733333 ();
 extern "C" void DelegatePInvokeWrapper_WriteMethod_t3250749483 ();
 extern "C" void DelegatePInvokeWrapper_ReadDelegate_t3521030535 ();
 extern "C" void DelegatePInvokeWrapper_WriteDelegate_t3030372280 ();
+extern "C" void DelegatePInvokeWrapper_ReadDelegate_t3891738222 ();
+extern "C" void DelegatePInvokeWrapper_WriteDelegate_t1637408689 ();
 extern "C" void DelegatePInvokeWrapper_SocketAsyncCall_t742231849 ();
 extern "C" void DelegatePInvokeWrapper_CostDelegate_t1292950321 ();
 extern "C" void DelegatePInvokeWrapper_Action_t3771233898 ();
@@ -44,11 +46,12 @@ extern "C" void DelegatePInvokeWrapper_BannerWasLoadedDelegate_t3604098244 ();
 extern "C" void DelegatePInvokeWrapper_InterstitialWasLoadedDelegate_t3068494210 ();
 extern "C" void DelegatePInvokeWrapper_InterstitialWasViewedDelegate_t507319425 ();
 extern "C" void DelegatePInvokeWrapper_OnValidateInput_t3952708057 ();
+extern "C" void DelegatePInvokeWrapper_DispatcherFactory_t1500081684 ();
 extern "C" void DelegatePInvokeWrapper_OnAccelEvent_t1207501038 ();
 extern "C" void DelegatePInvokeWrapper_OnButtonEvent_t1240547244 ();
 extern "C" void DelegatePInvokeWrapper_OnGyroEvent_t1752883023 ();
 extern "C" void DelegatePInvokeWrapper_OnOrientationEvent_t2004619270 ();
-extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[37] = 
+extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[40] = 
 {
 	DelegatePInvokeWrapper_AppDomainInitializer_t691583313,
 	DelegatePInvokeWrapper_Swapper_t4166107989,
@@ -63,6 +66,8 @@ extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[37] =
 	DelegatePInvokeWrapper_WriteMethod_t3250749483,
 	DelegatePInvokeWrapper_ReadDelegate_t3521030535,
 	DelegatePInvokeWrapper_WriteDelegate_t3030372280,
+	DelegatePInvokeWrapper_ReadDelegate_t3891738222,
+	DelegatePInvokeWrapper_WriteDelegate_t1637408689,
 	DelegatePInvokeWrapper_SocketAsyncCall_t742231849,
 	DelegatePInvokeWrapper_CostDelegate_t1292950321,
 	DelegatePInvokeWrapper_Action_t3771233898,
@@ -83,6 +88,7 @@ extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[37] =
 	DelegatePInvokeWrapper_InterstitialWasLoadedDelegate_t3068494210,
 	DelegatePInvokeWrapper_InterstitialWasViewedDelegate_t507319425,
 	DelegatePInvokeWrapper_OnValidateInput_t3952708057,
+	DelegatePInvokeWrapper_DispatcherFactory_t1500081684,
 	DelegatePInvokeWrapper_OnAccelEvent_t1207501038,
 	DelegatePInvokeWrapper_OnButtonEvent_t1240547244,
 	DelegatePInvokeWrapper_OnGyroEvent_t1752883023,

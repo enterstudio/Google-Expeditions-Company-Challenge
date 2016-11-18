@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t1506175452;
 struct UIVertexU5BU5D_t1796391381;
 // System.Predicate`1<UnityEngine.UIVertex>
 struct Predicate_1_t3855122095;
+// System.Collections.Generic.IComparer`1<UnityEngine.UIVertex>
+struct IComparer_1_t2524111958;
 // System.Comparison`1<UnityEngine.UIVertex>
 struct Comparison_1_t2960426399;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m2849133155_gshared (List_1_t1317283468 * __this
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::Sort()
 extern "C"  void List_1_Sort_m3758735391_gshared (List_1_t1317283468 * __this, const MethodInfo* method);
 #define List_1_Sort_m3758735391(__this, method) ((  void (*) (List_1_t1317283468 *, const MethodInfo*))List_1_Sort_m3758735391_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m1523905701_gshared (List_1_t1317283468 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m1523905701(__this, ___comparer0, method) ((  void (*) (List_1_t1317283468 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m1523905701_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.UIVertex>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m465656626_gshared (List_1_t1317283468 * __this, Comparison_1_t2960426399 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m465656626(__this, ___comparison0, method) ((  void (*) (List_1_t1317283468 *, Comparison_1_t2960426399 *, const MethodInfo*))List_1_Sort_m465656626_gshared)(__this, ___comparison0, method)

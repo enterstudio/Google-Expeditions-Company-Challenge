@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t321723229;
 struct CustomAttributeNamedArgumentU5BU5D_t1983528240;
 // System.Predicate`1<System.Reflection.CustomAttributeNamedArgument>
 struct Predicate_1_t2670669872;
+// System.Collections.Generic.IComparer`1<System.Reflection.CustomAttributeNamedArgument>
+struct IComparer_1_t1339659735;
 // System.Comparison`1<System.Reflection.CustomAttributeNamedArgument>
 struct Comparison_1_t1775974176;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m678399267_gshared (List_1_t132831245 * __this, 
 // System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::Sort()
 extern "C"  void List_1_Sort_m1865710943_gshared (List_1_t132831245 * __this, const MethodInfo* method);
 #define List_1_Sort_m1865710943(__this, method) ((  void (*) (List_1_t132831245 *, const MethodInfo*))List_1_Sort_m1865710943_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m4100988773_gshared (List_1_t132831245 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m4100988773(__this, ___comparer0, method) ((  void (*) (List_1_t132831245 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m4100988773_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m3119949938_gshared (List_1_t132831245 * __this, Comparison_1_t1775974176 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m3119949938(__this, ___comparison0, method) ((  void (*) (List_1_t132831245 *, Comparison_1_t1775974176 *, const MethodInfo*))List_1_Sort_m3119949938_gshared)(__this, ___comparison0, method)

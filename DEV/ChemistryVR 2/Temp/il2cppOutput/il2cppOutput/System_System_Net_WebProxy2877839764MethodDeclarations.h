@@ -36,6 +36,8 @@ extern "C"  void WebProxy__ctor_m1295075053 (WebProxy_t2877839764 * __this, Uri_
 extern "C"  void WebProxy__ctor_m3926845473 (WebProxy_t2877839764 * __this, SerializationInfo_t2185721892 * ___serializationInfo0, StreamingContext_t2761351129  ___streamingContext1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C"  void WebProxy_System_Runtime_Serialization_ISerializable_GetObjectData_m1269108139 (WebProxy_t2877839764 * __this, SerializationInfo_t2185721892 * ___serializationInfo0, StreamingContext_t2761351129  ___streamingContext1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Net.ICredentials System.Net.WebProxy::get_Credentials()
+extern "C"  Il2CppObject * WebProxy_get_Credentials_m3075169793 (WebProxy_t2877839764 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebProxy::get_UseDefaultCredentials()
 extern "C"  bool WebProxy_get_UseDefaultCredentials_m2666418573 (WebProxy_t2877839764 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.WebProxy::GetProxy(System.Uri)

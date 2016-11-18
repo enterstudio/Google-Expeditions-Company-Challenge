@@ -16,6 +16,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	private Vector3 startingPosition;
@@ -28,9 +29,32 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	private float distanceToObject;
 	private Vector3 originalAngle;
 
+	private bool hydro1connect = false;
+	private bool hydro2connect = false;
+
+	private bool fadeIn = false;
+	private bool fadeOut = false;
+
+
+	private int partsConnected = 0;
+
+
+	CanvasGroup flashCanvas;
+
 	void Start() {
 		startingPosition = transform.localPosition;
 		SetGazedAt(false);
+
+
+		if (SceneManager.GetActiveScene ().name == "chemistry") {
+			GameObject wellPrompt = GameObject.FindGameObjectWithTag ("WellPrompt");
+			Canvas hello = wellPrompt.GetComponent<Canvas> ();
+			hello.enabled = false;		
+		}
+
+		if (SceneManager.GetActiveScene ().name == "h2o copy") {
+			flashCanvas = GameObject.FindGameObjectWithTag ("InstructionsCanvas").GetComponent<CanvasGroup> ();
+		}
 	}
 
 	void LateUpdate() {
@@ -127,22 +151,58 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 			}
 		}
 
-		// connection code
+		if (fadeIn) {
+			flashCanvas.alpha = flashCanvas.alpha + Time.deltaTime;
+			Debug.Log("Flash should happen with alpha " + flashCanvas.alpha);
+			if (flashCanvas.alpha >= 1)
+			{
+				flashCanvas.alpha = 1;
+				fadeIn = false;
+			}
+		}
 
+		if (fadeOut) {
+			flashCanvas.alpha = flashCanvas.alpha - Time.deltaTime;
+			Debug.Log("Flash should happen with alpha " + flashCanvas.alpha);
+			if (flashCanvas.alpha <= 0)
+			{
+				flashCanvas.alpha = 0;
+				fadeOut = false;
+			}
+		}
+
+		if (SceneManager.GetActiveScene ().name == "chemistry") {
+			InitOnPlayerClose ();
+		}
 	}
 
 	void OnCollisionEnter(Collision col) {
 		Debug.Log (name);
 		Debug.Log (col.gameObject.name);
 
+
 		if (((name == "Ox2") & (col.gameObject.name == "H")) | ((name == "H") & (col.gameObject.name == "Ox2"))) {
 			Debug.Log("H and Ox2 Connected");
-			tracker = false;
+			hydro1connect = true;
+			partsConnected++;
+			Debug.Log (partsConnected);
+			FlashMessage ();
 		}
 
 		if (((name == "Ox2") & (col.gameObject.name == "H(Clone)")) | ((name == "H(Clone)") & (col.gameObject.name == "Ox2"))) {
 			Debug.Log("H(Clone) and Ox2 Connected");
-			tracker = false;
+			hydro2connect = true;
+			partsConnected++;
+			Debug.Log (partsConnected);
+			FlashMessage ();
+		}
+		Text instructions = GameObject.FindGameObjectWithTag ("Instructions").GetComponent<Text> ();
+		// connection code
+		if (hydro1connect ^ hydro2connect) {
+			instructions.text = "Halfway there! Make the final connection!";
+		}
+		if (hydro1connect & hydro2connect) {
+			instructions.text = "You did it! Press finish to return to the level.";		
 		}
 
 		// IMPLEMENT:
@@ -169,8 +229,9 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
 
 		Vector3 curr_intersect =  gazeTest.GetIntersectionPosition();
+		Vector3 mid_object = transform.position;
 		movement_start = cam.transform.position;
-		movement_end = new Vector3(curr_intersect.x, 1, curr_intersect.z);
+		movement_end = new Vector3(mid_object.x, 1, mid_object.z);
 		speed = 5;
 		moving = true;
 
@@ -184,7 +245,7 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 		Vector3 curr_intersect =  gazeTest.GetIntersectionPosition();
 		movement_start = cam.transform.position;
 		movement_end = new Vector3(curr_intersect.x, 1, curr_intersect.z);
-		speed = 30;
+		speed = 20;
 		moving = true;
 	}
 
@@ -228,6 +289,45 @@ public class DragAtom : MonoBehaviour, IGvrGazeResponder {
 	public void ActivateModel() {
 		Debug.Log ("Activate model button pressed");
 		gameObject.SetActive (true);
+	}
+
+	public void DeactivateModel() {
+		Debug.Log ("Deactivate model button pressed");
+		gameObject.SetActive (false);	
+	}
+
+	public void CameraAbout() {
+		Debug.Log ("CameraAbout called");
+		Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+		Debug.Log (cam.transform.rotation);
+		cam.transform.rotation *= Quaternion.Euler(0, 180, 0);
+		Debug.Log (cam.transform.rotation);
+	}
+
+	public void InitOnPlayerClose() {
+		Camera cam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+		GameObject wellPrompt = GameObject.FindGameObjectWithTag ("WellPrompt");
+		Canvas hello = wellPrompt.GetComponent<Canvas> ();
+		Vector3 cam_pos = cam.transform.position;
+
+		if (Vector3.Distance (cam_pos, hello.transform.position) <= 30) {
+			hello.enabled = true;
+		}
+	}
+
+	public void FlashMessage() {
+		FadeMessageIn ();
+		Invoke ("FadeMessageOut", 2);
+	}
+
+	public void FadeMessageIn() {
+		fadeIn = true;
+		flashCanvas.alpha = 0;
+	}
+
+	public void FadeMessageOut() {
+		fadeOut = true;
+		flashCanvas.alpha = 1;
 	}
 
 	#endregion

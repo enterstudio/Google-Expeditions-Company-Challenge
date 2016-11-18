@@ -25,5 +25,7 @@ extern "C"  void Random__ctor_m2490522898 (Random_t4255898871 * __this, const Me
 extern "C"  void Random__ctor_m4002613091 (Random_t4255898871 * __this, int32_t ___Seed0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Random::Sample()
 extern "C"  double Random_Sample_m3542077785 (Random_t4255898871 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Random::Next(System.Int32,System.Int32)
+extern "C"  int32_t Random_Next_m1579033021 (Random_t4255898871 * __this, int32_t ___minValue0, int32_t ___maxValue1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Random::NextBytes(System.Byte[])
 extern "C"  void Random_NextBytes_m3527347937 (Random_t4255898871 * __this, ByteU5BU5D_t4260760469* ___buffer0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

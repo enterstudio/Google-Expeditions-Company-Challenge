@@ -100,6 +100,8 @@
 #define List_1_Reverse_m2143937125(__this, method) ((  void (*) (List_1_t4246244250 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.Security.Policy.StrongName>::Sort()
 #define List_1_Sort_m1909587805(__this, method) ((  void (*) (List_1_t4246244250 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Security.Policy.StrongName>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m480408359(__this, ___comparer0, method) ((  void (*) (List_1_t4246244250 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<System.Security.Policy.StrongName>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m3561191408(__this, ___comparison0, method) ((  void (*) (List_1_t4246244250 *, Comparison_1_t1594419885 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::ToArray()

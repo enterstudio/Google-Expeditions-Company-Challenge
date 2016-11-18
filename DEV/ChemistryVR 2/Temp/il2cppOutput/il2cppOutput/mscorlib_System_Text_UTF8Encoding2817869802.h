@@ -24,15 +24,15 @@ struct  UTF8Encoding_t2817869802  : public Encoding_t2012439129
 {
 public:
 	// System.Boolean System.Text.UTF8Encoding::emitIdentifier
-	bool ___emitIdentifier_28;
+	bool ___emitIdentifier_29;
 
 public:
-	inline static int32_t get_offset_of_emitIdentifier_28() { return static_cast<int32_t>(offsetof(UTF8Encoding_t2817869802, ___emitIdentifier_28)); }
-	inline bool get_emitIdentifier_28() const { return ___emitIdentifier_28; }
-	inline bool* get_address_of_emitIdentifier_28() { return &___emitIdentifier_28; }
-	inline void set_emitIdentifier_28(bool value)
+	inline static int32_t get_offset_of_emitIdentifier_29() { return static_cast<int32_t>(offsetof(UTF8Encoding_t2817869802, ___emitIdentifier_29)); }
+	inline bool get_emitIdentifier_29() const { return ___emitIdentifier_29; }
+	inline bool* get_address_of_emitIdentifier_29() { return &___emitIdentifier_29; }
+	inline void set_emitIdentifier_29(bool value)
 	{
-		___emitIdentifier_28 = value;
+		___emitIdentifier_29 = value;
 	}
 };
 

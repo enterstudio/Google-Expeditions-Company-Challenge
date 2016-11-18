@@ -1,7 +1,24 @@
 <linker>
 <assembly fullname="Assembly-CSharp">
 <type fullname="DragAtom" preserve="all"/>
+<type fullname="FadeIntoScene" preserve="all"/>
 <type fullname="FlashCamera" preserve="all"/>
+<type fullname="GE_OrbitCamera" preserve="all"/>
+<type fullname="GE_OrbitCameraUI" preserve="all"/>
+<type fullname="GE_ToggleFullScreenUI" preserve="all"/>
+<type fullname="GE_UIResponder" preserve="all"/>
+<type fullname="GA_FREE_Demo00" preserve="all"/>
+<type fullname="GA_FREE_Demo01" preserve="all"/>
+<type fullname="GA_FREE_Demo02" preserve="all"/>
+<type fullname="GA_FREE_Demo03" preserve="all"/>
+<type fullname="GA_FREE_Demo04" preserve="all"/>
+<type fullname="GA_FREE_Demo05" preserve="all"/>
+<type fullname="GA_FREE_Demo06" preserve="all"/>
+<type fullname="GA_FREE_Demo07" preserve="all"/>
+<type fullname="GA_FREE_Demo08" preserve="all"/>
+<type fullname="GA_FREE_DemoPlaySound" preserve="all"/>
+<type fullname="GA_FREE_OpenOtherScene" preserve="all"/>
+<type fullname="Demo" preserve="all"/>
 <type fullname="GoToScene" preserve="all"/>
 <type fullname="ControllerDemoManager" preserve="all"/>
 <type fullname="Teleport" preserve="all"/>
@@ -24,6 +41,19 @@
 <type fullname="GvrReticle" preserve="all"/>
 <type fullname="GvrFPS" preserve="all"/>
 <type fullname="Networking" preserve="all"/>
+</assembly>
+<assembly fullname="Assembly-UnityScript">
+<type fullname="GA_FREE_JS_Demo00" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo01" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo02" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo03" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo04" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo05" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo06" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo07" preserve="all"/>
+<type fullname="GA_FREE_JS_Demo08" preserve="all"/>
+<type fullname="GA_FREE_JS_DemoPlaySound" preserve="all"/>
+<type fullname="GA_FREE_JS_OpenOtherScene" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>
@@ -67,5 +97,12 @@
 <type fullname="UnityEngine.UI.Outline" preserve="all"/>
 <type fullname="UnityEngine.UI.PositionAsUV1" preserve="all"/>
 <type fullname="UnityEngine.UI.Shadow" preserve="all"/>
+</assembly>
+<assembly fullname="GUIAnimatorFREE">
+<type fullname="GUIAnimFREE" preserve="all"/>
+<type fullname="GUIAnimSystemFREE" preserve="all"/>
+</assembly>
+<assembly fullname="GETween">
+<type fullname="GETween" preserve="all"/>
 </assembly>
 </linker>

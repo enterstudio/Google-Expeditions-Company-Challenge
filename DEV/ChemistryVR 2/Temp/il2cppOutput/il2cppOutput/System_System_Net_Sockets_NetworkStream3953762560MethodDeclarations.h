@@ -32,6 +32,8 @@ struct Il2CppObject;
 #include "mscorlib_System_Object4170816371.h"
 #include "mscorlib_System_IO_SeekOrigin4120335598.h"
 
+// System.Void System.Net.Sockets.NetworkStream::.ctor(System.Net.Sockets.Socket)
+extern "C"  void NetworkStream__ctor_m2753228565 (NetworkStream_t3953762560 * __this, Socket_t2157335841 * ___socket0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.NetworkStream::.ctor(System.Net.Sockets.Socket,System.Boolean)
 extern "C"  void NetworkStream__ctor_m520140744 (NetworkStream_t3953762560 * __this, Socket_t2157335841 * ___socket0, bool ___owns_socket1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.NetworkStream::.ctor(System.Net.Sockets.Socket,System.IO.FileAccess,System.Boolean)
@@ -50,8 +52,12 @@ extern "C"  int64_t NetworkStream_get_Length_m1553131640 (NetworkStream_t3953762
 extern "C"  int64_t NetworkStream_get_Position_m2427355579 (NetworkStream_t3953762560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.NetworkStream::set_Position(System.Int64)
 extern "C"  void NetworkStream_set_Position_m1068534608 (NetworkStream_t3953762560 * __this, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Sockets.NetworkStream::get_ReadTimeout()
+extern "C"  int32_t NetworkStream_get_ReadTimeout_m2947262172 (NetworkStream_t3953762560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.NetworkStream::set_ReadTimeout(System.Int32)
 extern "C"  void NetworkStream_set_ReadTimeout_m3931457129 (NetworkStream_t3953762560 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Net.Sockets.NetworkStream::get_WriteTimeout()
+extern "C"  int32_t NetworkStream_get_WriteTimeout_m1563094355 (NetworkStream_t3953762560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.Sockets.NetworkStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern "C"  Il2CppObject * NetworkStream_BeginRead_m601033934 (NetworkStream_t3953762560 * __this, ByteU5BU5D_t4260760469* ___buffer0, int32_t ___offset1, int32_t ___size2, AsyncCallback_t1369114871 * ___callback3, Il2CppObject * ___state4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.Sockets.NetworkStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)

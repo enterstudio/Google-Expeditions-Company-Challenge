@@ -76,6 +76,8 @@ extern "C"  bool UInt32_Equals_m1584642517 (uint32_t* __this, uint32_t ___obj0, 
 extern "C"  bool UInt32_Parse_m178847972 (Il2CppObject * __this /* static, unused */, String_t* ___s0, bool ___tryParse1, uint32_t* ___result2, Exception_t3991598821 ** ___exc3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UInt32::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Boolean,System.UInt32&,System.Exception&)
 extern "C"  bool UInt32_Parse_m3291857117 (Il2CppObject * __this /* static, unused */, String_t* ___s0, int32_t ___style1, Il2CppObject * ___provider2, bool ___tryParse3, uint32_t* ___result4, Exception_t3991598821 ** ___exc5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt32 System.UInt32::Parse(System.String)
+extern "C"  uint32_t UInt32_Parse_m1474004442 (Il2CppObject * __this /* static, unused */, String_t* ___s0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 extern "C"  uint32_t UInt32_Parse_m1670428837 (Il2CppObject * __this /* static, unused */, String_t* ___s0, int32_t ___style1, Il2CppObject * ___provider2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.UInt32::Parse(System.String,System.IFormatProvider)

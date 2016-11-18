@@ -16,6 +16,8 @@
 struct X509EnhancedKeyUsageExtension_t3535934943;
 // System.Security.Cryptography.AsnEncodedData
 struct AsnEncodedData_t2861953768;
+// System.Security.Cryptography.OidCollection
+struct OidCollection_t1976115950;
 // System.Byte[]
 struct ByteU5BU5D_t4260760469;
 // System.String
@@ -27,6 +29,8 @@ struct String_t;
 
 // System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
 extern "C"  void X509EnhancedKeyUsageExtension__ctor_m1143045852 (X509EnhancedKeyUsageExtension_t3535934943 * __this, AsnEncodedData_t2861953768 * ___encodedEnhancedKeyUsages0, bool ___critical1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Security.Cryptography.OidCollection System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::get_EnhancedKeyUsages()
+extern "C"  OidCollection_t1976115950 * X509EnhancedKeyUsageExtension_get_EnhancedKeyUsages_m337632124 (X509EnhancedKeyUsageExtension_t3535934943 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern "C"  void X509EnhancedKeyUsageExtension_CopyFrom_m3559074914 (X509EnhancedKeyUsageExtension_t3535934943 * __this, AsnEncodedData_t2861953768 * ___asnEncodedData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::Decode(System.Byte[])

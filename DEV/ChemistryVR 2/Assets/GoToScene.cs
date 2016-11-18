@@ -6,7 +6,12 @@ public class GoToScene : MonoBehaviour {
 
 	public void LoadScene()
 	{
-		Application.LoadLevel ("h2o");
+		Application.LoadLevel ("h2o copy");
+		//SceneManager.LoadScene(2); // reload the current scene
+	}
+
+	public void LoadMainLevel() {
+		Application.LoadLevel ("chemistry");
 	}
 		
 	public void ResetLevel() {

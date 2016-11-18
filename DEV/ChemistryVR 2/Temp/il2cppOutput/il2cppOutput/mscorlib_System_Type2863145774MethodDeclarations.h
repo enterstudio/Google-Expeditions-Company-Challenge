@@ -141,6 +141,8 @@ extern "C"  MethodInfo_t * Type_GetMethod_m534507110 (Type_t * __this, String_t*
 extern "C"  MethodInfo_t * Type_GetMethod_m527054833 (Type_t * __this, String_t* ___name0, int32_t ___bindingAttr1, Binder_t1074302268 * ___binder2, TypeU5BU5D_t3339007067* ___types3, ParameterModifierU5BU5D_t3896472559* ___modifiers4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  MethodInfo_t * Type_GetMethod_m2171093265 (Type_t * __this, String_t* ___name0, int32_t ___bindingAttr1, Binder_t1074302268 * ___binder2, int32_t ___callConvention3, TypeU5BU5D_t3339007067* ___types4, ParameterModifierU5BU5D_t3896472559* ___modifiers5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.PropertyInfo System.Type::GetProperty(System.String)
+extern "C"  PropertyInfo_t * Type_GetProperty_m1904930970 (Type_t * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.Type::GetProperty(System.String,System.Reflection.BindingFlags)
 extern "C"  PropertyInfo_t * Type_GetProperty_m3455595366 (Type_t * __this, String_t* ___name0, int32_t ___bindingAttr1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.Type::GetProperty(System.String,System.Type)

@@ -348,6 +348,8 @@ extern "C"  float Convert_ToSingle_m1897502751 (Il2CppObject * __this /* static,
 extern "C"  float Convert_ToSingle_m1734305365 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___value0, Il2CppObject * ___provider1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Byte,System.Int32)
 extern "C"  String_t* Convert_ToString_m1313468513 (Il2CppObject * __this /* static, unused */, uint8_t ___value0, int32_t ___toBase1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Convert::ToString(System.Int64)
+extern "C"  String_t* Convert_ToString_m130452839 (Il2CppObject * __this /* static, unused */, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Object)
 extern "C"  String_t* Convert_ToString_m427788191 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Convert::ToString(System.Object,System.IFormatProvider)

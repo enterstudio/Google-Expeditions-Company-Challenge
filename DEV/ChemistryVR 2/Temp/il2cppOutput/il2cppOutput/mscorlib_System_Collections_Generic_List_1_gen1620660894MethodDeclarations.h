@@ -100,6 +100,8 @@
 #define List_1_Reverse_m3480955714(__this, method) ((  void (*) (List_1_t1620660894 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GvrAudioRoom>::Sort()
 #define List_1_Sort_m2739907488(__this, method) ((  void (*) (List_1_t1620660894 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<GvrAudioRoom>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m3941805636(__this, ___comparer0, method) ((  void (*) (List_1_t1620660894 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<GvrAudioRoom>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m3623043059(__this, ___comparison0, method) ((  void (*) (List_1_t1620660894 *, Comparison_1_t3263803825 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<GvrAudioRoom>::ToArray()

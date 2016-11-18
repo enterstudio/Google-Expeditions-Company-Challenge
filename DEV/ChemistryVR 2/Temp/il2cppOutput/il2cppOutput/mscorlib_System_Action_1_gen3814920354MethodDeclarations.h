@@ -19,7 +19,7 @@
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>::.ctor(System.Object,System.IntPtr)
 #define Action_1__ctor_m3495173997(__this, ___object0, ___method1, method) ((  void (*) (Action_1_t3814920354 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Action_1__ctor_m881151526_gshared)(__this, ___object0, ___method1, method)
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>::Invoke(T)
-#define Action_1_Invoke_m2276731850(__this, ___obj0, method) ((  void (*) (Action_1_t3814920354 *, IUserProfileU5BU5D_t3419104218*, const MethodInfo*))Action_1_Invoke_m663971678_gshared)(__this, ___obj0, method)
+#define Action_1_Invoke_m2276731850(__this, ___obj0, method) ((  void (*) (Action_1_t3814920354 *, IUserProfileU5BU5D_t3419104218*, const MethodInfo*))Action_1_Invoke_m2601501993_gshared)(__this, ___obj0, method)
 // System.IAsyncResult System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
 #define Action_1_BeginInvoke_m3351021452(__this, ___obj0, ___callback1, ___object2, method) ((  Il2CppObject * (*) (Action_1_t3814920354 *, IUserProfileU5BU5D_t3419104218*, AsyncCallback_t1369114871 *, Il2CppObject *, const MethodInfo*))Action_1_BeginInvoke_m917692971_gshared)(__this, ___obj0, ___callback1, ___object2, method)
 // System.Void System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>::EndInvoke(System.IAsyncResult)

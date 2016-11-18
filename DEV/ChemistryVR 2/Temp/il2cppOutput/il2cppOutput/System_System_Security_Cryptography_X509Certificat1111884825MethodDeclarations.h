@@ -38,6 +38,7 @@ struct X509Extension_t4211806920;
 struct X509CrlEntry_t503881240;
 
 #include "codegen/il2cpp-codegen.h"
+#include "System_System_Security_Cryptography_X509Certificate676713451.h"
 #include "System_System_Security_Cryptography_X509Certificate160474609.h"
 #include "System_System_Security_Cryptography_X509Certificat2303373610.h"
 #include "System_System_Security_Cryptography_X509Certificat1692475439.h"
@@ -55,6 +56,8 @@ extern "C"  void X509Chain__ctor_m2887631967 (X509Chain_t1111884825 * __this, bo
 extern "C"  void X509Chain__cctor_m297182149 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy System.Security.Cryptography.X509Certificates.X509Chain::get_ChainPolicy()
 extern "C"  X509ChainPolicy_t676713451 * X509Chain_get_ChainPolicy_m3141824143 (X509Chain_t1111884825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy)
+extern "C"  void X509Chain_set_ChainPolicy_m1767857922 (X509Chain_t1111884825 * __this, X509ChainPolicy_t676713451 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus[] System.Security.Cryptography.X509Certificates.X509Chain::get_ChainStatus()
 extern "C"  X509ChainStatusU5BU5D_t2899776074* X509Chain_get_ChainStatus_m3128438893 (X509Chain_t1111884825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::Build(System.Security.Cryptography.X509Certificates.X509Certificate2)

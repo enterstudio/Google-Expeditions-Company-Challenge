@@ -1399,6 +1399,7 @@ extern "C" void Convert_ToSingle_m1897507494 ();
 extern "C" void Convert_ToSingle_m1897502751 ();
 extern "C" void Convert_ToSingle_m1734305365 ();
 extern "C" void Convert_ToString_m1313468513 ();
+extern "C" void Convert_ToString_m130452839 ();
 extern "C" void Convert_ToString_m427788191 ();
 extern "C" void Convert_ToString_m1285681781 ();
 extern "C" void Convert_ToUInt16_m386651276 ();
@@ -1520,6 +1521,7 @@ extern "C" void DateTime_IsLeapYear_m3404721384 ();
 extern "C" void DateTime_Parse_m1801557718 ();
 extern "C" void DateTime_Parse_m1424797081 ();
 extern "C" void DateTime_CoreParse_m2501063101 ();
+extern "C" void DateTime_ParseExact_m1034945555 ();
 extern "C" void DateTime_YearMonthDayFormats_m200860137 ();
 extern "C" void DateTime__ParseNumber_m223303221 ();
 extern "C" void DateTime__ParseEnum_m780384966 ();
@@ -1689,6 +1691,7 @@ extern "C" void Delegate_return_type_match_m2221559117 ();
 extern "C" void Delegate_CreateDelegate_m1630815211 ();
 extern "C" void Delegate_CreateDelegate_m3460497746 ();
 extern "C" void Delegate_CreateDelegate_m2273250141 ();
+extern "C" void Delegate_CreateDelegate_m2816771104 ();
 extern "C" void Delegate_CreateDelegate_m1085193661 ();
 extern "C" void Delegate_GetCandidateMethod_m1148532482 ();
 extern "C" void Delegate_CreateDelegate_m812395778 ();
@@ -1829,6 +1832,7 @@ extern "C" void Enum_FormatSpecifier_X_m2324577611 ();
 extern "C" void Enum_FormatFlags_m994697154 ();
 extern "C" void Enum_Format_m1097709535 ();
 extern "C" void Environment_get_SocketSecurityEnabled_m2002704895 ();
+extern "C" void Environment_get_UnityWebSecurityEnabled_m2392762195 ();
 extern "C" void Environment_get_NewLine_m1034655108 ();
 extern "C" void Environment_get_Platform_m977128040 ();
 extern "C" void Environment_GetOSVersionString_m2885926456 ();
@@ -2453,7 +2457,9 @@ extern "C" void Stream__cctor_m1000345604 ();
 extern "C" void Stream_Dispose_m2904306374 ();
 extern "C" void Stream_Dispose_m3908539837 ();
 extern "C" void Stream_Close_m3144153567 ();
+extern "C" void Stream_get_ReadTimeout_m3547712461 ();
 extern "C" void Stream_set_ReadTimeout_m3385086790 ();
+extern "C" void Stream_get_WriteTimeout_m2997184130 ();
 extern "C" void Stream_ReadByte_m3456529589 ();
 extern "C" void Stream_WriteByte_m480466941 ();
 extern "C" void Stream_BeginRead_m2456608939 ();
@@ -2910,6 +2916,7 @@ extern "C" void ParamArrayAttribute__ctor_m2760430497 ();
 extern "C" void Random__ctor_m2490522898 ();
 extern "C" void Random__ctor_m4002613091 ();
 extern "C" void Random_Sample_m3542077785 ();
+extern "C" void Random_Next_m1579033021 ();
 extern "C" void Random_NextBytes_m3527347937 ();
 extern "C" void RankException__ctor_m2171614254 ();
 extern "C" void RankException__ctor_m3451921812 ();
@@ -2953,6 +2960,7 @@ extern "C" void AssemblyDescriptionAttribute__ctor_m196881690 ();
 extern "C" void AssemblyFileVersionAttribute__ctor_m188013914 ();
 extern "C" void AssemblyInformationalVersionAttribute__ctor_m684917983 ();
 extern "C" void AssemblyKeyFileAttribute__ctor_m3089249851 ();
+extern "C" void AssemblyKeyNameAttribute__ctor_m2210516812 ();
 extern "C" void AssemblyName__ctor_m2021574845 ();
 extern "C" void AssemblyName__ctor_m1431164030 ();
 extern "C" void AssemblyName_get_Name_m1123490526 ();
@@ -3339,6 +3347,10 @@ extern "C" void Module_IsResource_m3085935772 ();
 extern "C" void Module_ToString_m2326023121 ();
 extern "C" void Module_filter_by_type_name_m1428086970 ();
 extern "C" void Module_filter_by_type_name_ignore_case_m825562172 ();
+extern "C" void ModuleResolveEventHandler__ctor_m1364124346 ();
+extern "C" void ModuleResolveEventHandler_Invoke_m2550379485 ();
+extern "C" void ModuleResolveEventHandler_BeginInvoke_m3285111655 ();
+extern "C" void ModuleResolveEventHandler_EndInvoke_m236958287 ();
 extern "C" void MonoCMethod__ctor_m1949313751 ();
 extern "C" void MonoCMethod_GetParameters_m993439667 ();
 extern "C" void MonoCMethod_InternalInvoke_m1703330793 ();
@@ -3547,6 +3559,7 @@ extern "C" void RuntimeResourceSet_GetObject_m167723114 ();
 extern "C" void RuntimeResourceSet_GetObject_m3242127827 ();
 extern "C" void RuntimeResourceSet_CloneDisposableObjectIfPossible_m1308606215 ();
 extern "C" void SatelliteContractVersionAttribute__ctor_m69110617 ();
+extern "C" void CompilationRelaxationsAttribute__ctor_m4277872656 ();
 extern "C" void CompilationRelaxationsAttribute__ctor_m3469882264 ();
 extern "C" void CompilerGeneratedAttribute__ctor_m2546676106 ();
 extern "C" void DecimalConstantAttribute__ctor_m844034077 ();
@@ -3793,6 +3806,10 @@ extern "C" void Identity_get_ClientDynamicProperties_m2301648525 ();
 extern "C" void Identity_get_ServerDynamicProperties_m841334805 ();
 extern "C" void InternalRemotingServices__cctor_m2124821007 ();
 extern "C" void InternalRemotingServices_GetCachedSoapAttribute_m1251902514 ();
+extern "C" void RenewalDelegate__ctor_m3640898857 ();
+extern "C" void RenewalDelegate_Invoke_m2399620050 ();
+extern "C" void RenewalDelegate_BeginInvoke_m3159291988 ();
+extern "C" void RenewalDelegate_EndInvoke_m331344822 ();
 extern "C" void LeaseManager__ctor_m2522116882 ();
 extern "C" void LeaseManager_SetPollTime_m4066717374 ();
 extern "C" void LeaseSink__ctor_m1766448707 ();
@@ -4704,9 +4721,18 @@ extern "C" void StrongNamePublicKeyBlob_GetHashCode_m1175711719 ();
 extern "C" void StrongNamePublicKeyBlob_ToString_m2295430737 ();
 extern "C" void PermissionSet__ctor_m3410884176 ();
 extern "C" void PermissionSet__ctor_m1161980594 ();
+extern "C" void PermissionSet__ctor_m3799523257 ();
+extern "C" void PermissionSet_SetReadOnly_m1922354057 ();
 extern "C" void PermissionSet_set_DeclarativeSecurity_m1327442290 ();
 extern "C" void PermissionSet_CreateFromBinaryFormat_m554196038 ();
 extern "C" void ApplicationTrust__ctor_m3384937791 ();
+extern "C" void CodeGroup_get_Description_m3483375035 ();
+extern "C" void CodeGroup_get_MembershipCondition_m1069806301 ();
+extern "C" void CodeGroup_get_Name_m2286683854 ();
+extern "C" void CodeGroup_get_Children_m3916364187 ();
+extern "C" void CodeGroup_Equals_m3162055676 ();
+extern "C" void CodeGroup_Equals_m1198507690 ();
+extern "C" void CodeGroup_GetHashCode_m2557386080 ();
 extern "C" void Evidence__ctor_m2923485872 ();
 extern "C" void Evidence_get_Count_m2256383184 ();
 extern "C" void Evidence_get_IsSynchronized_m1680953145 ();
@@ -4726,6 +4752,9 @@ extern "C" void Hash__ctor_m2508943770 ();
 extern "C" void Hash_GetObjectData_m3237379831 ();
 extern "C" void Hash_ToString_m280687476 ();
 extern "C" void Hash_GetData_m808019137 ();
+extern "C" void PolicyStatement_get_PermissionSet_m1663906971 ();
+extern "C" void PolicyStatement_Equals_m248618065 ();
+extern "C" void PolicyStatement_GetHashCode_m3804980789 ();
 extern "C" void StrongName_get_Name_m2625731792 ();
 extern "C" void StrongName_get_PublicKey_m99431051 ();
 extern "C" void StrongName_get_Version_m1418835908 ();
@@ -5114,6 +5143,8 @@ extern "C" void Encoding_GetByteCount_m957110328 ();
 extern "C" void Encoding_GetBytes_m1804873512 ();
 extern "C" void ForwardingDecoder__ctor_m2930063152 ();
 extern "C" void ForwardingDecoder_GetChars_m3390742011 ();
+extern "C" void EncodingInfo_Equals_m1504812574 ();
+extern "C" void EncodingInfo_GetHashCode_m3965017986 ();
 extern "C" void Latin1Encoding__ctor_m1980938192 ();
 extern "C" void Latin1Encoding_GetByteCount_m706721210 ();
 extern "C" void Latin1Encoding_GetByteCount_m4034541857 ();
@@ -5494,6 +5525,7 @@ extern "C" void Type_GetMethod_m2884801946 ();
 extern "C" void Type_GetMethod_m534507110 ();
 extern "C" void Type_GetMethod_m527054833 ();
 extern "C" void Type_GetMethod_m2171093265 ();
+extern "C" void Type_GetProperty_m1904930970 ();
 extern "C" void Type_GetProperty_m3455595366 ();
 extern "C" void Type_GetProperty_m786720973 ();
 extern "C" void Type_GetProperty_m3045839774 ();
@@ -5577,6 +5609,7 @@ extern "C" void UInt32_CompareTo_m2274441540_AdjustorThunk ();
 extern "C" void UInt32_Equals_m1584642517_AdjustorThunk ();
 extern "C" void UInt32_Parse_m178847972 ();
 extern "C" void UInt32_Parse_m3291857117 ();
+extern "C" void UInt32_Parse_m1474004442 ();
 extern "C" void UInt32_Parse_m1670428837 ();
 extern "C" void UInt32_Parse_m3087278554 ();
 extern "C" void UInt32_TryParse_m537116052 ();
@@ -5689,6 +5722,18 @@ extern "C" void WeakReference_Finalize_m3030916772 ();
 extern "C" void WeakReference_GetObjectData_m1524996508 ();
 extern "C" void Locale_GetText_m3269873186 ();
 extern "C" void Locale_GetText_m946430094 ();
+extern "C" void OSX509Certificates__cctor_m1038795726 ();
+extern "C" void OSX509Certificates_SecCertificateCreateWithData_m2116804160 ();
+extern "C" void OSX509Certificates_SecTrustCreateWithCertificates_m1080605110 ();
+extern "C" void OSX509Certificates_SecPolicyCreateSSL_m1415076668 ();
+extern "C" void OSX509Certificates_SecTrustEvaluate_m82762637 ();
+extern "C" void OSX509Certificates_CFDataCreate_m4203990262 ();
+extern "C" void OSX509Certificates_CFRelease_m3975846355 ();
+extern "C" void OSX509Certificates_CFArrayCreate_m2706647866 ();
+extern "C" void OSX509Certificates_MakeCFData_m2635409790 ();
+extern "C" void OSX509Certificates_FromIntPtrs_m2898371990 ();
+extern "C" void OSX509Certificates_TrustEvaluateSsl_m1836821439 ();
+extern "C" void OSX509Certificates__TrustEvaluateSsl_m2238821220 ();
 extern "C" void GeneratedCodeAttribute__ctor_m3690080601 ();
 extern "C" void HybridDictionary__ctor_m951312923 ();
 extern "C" void HybridDictionary__ctor_m3356743441 ();
@@ -5800,6 +5845,10 @@ extern "C" void StringDictionary_get_Keys_m2134214027 ();
 extern "C" void StringDictionary_get_Values_m352867257 ();
 extern "C" void StringDictionary_Add_m2876298361 ();
 extern "C" void StringDictionary_GetEnumerator_m3815340904 ();
+extern "C" void AsyncCompletedEventHandler__ctor_m1567555400 ();
+extern "C" void AsyncCompletedEventHandler_Invoke_m2381493849 ();
+extern "C" void AsyncCompletedEventHandler_BeginInvoke_m1323045516 ();
+extern "C" void AsyncCompletedEventHandler_EndInvoke_m997545304 ();
 extern "C" void BrowsableAttribute__ctor_m2277870761 ();
 extern "C" void BrowsableAttribute__cctor_m3848088379 ();
 extern "C" void BrowsableAttribute_get_Browsable_m608427366 ();
@@ -5872,6 +5921,7 @@ extern "C" void NotifyParentPropertyAttribute__cctor_m3138495508 ();
 extern "C" void NotifyParentPropertyAttribute_get_NotifyParent_m1568339889 ();
 extern "C" void NotifyParentPropertyAttribute_Equals_m1614575104 ();
 extern "C" void NotifyParentPropertyAttribute_GetHashCode_m4013146328 ();
+extern "C" void ProgressChangedEventArgs__ctor_m2574618600 ();
 extern "C" void RecommendedAsConfigurableAttribute__ctor_m4241311578 ();
 extern "C" void RecommendedAsConfigurableAttribute__cctor_m3762742506 ();
 extern "C" void RecommendedAsConfigurableAttribute_get_RecommendedAsConfigurable_m4158471496 ();
@@ -5951,6 +6001,7 @@ extern "C" void ProcessStartInfo_get_LoadUserProfile_m3109495147 ();
 extern "C" void ProcessStartInfo_get_UserName_m2607664632 ();
 extern "C" void ProcessStartInfo_get_Domain_m580933254 ();
 extern "C" void ProcessStartInfo_get_Password_m414565720 ();
+extern "C" void DeflateStream__ctor_m2170106875 ();
 extern "C" void DeflateStream__ctor_m3321842210 ();
 extern "C" void DeflateStream__ctor_m3336782107 ();
 extern "C" void DeflateStream_Dispose_m1280984772 ();
@@ -5993,6 +6044,24 @@ extern "C" void WriteMethod__ctor_m3646165827 ();
 extern "C" void WriteMethod_Invoke_m4147400684 ();
 extern "C" void WriteMethod_BeginInvoke_m703457547 ();
 extern "C" void WriteMethod_EndInvoke_m3252788947 ();
+extern "C" void GZipStream__ctor_m2136427100 ();
+extern "C" void GZipStream__ctor_m1301775777 ();
+extern "C" void GZipStream_Dispose_m1233763813 ();
+extern "C" void GZipStream_Read_m295052112 ();
+extern "C" void GZipStream_Write_m1453962747 ();
+extern "C" void GZipStream_Flush_m1315355667 ();
+extern "C" void GZipStream_Seek_m2685013297 ();
+extern "C" void GZipStream_SetLength_m1780201801 ();
+extern "C" void GZipStream_BeginRead_m2476912851 ();
+extern "C" void GZipStream_BeginWrite_m1947383638 ();
+extern "C" void GZipStream_EndRead_m2882247347 ();
+extern "C" void GZipStream_EndWrite_m1193516172 ();
+extern "C" void GZipStream_get_CanRead_m1595474582 ();
+extern "C" void GZipStream_get_CanSeek_m1624229624 ();
+extern "C" void GZipStream_get_CanWrite_m2737725313 ();
+extern "C" void GZipStream_get_Length_m449516243 ();
+extern "C" void GZipStream_get_Position_m2709881174 ();
+extern "C" void GZipStream_set_Position_m2891315819 ();
 extern "C" void MonoIO_Close_m2122881708 ();
 extern "C" void MonoIO_get_ConsoleOutput_m3480549602 ();
 extern "C" void MonoIO_get_ConsoleInput_m1787762475 ();
@@ -6014,8 +6083,155 @@ extern "C" void WriteDelegate_BeginInvoke_m135252136 ();
 extern "C" void WriteDelegate_EndInvoke_m36075534 ();
 extern "C" void MonoTODOAttribute__ctor_m754636072 ();
 extern "C" void MonoTODOAttribute__ctor_m3809503962 ();
+extern "C" void AuthenticationManager__cctor_m4133232566 ();
+extern "C" void AuthenticationManager_EnsureModules_m3823797022 ();
+extern "C" void AuthenticationManager_Authenticate_m926148532 ();
+extern "C" void AuthenticationManager_DoAuthenticate_m3748190185 ();
+extern "C" void AuthenticationManager_PreAuthenticate_m2542705561 ();
+extern "C" void Authorization__ctor_m2068423663 ();
+extern "C" void Authorization__ctor_m3964302254 ();
+extern "C" void Authorization__ctor_m1461752682 ();
+extern "C" void Authorization_get_Message_m3479035884 ();
+extern "C" void Authorization_get_Complete_m47192841 ();
+extern "C" void Authorization_get_Module_m2673205832 ();
+extern "C" void Authorization_set_Module_m275959517 ();
+extern "C" void BasicClient__ctor_m1780885267 ();
+extern "C" void BasicClient_Authenticate_m2149911920 ();
+extern "C" void BasicClient_GetBytes_m4147000082 ();
+extern "C" void BasicClient_InternalAuthenticate_m4172385463 ();
+extern "C" void BasicClient_PreAuthenticate_m3596333917 ();
+extern "C" void BasicClient_get_AuthenticationType_m3361356495 ();
+extern "C" void BindIPEndPoint__ctor_m218773313 ();
+extern "C" void BindIPEndPoint_Invoke_m554750276 ();
+extern "C" void BindIPEndPoint_BeginInvoke_m3404421758 ();
+extern "C" void BindIPEndPoint_EndInvoke_m2887424362 ();
+extern "C" void ChunkStream__ctor_m3019842669 ();
+extern "C" void ChunkStream__ctor_m2952009328 ();
+extern "C" void ChunkStream_ResetBuffer_m2311008684 ();
+extern "C" void ChunkStream_WriteAndReadBack_m1174558148 ();
+extern "C" void ChunkStream_Read_m154741438 ();
+extern "C" void ChunkStream_ReadFromChunks_m1120476462 ();
+extern "C" void ChunkStream_Write_m3815252045 ();
+extern "C" void ChunkStream_InternalWrite_m1638992728 ();
+extern "C" void ChunkStream_get_WantMore_m3792639849 ();
+extern "C" void ChunkStream_get_ChunkLeft_m642792824 ();
+extern "C" void ChunkStream_ReadBody_m977300054 ();
+extern "C" void ChunkStream_GetChunkSize_m2303198550 ();
+extern "C" void ChunkStream_RemoveChunkExtension_m615575460 ();
+extern "C" void ChunkStream_ReadCRLF_m2102328829 ();
+extern "C" void ChunkStream_ReadTrailer_m3634517875 ();
+extern "C" void ChunkStream_ThrowProtocolViolation_m4007216022 ();
+extern "C" void Chunk__ctor_m1565485384 ();
+extern "C" void Chunk_Read_m87879296 ();
+extern "C" void Cookie__ctor_m749965558 ();
+extern "C" void Cookie__ctor_m473882888 ();
+extern "C" void Cookie__cctor_m1291999607 ();
+extern "C" void Cookie_get_Comment_m1065183021 ();
+extern "C" void Cookie_set_Comment_m429647852 ();
+extern "C" void Cookie_get_CommentUri_m1997904722 ();
+extern "C" void Cookie_set_CommentUri_m2209531659 ();
+extern "C" void Cookie_get_Discard_m3634482143 ();
+extern "C" void Cookie_set_Discard_m1506297356 ();
+extern "C" void Cookie_get_Domain_m380732312 ();
+extern "C" void Cookie_set_Domain_m1439537299 ();
+extern "C" void Cookie_get_ExactDomain_m3630794404 ();
+extern "C" void Cookie_set_ExactDomain_m4164606225 ();
+extern "C" void Cookie_get_Expired_m4018922662 ();
+extern "C" void Cookie_get_Expires_m657225144 ();
+extern "C" void Cookie_set_Expires_m3601651821 ();
+extern "C" void Cookie_get_HttpOnly_m1683333781 ();
+extern "C" void Cookie_set_HttpOnly_m2390693654 ();
+extern "C" void Cookie_get_Name_m94989407 ();
+extern "C" void Cookie_set_Name_m1518068076 ();
+extern "C" void Cookie_get_Path_m152459129 ();
+extern "C" void Cookie_set_Path_m3475722386 ();
+extern "C" void Cookie_get_Port_m165340373 ();
+extern "C" void Cookie_set_Port_m2158516406 ();
+extern "C" void Cookie_get_Ports_m2139144971 ();
+extern "C" void Cookie_get_Secure_m655046904 ();
+extern "C" void Cookie_set_Secure_m3967528633 ();
+extern "C" void Cookie_get_TimeStamp_m3414624826 ();
+extern "C" void Cookie_get_Value_m1454378239 ();
+extern "C" void Cookie_set_Value_m3944093978 ();
+extern "C" void Cookie_get_Version_m275661107 ();
+extern "C" void Cookie_set_Version_m128814560 ();
+extern "C" void Cookie_Equals_m2267348733 ();
+extern "C" void Cookie_GetHashCode_m4162714965 ();
+extern "C" void Cookie_hash_m1162468957 ();
+extern "C" void Cookie_ToString_m3751681783 ();
+extern "C" void Cookie_ToString_m339822058 ();
+extern "C" void Cookie_IsNullOrEmpty_m1158722015 ();
+extern "C" void CookieCollection__ctor_m1008437304 ();
+extern "C" void CookieCollection__cctor_m714689141 ();
+extern "C" void CookieCollection_get_List_m772022205 ();
+extern "C" void CookieCollection_get_Count_m2566970476 ();
+extern "C" void CookieCollection_get_IsSynchronized_m928796317 ();
+extern "C" void CookieCollection_get_SyncRoot_m821524061 ();
+extern "C" void CookieCollection_CopyTo_m1816730389 ();
+extern "C" void CookieCollection_GetEnumerator_m3631747258 ();
+extern "C" void CookieCollection_Add_m3899574407 ();
+extern "C" void CookieCollection_Sort_m4012327978 ();
+extern "C" void CookieCollection_SearchCookie_m3863162774 ();
+extern "C" void CookieCollection_get_Item_m2587555162 ();
+extern "C" void CookieCollectionComparer__ctor_m4053308016 ();
+extern "C" void CookieCollectionComparer_Compare_m556096851 ();
+extern "C" void CookieContainer__ctor_m1858224687 ();
+extern "C" void CookieContainer_AddCookie_m1415598700 ();
+extern "C" void CookieContainer_CountDomain_m338866930 ();
+extern "C" void CookieContainer_RemoveOldest_m3761972714 ();
+extern "C" void CookieContainer_CheckExpiration_m4053631076 ();
+extern "C" void CookieContainer_Cook_m2529807560 ();
+extern "C" void CookieContainer_Add_m2554413433 ();
+extern "C" void CookieContainer_GetCookieHeader_m710965252 ();
+extern "C" void CookieContainer_CheckDomain_m1437975458 ();
+extern "C" void CookieContainer_GetCookies_m68052290 ();
+extern "C" void CookieContainer_IsNullOrEmpty_m1462660146 ();
+extern "C" void CookieException__ctor_m766518817 ();
+extern "C" void CookieException__ctor_m1882601089 ();
+extern "C" void CookieException__ctor_m678641877 ();
+extern "C" void CookieException__ctor_m915002338 ();
+extern "C" void CookieException_System_Runtime_Serialization_ISerializable_GetObjectData_m1995220042 ();
+extern "C" void CookieException_GetObjectData_m1773279551 ();
+extern "C" void CookieParser__ctor_m797337355 ();
+extern "C" void CookieParser__ctor_m2583936940 ();
+extern "C" void CookieParser_GetNextNameValue_m877210514 ();
+extern "C" void CookieParser_GetCookieName_m2141183901 ();
+extern "C" void CookieParser_GetCookieValue_m461898113 ();
 extern "C" void DefaultCertificatePolicy__ctor_m4248919730 ();
 extern "C" void DefaultCertificatePolicy_CheckValidationResult_m4124026463 ();
+extern "C" void DigestClient__ctor_m299255755 ();
+extern "C" void DigestClient__cctor_m204897602 ();
+extern "C" void DigestClient_get_Cache_m499281433 ();
+extern "C" void DigestClient_CheckExpired_m4238582311 ();
+extern "C" void DigestClient_Authenticate_m1457292628 ();
+extern "C" void DigestClient_PreAuthenticate_m3609215481 ();
+extern "C" void DigestClient_get_AuthenticationType_m1949045937 ();
+extern "C" void DigestHeaderParser__ctor_m2093966808 ();
+extern "C" void DigestHeaderParser__cctor_m1169466243 ();
+extern "C" void DigestHeaderParser_get_Realm_m2537411729 ();
+extern "C" void DigestHeaderParser_get_Opaque_m1594409025 ();
+extern "C" void DigestHeaderParser_get_Nonce_m3580385777 ();
+extern "C" void DigestHeaderParser_get_Algorithm_m1543204337 ();
+extern "C" void DigestHeaderParser_get_QOP_m2289308564 ();
+extern "C" void DigestHeaderParser_Parse_m1894726801 ();
+extern "C" void DigestHeaderParser_SkipWhitespace_m780187062 ();
+extern "C" void DigestHeaderParser_GetKey_m3307245952 ();
+extern "C" void DigestHeaderParser_GetKeywordAndValue_m2110698101 ();
+extern "C" void DigestSession__ctor_m151504474 ();
+extern "C" void DigestSession__cctor_m4214542483 ();
+extern "C" void DigestSession_get_Algorithm_m4256264891 ();
+extern "C" void DigestSession_get_Realm_m2390347355 ();
+extern "C" void DigestSession_get_Nonce_m3433321403 ();
+extern "C" void DigestSession_get_Opaque_m1330380727 ();
+extern "C" void DigestSession_get_QOP_m421001182 ();
+extern "C" void DigestSession_get_CNonce_m2178640418 ();
+extern "C" void DigestSession_Parse_m2526605709 ();
+extern "C" void DigestSession_HashToHexString_m3897483626 ();
+extern "C" void DigestSession_HA1_m3870903473 ();
+extern "C" void DigestSession_HA2_m1731891633 ();
+extern "C" void DigestSession_Response_m3528911305 ();
+extern "C" void DigestSession_Authenticate_m3265953531 ();
+extern "C" void DigestSession_get_LastUse_m349648871 ();
 extern "C" void Dns__cctor_m2243593610 ();
 extern "C" void Dns_GetHostByName_internal_m3697903137 ();
 extern "C" void Dns_GetHostByAddr_internal_m516933499 ();
@@ -6027,6 +6243,19 @@ extern "C" void Dns_GetHostEntry_m3712714308 ();
 extern "C" void Dns_GetHostAddresses_m1512328765 ();
 extern "C" void Dns_GetHostByName_m840368461 ();
 extern "C" void Dns_GetHostName_m2369217447 ();
+extern "C" void DownloadDataCompletedEventHandler__ctor_m365084767 ();
+extern "C" void DownloadDataCompletedEventHandler_Invoke_m3471237625 ();
+extern "C" void DownloadDataCompletedEventHandler_BeginInvoke_m1002964638 ();
+extern "C" void DownloadDataCompletedEventHandler_EndInvoke_m822819311 ();
+extern "C" void DownloadProgressChangedEventArgs__ctor_m2163266290 ();
+extern "C" void DownloadProgressChangedEventHandler__ctor_m3662803621 ();
+extern "C" void DownloadProgressChangedEventHandler_Invoke_m1663937529 ();
+extern "C" void DownloadProgressChangedEventHandler_BeginInvoke_m3903691410 ();
+extern "C" void DownloadProgressChangedEventHandler_EndInvoke_m753565493 ();
+extern "C" void DownloadStringCompletedEventHandler__ctor_m1526234648 ();
+extern "C" void DownloadStringCompletedEventHandler_Invoke_m1773329369 ();
+extern "C" void DownloadStringCompletedEventHandler_BeginInvoke_m433017132 ();
+extern "C" void DownloadStringCompletedEventHandler_EndInvoke_m3568221224 ();
 extern "C" void EndPoint__ctor_m4041742149 ();
 extern "C" void EndPoint_get_AddressFamily_m756653815 ();
 extern "C" void EndPoint_Create_m1369380444 ();
@@ -6035,15 +6264,185 @@ extern "C" void EndPoint_NotImplemented_m2808446367 ();
 extern "C" void FileWebRequest__ctor_m1190066806 ();
 extern "C" void FileWebRequest__ctor_m2417420612 ();
 extern "C" void FileWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m3587475368 ();
+extern "C" void FileWebRequest_get_ContentLength_m3959517096 ();
+extern "C" void FileWebRequest_set_ContentLength_m3507692309 ();
+extern "C" void FileWebRequest_set_ContentType_m2123986763 ();
+extern "C" void FileWebRequest_get_Credentials_m3151607268 ();
+extern "C" void FileWebRequest_set_Credentials_m2271052495 ();
+extern "C" void FileWebRequest_get_Headers_m3065734382 ();
+extern "C" void FileWebRequest_get_Method_m2005929480 ();
+extern "C" void FileWebRequest_set_Method_m339613475 ();
+extern "C" void FileWebRequest_get_Proxy_m469077010 ();
+extern "C" void FileWebRequest_set_Proxy_m1837681983 ();
+extern "C" void FileWebRequest_get_RequestUri_m3313865781 ();
+extern "C" void FileWebRequest_GetMustImplement_m391298838 ();
+extern "C" void FileWebRequest_Abort_m303714001 ();
+extern "C" void FileWebRequest_BeginGetRequestStream_m2530068115 ();
+extern "C" void FileWebRequest_EndGetRequestStream_m5977400 ();
+extern "C" void FileWebRequest_GetRequestStream_m3303490852 ();
+extern "C" void FileWebRequest_GetRequestStreamInternal_m1727879617 ();
+extern "C" void FileWebRequest_BeginGetResponse_m1046890263 ();
+extern "C" void FileWebRequest_EndGetResponse_m1769167488 ();
+extern "C" void FileWebRequest_GetResponse_m3466591250 ();
+extern "C" void FileWebRequest_GetResponseInternal_m3074376367 ();
 extern "C" void FileWebRequest_GetObjectData_m1166847137 ();
+extern "C" void FileWebRequest_Close_m2365028249 ();
+extern "C" void FileWebStream__ctor_m3702192034 ();
+extern "C" void FileWebStream_Close_m3452177360 ();
+extern "C" void GetRequestStreamCallback__ctor_m609089324 ();
+extern "C" void GetRequestStreamCallback_Invoke_m2602366844 ();
+extern "C" void GetRequestStreamCallback_BeginInvoke_m1340948413 ();
+extern "C" void GetRequestStreamCallback_EndInvoke_m697554866 ();
+extern "C" void GetResponseCallback__ctor_m910176172 ();
+extern "C" void GetResponseCallback_Invoke_m2012732236 ();
+extern "C" void GetResponseCallback_BeginInvoke_m2487994309 ();
+extern "C" void GetResponseCallback_EndInvoke_m3391029122 ();
 extern "C" void FileWebRequestCreator__ctor_m349516791 ();
 extern "C" void FileWebRequestCreator_Create_m2860446468 ();
+extern "C" void FileWebResponse__ctor_m4203086907 ();
+extern "C" void FileWebResponse__ctor_m2377823828 ();
+extern "C" void FileWebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m1417232536 ();
+extern "C" void FileWebResponse_System_IDisposable_Dispose_m423821804 ();
+extern "C" void FileWebResponse_get_ContentLength_m3196153590 ();
+extern "C" void FileWebResponse_get_Headers_m2315356702 ();
+extern "C" void FileWebResponse_GetObjectData_m22702513 ();
+extern "C" void FileWebResponse_GetResponseStream_m3644434002 ();
+extern "C" void FileWebResponse_Finalize_m2775464943 ();
+extern "C" void FileWebResponse_Close_m3579247785 ();
+extern "C" void FileWebResponse_Dispose_m1051444359 ();
+extern "C" void FileWebResponse_CheckDisposed_m3815230654 ();
+extern "C" void FtpAsyncResult__ctor_m996159919 ();
+extern "C" void FtpAsyncResult_get_AsyncState_m2681175690 ();
+extern "C" void FtpAsyncResult_get_AsyncWaitHandle_m3104266194 ();
+extern "C" void FtpAsyncResult_get_IsCompleted_m2040148559 ();
+extern "C" void FtpAsyncResult_get_GotException_m2919804343 ();
+extern "C" void FtpAsyncResult_get_Exception_m2991776342 ();
+extern "C" void FtpAsyncResult_get_Response_m3336946139 ();
+extern "C" void FtpAsyncResult_get_Stream_m4166990260 ();
+extern "C" void FtpAsyncResult_set_Stream_m3014354805 ();
+extern "C" void FtpAsyncResult_WaitUntilComplete_m1609274803 ();
+extern "C" void FtpAsyncResult_SetCompleted_m2460255838 ();
+extern "C" void FtpAsyncResult_SetCompleted_m1997870026 ();
+extern "C" void FtpAsyncResult_SetCompleted_m3064165237 ();
+extern "C" void FtpAsyncResult_DoCallback_m2621895697 ();
+extern "C" void FtpDataStream__ctor_m1292366195 ();
+extern "C" void FtpDataStream_System_IDisposable_Dispose_m1477901983 ();
+extern "C" void FtpDataStream_get_CanRead_m4232145253 ();
+extern "C" void FtpDataStream_get_CanWrite_m2870137490 ();
+extern "C" void FtpDataStream_get_CanSeek_m4260900295 ();
+extern "C" void FtpDataStream_get_Length_m1564877092 ();
+extern "C" void FtpDataStream_get_Position_m829833063 ();
+extern "C" void FtpDataStream_set_Position_m2281268732 ();
+extern "C" void FtpDataStream_Close_m2523731478 ();
+extern "C" void FtpDataStream_Flush_m896819234 ();
+extern "C" void FtpDataStream_Seek_m1228510272 ();
+extern "C" void FtpDataStream_SetLength_m592797528 ();
+extern "C" void FtpDataStream_ReadInternal_m2823798498 ();
+extern "C" void FtpDataStream_BeginRead_m2271171234 ();
+extern "C" void FtpDataStream_EndRead_m3674314244 ();
+extern "C" void FtpDataStream_Read_m3453883423 ();
+extern "C" void FtpDataStream_WriteInternal_m1319050447 ();
+extern "C" void FtpDataStream_BeginWrite_m4159328103 ();
+extern "C" void FtpDataStream_EndWrite_m3582344027 ();
+extern "C" void FtpDataStream_Write_m336375564 ();
+extern "C" void FtpDataStream_Finalize_m1344737122 ();
+extern "C" void FtpDataStream_Dispose_m46359540 ();
+extern "C" void FtpDataStream_CheckDisposed_m4269287723 ();
+extern "C" void ReadDelegate__ctor_m1305620294 ();
+extern "C" void ReadDelegate_Invoke_m1815127289 ();
+extern "C" void ReadDelegate_BeginInvoke_m3824213480 ();
+extern "C" void ReadDelegate_EndInvoke_m531823142 ();
+extern "C" void WriteDelegate__ctor_m4253415927 ();
+extern "C" void WriteDelegate_Invoke_m4256820664 ();
+extern "C" void WriteDelegate_BeginInvoke_m3502042447 ();
+extern "C" void WriteDelegate_EndInvoke_m937099143 ();
 extern "C" void FtpRequestCreator__ctor_m3461046285 ();
 extern "C" void FtpRequestCreator_Create_m2169393454 ();
+extern "C" void FtpStatus__ctor_m258616099 ();
+extern "C" void FtpStatus_get_StatusCode_m806266466 ();
+extern "C" void FtpStatus_get_StatusDescription_m575693492 ();
 extern "C" void FtpWebRequest__ctor_m3137933378 ();
 extern "C" void FtpWebRequest__cctor_m2914795070 ();
+extern "C" void FtpWebRequest_GetMustImplement_m1436910600 ();
+extern "C" void FtpWebRequest_set_ContentType_m856042751 ();
+extern "C" void FtpWebRequest_get_ContentLength_m3510047858 ();
+extern "C" void FtpWebRequest_set_ContentLength_m2856133601 ();
+extern "C" void FtpWebRequest_get_Credentials_m3110452944 ();
+extern "C" void FtpWebRequest_set_Credentials_m133801859 ();
+extern "C" void FtpWebRequest_get_EnableSsl_m3398943863 ();
+extern "C" void FtpWebRequest_get_Headers_m1485893850 ();
+extern "C" void FtpWebRequest_set_Headers_m3991826215 ();
+extern "C" void FtpWebRequest_get_Method_m2046966946 ();
+extern "C" void FtpWebRequest_set_Method_m2449187055 ();
+extern "C" void FtpWebRequest_get_Proxy_m942600838 ();
+extern "C" void FtpWebRequest_set_Proxy_m1186123275 ();
+extern "C" void FtpWebRequest_get_ReadWriteTimeout_m3540049670 ();
+extern "C" void FtpWebRequest_get_RequestUri_m2356179533 ();
+extern "C" void FtpWebRequest_get_ServicePoint_m1902344865 ();
+extern "C" void FtpWebRequest_get_DataType_m2074737925 ();
+extern "C" void FtpWebRequest_get_State_m1818655718 ();
+extern "C" void FtpWebRequest_set_State_m1873142957 ();
+extern "C" void FtpWebRequest_Abort_m728953757 ();
+extern "C" void FtpWebRequest_BeginGetResponse_m4107018323 ();
+extern "C" void FtpWebRequest_EndGetResponse_m2534638616 ();
+extern "C" void FtpWebRequest_GetResponse_m3573508010 ();
+extern "C" void FtpWebRequest_BeginGetRequestStream_m3381285591 ();
+extern "C" void FtpWebRequest_EndGetRequestStream_m1866077208 ();
+extern "C" void FtpWebRequest_GetRequestStream_m3141045252 ();
+extern "C" void FtpWebRequest_GetServicePoint_m483585814 ();
+extern "C" void FtpWebRequest_ResolveHost_m2575242273 ();
+extern "C" void FtpWebRequest_ProcessRequest_m1634672693 ();
+extern "C" void FtpWebRequest_SetType_m2494411049 ();
+extern "C" void FtpWebRequest_GetRemoteFolderPath_m2340338028 ();
+extern "C" void FtpWebRequest_CWDAndSetFileName_m1594277826 ();
+extern "C" void FtpWebRequest_ProcessMethod_m141324445 ();
+extern "C" void FtpWebRequest_CloseControlConnection_m2759704408 ();
+extern "C" void FtpWebRequest_CloseDataConnection_m1443100077 ();
+extern "C" void FtpWebRequest_CloseConnection_m874562275 ();
+extern "C" void FtpWebRequest_ProcessSimpleMethod_m2514275375 ();
+extern "C" void FtpWebRequest_UploadData_m3924710304 ();
+extern "C" void FtpWebRequest_DownloadData_m3903854567 ();
+extern "C" void FtpWebRequest_CheckRequestStarted_m486165255 ();
+extern "C" void FtpWebRequest_OpenControlConnection_m875311902 ();
+extern "C" void FtpWebRequest_GetInitialPath_m2140946823 ();
+extern "C" void FtpWebRequest_SetupPassiveConnection_m4028813507 ();
+extern "C" void FtpWebRequest_CreateExceptionFromResponse_m3067811096 ();
+extern "C" void FtpWebRequest_SetTransferCompleted_m2900587251 ();
+extern "C" void FtpWebRequest_OperationCompleted_m1627023545 ();
+extern "C" void FtpWebRequest_SetCompleteWithError_m2243416684 ();
+extern "C" void FtpWebRequest_InitDataConnection_m2932897423 ();
+extern "C" void FtpWebRequest_OpenDataConnection_m1100056487 ();
+extern "C" void FtpWebRequest_Authenticate_m4136436138 ();
+extern "C" void FtpWebRequest_SendCommand_m4255745575 ();
+extern "C" void FtpWebRequest_SendCommand_m1304781218 ();
+extern "C" void FtpWebRequest_ServiceNotAvailable_m797374525 ();
+extern "C" void FtpWebRequest_GetResponseStatus_m1396642043 ();
+extern "C" void FtpWebRequest_InitiateSecureConnection_m3249464690 ();
+extern "C" void FtpWebRequest_ChangeToSSLSocket_m485421130 ();
+extern "C" void FtpWebRequest_InFinalState_m2632872555 ();
+extern "C" void FtpWebRequest_InProgress_m4217774877 ();
+extern "C" void FtpWebRequest_CheckIfAborted_m1919386719 ();
+extern "C" void FtpWebRequest_CheckFinalState_m1058126992 ();
 extern "C" void FtpWebRequest_U3CcallbackU3Em__B_m1388175350 ();
+extern "C" void FtpWebResponse__ctor_m3542190242 ();
+extern "C" void FtpWebResponse__ctor_m2217738742 ();
+extern "C" void FtpWebResponse__ctor_m287332007 ();
+extern "C" void FtpWebResponse_get_ContentLength_m2147509100 ();
+extern "C" void FtpWebResponse_get_Headers_m584940466 ();
+extern "C" void FtpWebResponse_set_LastModified_m1304868287 ();
+extern "C" void FtpWebResponse_set_BannerMessage_m1222407647 ();
+extern "C" void FtpWebResponse_set_WelcomeMessage_m1191478019 ();
+extern "C" void FtpWebResponse_Close_m3876778333 ();
+extern "C" void FtpWebResponse_GetResponseStream_m2153035058 ();
+extern "C" void FtpWebResponse_set_Stream_m4206595185 ();
+extern "C" void FtpWebResponse_UpdateStatus_m2179474228 ();
+extern "C" void FtpWebResponse_CheckDisposed_m2215497074 ();
+extern "C" void FtpWebResponse_IsFinal_m2524807527 ();
 extern "C" void GlobalProxySelection_get_Select_m3561358852 ();
+extern "C" void HttpContinueDelegate__ctor_m2092117820 ();
+extern "C" void HttpContinueDelegate_Invoke_m1655092752 ();
+extern "C" void HttpContinueDelegate_BeginInvoke_m2329366165 ();
+extern "C" void HttpContinueDelegate_EndInvoke_m697802572 ();
 extern "C" void HttpRequestCreator__ctor_m2335588533 ();
 extern "C" void HttpRequestCreator_Create_m3368655414 ();
 extern "C" void HttpVersion__cctor_m1997660113 ();
@@ -6051,10 +6450,83 @@ extern "C" void HttpWebRequest__ctor_m3412251370 ();
 extern "C" void HttpWebRequest__ctor_m1235446968 ();
 extern "C" void HttpWebRequest__cctor_m2196070038 ();
 extern "C" void HttpWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m2246907828 ();
+extern "C" void HttpWebRequest_set_Accept_m1873716368 ();
 extern "C" void HttpWebRequest_get_Address_m3157794738 ();
+extern "C" void HttpWebRequest_get_AutomaticDecompression_m2503915258 ();
+extern "C" void HttpWebRequest_get_InternalAllowBuffering_m1304022486 ();
+extern "C" void HttpWebRequest_get_ClientCertificates_m937340960 ();
+extern "C" void HttpWebRequest_set_Connection_m1989927034 ();
+extern "C" void HttpWebRequest_get_ContentLength_m585169692 ();
+extern "C" void HttpWebRequest_set_ContentLength_m3914932361 ();
+extern "C" void HttpWebRequest_set_InternalContentLength_m856181900 ();
+extern "C" void HttpWebRequest_set_ContentType_m2275670871 ();
+extern "C" void HttpWebRequest_get_Credentials_m1078824536 ();
+extern "C" void HttpWebRequest_set_Credentials_m852191195 ();
+extern "C" void HttpWebRequest_set_Expect_m4217356575 ();
+extern "C" void HttpWebRequest_get_Headers_m1094031202 ();
+extern "C" void HttpWebRequest_set_Headers_m3706499023 ();
+extern "C" void HttpWebRequest_get_KeepAlive_m1231113482 ();
+extern "C" void HttpWebRequest_get_ReadWriteTimeout_m3135707902 ();
+extern "C" void HttpWebRequest_get_Method_m2357968148 ();
+extern "C" void HttpWebRequest_set_Method_m1650211735 ();
+extern "C" void HttpWebRequest_get_Proxy_m2558643078 ();
+extern "C" void HttpWebRequest_set_Proxy_m2244922035 ();
+extern "C" void HttpWebRequest_set_Referer_m4222739133 ();
+extern "C" void HttpWebRequest_get_RequestUri_m2277170497 ();
+extern "C" void HttpWebRequest_get_SendChunked_m2844571814 ();
 extern "C" void HttpWebRequest_get_ServicePoint_m146133801 ();
+extern "C" void HttpWebRequest_get_TransferEncoding_m4082338001 ();
+extern "C" void HttpWebRequest_set_UserAgent_m2912453648 ();
+extern "C" void HttpWebRequest_get_UnsafeAuthenticatedConnectionSharing_m3363503189 ();
+extern "C" void HttpWebRequest_get_ExpectContinue_m3807522816 ();
+extern "C" void HttpWebRequest_set_ExpectContinue_m372676545 ();
+extern "C" void HttpWebRequest_get_AuthUri_m3734849122 ();
+extern "C" void HttpWebRequest_get_ProxyQuery_m4268410842 ();
 extern "C" void HttpWebRequest_GetServicePoint_m2366596494 ();
+extern "C" void HttpWebRequest_BeginGetRequestStream_m1226644231 ();
+extern "C" void HttpWebRequest_EndGetRequestStream_m2882083396 ();
+extern "C" void HttpWebRequest_GetRequestStream_m3471735600 ();
+extern "C" void HttpWebRequest_CheckIfForceWrite_m3239743150 ();
+extern "C" void HttpWebRequest_BeginGetResponse_m2437478947 ();
+extern "C" void HttpWebRequest_EndGetResponse_m3402989044 ();
+extern "C" void HttpWebRequest_GetResponse_m1494888070 ();
+extern "C" void HttpWebRequest_get_FinishedReading_m884104508 ();
+extern "C" void HttpWebRequest_set_FinishedReading_m1315164329 ();
+extern "C" void HttpWebRequest_get_Aborted_m2228829969 ();
+extern "C" void HttpWebRequest_Abort_m3338168389 ();
 extern "C" void HttpWebRequest_GetObjectData_m3873995797 ();
+extern "C" void HttpWebRequest_CheckRequestStarted_m266500527 ();
+extern "C" void HttpWebRequest_DoContinueDelegate_m1174339138 ();
+extern "C" void HttpWebRequest_Redirect_m67901887 ();
+extern "C" void HttpWebRequest_GetHeaders_m306062586 ();
+extern "C" void HttpWebRequest_DoPreAuthenticate_m1395833058 ();
+extern "C" void HttpWebRequest_SetWriteStreamError_m4044682561 ();
+extern "C" void HttpWebRequest_SendRequestHeaders_m1174520259 ();
+extern "C" void HttpWebRequest_SetWriteStream_m3202818152 ();
+extern "C" void HttpWebRequest_SetResponseError_m1093010447 ();
+extern "C" void HttpWebRequest_CheckSendError_m181530809 ();
+extern "C" void HttpWebRequest_HandleNtlmAuth_m418121433 ();
+extern "C" void HttpWebRequest_SetResponseData_m2474314870 ();
+extern "C" void HttpWebRequest_CheckAuthorization_m3745404856 ();
+extern "C" void HttpWebRequest_CheckFinalStatus_m52272070 ();
+extern "C" void HttpWebResponse__ctor_m704868621 ();
+extern "C" void HttpWebResponse__ctor_m96379232 ();
+extern "C" void HttpWebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m2809311756 ();
+extern "C" void HttpWebResponse_System_IDisposable_Dispose_m705809504 ();
+extern "C" void HttpWebResponse_get_ContentLength_m1670599170 ();
+extern "C" void HttpWebResponse_get_Headers_m1322100266 ();
+extern "C" void HttpWebResponse_get_StatusCode_m1024380905 ();
+extern "C" void HttpWebResponse_get_StatusDescription_m1329734203 ();
+extern "C" void HttpWebResponse_ReadAll_m1984785448 ();
+extern "C" void HttpWebResponse_GetResponseStream_m2118879582 ();
+extern "C" void HttpWebResponse_GetObjectData_m2339932349 ();
+extern "C" void HttpWebResponse_Close_m3158053301 ();
+extern "C" void HttpWebResponse_Dispose_m1925005715 ();
+extern "C" void HttpWebResponse_CheckDisposed_m2778535370 ();
+extern "C" void HttpWebResponse_FillCookies_m3918912841 ();
+extern "C" void HttpWebResponse_SetCookie_m1353788479 ();
+extern "C" void HttpWebResponse_SetCookie2_m1214268497 ();
+extern "C" void HttpWebResponse_TryParseCookieExpires_m1708112230 ();
 extern "C" void IPAddress__ctor_m927672017 ();
 extern "C" void IPAddress__ctor_m3937524101 ();
 extern "C" void IPAddress__cctor_m3356110606 ();
@@ -6113,6 +6585,18 @@ extern "C" void IPv6Address_ToString_m2548793323 ();
 extern "C" void IPv6Address_Equals_m1266534874 ();
 extern "C" void IPv6Address_GetHashCode_m691770942 ();
 extern "C" void IPv6Address_Hash_m1904786435 ();
+extern "C" void NetworkCredential_get_Domain_m1006306893 ();
+extern "C" void NetworkCredential_get_UserName_m3369838591 ();
+extern "C" void NetworkCredential_get_Password_m3230765156 ();
+extern "C" void NetworkCredential_GetCredential_m1548991703 ();
+extern "C" void OpenReadCompletedEventHandler__ctor_m1559053553 ();
+extern "C" void OpenReadCompletedEventHandler_Invoke_m1793628985 ();
+extern "C" void OpenReadCompletedEventHandler_BeginInvoke_m3698310650 ();
+extern "C" void OpenReadCompletedEventHandler_EndInvoke_m3208828801 ();
+extern "C" void OpenWriteCompletedEventHandler__ctor_m2704479118 ();
+extern "C" void OpenWriteCompletedEventHandler_Invoke_m451376585 ();
+extern "C" void OpenWriteCompletedEventHandler_BeginInvoke_m1419109786 ();
+extern "C" void OpenWriteCompletedEventHandler_EndInvoke_m3360324766 ();
 extern "C" void ProtocolViolationException__ctor_m2465868344 ();
 extern "C" void ProtocolViolationException__ctor_m893374410 ();
 extern "C" void ProtocolViolationException__ctor_m682305401 ();
@@ -6139,7 +6623,9 @@ extern "C" void SslStream_get_Length_m1037506982 ();
 extern "C" void SslStream_get_Position_m833298281 ();
 extern "C" void SslStream_set_Position_m1453586112 ();
 extern "C" void SslStream_get_IsAuthenticated_m800088812 ();
+extern "C" void SslStream_get_ReadTimeout_m2679126988 ();
 extern "C" void SslStream_set_ReadTimeout_m3143165177 ();
+extern "C" void SslStream_get_WriteTimeout_m1840838243 ();
 extern "C" void SslStream_OnCertificateSelection_m280533825 ();
 extern "C" void SslStream_BeginAuthenticateAsClient_m2535801674 ();
 extern "C" void SslStream_BeginRead_m3663021798 ();
@@ -6167,15 +6653,28 @@ extern "C" void U3CBeginAuthenticateAsServerU3Ec__AnonStorey8_U3CU3Em__9_m241165
 extern "C" void U3CBeginAuthenticateAsServerU3Ec__AnonStorey8_U3CU3Em__A_m956293964 ();
 extern "C" void ServicePoint__ctor_m4244145138 ();
 extern "C" void ServicePoint_get_Address_m1466650202 ();
+extern "C" void ServicePoint_get_ConnectionLimit_m3121072129 ();
 extern "C" void ServicePoint_get_CurrentConnections_m1954016890 ();
 extern "C" void ServicePoint_get_IdleSince_m3269103731 ();
 extern "C" void ServicePoint_set_IdleSince_m305314386 ();
+extern "C" void ServicePoint_get_ProtocolVersion_m1049388570 ();
 extern "C" void ServicePoint_set_Expect100Continue_m285998358 ();
+extern "C" void ServicePoint_get_UseNagleAlgorithm_m3421720563 ();
 extern "C" void ServicePoint_set_UseNagleAlgorithm_m4121109536 ();
+extern "C" void ServicePoint_get_SendContinue_m2781931911 ();
 extern "C" void ServicePoint_set_SendContinue_m515260680 ();
+extern "C" void ServicePoint_get_UsesProxy_m287961580 ();
 extern "C" void ServicePoint_set_UsesProxy_m3686577241 ();
+extern "C" void ServicePoint_get_UseConnect_m86082395 ();
 extern "C" void ServicePoint_set_UseConnect_m3883999836 ();
 extern "C" void ServicePoint_get_AvailableForRecycling_m4047613978 ();
+extern "C" void ServicePoint_get_Groups_m2859817643 ();
+extern "C" void ServicePoint_get_HostEntry_m2097536138 ();
+extern "C" void ServicePoint_SetVersion_m3470915170 ();
+extern "C" void ServicePoint_GetConnectionGroup_m1152498600 ();
+extern "C" void ServicePoint_SendRequest_m2674493811 ();
+extern "C" void ServicePoint_SetCertificates_m3816091347 ();
+extern "C" void ServicePoint_CallEndPointDelegate_m3251688122 ();
 extern "C" void ServicePointManager__cctor_m1197717107 ();
 extern "C" void ServicePointManager_get_CertificatePolicy_m2939782421 ();
 extern "C" void ServicePointManager_get_CheckCertificateRevocationList_m2088706324 ();
@@ -6183,6 +6682,16 @@ extern "C" void ServicePointManager_get_SecurityProtocol_m2377079580 ();
 extern "C" void ServicePointManager_get_ServerCertificateValidationCallback_m258265119 ();
 extern "C" void ServicePointManager_FindServicePoint_m543399130 ();
 extern "C" void ServicePointManager_RecycleServicePoints_m3960742511 ();
+extern "C" void ChainValidationHelper__ctor_m3198340947 ();
+extern "C" void ChainValidationHelper__cctor_m2442608620 ();
+extern "C" void ChainValidationHelper_get_Host_m3959355223 ();
+extern "C" void ChainValidationHelper_ValidateChain_m3606027497 ();
+extern "C" void ChainValidationHelper_GetStatusFromChain_m4189907822 ();
+extern "C" void ChainValidationHelper_GetErrorsFromChain_m2003394607 ();
+extern "C" void ChainValidationHelper_CheckCertificateUsage_m2553305441 ();
+extern "C" void ChainValidationHelper_CheckServerIdentity_m517822786 ();
+extern "C" void ChainValidationHelper_CheckDomainName_m4230222526 ();
+extern "C" void ChainValidationHelper_Match_m2776004176 ();
 extern "C" void SPKey__ctor_m1893054627 ();
 extern "C" void SPKey_GetHashCode_m4255714790 ();
 extern "C" void SPKey_Equals_m4194939906 ();
@@ -6195,6 +6704,7 @@ extern "C" void SocketAddress_ToString_m3341503944 ();
 extern "C" void SocketAddress_Equals_m4239961542 ();
 extern "C" void SocketAddress_GetHashCode_m1308071082 ();
 extern "C" void LingerOption__ctor_m134971468 ();
+extern "C" void NetworkStream__ctor_m2753228565 ();
 extern "C" void NetworkStream__ctor_m520140744 ();
 extern "C" void NetworkStream__ctor_m1461663701 ();
 extern "C" void NetworkStream_System_IDisposable_Dispose_m4271513331 ();
@@ -6204,7 +6714,9 @@ extern "C" void NetworkStream_get_CanWrite_m2455199718 ();
 extern "C" void NetworkStream_get_Length_m1553131640 ();
 extern "C" void NetworkStream_get_Position_m2427355579 ();
 extern "C" void NetworkStream_set_Position_m1068534608 ();
+extern "C" void NetworkStream_get_ReadTimeout_m2947262172 ();
 extern "C" void NetworkStream_set_ReadTimeout_m3931457129 ();
+extern "C" void NetworkStream_get_WriteTimeout_m1563094355 ();
 extern "C" void NetworkStream_BeginRead_m601033934 ();
 extern "C" void NetworkStream_BeginWrite_m3924679355 ();
 extern "C" void NetworkStream_Finalize_m1616600246 ();
@@ -6224,6 +6736,8 @@ extern "C" void Socket__cctor_m3717010356 ();
 extern "C" void Socket_LocalEndPoint_internal_m842593232 ();
 extern "C" void Socket_get_LocalEndPoint_m2353653724 ();
 extern "C" void Socket_get_SocketType_m179480281 ();
+extern "C" void Socket_get_SendTimeout_m1516554807 ();
+extern "C" void Socket_get_ReceiveTimeout_m432366242 ();
 extern "C" void Socket_set_ReceiveTimeout_m3463473559 ();
 extern "C" void Socket_Accept_internal_m3645944116 ();
 extern "C" void Socket_Accept_m2109262001 ();
@@ -6241,6 +6755,7 @@ extern "C" void Socket_EndSend_m1584170870 ();
 extern "C" void Socket_InvalidAsyncOp_m521531680 ();
 extern "C" void Socket_Listen_internal_m526300996 ();
 extern "C" void Socket_Listen_m2133463779 ();
+extern "C" void Socket_Poll_m3896260468 ();
 extern "C" void Socket_Receive_m1175719569 ();
 extern "C" void Socket_RecvFrom_internal_m548074296 ();
 extern "C" void Socket_ReceiveFrom_nochecks_m1640775589 ();
@@ -6263,6 +6778,7 @@ extern "C" void Socket_get_Blocking_m686821555 ();
 extern "C" void Socket_set_Blocking_m1232454324 ();
 extern "C" void Socket_get_Connected_m32348333 ();
 extern "C" void Socket_get_ProtocolType_m1063510627 ();
+extern "C" void Socket_set_NoDelay_m320978003 ();
 extern "C" void Socket_RemoteEndPoint_internal_m2146026531 ();
 extern "C" void Socket_get_RemoteEndPoint_m3864554657 ();
 extern "C" void Socket_Linger_m3971058726 ();
@@ -6279,12 +6795,15 @@ extern "C" void Socket_Connect_m3198523729 ();
 extern "C" void Socket_Poll_internal_m1151471955 ();
 extern "C" void Socket_Receive_internal_m2102825858 ();
 extern "C" void Socket_Receive_nochecks_m2765323495 ();
+extern "C" void Socket_GetSocketOption_obj_internal_m3360460275 ();
 extern "C" void Socket_Send_internal_m2939578505 ();
 extern "C" void Socket_Send_nochecks_m2300802670 ();
+extern "C" void Socket_GetSocketOption_m3158663719 ();
 extern "C" void Socket_Shutdown_internal_m2019310737 ();
 extern "C" void Socket_Shutdown_m202135370 ();
 extern "C" void Socket_SetSocketOption_internal_m111805231 ();
 extern "C" void Socket_SetSocketOption_m225156057 ();
+extern "C" void Socket_ThrowIfUpd_m253258129 ();
 extern "C" void SocketAsyncCall__ctor_m641028609 ();
 extern "C" void SocketAsyncCall_Invoke_m90963355 ();
 extern "C" void SocketAsyncCall_BeginInvoke_m2857843088 ();
@@ -6352,16 +6871,184 @@ extern "C" void TcpListener_Finalize_m1045232861 ();
 extern "C" void TcpListener_Start_m2992146021 ();
 extern "C" void TcpListener_Start_m3019820086 ();
 extern "C" void TcpListener_Stop_m2175143617 ();
+extern "C" void UploadDataCompletedEventHandler__ctor_m3690739526 ();
+extern "C" void UploadDataCompletedEventHandler_Invoke_m3794616473 ();
+extern "C" void UploadDataCompletedEventHandler_BeginInvoke_m2280310608 ();
+extern "C" void UploadDataCompletedEventHandler_EndInvoke_m3706338390 ();
+extern "C" void UploadFileCompletedEventHandler__ctor_m789301684 ();
+extern "C" void UploadFileCompletedEventHandler_Invoke_m3490991705 ();
+extern "C" void UploadFileCompletedEventHandler_BeginInvoke_m4056259188 ();
+extern "C" void UploadFileCompletedEventHandler_EndInvoke_m1334851012 ();
+extern "C" void UploadProgressChangedEventHandler__ctor_m4161358796 ();
+extern "C" void UploadProgressChangedEventHandler_Invoke_m2650283737 ();
+extern "C" void UploadProgressChangedEventHandler_BeginInvoke_m1713599236 ();
+extern "C" void UploadProgressChangedEventHandler_EndInvoke_m1561494492 ();
+extern "C" void UploadStringCompletedEventHandler__ctor_m2024789823 ();
+extern "C" void UploadStringCompletedEventHandler_Invoke_m828569081 ();
+extern "C" void UploadStringCompletedEventHandler_BeginInvoke_m1061327070 ();
+extern "C" void UploadStringCompletedEventHandler_EndInvoke_m81182927 ();
+extern "C" void UploadValuesCompletedEventHandler__ctor_m1088471886 ();
+extern "C" void UploadValuesCompletedEventHandler_Invoke_m2739632025 ();
+extern "C" void UploadValuesCompletedEventHandler_BeginInvoke_m4064605312 ();
+extern "C" void UploadValuesCompletedEventHandler_EndInvoke_m3016100958 ();
+extern "C" void WebAsyncResult__ctor_m1701398049 ();
+extern "C" void WebAsyncResult__ctor_m3971274728 ();
+extern "C" void WebAsyncResult__ctor_m3917357508 ();
+extern "C" void WebAsyncResult_SetCompleted_m3561553639 ();
+extern "C" void WebAsyncResult_Reset_m1140937314 ();
+extern "C" void WebAsyncResult_SetCompleted_m2960316168 ();
+extern "C" void WebAsyncResult_SetCompleted_m3009393870 ();
+extern "C" void WebAsyncResult_SetCompleted_m400315642 ();
+extern "C" void WebAsyncResult_DoCallback_m612756063 ();
+extern "C" void WebAsyncResult_WaitUntilComplete_m2752681109 ();
+extern "C" void WebAsyncResult_WaitUntilComplete_m4143413377 ();
+extern "C" void WebAsyncResult_get_AsyncState_m1743691224 ();
+extern "C" void WebAsyncResult_get_AsyncWaitHandle_m2543688004 ();
+extern "C" void WebAsyncResult_get_IsCompleted_m3042901185 ();
+extern "C" void WebAsyncResult_get_GotException_m3940364677 ();
+extern "C" void WebAsyncResult_get_Exception_m3377176904 ();
+extern "C" void WebAsyncResult_get_NBytes_m1499555429 ();
+extern "C" void WebAsyncResult_set_NBytes_m1001309402 ();
+extern "C" void WebAsyncResult_get_InnerAsyncResult_m3256692535 ();
+extern "C" void WebAsyncResult_set_InnerAsyncResult_m2944274132 ();
+extern "C" void WebAsyncResult_get_WriteStream_m3622907551 ();
+extern "C" void WebAsyncResult_get_Response_m3433104279 ();
+extern "C" void WebAsyncResult_get_Buffer_m1120906510 ();
+extern "C" void WebAsyncResult_get_Offset_m287883483 ();
+extern "C" void WebAsyncResult_get_Size_m788557449 ();
+extern "C" void WebClient__ctor_m2477960557 ();
+extern "C" void WebClient__cctor_m3320237024 ();
+extern "C" void WebClient_get_Headers_m4159086712 ();
+extern "C" void WebClient_get_Proxy_m212112292 ();
+extern "C" void WebClient_get_IsBusy_m2414763289 ();
+extern "C" void WebClient_CheckBusy_m581754988 ();
+extern "C" void WebClient_SetBusy_m1659299526 ();
+extern "C" void WebClient_DetermineMethod_m196435218 ();
+extern "C" void WebClient_UploadData_m1237853397 ();
+extern "C" void WebClient_UploadData_m1634783582 ();
+extern "C" void WebClient_UploadDataCore_m7188651 ();
+extern "C" void WebClient_UploadString_m1121356526 ();
+extern "C" void WebClient_CreateUri_m3126770009 ();
+extern "C" void WebClient_GetQueryString_m3086610068 ();
+extern "C" void WebClient_MakeUri_m1674872779 ();
+extern "C" void WebClient_SetupRequest_m931338404 ();
+extern "C" void WebClient_SetupRequest_m479462813 ();
+extern "C" void WebClient_ReadAll_m1240881634 ();
+extern "C" void WebClient_UrlEncode_m1541238133 ();
+extern "C" void WebClient_OnDownloadProgressChanged_m2326155103 ();
+extern "C" void WebClient_GetWebRequest_m2859966311 ();
+extern "C" void WebClient_GetWebResponse_m242843735 ();
+extern "C" void WebConnection__ctor_m570141276 ();
+extern "C" void WebConnection__cctor_m1414380979 ();
+extern "C" void WebConnection_CanReuse_m429734244 ();
+extern "C" void WebConnection_LoggedThrow_m289187660 ();
+extern "C" void WebConnection_CheckUnityWebSecurity_m2005814720 ();
+extern "C" void WebConnection_Connect_m1601206237 ();
+extern "C" void WebConnection_EnsureSSLStreamAvailable_m2023486437 ();
+extern "C" void WebConnection_CreateTunnel_m2875476391 ();
+extern "C" void WebConnection_ReadHeaders_m1472946024 ();
+extern "C" void WebConnection_CreateStream_m3681331491 ();
+extern "C" void WebConnection_HandleError_m1182435509 ();
+extern "C" void WebConnection_ReadDone_m2966323745 ();
+extern "C" void WebConnection_ExpectContent_m3311255475 ();
+extern "C" void WebConnection_GetCertificates_m1592645962 ();
+extern "C" void WebConnection_InitRead_m4254490116 ();
+extern "C" void WebConnection_GetResponse_m157348301 ();
+extern "C" void WebConnection_InitConnection_m1634600572 ();
+extern "C" void WebConnection_SendRequest_m3112009476 ();
+extern "C" void WebConnection_SendNext_m3731024933 ();
+extern "C" void WebConnection_NextRead_m2095832371 ();
+extern "C" void WebConnection_ReadLine_m2759062765 ();
+extern "C" void WebConnection_BeginRead_m3015313059 ();
+extern "C" void WebConnection_EndRead_m1274630179 ();
+extern "C" void WebConnection_EnsureRead_m929166331 ();
+extern "C" void WebConnection_CompleteChunkedRead_m3721158923 ();
+extern "C" void WebConnection_BeginWrite_m2573847028 ();
+extern "C" void WebConnection_EndWrite2_m4288679990 ();
+extern "C" void WebConnection_EndWrite_m2260987032 ();
+extern "C" void WebConnection_Read_m1730466610 ();
+extern "C" void WebConnection_Write_m2555077423 ();
+extern "C" void WebConnection_Close_m1582875591 ();
+extern "C" void WebConnection_Abort_m1843916898 ();
+extern "C" void WebConnection_ResetNtlm_m1493144846 ();
+extern "C" void WebConnection_get_Busy_m2822871714 ();
+extern "C" void WebConnection_set_PriorityRequest_m4059548249 ();
+extern "C" void WebConnection_get_NtlmAuthenticated_m2752033729 ();
+extern "C" void WebConnection_set_NtlmAuthenticated_m1641730266 ();
+extern "C" void WebConnection_get_NtlmCredential_m2164891099 ();
+extern "C" void WebConnection_set_NtlmCredential_m870530416 ();
+extern "C" void WebConnection_get_UnsafeAuthenticatedConnectionSharing_m1443601566 ();
+extern "C" void WebConnection_set_UnsafeAuthenticatedConnectionSharing_m1418610931 ();
+extern "C" void AbortHelper__ctor_m551363659 ();
+extern "C" void AbortHelper_Abort_m3565251507 ();
+extern "C" void WebConnectionData__ctor_m37470512 ();
+extern "C" void WebConnectionGroup__ctor_m1503299254 ();
+extern "C" void WebConnectionGroup_GetConnection_m3061212227 ();
+extern "C" void WebConnectionGroup_PrepareSharingNtlm_m4279924202 ();
+extern "C" void WebConnectionGroup_CreateOrReuseConnection_m1829131780 ();
+extern "C" void WebConnectionGroup_get_Queue_m318446937 ();
+extern "C" void WebConnectionStream__ctor_m1279182072 ();
+extern "C" void WebConnectionStream__ctor_m2579331537 ();
+extern "C" void WebConnectionStream__cctor_m1397878419 ();
+extern "C" void WebConnectionStream_IsNtlmAuth_m1696095129 ();
+extern "C" void WebConnectionStream_CheckResponseInBuffer_m2876129862 ();
+extern "C" void WebConnectionStream_get_Connection_m2978195726 ();
+extern "C" void WebConnectionStream_get_ReadTimeout_m4090731914 ();
+extern "C" void WebConnectionStream_set_ReadTimeout_m926708759 ();
+extern "C" void WebConnectionStream_get_WriteTimeout_m2650917989 ();
+extern "C" void WebConnectionStream_get_CompleteRequestWritten_m817760810 ();
+extern "C" void WebConnectionStream_set_SendChunked_m761764086 ();
+extern "C" void WebConnectionStream_set_ReadBuffer_m3498879948 ();
+extern "C" void WebConnectionStream_set_ReadBufferOffset_m1760629601 ();
+extern "C" void WebConnectionStream_set_ReadBufferSize_m2254280015 ();
+extern "C" void WebConnectionStream_get_WriteBuffer_m2699123428 ();
+extern "C" void WebConnectionStream_get_WriteBufferLength_m47053412 ();
+extern "C" void WebConnectionStream_ForceCompletion_m2616236063 ();
+extern "C" void WebConnectionStream_CheckComplete_m212386969 ();
+extern "C" void WebConnectionStream_ReadAll_m950658339 ();
+extern "C" void WebConnectionStream_WriteCallbackWrapper_m2881691306 ();
+extern "C" void WebConnectionStream_ReadCallbackWrapper_m2369472659 ();
+extern "C" void WebConnectionStream_Read_m635345913 ();
+extern "C" void WebConnectionStream_BeginRead_m1757407100 ();
+extern "C" void WebConnectionStream_EndRead_m803616490 ();
+extern "C" void WebConnectionStream_WriteRequestAsyncCB_m2808602240 ();
+extern "C" void WebConnectionStream_BeginWrite_m1117541837 ();
+extern "C" void WebConnectionStream_CheckWriteOverflow_m2000670613 ();
+extern "C" void WebConnectionStream_EndWrite_m1280201525 ();
+extern "C" void WebConnectionStream_Write_m2245002866 ();
+extern "C" void WebConnectionStream_Flush_m3469727612 ();
+extern "C" void WebConnectionStream_SetHeaders_m859079643 ();
+extern "C" void WebConnectionStream_get_RequestWritten_m2994269905 ();
+extern "C" void WebConnectionStream_WriteRequestAsync_m1160923980 ();
+extern "C" void WebConnectionStream_WriteHeaders_m3079500177 ();
+extern "C" void WebConnectionStream_WriteRequest_m3986708058 ();
+extern "C" void WebConnectionStream_InternalClose_m3340523763 ();
+extern "C" void WebConnectionStream_Close_m801672560 ();
+extern "C" void WebConnectionStream_KillBuffer_m2133152936 ();
+extern "C" void WebConnectionStream_Seek_m4285092954 ();
+extern "C" void WebConnectionStream_SetLength_m4170900146 ();
+extern "C" void WebConnectionStream_get_CanSeek_m1235161633 ();
+extern "C" void WebConnectionStream_get_CanRead_m1206406591 ();
+extern "C" void WebConnectionStream_get_CanWrite_m3561519480 ();
+extern "C" void WebConnectionStream_get_Length_m2762373450 ();
+extern "C" void WebConnectionStream_get_Position_m572597773 ();
+extern "C" void WebConnectionStream_set_Position_m743042146 ();
 extern "C" void WebException__ctor_m350863519 ();
+extern "C" void WebException__ctor_m1678776515 ();
 extern "C" void WebException__ctor_m1447032160 ();
+extern "C" void WebException__ctor_m3103124179 ();
+extern "C" void WebException__ctor_m2973981746 ();
+extern "C" void WebException__ctor_m1782198850 ();
 extern "C" void WebException__ctor_m3379283423 ();
 extern "C" void WebException_System_Runtime_Serialization_ISerializable_GetObjectData_m871947788 ();
+extern "C" void WebException_get_Status_m2264404714 ();
 extern "C" void WebException_GetObjectData_m1063640253 ();
 extern "C" void WebHeaderCollection__ctor_m40272365 ();
 extern "C" void WebHeaderCollection__ctor_m3165611438 ();
 extern "C" void WebHeaderCollection__ctor_m2599998628 ();
 extern "C" void WebHeaderCollection__cctor_m766347104 ();
 extern "C" void WebHeaderCollection_System_Runtime_Serialization_ISerializable_GetObjectData_m3098703614 ();
+extern "C" void WebHeaderCollection_Add_m375449750 ();
 extern "C" void WebHeaderCollection_Add_m4256453202 ();
 extern "C" void WebHeaderCollection_AddWithoutValidate_m1282121770 ();
 extern "C" void WebHeaderCollection_GetValues_m3929772416 ();
@@ -6378,14 +7065,22 @@ extern "C" void WebHeaderCollection_get_Keys_m2328892712 ();
 extern "C" void WebHeaderCollection_Get_m249241391 ();
 extern "C" void WebHeaderCollection_Get_m3888214244 ();
 extern "C" void WebHeaderCollection_GetKey_m721597780 ();
+extern "C" void WebHeaderCollection_RequestHeaderToString_m3348830764 ();
+extern "C" void WebHeaderCollection_set_Item_m761277535 ();
 extern "C" void WebHeaderCollection_Clear_m1741372952 ();
 extern "C" void WebHeaderCollection_GetEnumerator_m671727323 ();
+extern "C" void WebHeaderCollection_SetInternal_m805656120 ();
+extern "C" void WebHeaderCollection_SetInternal_m2976857204 ();
+extern "C" void WebHeaderCollection_RemoveAndAdd_m205461369 ();
+extern "C" void WebHeaderCollection_RemoveInternal_m2085139626 ();
+extern "C" void WebHeaderCollection_IsMultiValue_m762987923 ();
 extern "C" void WebHeaderCollection_IsHeaderValue_m3476411603 ();
 extern "C" void WebHeaderCollection_IsHeaderName_m671697555 ();
 extern "C" void WebProxy__ctor_m2333292256 ();
 extern "C" void WebProxy__ctor_m1295075053 ();
 extern "C" void WebProxy__ctor_m3926845473 ();
 extern "C" void WebProxy_System_Runtime_Serialization_ISerializable_GetObjectData_m1269108139 ();
+extern "C" void WebProxy_get_Credentials_m3075169793 ();
 extern "C" void WebProxy_get_UseDefaultCredentials_m2666418573 ();
 extern "C" void WebProxy_GetProxy_m1799832125 ();
 extern "C" void WebProxy_IsBypassed_m2441560530 ();
@@ -6397,16 +7092,40 @@ extern "C" void WebRequest__cctor_m419422830 ();
 extern "C" void WebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m3499262348 ();
 extern "C" void WebRequest_AddDynamicPrefix_m4259958729 ();
 extern "C" void WebRequest_GetMustImplement_m2345556858 ();
+extern "C" void WebRequest_get_ContentLength_m282902724 ();
+extern "C" void WebRequest_set_ContentLength_m2204879281 ();
+extern "C" void WebRequest_set_ContentType_m696487215 ();
+extern "C" void WebRequest_get_Credentials_m632231296 ();
+extern "C" void WebRequest_set_Credentials_m1948289971 ();
+extern "C" void WebRequest_get_Headers_m2569908874 ();
+extern "C" void WebRequest_set_Headers_m2948783351 ();
+extern "C" void WebRequest_get_Method_m1855994732 ();
+extern "C" void WebRequest_set_Method_m89055935 ();
+extern "C" void WebRequest_get_Proxy_m1263414958 ();
+extern "C" void WebRequest_set_Proxy_m534868955 ();
+extern "C" void WebRequest_get_RequestUri_m3887362073 ();
 extern "C" void WebRequest_get_DefaultWebProxy_m645383963 ();
 extern "C" void WebRequest_GetDefaultWebProxy_m3231963326 ();
+extern "C" void WebRequest_Abort_m3557951853 ();
+extern "C" void WebRequest_BeginGetRequestStream_m886113327 ();
+extern "C" void WebRequest_BeginGetResponse_m1262614523 ();
+extern "C" void WebRequest_Create_m1795071884 ();
+extern "C" void WebRequest_EndGetRequestStream_m653456156 ();
+extern "C" void WebRequest_EndGetResponse_m1707925532 ();
+extern "C" void WebRequest_GetRequestStream_m2000848392 ();
+extern "C" void WebRequest_GetResponse_m461741742 ();
 extern "C" void WebRequest_GetObjectData_m3619776829 ();
+extern "C" void WebRequest_GetCreator_m1370740790 ();
 extern "C" void WebRequest_AddPrefix_m2923345701 ();
 extern "C" void WebResponse__ctor_m3965513847 ();
 extern "C" void WebResponse__ctor_m2042933560 ();
 extern "C" void WebResponse_System_IDisposable_Dispose_m931962760 ();
 extern "C" void WebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m2977596212 ();
+extern "C" void WebResponse_get_ContentLength_m890257754 ();
+extern "C" void WebResponse_get_Headers_m4124635138 ();
 extern "C" void WebResponse_GetMustImplement_m1484151200 ();
 extern "C" void WebResponse_Close_m1381406093 ();
+extern "C" void WebResponse_GetResponseStream_m1640513078 ();
 extern "C" void WebResponse_GetObjectData_m3049078933 ();
 extern "C" void AsnEncodedData__ctor_m4216053755 ();
 extern "C" void AsnEncodedData__ctor_m2841294762 ();
@@ -6437,8 +7156,10 @@ extern "C" void OidCollection_System_Collections_IEnumerable_GetEnumerator_m4948
 extern "C" void OidCollection_get_Count_m924395419 ();
 extern "C" void OidCollection_get_IsSynchronized_m2984568922 ();
 extern "C" void OidCollection_get_Item_m1851824850 ();
+extern "C" void OidCollection_get_Item_m2028693921 ();
 extern "C" void OidCollection_get_SyncRoot_m887599928 ();
 extern "C" void OidCollection_Add_m1834548415 ();
+extern "C" void OidCollection_set_ReadOnly_m3730819443 ();
 extern "C" void OidEnumerator__ctor_m1686464972 ();
 extern "C" void OidEnumerator_System_Collections_IEnumerator_get_Current_m530360623 ();
 extern "C" void OidEnumerator_MoveNext_m3766070973 ();
@@ -6529,6 +7250,7 @@ extern "C" void X509Chain__ctor_m440780008 ();
 extern "C" void X509Chain__ctor_m2887631967 ();
 extern "C" void X509Chain__cctor_m297182149 ();
 extern "C" void X509Chain_get_ChainPolicy_m3141824143 ();
+extern "C" void X509Chain_set_ChainPolicy_m1767857922 ();
 extern "C" void X509Chain_get_ChainStatus_m3128438893 ();
 extern "C" void X509Chain_Build_m417178512 ();
 extern "C" void X509Chain_Reset_m2382180245 ();
@@ -6594,6 +7316,7 @@ extern "C" void X509ChainStatus_set_Status_m2412197578_AdjustorThunk ();
 extern "C" void X509ChainStatus_set_StatusInformation_m2801383985_AdjustorThunk ();
 extern "C" void X509ChainStatus_GetInformation_m369546830 ();
 extern "C" void X509EnhancedKeyUsageExtension__ctor_m1143045852 ();
+extern "C" void X509EnhancedKeyUsageExtension_get_EnhancedKeyUsages_m337632124 ();
 extern "C" void X509EnhancedKeyUsageExtension_CopyFrom_m3559074914 ();
 extern "C" void X509EnhancedKeyUsageExtension_Decode_m3913247855 ();
 extern "C" void X509EnhancedKeyUsageExtension_ToString_m554823682 ();
@@ -7034,6 +7757,7 @@ extern "C" void Uri__ctor_m4101815696 ();
 extern "C" void Uri__ctor_m3285657729 ();
 extern "C" void Uri__ctor_m1689224330 ();
 extern "C" void Uri__ctor_m2876888702 ();
+extern "C" void Uri__ctor_m3555389759 ();
 extern "C" void Uri__cctor_m2145170622 ();
 extern "C" void Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m3581151196 ();
 extern "C" void Uri_Merge_m1925025748 ();
@@ -7043,9 +7767,11 @@ extern "C" void Uri_get_Authority_m1914393796 ();
 extern "C" void Uri_get_Fragment_m219209233 ();
 extern "C" void Uri_get_Host_m1446697833 ();
 extern "C" void Uri_get_HostNameType_m3669497072 ();
+extern "C" void Uri_get_IsDefaultPort_m1824629382 ();
 extern "C" void Uri_get_IsFile_m1860057402 ();
 extern "C" void Uri_get_IsLoopback_m224603913 ();
 extern "C" void Uri_get_IsUnc_m766729742 ();
+extern "C" void Uri_get_LocalPath_m2505724017 ();
 extern "C" void Uri_get_PathAndQuery_m3621173943 ();
 extern "C" void Uri_get_Port_m2253782543 ();
 extern "C" void Uri_get_Query_m1454422281 ();
@@ -7090,6 +7816,10 @@ extern "C" void Uri_get_Parser_m533607664 ();
 extern "C" void Uri_NeedToEscapeDataChar_m2713938880 ();
 extern "C" void Uri_EscapeDataString_m3238747918 ();
 extern "C" void Uri_TryCreate_m1126538084 ();
+extern "C" void Uri_UnescapeDataString_m207009557 ();
+extern "C" void Uri_GetInt_m2652275821 ();
+extern "C" void Uri_GetChar_m979940409 ();
+extern "C" void Uri_GetChars_m731438051 ();
 extern "C" void Uri_EnsureAbsoluteUri_m3407571844 ();
 extern "C" void Uri_op_Equality_m877019543 ();
 extern "C" void Uri_op_Inequality_m2899852498 ();
@@ -7350,7 +8080,7 @@ extern "C" void CertificateValidationCallback__ctor_m752675221 ();
 extern "C" void CertificateValidationCallback_Invoke_m481730652 ();
 extern "C" void CertificateValidationCallback_BeginInvoke_m1580004723 ();
 extern "C" void CertificateValidationCallback_EndInvoke_m2267930199 ();
-extern "C" void CertificateValidationCallback2__ctor_m1854682743 ();
+extern "C" void CertificateValidationCallback2__ctor_m1840059355 ();
 extern "C" void CertificateValidationCallback2_Invoke_m4228010672 ();
 extern "C" void CertificateValidationCallback2_BeginInvoke_m1231864174 ();
 extern "C" void CertificateValidationCallback2_EndInvoke_m2684174416 ();
@@ -7720,7 +8450,7 @@ extern "C" void SslClientStream_add_ClientCertSelection_m3598639054 ();
 extern "C" void SslClientStream_remove_ClientCertSelection_m3341991123 ();
 extern "C" void SslClientStream_add_PrivateKeySelection_m3756271176 ();
 extern "C" void SslClientStream_remove_PrivateKeySelection_m7214243 ();
-extern "C" void SslClientStream_add_ServerCertValidation2_m2720675414 ();
+extern "C" void SslClientStream_add_ServerCertValidation2_m1264991858 ();
 extern "C" void SslClientStream_remove_ServerCertValidation2_m737020123 ();
 extern "C" void SslClientStream_get_InputBuffer_m4205110840 ();
 extern "C" void SslClientStream_get_ClientCertificates_m4081278826 ();
@@ -7895,6 +8625,7 @@ extern "C" void TlsStream_SetLength_m702479131 ();
 extern "C" void TlsStream_Seek_m484817355 ();
 extern "C" void TlsStream_Read_m3435838442 ();
 extern "C" void TlsStream_Write_m2853472233 ();
+extern "C" void ValidationResult__ctor_m1740064959 ();
 extern "C" void ValidationResult_get_Trusted_m3614004972 ();
 extern "C" void ValidationResult_get_ErrorCode_m4021319972 ();
 extern "C" void AuthorityKeyIdentifierExtension__ctor_m273322001 ();
@@ -7924,10 +8655,10 @@ extern "C" void NetscapeCertTypeExtension__ctor_m3785381751 ();
 extern "C" void NetscapeCertTypeExtension_Decode_m4024937351 ();
 extern "C" void NetscapeCertTypeExtension_Support_m1416151043 ();
 extern "C" void NetscapeCertTypeExtension_ToString_m3439723074 ();
-extern "C" void SubjectAltNameExtension__ctor_m607242584 ();
+extern "C" void SubjectAltNameExtension__ctor_m153917556 ();
 extern "C" void SubjectAltNameExtension_Decode_m3473224134 ();
-extern "C" void SubjectAltNameExtension_get_DNSNames_m3652648031 ();
-extern "C" void SubjectAltNameExtension_get_IPAddresses_m3152105661 ();
+extern "C" void SubjectAltNameExtension_get_DNSNames_m2281272259 ();
+extern "C" void SubjectAltNameExtension_get_IPAddresses_m2225401561 ();
 extern "C" void SubjectAltNameExtension_ToString_m2980757505 ();
 extern "C" void PKCS12__ctor_m2645615037 ();
 extern "C" void PKCS12__ctor_m1570997648 ();
@@ -8232,6 +8963,7 @@ extern "C" void Application_get_isPlaying_m987993960 ();
 extern "C" void Application_get_isEditor_m1279348309 ();
 extern "C" void Application_get_platform_m2918632856 ();
 extern "C" void Application_get_unityVersion_m3443350436 ();
+extern "C" void Application_OpenURL_m1861717334 ();
 extern "C" void Application_set_targetFrameRate_m498658007 ();
 extern "C" void Application_CallLogCallback_m419361836 ();
 extern "C" void Application_LoadLevel_m2722573885 ();
@@ -8298,6 +9030,7 @@ extern "C" void AudioSource_UnPause_m1028494947 ();
 extern "C" void AudioSource_INTERNAL_CALL_UnPause_m258094196 ();
 extern "C" void AudioSource_get_isPlaying_m4213444423 ();
 extern "C" void AudioSource_PlayOneShot_m823779350 ();
+extern "C" void AudioSource_PlayOneShot_m1217449713 ();
 extern "C" void AudioSource_set_loop_m3617666708 ();
 extern "C" void AudioSource_set_playOnAwake_m1884534674 ();
 extern "C" void AudioSource_set_spatialBlend_m2546548421 ();
@@ -8306,6 +9039,7 @@ extern "C" void AudioSource_set_bypassReverbZones_m554383373 ();
 extern "C" void AudioSource_set_dopplerLevel_m4264527772 ();
 extern "C" void AudioSource_set_priority_m3031232686 ();
 extern "C" void AudioSource_set_mute_m4040046601 ();
+extern "C" void AudioSource_set_rolloffMode_m2308725576 ();
 extern "C" void AudioSource_GetOutputDataHelper_m1525923523 ();
 extern "C" void AudioSource_GetOutputData_m2583313397 ();
 extern "C" void AudioSource_SetSpatializerFloat_m3192603774 ();
@@ -8824,6 +9558,7 @@ extern "C" void FontTextureRebuildCallback_Invoke_m3507488951 ();
 extern "C" void FontTextureRebuildCallback_BeginInvoke_m2984345076 ();
 extern "C" void FontTextureRebuildCallback_EndInvoke_m2078440109 ();
 extern "C" void GameObject__ctor_m3920833606 ();
+extern "C" void GameObject__ctor_m845034556 ();
 extern "C" void GameObject__ctor_m176066391 ();
 extern "C" void GameObject_GetComponent_m1004814461 ();
 extern "C" void GameObject_GetComponentFastPath_m2905716663 ();
@@ -8840,6 +9575,7 @@ extern "C" void GameObject_get_active_m1960165469 ();
 extern "C" void GameObject_SetActive_m3538205401 ();
 extern "C" void GameObject_get_activeSelf_m3858025161 ();
 extern "C" void GameObject_get_activeInHierarchy_m612450965 ();
+extern "C" void GameObject_set_isStatic_m1907529556 ();
 extern "C" void GameObject_get_tag_m211612200 ();
 extern "C" void GameObject_set_tag_m859036203 ();
 extern "C" void GameObject_FindGameObjectWithTag_m2635560165 ();
@@ -8883,8 +9619,11 @@ extern "C" void GUI_set_nextScrollStepTime_m3820512796 ();
 extern "C" void GUI_set_skin_m1213959601 ();
 extern "C" void GUI_get_skin_m4001454842 ();
 extern "C" void GUI_DoSetSkin_m800823745 ();
+extern "C" void GUI_Button_m885093907 ();
 extern "C" void GUI_CallWindowDelegate_m2260338804 ();
 extern "C" void GUI_set_changed_m727947722 ();
+extern "C" void GUI_DoButton_m2194494269 ();
+extern "C" void GUI_INTERNAL_CALL_DoButton_m1954108340 ();
 extern "C" void ScrollViewState__ctor_m739544590 ();
 extern "C" void WindowFunction__ctor_m732638321 ();
 extern "C" void WindowFunction_Invoke_m2798584028 ();
@@ -9192,6 +9931,7 @@ extern "C" void HumanBone_set_humanName_m1186126593_AdjustorThunk ();
 extern "C" void IL2CPPStructAlignmentAttribute__ctor_m55581643 ();
 extern "C" void Input__cctor_m1327041086 ();
 extern "C" void Input_GetKeyDownInt_m3548492840 ();
+extern "C" void Input_GetAxis_m2027668530 ();
 extern "C" void Input_GetAxisRaw_m1900207208 ();
 extern "C" void Input_GetButtonDown_m1879002085 ();
 extern "C" void Input_GetKeyDown_m2928824675 ();
@@ -9645,6 +10385,26 @@ extern "C" void Object_FindObjectOfType_m3820159265 ();
 extern "C" void Object_op_Implicit_m2106766291 ();
 extern "C" void Object_op_Equality_m3964590952 ();
 extern "C" void Object_op_Inequality_m1296218211 ();
+extern "C" void ParticleSystem_get_isPlaying_m184625675 ();
+extern "C" void ParticleSystem_set_loop_m2070057540 ();
+extern "C" void ParticleSystem_set_enableEmission_m3362064842 ();
+extern "C" void ParticleSystem_Internal_Play_m594025146 ();
+extern "C" void ParticleSystem_Internal_Stop_m4175525512 ();
+extern "C" void ParticleSystem_Internal_IsAlive_m3898640007 ();
+extern "C" void ParticleSystem_Play_m1637509303 ();
+extern "C" void ParticleSystem_Stop_m1331160206 ();
+extern "C" void ParticleSystem_Stop_m1876199813 ();
+extern "C" void ParticleSystem_IsAlive_m3733722867 ();
+extern "C" void ParticleSystem_IsAlive_m2723817258 ();
+extern "C" void ParticleSystem_IterateParticleSystems_m2232250723 ();
+extern "C" void ParticleSystem_IterateParticleSystemsRecursive_m389741621 ();
+extern "C" void ParticleSystem_U3CPlayU3Em__1_m745236472 ();
+extern "C" void ParticleSystem_U3CStopU3Em__2_m2892570987 ();
+extern "C" void ParticleSystem_U3CIsAliveU3Em__5_m576010307 ();
+extern "C" void IteratorDelegate__ctor_m2534678614 ();
+extern "C" void IteratorDelegate_Invoke_m3641019902 ();
+extern "C" void IteratorDelegate_BeginInvoke_m3274238639 ();
+extern "C" void IteratorDelegate_EndInvoke_m3581459136 ();
 extern "C" void Physics_Raycast_m1758069759 ();
 extern "C" void Physics_Raycast_m1600345803 ();
 extern "C" void Physics_Raycast_m165875788 ();
@@ -9685,6 +10445,13 @@ extern "C" void Quaternion_INTERNAL_CALL_LookRotation_m1501255504 ();
 extern "C" void Quaternion_Inverse_m3542515566 ();
 extern "C" void Quaternion_INTERNAL_CALL_Inverse_m4175627710 ();
 extern "C" void Quaternion_ToString_m1793285860_AdjustorThunk ();
+extern "C" void Quaternion_get_eulerAngles_m997303795_AdjustorThunk ();
+extern "C" void Quaternion_Euler_m1204688217 ();
+extern "C" void Quaternion_Internal_MakePositive_m4059160381 ();
+extern "C" void Quaternion_Internal_ToEulerRad_m1608666215 ();
+extern "C" void Quaternion_INTERNAL_CALL_Internal_ToEulerRad_m1660134351 ();
+extern "C" void Quaternion_Internal_FromEulerRad_m3681319598 ();
+extern "C" void Quaternion_INTERNAL_CALL_Internal_FromEulerRad_m1312441940 ();
 extern "C" void Quaternion_GetHashCode_m3823258238_AdjustorThunk ();
 extern "C" void Quaternion_Equals_m3843409946_AdjustorThunk ();
 extern "C" void Quaternion_op_Multiply_m3077481361 ();
@@ -9837,16 +10604,22 @@ extern "C" void RenderTexture_INTERNAL_CALL_DiscardContents_m3754318489 ();
 extern "C" void RenderTexture_get_active_m1725644858 ();
 extern "C" void RenderTexture_set_active_m1002947377 ();
 extern "C" void RequireComponent__ctor_m2023271172 ();
+extern "C" void Resolution_get_width_m3522089436_AdjustorThunk ();
+extern "C" void Resolution_get_height_m2314404467_AdjustorThunk ();
+extern "C" void Resolution_ToString_m139257714_AdjustorThunk ();
 extern "C" void ResourceRequest__ctor_m2863879896 ();
 extern "C" void ResourceRequest_get_asset_m670320982 ();
 extern "C" void Resources_Load_m2187391845 ();
 extern "C" void Resources_Load_m3601699608 ();
 extern "C" void Resources_GetBuiltinResource_m1250078467 ();
+extern "C" void Rigidbody_set_freezeRotation_m3989473889 ();
 extern "C" void RPC__ctor_m281827604 ();
 extern "C" void Scene_get_handle_m2277248521_AdjustorThunk ();
+extern "C" void Scene_get_name_m894591657_AdjustorThunk ();
 extern "C" void Scene_get_buildIndex_m3533090789_AdjustorThunk ();
 extern "C" void Scene_GetHashCode_m2000109307_AdjustorThunk ();
 extern "C" void Scene_Equals_m93578403_AdjustorThunk ();
+extern "C" void Scene_GetNameInternal_m2496405436 ();
 extern "C" void Scene_GetBuildIndexInternal_m76376146 ();
 extern "C" void SceneManager_GetActiveScene_m3062973092 ();
 extern "C" void SceneManager_INTERNAL_CALL_GetActiveScene_m3594338006 ();
@@ -9857,9 +10630,14 @@ extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3775081569 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m1398790415 ();
 extern "C" void SceneManager_Internal_SceneUnloaded_m3773648285 ();
 extern "C" void SceneManager_Internal_ActiveSceneChanged_m3583151927 ();
+extern "C" void Screen_get_currentResolution_m2532370351 ();
+extern "C" void Screen_SetResolution_m1695402355 ();
+extern "C" void Screen_SetResolution_m3920430564 ();
 extern "C" void Screen_get_width_m3080333084 ();
 extern "C" void Screen_get_height_m1504859443 ();
 extern "C" void Screen_get_dpi_m3780069159 ();
+extern "C" void Screen_get_fullScreen_m4283694285 ();
+extern "C" void Screen_set_fullScreen_m2604999058 ();
 extern "C" void Screen_set_sleepTimeout_m4188281051 ();
 extern "C" void ScriptableObject__ctor_m1827087273 ();
 extern "C" void ScriptableObject_Internal_CreateScriptableObject_m2334361070 ();
@@ -10140,6 +10918,7 @@ extern "C" void Time_get_realtimeSinceStartup_m2972554983 ();
 extern "C" void TooltipAttribute__ctor_m3341446606 ();
 extern "C" void Touch_get_fingerId_m1427167959_AdjustorThunk ();
 extern "C" void Touch_get_position_m1943849441_AdjustorThunk ();
+extern "C" void Touch_get_deltaPosition_m3983677995_AdjustorThunk ();
 extern "C" void Touch_get_phase_m3314549414_AdjustorThunk ();
 extern "C" void Touch_get_type_m1428398012_AdjustorThunk ();
 extern "C" void TouchScreenKeyboard__ctor_m3607055310 ();
@@ -10168,6 +10947,7 @@ extern "C" void Transform_get_localPosition_m668140784 ();
 extern "C" void Transform_set_localPosition_m3504330903 ();
 extern "C" void Transform_INTERNAL_get_localPosition_m2703574131 ();
 extern "C" void Transform_INTERNAL_set_localPosition_m221305727 ();
+extern "C" void Transform_get_eulerAngles_m1058084741 ();
 extern "C" void Transform_get_forward_m877665793 ();
 extern "C" void Transform_get_rotation_m11483428 ();
 extern "C" void Transform_set_rotation_m1525803229 ();
@@ -10191,6 +10971,10 @@ extern "C" void Transform_get_worldToLocalMatrix_m3792395652 ();
 extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m3861589095 ();
 extern "C" void Transform_get_localToWorldMatrix_m3571020210 ();
 extern "C" void Transform_INTERNAL_get_localToWorldMatrix_m3747334677 ();
+extern "C" void Transform_LookAt_m2663225588 ();
+extern "C" void Transform_LookAt_m3252223111 ();
+extern "C" void Transform_LookAt_m2054691043 ();
+extern "C" void Transform_INTERNAL_CALL_LookAt_m302711157 ();
 extern "C" void Transform_TransformPoint_m437395512 ();
 extern "C" void Transform_INTERNAL_CALL_TransformPoint_m1435510371 ();
 extern "C" void Transform_InverseTransformPoint_m1626812000 ();
@@ -10224,7 +11008,9 @@ extern "C" void Vector2_ToString_m3859776067_AdjustorThunk ();
 extern "C" void Vector2_GetHashCode_m128434585_AdjustorThunk ();
 extern "C" void Vector2_Equals_m3404198849_AdjustorThunk ();
 extern "C" void Vector2_Dot_m2437602225 ();
+extern "C" void Vector2_get_magnitude_m1987058139_AdjustorThunk ();
 extern "C" void Vector2_get_sqrMagnitude_m996072851_AdjustorThunk ();
+extern "C" void Vector2_Distance_m340609291 ();
 extern "C" void Vector2_SqrMagnitude_m4007443280 ();
 extern "C" void Vector2_get_zero_m199872368 ();
 extern "C" void Vector2_get_one_m2767488832 ();
@@ -10319,107 +11105,71 @@ extern "C" void NetFxCoreExtensions_GetMethodInfo_m1628849205 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m1168575159 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m2173394041 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m318752778 ();
-extern "C" void ByteArray_Copy_m3670225728 ();
-extern "C" void ByteArray_ByteCopy_m2791369704 ();
-extern "C" void ByteArray_Reverse_m4198676671 ();
-extern "C" void ByteString__ctor_m3954052279 ();
-extern "C" void ByteString_GetEnumerator_m2168507865 ();
-extern "C" void ByteString_System_Collections_IEnumerable_GetEnumerator_m740940383 ();
-extern "C" void ByteString_CreateCodedInput_m74995625 ();
-extern "C" void ByteString_Equals_m1850465767 ();
-extern "C" void ByteString_GetHashCode_m3538174975 ();
-extern "C" void ByteString_Equals_m1393476260 ();
-extern "C" void ByteString__cctor_m3533786523 ();
-extern "C" void CodedInputStream__ctor_m3357527409 ();
-extern "C" void CodedInputStream__ctor_m2622803471 ();
-extern "C" void CodedInputStream_get_ReachedLimit_m802249722 ();
-extern "C" void CodedInputStream_get_IsAtEnd_m238754927 ();
-extern "C" void CodedInputStream_CreateInstance_m2850959676 ();
-extern "C" void CodedInputStream_CreateInstance_m361471812 ();
-extern "C" void CodedInputStream_CheckLastTagWas_m200294519 ();
-extern "C" void CodedInputStream_PeekNextTag_m2476726456 ();
-extern "C" void CodedInputStream_ReadTag_m1590405344 ();
-extern "C" void CodedInputStream_ReadFloat_m232796065 ();
-extern "C" void CodedInputStream_ReadInt64_m3858450537 ();
-extern "C" void CodedInputStream_ReadInt32_m819498505 ();
-extern "C" void CodedInputStream_ReadMessage_m1770546095 ();
-extern "C" void CodedInputStream_BeginArray_m2258619110 ();
-extern "C" void CodedInputStream_ContinueArray_m3756366926 ();
-extern "C" void CodedInputStream_ContinueArray_m1770543048 ();
-extern "C" void CodedInputStream_ReadFloatArray_m2123658713 ();
-extern "C" void CodedInputStream_SlowReadRawVarint32_m2448488201 ();
-extern "C" void CodedInputStream_ReadRawVarint32_m3662731018 ();
-extern "C" void CodedInputStream_ReadRawVarint32_m3276130721 ();
-extern "C" void CodedInputStream_ReadRawVarint64_m364557290 ();
-extern "C" void CodedInputStream_ReadRawLittleEndian32_m2952990675 ();
-extern "C" void CodedInputStream_ReadRawLittleEndian64_m396883955 ();
-extern "C" void CodedInputStream_PushLimit_m994285030 ();
-extern "C" void CodedInputStream_RecomputeBufferSizeAfterLimit_m488640474 ();
-extern "C" void CodedInputStream_PopLimit_m1836646151 ();
-extern "C" void CodedInputStream_RefillBuffer_m1860958645 ();
-extern "C" void CodedInputStream_ReadRawByte_m1059326780 ();
-extern "C" void CodedInputStream_ReadRawBytes_m2322882316 ();
-extern "C" void CodedInputStream_SkipField_m2087251765 ();
-extern "C" void CodedInputStream_SkipMessage_m3718327390 ();
-extern "C" void CodedInputStream_SkipRawBytes_m242966367 ();
-extern "C" void CodedInputStream_SkipImpl_m789886620 ();
-extern "C" void CodedOutputStream__ctor_m734597254 ();
-extern "C" void CodedOutputStream_get_SpaceLeft_m250911719 ();
-extern "C" void CodedOutputStream_ComputeFloatSize_m65298715 ();
-extern "C" void CodedOutputStream_ComputeInt64Size_m1718363313 ();
-extern "C" void CodedOutputStream_ComputeInt32Size_m3699664239 ();
-extern "C" void CodedOutputStream_ComputeMessageSize_m1597509401 ();
-extern "C" void CodedOutputStream_ComputeEnumSize_m1393339146 ();
-extern "C" void CodedOutputStream_ComputeInt32SizeNoTag_m1540664629 ();
-extern "C" void CodedOutputStream_ComputeEnumSizeNoTag_m4278042064 ();
-extern "C" void CodedOutputStream_ComputeRawVarint32Size_m3154776802 ();
-extern "C" void CodedOutputStream_ComputeRawVarint64Size_m2971184036 ();
-extern "C" void CodedOutputStream_ComputeTagSize_m1517401140 ();
-extern "C" void CodedOutputStream_CreateInstance_m3802784570 ();
-extern "C" void CodedOutputStream_CreateInstance_m869516314 ();
-extern "C" void CodedOutputStream_WriteFloat_m3588002640 ();
-extern "C" void CodedOutputStream_WriteInt64_m913588508 ();
-extern "C" void CodedOutputStream_WriteInt32_m2011528986 ();
-extern "C" void CodedOutputStream_WriteMessage_m2366649166 ();
-extern "C" void CodedOutputStream_WriteEnum_m3638986103 ();
-extern "C" void CodedOutputStream_WriteFloatNoTag_m477583950 ();
-extern "C" void CodedOutputStream_WriteInt32NoTag_m3134807772 ();
-extern "C" void CodedOutputStream_WritePackedFloatArray_m634747521 ();
-extern "C" void CodedOutputStream_WriteTag_m290734255 ();
-extern "C" void CodedOutputStream_WriteRawVarint32_m3990844169 ();
-extern "C" void CodedOutputStream_WriteRawVarint64_m2734740555 ();
-extern "C" void CodedOutputStream_WriteRawByte_m2647428377 ();
-extern "C" void CodedOutputStream_WriteRawBytes_m2953237958 ();
-extern "C" void CodedOutputStream_RefreshBuffer_m1643705180 ();
-extern "C" void CodedOutputStream_CheckNoSpaceLeft_m1026714917 ();
-extern "C" void CodedOutputStream__cctor_m6508042 ();
-extern "C" void OutOfSpaceException__ctor_m3337708164 ();
-extern "C" void ExtensionRegistry__ctor_m2795137368 ();
-extern "C" void ExtensionRegistry_get_Empty_m1266638344 ();
-extern "C" void ExtensionRegistry_CreateInstance_m3058044271 ();
-extern "C" void ExtensionRegistry__cctor_m1625575694 ();
-extern "C" void ExtensionIntPair_GetHashCode_m4207818331_AdjustorThunk ();
-extern "C" void ExtensionIntPair_Equals_m2022810179_AdjustorThunk ();
-extern "C" void ExtensionIntPair_Equals_m2689844828_AdjustorThunk ();
-extern "C" void FrameworkPortability_get_InvariantCulture_m862252542 ();
-extern "C" void FrameworkPortability__cctor_m4092266125 ();
-extern "C" void InvalidProtocolBufferException__ctor_m3776365495 ();
-extern "C" void InvalidProtocolBufferException_TruncatedMessage_m1598354167 ();
-extern "C" void InvalidProtocolBufferException_NegativeSize_m1628852644 ();
-extern "C" void InvalidProtocolBufferException_MalformedVarint_m3939893207 ();
-extern "C" void InvalidProtocolBufferException_InvalidTag_m699195889 ();
-extern "C" void InvalidProtocolBufferException_InvalidEndTag_m1685121642 ();
-extern "C" void InvalidProtocolBufferException_InvalidWireType_m1883139210 ();
-extern "C" void InvalidProtocolBufferException_RecursionLimitExceeded_m737951226 ();
-extern "C" void InvalidProtocolBufferException_SizeLimitExceeded_m1580964673 ();
-extern "C" void ThrowHelper_ThrowIfNull_m1218964513 ();
-extern "C" void ThrowHelper_ThrowIfNull_m2241939621 ();
-extern "C" void UninitializedMessageException__ctor_m787888070 ();
-extern "C" void UninitializedMessageException_AsInvalidProtocolBufferException_m3036469865 ();
-extern "C" void WireFormat_GetTagWireType_m1783698341 ();
-extern "C" void WireFormat_IsEndGroupTag_m4227909309 ();
-extern "C" void WireFormat_GetTagFieldNumber_m1275894768 ();
-extern "C" void WireFormat_MakeTag_m3371601783 ();
+extern "C" void GETween_get_m_TweenEmpty_m1509105679 ();
+extern "C" void GETween_Init_m2605954517 ();
+extern "C" void GETween_Init_m1677611942 ();
+extern "C" void GETween_Reset_m2623976268 ();
+extern "C" void GETween_Update_m1411882574 ();
+extern "C" void GETween_update_m1347238446 ();
+extern "C" void GETween_RemoveTween_m321420386 ();
+extern "C" void GETween_RemoveTween_m2082421397 ();
+extern "C" void GETween_SendLogError_m875186694 ();
+extern "C" void GETween_MoreInfo_m2593037845 ();
+extern "C" void GETween_AddTween_m2750561912 ();
+extern "C" void GETween_TweenValue_m2679995032 ();
+extern "C" void GETween_UpdateEaseOutQuadOpt_m2786964999 ();
+extern "C" void GETween_UpdateEaseInQuadOpt_m256846748 ();
+extern "C" void GETween_UpdateEaseInOutQuadOpt_m311188898 ();
+extern "C" void GETween_UpdateEaseLinear_m403930560 ();
+extern "C" void GETween_UpdateEaseSpring_m3744025048 ();
+extern "C" void GETween_UpdateEaseInQuad_m3659569785 ();
+extern "C" void GETween_UpdateEaseOutQuad_m1383931886 ();
+extern "C" void GETween_UpdateEaseInOutQuad_m125965875 ();
+extern "C" void GETween_UpdateEaseInCubic_m1868468862 ();
+extern "C" void GETween_UpdateEaseOutCubic_m43170729 ();
+extern "C" void GETween_UpdateEaseInOutCubic_m3995897348 ();
+extern "C" void GETween_UpdateEaseInQuart_m1079358697 ();
+extern "C" void GETween_UpdateEaseOutQuart_m3549027860 ();
+extern "C" void GETween_UpdateEaseInOutQuart_m3206787183 ();
+extern "C" void GETween_UpdateEaseInQuint_m2710509533 ();
+extern "C" void GETween_UpdateEaseOutQuint_m885211400 ();
+extern "C" void GETween_UpdateEaseInOutQuint_m542970723 ();
+extern "C" void GETween_UpdateEaseInSine_m2962263411 ();
+extern "C" void GETween_UpdateEaseOutSine_m686625512 ();
+extern "C" void GETween_UpdateEaseInOutSine_m3723626797 ();
+extern "C" void GETween_UpdateEaseInExpo_m4100023534 ();
+extern "C" void GETween_UpdateEaseOutExpo_m1824385635 ();
+extern "C" void GETween_UpdateEaseInOutExpo_m566419624 ();
+extern "C" void GETween_UpdateEaseInCirc_m1033396393 ();
+extern "C" void GETween_UpdateEaseOutCirc_m3052725790 ();
+extern "C" void GETween_UpdateEaseInOutCirc_m1794759779 ();
+extern "C" void GETween_UpdateEaseInBounce_m1867457432 ();
+extern "C" void GETween_UpdateEaseOutBounce_m1117790157 ();
+extern "C" void GETween_UpdateEaseInOutBounce_m3393231058 ();
+extern "C" void GETween_UpdateEaseInBack_m72987353 ();
+extern "C" void GETween_UpdateEaseOutBack_m2092316750 ();
+extern "C" void GETween_UpdateEaseInOutBack_m834350739 ();
+extern "C" void GETween_UpdateEaseInElastic_m1138515219 ();
+extern "C" void GETween_UpdateEaseOutElastic_m3668633470 ();
+extern "C" void GETween_UpdateEaseInOutElastic_m1192857369 ();
+extern "C" void GETween__ctor_m682576031 ();
+extern "C" void GETween__cctor_m3497891566 ();
+extern "C" void GETweenItem__ctor_m3140834508 ();
+extern "C" void GETweenItem_Cancel_m2625553503 ();
+extern "C" void GETweenItem_get_UniqueID_m249811457 ();
+extern "C" void GETweenItem_Reset_m787267449 ();
+extern "C" void GETweenItem_cleanup_m3939713390 ();
+extern "C" void GETweenItem_Init_m1022685192 ();
+extern "C" void GETweenItem_SetDelay_m3834119685 ();
+extern "C" void GETweenItem_SetEase_m3132869312 ();
+extern "C" void GETweenItem_SetTo_m3973005631 ();
+extern "C" void GETweenItem_SetFrom_m143244016 ();
+extern "C" void GETweenItem_SetId_m2745889856 ();
+extern "C" void GETweenItem_SetUseEstimatedTime_m3697277496 ();
+extern "C" void GETweenItem_SetLoopPingPong_m2654548717 ();
+extern "C" void GETweenItem_SetOnComplete_m4052648454 ();
+extern "C" void GETweenItem_SetOnUpdate_m4105995130 ();
+extern "C" void GETweenItem__cctor_m2394493025 ();
 extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m2615655811 ();
 extern "C" void AbstractEventData__ctor_m3016870691 ();
 extern "C" void AbstractEventData_Reset_m663303632 ();
@@ -11864,8 +12614,356 @@ extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m1704122566 (
 extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m920247256 ();
 extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m244631242 ();
 extern "C" void VerticalLayoutGroup_SetLayoutVertical_m2764536540 ();
+extern "C" void Builtins_join_m2635169011 ();
+extern "C" void Dispatcher__ctor_m350483677 ();
+extern "C" void Dispatcher_Invoke_m1310332756 ();
+extern "C" void Dispatcher_BeginInvoke_m4243774386 ();
+extern "C" void Dispatcher_EndInvoke_m1615025250 ();
+extern "C" void DispatcherCache__ctor_m2809249023 ();
+extern "C" void DispatcherCache__cctor_m705277582 ();
+extern "C" void DispatcherCache_Get_m3716505639 ();
+extern "C" void DispatcherFactory__ctor_m1032703159 ();
+extern "C" void DispatcherFactory_Invoke_m1095288990 ();
+extern "C" void DispatcherFactory_BeginInvoke_m2582758298 ();
+extern "C" void DispatcherFactory_EndInvoke_m1714635604 ();
+extern "C" void DispatcherKey__ctor_m2591469636 ();
+extern "C" void DispatcherKey__cctor_m1394410923 ();
+extern "C" void _EqualityComparer__ctor_m1480403179 ();
+extern "C" void _EqualityComparer_GetHashCode_m125800277 ();
+extern "C" void _EqualityComparer_Equals_m2138112120 ();
+extern "C" void ExtensionRegistry__ctor_m4038359029 ();
+extern "C" void ExtensionRegistry_get_Extensions_m2753467576 ();
+extern "C" void RuntimeServices__cctor_m3801547026 ();
+extern "C" void RuntimeServices_GetDispatcher_m1240650646 ();
+extern "C" void RuntimeServices_Coerce_m3737249806 ();
+extern "C" void RuntimeServices_CreateCoerceDispatcher_m1712438829 ();
+extern "C" void RuntimeServices_EmitPromotionDispatcher_m678082319 ();
+extern "C" void RuntimeServices_IsPromotableNumeric_m3776066856 ();
+extern "C" void RuntimeServices_EmitImplicitConversionDispatcher_m2166552894 ();
+extern "C" void RuntimeServices_CoercibleDispatcher_m750535641 ();
+extern "C" void RuntimeServices_IdentityDispatcher_m913361469 ();
+extern "C" void RuntimeServices_IsNumeric_m3157108604 ();
+extern "C" void RuntimeServices_EqualityOperator_m1206578319 ();
+extern "C" void RuntimeServices_op_Equality_m2960058433 ();
+extern "C" void RuntimeServices_ArrayEqualityImpl_m2683726598 ();
+extern "C" void RuntimeServices_GetConvertTypeCode_m754613208 ();
+extern "C" void RuntimeServices_EqualityOperator_m1787011483 ();
+extern "C" void RuntimeServices_IsPromotableNumeric_m4140154171 ();
+extern "C" void RuntimeServices_FindImplicitConversionOperator_m907683305 ();
+extern "C" void RuntimeServices_GetExtensionMethods_m851624495 ();
+extern "C" void RuntimeServices_FindImplicitConversionMethod_m251076132 ();
+extern "C" void U3CCoerceU3Ec__AnonStorey1D__ctor_m2374928375 ();
+extern "C" void U3CCoerceU3Ec__AnonStorey1D_U3CU3Em__15_m3179201137 ();
+extern "C" void U3CEmitImplicitConversionDispatcherU3Ec__AnonStorey1E__ctor_m4222958460 ();
+extern "C" void U3CEmitImplicitConversionDispatcherU3Ec__AnonStorey1E_U3CU3Em__16_m3497110411 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC__ctor_m140685095 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CSystem_Reflection_MethodInfoU3E_get_Current_m1476898990 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2916943977 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_IEnumerable_GetEnumerator_m2454778882 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_Generic_IEnumerableU3CSystem_Reflection_MethodInfoU3E_GetEnumerator_m3662757521 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_MoveNext_m3727538797 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_Dispose_m1952673188 ();
+extern "C" void U3CGetExtensionMethodsU3Ec__IteratorC_Reset_m2082085332 ();
+extern "C" void GUIAnimFREE_Awake_m820465174 ();
+extern "C" void GUIAnimFREE_Start_m3824965043 ();
+extern "C" void GUIAnimFREE_Update_m2615651514 ();
+extern "C" void GUIAnimFREE_Reset_m2524260192 ();
+extern "C" void GUIAnimFREE_Free_ResetPositionDoneFlag_m2483622383 ();
+extern "C" void GUIAnimFREE_ResetAllChildren_m412912610 ();
+extern "C" void GUIAnimFREE_InitScaleIn_m380765811 ();
+extern "C" void GUIAnimFREE_CalculateCameraArea_m1237959977 ();
+extern "C" void GUIAnimFREE_InitMoveIn_m3641694903 ();
+extern "C" void GUIAnimFREE_InitMoveOut_m1229215006 ();
+extern "C" void GUIAnimFREE_InitRotationIn_m2548293604 ();
+extern "C" void GUIAnimFREE_InitScaleIn_m2592199408 ();
+extern "C" void GUIAnimFREE_InitFadeIn_m4271450082 ();
+extern "C" void GUIAnimFREE_MoveIn_m1188313479 ();
+extern "C" void GUIAnimFREE_MoveIn_m1533929816 ();
+extern "C" void GUIAnimFREE_RecuresiveMoveIn_m211463865 ();
+extern "C" void GUIAnimFREE_StartMoveIdle_m2833924568 ();
+extern "C" void GUIAnimFREE_MoveIdle_m3795769398 ();
+extern "C" void GUIAnimFREE_CoroutineMoveIdle_m2218978133 ();
+extern "C" void GUIAnimFREE_MoveOut_m2483802190 ();
+extern "C" void GUIAnimFREE_CoroutineMoveOut_m1279631869 ();
+extern "C" void GUIAnimFREE_MoveOut_m263849311 ();
+extern "C" void GUIAnimFREE_RecuresiveMoveOut_m392929644 ();
+extern "C" void GUIAnimFREE_AnimIn_MoveUpdateByValue_m2475605315 ();
+extern "C" void GUIAnimFREE_AnimIn_MoveComplete_m1081140196 ();
+extern "C" void GUIAnimFREE_AnimOut_MoveUpdateByValue_m2062852636 ();
+extern "C" void GUIAnimFREE_AnimOut_MoveComplete_m122125565 ();
+extern "C" void GUIAnimFREE_AnimIn_RotationUpdateByValue_m1873958640 ();
+extern "C" void GUIAnimFREE_AnimIn_RotationComplete_m3679092433 ();
+extern "C" void GUIAnimFREE_AnimOut_RotationUpdateByValue_m3044550473 ();
+extern "C" void GUIAnimFREE_AnimOut_RotationComplete_m3029132138 ();
+extern "C" void GUIAnimFREE_AnimIn_ScaleUpdateByValue_m2424307818 ();
+extern "C" void GUIAnimFREE_AnimIn_ScaleComplete_m2431349451 ();
+extern "C" void GUIAnimFREE_AnimOut_ScaleUpdateByValue_m2513876657 ();
+extern "C" void GUIAnimFREE_AnimOut_ScaleComplete_m2766666962 ();
+extern "C" void GUIAnimFREE_AnimIn_FadeUpdateByValue_m2841508206 ();
+extern "C" void GUIAnimFREE_AnimIn_FadeComplete_m2109236431 ();
+extern "C" void GUIAnimFREE_AnimOut_FadeUpdateByValue_m2428755527 ();
+extern "C" void GUIAnimFREE_AnimOut_FadeComplete_m1150221800 ();
+extern "C" void GUIAnimFREE_ScaleLoopStart_m2186273446 ();
+extern "C" void GUIAnimFREE_ScaleLoopUpdateByValue_m3571416791 ();
+extern "C" void GUIAnimFREE_ScaleLoopComplete_m1098162808 ();
+extern "C" void GUIAnimFREE_StopScaleLoop_m1287077885 ();
+extern "C" void GUIAnimFREE_FadeLoopStart_m1549016632 ();
+extern "C" void GUIAnimFREE_FadeLoopUpdateByValue_m3212839017 ();
+extern "C" void GUIAnimFREE_FadeLoopComplete_m4044409994 ();
+extern "C" void GUIAnimFREE_StopFadeLoop_m110086931 ();
+extern "C" void GUIAnimFREE_PlaySoundOneShot_m1031562925 ();
+extern "C" void GUIAnimFREE_PlaySoundOneShotWithDelay_m58747511 ();
+extern "C" void GUIAnimFREE_PlaySoundLoop_m4166640346 ();
+extern "C" void GUIAnimFREE_StartScaleLoopSound_m753653940 ();
+extern "C" void GUIAnimFREE_StopScaleLoopSound_m2675286196 ();
+extern "C" void GUIAnimFREE_StartFadeLoopSound_m4071185246 ();
+extern "C" void GUIAnimFREE_StopFadeLoopSound_m2747700062 ();
+extern "C" void GUIAnimFREE_CalculateTotalBounds_m3960727876 ();
+extern "C" void GUIAnimFREE_ScreenResolutionChange_m1791767609 ();
+extern "C" void GUIAnimFREE_IsAnimating_m2914853593 ();
+extern "C" void GUIAnimFREE_GetFadeValue_m3771945465 ();
+extern "C" void GUIAnimFREE_GetFadeTextOutlineValue_m2092732114 ();
+extern "C" void GUIAnimFREE_GetFadeTextShadowValue_m271541190 ();
+extern "C" void GUIAnimFREE_RecursiveFade_m185724474 ();
+extern "C" void GUIAnimFREE_FadeTextOutline_m3877423448 ();
+extern "C" void GUIAnimFREE_FadeTextShadow_m324415720 ();
+extern "C" void GUIAnimFREE_GETweenEaseType_m2967032936 ();
+extern "C" void GUIAnimFREE__ctor_m582859955 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85__ctor_m281575793 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85_System_IDisposable_Dispose_m2711791487 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85_MoveNext_m1354304188 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m510781513 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85_System_Collections_IEnumerator_Reset_m1183839450 ();
+extern "C" void U3CCoroutineMoveIdleU3Ed__85_System_Collections_IEnumerator_get_Current_m3699460816 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87__ctor_m2745595853 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87_System_IDisposable_Dispose_m1417549987 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87_MoveNext_m686762744 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1811265391 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87_System_Collections_IEnumerator_Reset_m1186679038 ();
+extern "C" void U3CCoroutineMoveOutU3Ed__87_System_Collections_IEnumerator_get_Current_m2948730474 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67__ctor_m3219075197 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67_System_IDisposable_Dispose_m856827379 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67_MoveNext_m2188221768 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3119313375 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_IEnumerator_Reset_m551219790 ();
+extern "C" void U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_IEnumerator_get_Current_m1105187322 ();
+extern "C" void U3CInitScaleInU3Ed__69__ctor_m646484809 ();
+extern "C" void U3CInitScaleInU3Ed__69_System_IDisposable_Dispose_m39659687 ();
+extern "C" void U3CInitScaleInU3Ed__69_MoveNext_m1195400420 ();
+extern "C" void U3CInitScaleInU3Ed__69_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3482007137 ();
+extern "C" void U3CInitScaleInU3Ed__69_System_Collections_IEnumerator_Reset_m144253954 ();
+extern "C" void U3CInitScaleInU3Ed__69_System_Collections_IEnumerator_get_Current_m1494218680 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115__ctor_m1565878528 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115_System_IDisposable_Dispose_m1823461584 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115_MoveNext_m2872325477 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m813496418 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_IEnumerator_Reset_m576351467 ();
+extern "C" void U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_IEnumerator_get_Current_m294527703 ();
+extern "C" void cFade__ctor_m3425843203 ();
+extern "C" void cMoveIn__ctor_m975261673 ();
+extern "C" void cMoveOut__ctor_m1899934570 ();
+extern "C" void cPingPongFade__ctor_m2020202393 ();
+extern "C" void cPingPongScale__ctor_m3150183079 ();
+extern "C" void cRotationIn__ctor_m2586591260 ();
+extern "C" void cRotationOut__ctor_m311544215 ();
+extern "C" void cScaleIn__ctor_m3674301784 ();
+extern "C" void cScaleOut__ctor_m3965799387 ();
+extern "C" void cSounds__ctor_m630171451 ();
+extern "C" void cSoundsForPingPongAnim__ctor_m479391303 ();
+extern "C" void GUIAnimSystemFREE_get_Instance_m2205931826 ();
+extern "C" void GUIAnimSystemFREE_set_Instance_m2239190265 ();
+extern "C" void GUIAnimSystemFREE_GetInstance_m173415833 ();
+extern "C" void GUIAnimSystemFREE_Awake_m3912475431 ();
+extern "C" void GUIAnimSystemFREE_Start_m2622008004 ();
+extern "C" void GUIAnimSystemFREE_Update_m3978688969 ();
+extern "C" void GUIAnimSystemFREE_OnGUI_m3170268862 ();
+extern "C" void GUIAnimSystemFREE_ShowFreeVersionText_m2041238910 ();
+extern "C" void GUIAnimSystemFREE_LoadLevel_m68779335 ();
+extern "C" void GUIAnimSystemFREE_LoadLevelDelay_m2351210922 ();
+extern "C" void GUIAnimSystemFREE_MoveIn_m2286384694 ();
+extern "C" void GUIAnimSystemFREE_MoveInAll_m3579593869 ();
+extern "C" void GUIAnimSystemFREE_MoveOut_m2183480383 ();
+extern "C" void GUIAnimSystemFREE_MoveOutAll_m208219492 ();
+extern "C" void GUIAnimSystemFREE_PlayParticle_m1156811811 ();
+extern "C" void GUIAnimSystemFREE_StopParticle_m2056648085 ();
+extern "C" void GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewScene_m3359080861 ();
+extern "C" void GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewSceneDelay_m3681472485 ();
+extern "C" void GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewScene_m1321076396 ();
+extern "C" void GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewSceneDelay_m3269523534 ();
+extern "C" void GUIAnimSystemFREE_FocusOnlyThisCanvas_m264901236 ();
+extern "C" void GUIAnimSystemFREE_FocusTheseCanvases_m1979802567 ();
+extern "C" void GUIAnimSystemFREE_FocusThisCanvas_m49145729 ();
+extern "C" void GUIAnimSystemFREE_FocusTheseCanvas_m154725810 ();
+extern "C" void GUIAnimSystemFREE_FocusThisCanvas_m2095958609 ();
+extern "C" void GUIAnimSystemFREE_FocusTheseCanvases_m454767054 ();
+extern "C" void GUIAnimSystemFREE_SetGraphicRaycasterEnable_m1931655568 ();
+extern "C" void GUIAnimSystemFREE_SetGraphicRaycasterEnable_m2630492311 ();
+extern "C" void GUIAnimSystemFREE_SetGraphicRaycasterEnable_m4179541553 ();
+extern "C" void GUIAnimSystemFREE_EnableAllGraphicRaycasters_m1281116958 ();
+extern "C" void GUIAnimSystemFREE_EnableAllButtons_m2854808698 ();
+extern "C" void GUIAnimSystemFREE_EnableButton_m2906038257 ();
+extern "C" void GUIAnimSystemFREE_DelayEnableButton_m3602513790 ();
+extern "C" void GUIAnimSystemFREE_EnableButton_m1474763125 ();
+extern "C" void GUIAnimSystemFREE_EnableButton_m1942582170 ();
+extern "C" void GUIAnimSystemFREE_DelayEnableButton_m2386361191 ();
+extern "C" void GUIAnimSystemFREE_SetInteracableAllButtons_m3125534925 ();
+extern "C" void GUIAnimSystemFREE_SetInteracableAllButtons_m1244823794 ();
+extern "C" void GUIAnimSystemFREE_DelayInteracableOfAllButton_m870155853 ();
+extern "C" void GUIAnimSystemFREE_InteracableButton_m2016942380 ();
+extern "C" void GUIAnimSystemFREE_InteracableButton_m2462656273 ();
+extern "C" void GUIAnimSystemFREE_DelayInteracableButton_m3292755812 ();
+extern "C" void GUIAnimSystemFREE_GetParent_Canvas_m2212399732 ();
+extern "C" void GUIAnimSystemFREE__ctor_m3674870212 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42__ctor_m1986218948 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42_System_IDisposable_Dispose_m274385548 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42_MoveNext_m3854741513 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2109899868 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42_System_Collections_IEnumerator_Reset_m2203413415 ();
+extern "C" void U3CDelayEnableButtonU3Ed__42_System_Collections_IEnumerator_get_Current_m2179205149 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45__ctor_m167017377 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45_System_IDisposable_Dispose_m1326785359 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45_MoveNext_m2974532492 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m677619257 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45_System_Collections_IEnumerator_Reset_m691399850 ();
+extern "C" void U3CDelayEnableButtonU3Ed__45_System_Collections_IEnumerator_get_Current_m3797056224 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51__ctor_m1301481983 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51_System_IDisposable_Dispose_m2901270193 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51_MoveNext_m3259672198 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3952703009 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51_System_Collections_IEnumerator_Reset_m657282444 ();
+extern "C" void U3CDelayInteracableButtonU3Ed__51_System_Collections_IEnumerator_get_Current_m1486778360 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48__ctor_m938778831 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48_System_IDisposable_Dispose_m1671492065 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48_MoveNext_m2285281694 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2474991015 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_IEnumerator_Reset_m1044786364 ();
+extern "C" void U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_IEnumerator_get_Current_m2580743986 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27__ctor_m1273604501 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_IDisposable_Dispose_m799172571 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_MoveNext_m2596514608 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2208271991 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_IEnumerator_Reset_m2853171766 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_IEnumerator_get_Current_m3079372898 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29__ctor_m1492459219 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_IDisposable_Dispose_m1500772445 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_MoveNext_m2009708594 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4116729781 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_IEnumerator_Reset_m3276818488 ();
+extern "C" void U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_IEnumerator_get_Current_m2726284516 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19__ctor_m402387893 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19_System_IDisposable_Dispose_m2612101563 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19_MoveNext_m1341416464 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3657294039 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19_System_Collections_IEnumerator_Reset_m753939478 ();
+extern "C" void U3CLoadLevelDelayU3Ed__19_System_Collections_IEnumerator_get_Current_m2676120066 ();
+extern "C" void ByteArray_Copy_m3670225728 ();
+extern "C" void ByteArray_ByteCopy_m2791369704 ();
+extern "C" void ByteArray_Reverse_m4198676671 ();
+extern "C" void ByteString__ctor_m3954052279 ();
+extern "C" void ByteString_GetEnumerator_m2168507865 ();
+extern "C" void ByteString_System_Collections_IEnumerable_GetEnumerator_m740940383 ();
+extern "C" void ByteString_CreateCodedInput_m74995625 ();
+extern "C" void ByteString_Equals_m1850465767 ();
+extern "C" void ByteString_GetHashCode_m3538174975 ();
+extern "C" void ByteString_Equals_m1393476260 ();
+extern "C" void ByteString__cctor_m3533786523 ();
+extern "C" void CodedInputStream__ctor_m3357527409 ();
+extern "C" void CodedInputStream__ctor_m2622803471 ();
+extern "C" void CodedInputStream_get_ReachedLimit_m802249722 ();
+extern "C" void CodedInputStream_get_IsAtEnd_m238754927 ();
+extern "C" void CodedInputStream_CreateInstance_m2850959676 ();
+extern "C" void CodedInputStream_CreateInstance_m361471812 ();
+extern "C" void CodedInputStream_CheckLastTagWas_m200294519 ();
+extern "C" void CodedInputStream_PeekNextTag_m2476726456 ();
+extern "C" void CodedInputStream_ReadTag_m1590405344 ();
+extern "C" void CodedInputStream_ReadFloat_m232796065 ();
+extern "C" void CodedInputStream_ReadInt64_m3858450537 ();
+extern "C" void CodedInputStream_ReadInt32_m819498505 ();
+extern "C" void CodedInputStream_ReadMessage_m1770546095 ();
+extern "C" void CodedInputStream_BeginArray_m2258619110 ();
+extern "C" void CodedInputStream_ContinueArray_m3756366926 ();
+extern "C" void CodedInputStream_ContinueArray_m1770543048 ();
+extern "C" void CodedInputStream_ReadFloatArray_m2123658713 ();
+extern "C" void CodedInputStream_SlowReadRawVarint32_m2448488201 ();
+extern "C" void CodedInputStream_ReadRawVarint32_m3662731018 ();
+extern "C" void CodedInputStream_ReadRawVarint32_m3276130721 ();
+extern "C" void CodedInputStream_ReadRawVarint64_m364557290 ();
+extern "C" void CodedInputStream_ReadRawLittleEndian32_m2952990675 ();
+extern "C" void CodedInputStream_ReadRawLittleEndian64_m396883955 ();
+extern "C" void CodedInputStream_PushLimit_m994285030 ();
+extern "C" void CodedInputStream_RecomputeBufferSizeAfterLimit_m488640474 ();
+extern "C" void CodedInputStream_PopLimit_m1836646151 ();
+extern "C" void CodedInputStream_RefillBuffer_m1860958645 ();
+extern "C" void CodedInputStream_ReadRawByte_m1059326780 ();
+extern "C" void CodedInputStream_ReadRawBytes_m2322882316 ();
+extern "C" void CodedInputStream_SkipField_m2087251765 ();
+extern "C" void CodedInputStream_SkipMessage_m3718327390 ();
+extern "C" void CodedInputStream_SkipRawBytes_m242966367 ();
+extern "C" void CodedInputStream_SkipImpl_m789886620 ();
+extern "C" void CodedOutputStream__ctor_m734597254 ();
+extern "C" void CodedOutputStream_get_SpaceLeft_m250911719 ();
+extern "C" void CodedOutputStream_ComputeFloatSize_m65298715 ();
+extern "C" void CodedOutputStream_ComputeInt64Size_m1718363313 ();
+extern "C" void CodedOutputStream_ComputeInt32Size_m3699664239 ();
+extern "C" void CodedOutputStream_ComputeMessageSize_m1597509401 ();
+extern "C" void CodedOutputStream_ComputeEnumSize_m1393339146 ();
+extern "C" void CodedOutputStream_ComputeInt32SizeNoTag_m1540664629 ();
+extern "C" void CodedOutputStream_ComputeEnumSizeNoTag_m4278042064 ();
+extern "C" void CodedOutputStream_ComputeRawVarint32Size_m3154776802 ();
+extern "C" void CodedOutputStream_ComputeRawVarint64Size_m2971184036 ();
+extern "C" void CodedOutputStream_ComputeTagSize_m1517401140 ();
+extern "C" void CodedOutputStream_CreateInstance_m3802784570 ();
+extern "C" void CodedOutputStream_CreateInstance_m869516314 ();
+extern "C" void CodedOutputStream_WriteFloat_m3588002640 ();
+extern "C" void CodedOutputStream_WriteInt64_m913588508 ();
+extern "C" void CodedOutputStream_WriteInt32_m2011528986 ();
+extern "C" void CodedOutputStream_WriteMessage_m2366649166 ();
+extern "C" void CodedOutputStream_WriteEnum_m3638986103 ();
+extern "C" void CodedOutputStream_WriteFloatNoTag_m477583950 ();
+extern "C" void CodedOutputStream_WriteInt32NoTag_m3134807772 ();
+extern "C" void CodedOutputStream_WritePackedFloatArray_m634747521 ();
+extern "C" void CodedOutputStream_WriteTag_m290734255 ();
+extern "C" void CodedOutputStream_WriteRawVarint32_m3990844169 ();
+extern "C" void CodedOutputStream_WriteRawVarint64_m2734740555 ();
+extern "C" void CodedOutputStream_WriteRawByte_m2647428377 ();
+extern "C" void CodedOutputStream_WriteRawBytes_m2953237958 ();
+extern "C" void CodedOutputStream_RefreshBuffer_m1643705180 ();
+extern "C" void CodedOutputStream_CheckNoSpaceLeft_m1026714917 ();
+extern "C" void CodedOutputStream__cctor_m6508042 ();
+extern "C" void OutOfSpaceException__ctor_m3337708164 ();
+extern "C" void ExtensionRegistry__ctor_m2795137368 ();
+extern "C" void ExtensionRegistry_get_Empty_m1266638344 ();
+extern "C" void ExtensionRegistry_CreateInstance_m3058044271 ();
+extern "C" void ExtensionRegistry__cctor_m1625575694 ();
+extern "C" void ExtensionIntPair_GetHashCode_m4207818331_AdjustorThunk ();
+extern "C" void ExtensionIntPair_Equals_m2022810179_AdjustorThunk ();
+extern "C" void ExtensionIntPair_Equals_m2689844828_AdjustorThunk ();
+extern "C" void FrameworkPortability_get_InvariantCulture_m862252542 ();
+extern "C" void FrameworkPortability__cctor_m4092266125 ();
+extern "C" void InvalidProtocolBufferException__ctor_m3776365495 ();
+extern "C" void InvalidProtocolBufferException_TruncatedMessage_m1598354167 ();
+extern "C" void InvalidProtocolBufferException_NegativeSize_m1628852644 ();
+extern "C" void InvalidProtocolBufferException_MalformedVarint_m3939893207 ();
+extern "C" void InvalidProtocolBufferException_InvalidTag_m699195889 ();
+extern "C" void InvalidProtocolBufferException_InvalidEndTag_m1685121642 ();
+extern "C" void InvalidProtocolBufferException_InvalidWireType_m1883139210 ();
+extern "C" void InvalidProtocolBufferException_RecursionLimitExceeded_m737951226 ();
+extern "C" void InvalidProtocolBufferException_SizeLimitExceeded_m1580964673 ();
+extern "C" void ThrowHelper_ThrowIfNull_m1218964513 ();
+extern "C" void ThrowHelper_ThrowIfNull_m2241939621 ();
+extern "C" void UninitializedMessageException__ctor_m787888070 ();
+extern "C" void UninitializedMessageException_AsInvalidProtocolBufferException_m3036469865 ();
+extern "C" void WireFormat_GetTagWireType_m1783698341 ();
+extern "C" void WireFormat_IsEndGroupTag_m4227909309 ();
+extern "C" void WireFormat_GetTagFieldNumber_m1275894768 ();
+extern "C" void WireFormat_MakeTag_m3371601783 ();
 extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m795736486 ();
 extern "C" void ControllerDemoManager__ctor_m2236454461 ();
+extern "C" void Demo__ctor_m2996546552 ();
+extern "C" void Demo_Awake_m3234151771 ();
+extern "C" void Demo_Start_m1943684344 ();
+extern "C" void Demo_Update_m130524693 ();
+extern "C" void Demo_OnGUI_m2491945202 ();
 extern "C" void DragAtom__ctor_m1931880310 ();
 extern "C" void DragAtom_Start_m879018102 ();
 extern "C" void DragAtom_LateUpdate_m1674271901 ();
@@ -11886,11 +12984,531 @@ extern "C" void DragAtom_OnGazeExit_m1384303632 ();
 extern "C" void DragAtom_OnGazeTrigger_m287452584 ();
 extern "C" void DragAtom_DuplicateModel_m895533100 ();
 extern "C" void DragAtom_ActivateModel_m4276353546 ();
+extern "C" void DragAtom_DeactivateModel_m625762985 ();
+extern "C" void DragAtom_CameraAbout_m474986428 ();
+extern "C" void DragAtom_InitOnPlayerClose_m744663836 ();
+extern "C" void DragAtom_FlashMessage_m528587333 ();
+extern "C" void DragAtom_FadeMessageIn_m476243460 ();
+extern "C" void DragAtom_FadeMessageOut_m1884468081 ();
+extern "C" void FadeIntoScene__ctor_m3547056283 ();
+extern "C" void FadeIntoScene_Start_m2494194075 ();
+extern "C" void FadeIntoScene_Update_m16457170 ();
+extern "C" void FadeIntoScene_TakePhoto_m2276399332 ();
+extern "C" void FadeIntoScene_DoIt_m1723897567 ();
+extern "C" void FadeIntoScene_FadeToHalf_m582090675 ();
+extern "C" void FadeIntoScene_FadeRest_m1209150905 ();
 extern "C" void FlashCamera__ctor_m1445367798 ();
 extern "C" void FlashCamera_Start_m392505590 ();
 extern "C" void FlashCamera_Update_m3583590871 ();
 extern "C" void FlashCamera_TakePhoto_m380680895 ();
 extern "C" void FlashCamera_DoIt_m1379006500 ();
+extern "C" void GA_FREE_Demo00__ctor_m182374186 ();
+extern "C" void GA_FREE_Demo00_Awake_m419979405 ();
+extern "C" void GA_FREE_Demo00_Start_m3424479274 ();
+extern "C" void GA_FREE_Demo00_Update_m3085494563 ();
+extern "C" void GA_FREE_Demo00_ShowText_m3355888959 ();
+extern "C" void U3CShowTextU3Ec__Iterator0__ctor_m4059866550 ();
+extern "C" void U3CShowTextU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m43317020 ();
+extern "C" void U3CShowTextU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2859512496 ();
+extern "C" void U3CShowTextU3Ec__Iterator0_MoveNext_m2834385790 ();
+extern "C" void U3CShowTextU3Ec__Iterator0_Dispose_m1599732851 ();
+extern "C" void U3CShowTextU3Ec__Iterator0_Reset_m1706299491 ();
+extern "C" void GA_FREE_Demo01__ctor_m4280827977 ();
+extern "C" void GA_FREE_Demo01_Awake_m223465900 ();
+extern "C" void GA_FREE_Demo01_Start_m3227965769 ();
+extern "C" void GA_FREE_Demo01_Update_m1288543204 ();
+extern "C" void GA_FREE_Demo01_MoveInTitleGameObjects_m1820109795 ();
+extern "C" void GA_FREE_Demo01_MoveInPrimaryButtons_m4054472824 ();
+extern "C" void GA_FREE_Demo01_HideAllGUIs_m3235842910 ();
+extern "C" void GA_FREE_Demo01_HideTitleTextMeshes_m945907677 ();
+extern "C" void GA_FREE_Demo01_EnableAllDemoButtons_m485781571 ();
+extern "C" void GA_FREE_Demo01_DisableButtonForSeconds_m1738344652 ();
+extern "C" void GA_FREE_Demo01_OnButton_TopLeft_m2576661481 ();
+extern "C" void GA_FREE_Demo01_OnButton_BottomLeft_m352280295 ();
+extern "C" void GA_FREE_Demo01_OnButton_RightBar_m1890517548 ();
+extern "C" void GA_FREE_Demo01_ToggleTopLeft_m2744981103 ();
+extern "C" void GA_FREE_Demo01_ToggleBottomLeft_m2535304865 ();
+extern "C" void GA_FREE_Demo01_ToggleRightBar_m2813458534 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5__ctor_m1562972650 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m96459186 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1970241862 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5_MoveNext_m1798222258 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5_Dispose_m2971413415 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator5_Reset_m3504372887 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4__ctor_m2997421449 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3939429545 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m3596182077 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4_MoveNext_m3116836043 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4_Dispose_m2792207238 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator4_Reset_m643854390 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3__ctor_m2562711066 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3807596034 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m607491478 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3_MoveNext_m652587394 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3_Dispose_m1647356887 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator3_Reset_m209144007 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2__ctor_m1819467520 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2915209106 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m4200199974 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2_MoveNext_m574145524 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2_Dispose_m354880317 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2_Reset_m3760867757 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1__ctor_m1864034444 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4274153158 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1681307226 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1_MoveNext_m1229683688 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1_Dispose_m234021321 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1_Reset_m3805434681 ();
+extern "C" void GA_FREE_Demo02__ctor_m4084314472 ();
+extern "C" void GA_FREE_Demo02_Awake_m26952395 ();
+extern "C" void GA_FREE_Demo02_Start_m3031452264 ();
+extern "C" void GA_FREE_Demo02_Update_m3786559141 ();
+extern "C" void GA_FREE_Demo02_MoveInTitleGameObjects_m2781723812 ();
+extern "C" void GA_FREE_Demo02_ShowDialog_m1190501961 ();
+extern "C" void GA_FREE_Demo02_HideAllGUIs_m2725308733 ();
+extern "C" void GA_FREE_Demo02_HideTitleTextMeshes_m878900924 ();
+extern "C" void GA_FREE_Demo02_EnableAllDemoButtons_m2703539524 ();
+extern "C" void GA_FREE_Demo02_DisableAllButtonsForSeconds_m801374191 ();
+extern "C" void GA_FREE_Demo02_OnButton_UpperEdge_m4132416493 ();
+extern "C" void GA_FREE_Demo02_OnButton_LeftEdge_m2969687960 ();
+extern "C" void GA_FREE_Demo02_OnButton_RightEdge_m4104622567 ();
+extern "C" void GA_FREE_Demo02_OnButton_BottomEdge_m83961340 ();
+extern "C" void GA_FREE_Demo02_OnButton_UpperLeft_m38761399 ();
+extern "C" void GA_FREE_Demo02_OnButton_UpperRight_m2346813838 ();
+extern "C" void GA_FREE_Demo02_OnButton_BottomLeft_m285273542 ();
+extern "C" void GA_FREE_Demo02_OnButton_BottomRight_m1398755679 ();
+extern "C" void GA_FREE_Demo02_OnButton_Center_m914257417 ();
+extern "C" void GA_FREE_Demo02_DialogMoveIn_m1003698987 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB__ctor_m14219610 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1662391416 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m87033868 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB_MoveNext_m2054020954 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB_Dispose_m678426391 ();
+extern "C" void U3CDialogMoveInU3Ec__IteratorB_Reset_m1955619847 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA__ctor_m3272997035 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1998284561 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2138549413 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA_MoveNext_m716787025 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA_Dispose_m1332373032 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__IteratorA_Reset_m919429976 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9__ctor_m314113445 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1942736397 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1349356449 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9_MoveNext_m2619402031 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9_Dispose_m1113592994 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator9_Reset_m2255513682 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8__ctor_m555449620 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3564640072 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1343335132 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8_MoveNext_m1156511816 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8_Dispose_m1109423185 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator8_Reset_m2496849857 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6__ctor_m2852406376 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2031926378 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m4153988094 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6_MoveNext_m3817095820 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6_Dispose_m871675557 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator6_Reset_m498839317 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7__ctor_m3726230060 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3872430502 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m566667578 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7_MoveNext_m284921928 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7_Dispose_m3097613161 ();
+extern "C" void U3CShowDialogU3Ec__Iterator7_Reset_m1372663001 ();
+extern "C" void GA_FREE_Demo03__ctor_m3887800967 ();
+extern "C" void GA_FREE_Demo03_Awake_m4125406186 ();
+extern "C" void GA_FREE_Demo03_Start_m2834938759 ();
+extern "C" void GA_FREE_Demo03_Update_m1989607782 ();
+extern "C" void GA_FREE_Demo03_MoveInTitleGameObjects_m3743337829 ();
+extern "C" void GA_FREE_Demo03_ShowDialogs_m2035360331 ();
+extern "C" void GA_FREE_Demo03_HideAllGUIs_m2214774556 ();
+extern "C" void GA_FREE_Demo03_HideTitleTextMeshes_m811894171 ();
+extern "C" void GA_FREE_Demo03_EnableAllDemoButtons_m626330181 ();
+extern "C" void GA_FREE_Demo03_DisableButtonForSeconds_m1683951754 ();
+extern "C" void GA_FREE_Demo03_OnButton_Dialog1_m484616344 ();
+extern "C" void GA_FREE_Demo03_OnButton_Dialog2_m484617305 ();
+extern "C" void GA_FREE_Demo03_OnButton_Dialog3_m484618266 ();
+extern "C" void GA_FREE_Demo03_OnButton_Dialog4_m484619227 ();
+extern "C" void GA_FREE_Demo03_OnButton_MoveOutAllDialogs_m3395369110 ();
+extern "C" void GA_FREE_Demo03_Dialog1_MoveIn_m13996081 ();
+extern "C" void GA_FREE_Demo03_Dialog2_MoveIn_m4112449872 ();
+extern "C" void GA_FREE_Demo03_Dialog3_MoveIn_m3915936367 ();
+extern "C" void GA_FREE_Demo03_Dialog4_MoveIn_m3719422862 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11__ctor_m1724789755 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1421518145 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m137972437 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11_MoveNext_m1948909057 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11_Dispose_m3858828664 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator11_Reset_m3666189992 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12__ctor_m1879076187 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2420738017 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m438398325 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12_MoveNext_m2680998049 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12_Dispose_m1804234456 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator12_Reset_m3820476424 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13__ctor_m2033362619 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3419957889 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m738824213 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13_MoveNext_m3413087041 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13_Dispose_m4044607544 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator13_Reset_m3974762856 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14__ctor_m2187649051 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m124210465 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m1039250101 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14_MoveNext_m4145176033 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14_Dispose_m1990013336 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator14_Reset_m4129049288 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10__ctor_m918735562 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m660349064 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2360357916 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10_MoveNext_m1870988778 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10_Dispose_m2334862471 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator10_Reset_m2860135799 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF__ctor_m353664697 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2571424121 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m1985144589 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF_MoveNext_m4069711259 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF_Dispose_m467640502 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__IteratorF_Reset_m2295064934 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE__ctor_m1271047430 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1652097686 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m666825258 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE_MoveNext_m3608179478 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE_Dispose_m1604151235 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__IteratorE_Reset_m3212447667 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC__ctor_m2268670268 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2415080470 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m919348138 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC_MoveNext_m4057283896 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC_Dispose_m2541991545 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__IteratorC_Reset_m4210070505 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD__ctor_m3551724439 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3722437029 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m1552666425 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD_MoveNext_m1568355045 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD_Dispose_m2901435924 ();
+extern "C" void U3CShowDialogsU3Ec__IteratorD_Reset_m1198157380 ();
+extern "C" void GA_FREE_Demo04__ctor_m3691287462 ();
+extern "C" void GA_FREE_Demo04_Awake_m3928892681 ();
+extern "C" void GA_FREE_Demo04_Start_m2638425254 ();
+extern "C" void GA_FREE_Demo04_Update_m192656423 ();
+extern "C" void GA_FREE_Demo04_MoveInTitleGameObjects_m409984550 ();
+extern "C" void GA_FREE_Demo04_MoveInPrimaryButtons_m2117812091 ();
+extern "C" void GA_FREE_Demo04_HideAllGUIs_m1704240379 ();
+extern "C" void GA_FREE_Demo04_HideTitleTextMeshes_m744887418 ();
+extern "C" void GA_FREE_Demo04_EnableAllDemoButtons_m2844088134 ();
+extern "C" void GA_FREE_Demo04_DisableButtonForSeconds_m3804238953 ();
+extern "C" void GA_FREE_Demo04_OnButton_Dialog1_m695967257 ();
+extern "C" void GA_FREE_Demo04_OnButton_Dialog2_m695968218 ();
+extern "C" void GA_FREE_Demo04_OnButton_Dialog3_m695969179 ();
+extern "C" void GA_FREE_Demo04_OnButton_Dialog4_m695970140 ();
+extern "C" void GA_FREE_Demo04_OnButton_MoveOutAllDialogs_m3746169047 ();
+extern "C" void GA_FREE_Demo04_Dialog1_MoveIn_m3464491506 ();
+extern "C" void GA_FREE_Demo04_Dialog2_MoveIn_m3267978001 ();
+extern "C" void GA_FREE_Demo04_Dialog3_MoveIn_m3071464496 ();
+extern "C" void GA_FREE_Demo04_Dialog4_MoveIn_m2874950991 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A__ctor_m42153674 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1935558098 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m1621765478 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A_MoveNext_m1100731602 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A_Dispose_m1753258119 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator1A_Reset_m1983553911 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B__ctor_m196440106 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2934777970 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m1922191366 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B_MoveNext_m1832820594 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B_Dispose_m3993631207 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator1B_Reset_m2137840343 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C__ctor_m350726538 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3933997842 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m2222617254 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C_MoveNext_m2564909586 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C_Dispose_m1939036999 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator1C_Reset_m2292126775 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D__ctor_m505012970 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m638250418 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D_System_Collections_IEnumerator_get_Current_m2523043142 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D_MoveNext_m3296998578 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D_Dispose_m4179410087 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator1D_Reset_m2446413207 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19__ctor_m3437321954 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2143677296 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m4087140100 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19_MoveNext_m4294499026 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19_Dispose_m334830239 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator19_Reset_m1083754895 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18__ctor_m4123327391 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3397316701 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m2580499953 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18_MoveNext_m3973876957 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18_Dispose_m2456058908 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator18_Reset_m1769760332 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17__ctor_m379590006 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1528264412 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m1634382448 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17_MoveNext_m3316478398 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17_Dispose_m3907025971 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator17_Reset_m2320990243 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16__ctor_m3060585548 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2074257872 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m2122468708 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16_MoveNext_m2035570960 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16_Dispose_m3363364233 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator16_Reset_m707018489 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15__ctor_m710572706 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2221044730 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m1172286350 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15_MoveNext_m4093111802 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15_Dispose_m4153820767 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator15_Reset_m2651972943 ();
+extern "C" void GA_FREE_Demo05__ctor_m3494773957 ();
+extern "C" void GA_FREE_Demo05_Awake_m3732379176 ();
+extern "C" void GA_FREE_Demo05_Start_m2441911749 ();
+extern "C" void GA_FREE_Demo05_Update_m2690672360 ();
+extern "C" void GA_FREE_Demo05_MoveInTitleGameObjects_m1371598567 ();
+extern "C" void GA_FREE_Demo05_MoveInPrimaryButtons_m40602748 ();
+extern "C" void GA_FREE_Demo05_HideAllGUIs_m1193706202 ();
+extern "C" void GA_FREE_Demo05_HideTitleTextMeshes_m677880665 ();
+extern "C" void GA_FREE_Demo05_EnableAllDemoButtons_m766878791 ();
+extern "C" void GA_FREE_Demo05_DisableButtonForSeconds_m1629558856 ();
+extern "C" void GA_FREE_Demo05_OnButton_Dialog1_m907318170 ();
+extern "C" void GA_FREE_Demo05_OnButton_Dialog2_m907319131 ();
+extern "C" void GA_FREE_Demo05_OnButton_Dialog3_m907320092 ();
+extern "C" void GA_FREE_Demo05_OnButton_Dialog4_m907321053 ();
+extern "C" void GA_FREE_Demo05_OnButton_MoveOutAllDialogs_m4096968984 ();
+extern "C" void GA_FREE_Demo05_Dialog1_MoveIn_m2620019635 ();
+extern "C" void GA_FREE_Demo05_Dialog2_MoveIn_m2423506130 ();
+extern "C" void GA_FREE_Demo05_Dialog3_MoveIn_m2226992625 ();
+extern "C" void GA_FREE_Demo05_Dialog4_MoveIn_m2030479120 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23__ctor_m2457971384 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2240899748 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23_System_Collections_IEnumerator_get_Current_m781530680 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23_MoveNext_m4254118436 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23_Dispose_m4071737589 ();
+extern "C" void U3CDialog1_MoveInU3Ec__Iterator23_Reset_m104404325 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24__ctor_m2612257816 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3240119620 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24_System_Collections_IEnumerator_get_Current_m1081956568 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24_MoveNext_m691240132 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24_Dispose_m2017143381 ();
+extern "C" void U3CDialog2_MoveInU3Ec__Iterator24_Reset_m258690757 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25__ctor_m2766544248 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4239339492 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25_System_Collections_IEnumerator_get_Current_m1382382456 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25_MoveNext_m1423329124 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25_Dispose_m4257516469 ();
+extern "C" void U3CDialog3_MoveInU3Ec__Iterator25_Reset_m412977189 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26__ctor_m2920830680 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m943592068 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26_System_Collections_IEnumerator_get_Current_m1682808344 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26_MoveNext_m2155418116 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26_Dispose_m2202922261 ();
+extern "C" void U3CDialog4_MoveInU3Ec__Iterator26_Reset_m567263621 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22__ctor_m3008205771 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m496530983 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22_System_Collections_IEnumerator_get_Current_m1018275771 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22_MoveNext_m2316964169 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22_Dispose_m271038792 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator22_Reset_m654638712 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21__ctor_m2518623270 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3199045174 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m1153351114 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21_MoveNext_m1219412726 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21_Dispose_m2228657891 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator21_Reset_m165056211 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20__ctor_m2552459999 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4156238099 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20_System_Collections_IEnumerator_get_Current_m2475668135 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20_MoveNext_m1539354549 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20_Dispose_m386016092 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator20_Reset_m198892940 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F__ctor_m3027989467 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3545572769 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F_System_Collections_IEnumerator_get_Current_m2107673397 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F_MoveNext_m1628330785 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F_Dispose_m2103301464 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator1F_Reset_m674422408 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E__ctor_m2830904945 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m375784331 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E_System_Collections_IEnumerator_get_Current_m1433304351 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E_MoveNext_m531854283 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E_Dispose_m1683636846 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator1E_Reset_m477337886 ();
+extern "C" void GA_FREE_Demo06__ctor_m3298260452 ();
+extern "C" void GA_FREE_Demo06_Awake_m3535865671 ();
+extern "C" void GA_FREE_Demo06_Start_m2245398244 ();
+extern "C" void GA_FREE_Demo06_Update_m893721001 ();
+extern "C" void GA_FREE_Demo06_MoveInTitleGameObjects_m2333212584 ();
+extern "C" void GA_FREE_Demo06_MoveInPrimaryButtons_m2258360701 ();
+extern "C" void GA_FREE_Demo06_HideAllGUIs_m683172025 ();
+extern "C" void GA_FREE_Demo06_HideTitleTextMeshes_m610873912 ();
+extern "C" void GA_FREE_Demo06_EnableAllDemoButtons_m2984636744 ();
+extern "C" void GA_FREE_Demo06_DisableAllButtonsForSeconds_m2588346867 ();
+extern "C" void GA_FREE_Demo06_OnButton_1_m3600829507 ();
+extern "C" void GA_FREE_Demo06_OnButton_2_m3600830468 ();
+extern "C" void GA_FREE_Demo06_OnButton_3_m3600831429 ();
+extern "C" void GA_FREE_Demo06_OnButton_4_m3600832390 ();
+extern "C" void GA_FREE_Demo06_OnButton_5_m3600833351 ();
+extern "C" void GA_FREE_Demo06_ToggleButton_1_m364905464 ();
+extern "C" void GA_FREE_Demo06_ToggleButton_2_m364906425 ();
+extern "C" void GA_FREE_Demo06_ToggleButton_3_m364907386 ();
+extern "C" void GA_FREE_Demo06_ToggleButton_4_m364908347 ();
+extern "C" void GA_FREE_Demo06_ToggleButton_5_m364909308 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B__ctor_m2342556686 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3092581444 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_System_Collections_IEnumerator_get_Current_m3742373848 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_MoveNext_m1529135142 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_Dispose_m532395211 ();
+extern "C" void U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_Reset_m4283956923 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A__ctor_m2486027189 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m375392775 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A_System_Collections_IEnumerator_get_Current_m1138555803 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A_MoveNext_m812172551 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A_Dispose_m968595122 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2A_Reset_m132460130 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29__ctor_m3378065271 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1324751739 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29_System_Collections_IEnumerator_get_Current_m3817633039 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29_MoveNext_m4163275805 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29_Dispose_m3518700020 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator29_Reset_m1024498212 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28__ctor_m2798879881 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m513222067 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28_System_Collections_IEnumerator_get_Current_m4063817543 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28_MoveNext_m927687603 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28_Dispose_m972321414 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator28_Reset_m445312822 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27__ctor_m459756383 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2616792925 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27_System_Collections_IEnumerator_get_Current_m3665261809 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27_MoveNext_m972161053 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27_Dispose_m3637502940 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator27_Reset_m2401156620 ();
+extern "C" void GA_FREE_Demo07__ctor_m3101746947 ();
+extern "C" void GA_FREE_Demo07_Awake_m3339352166 ();
+extern "C" void GA_FREE_Demo07_Start_m2048884739 ();
+extern "C" void GA_FREE_Demo07_Update_m3391736938 ();
+extern "C" void GA_FREE_Demo07_MoveInTitleGameObjects_m3294826601 ();
+extern "C" void GA_FREE_Demo07_MoveInPrimaryButtons_m181151358 ();
+extern "C" void GA_FREE_Demo07_HideAllGUIs_m172637848 ();
+extern "C" void GA_FREE_Demo07_HideTitleTextMeshes_m543867159 ();
+extern "C" void GA_FREE_Demo07_EnableAllDemoButtons_m907427401 ();
+extern "C" void GA_FREE_Demo07_DisableButtonForSeconds_m1575165958 ();
+extern "C" void GA_FREE_Demo07_OnButton_1_m813414020 ();
+extern "C" void GA_FREE_Demo07_OnButton_2_m813414981 ();
+extern "C" void GA_FREE_Demo07_OnButton_3_m813415942 ();
+extern "C" void GA_FREE_Demo07_OnButton_4_m813416903 ();
+extern "C" void GA_FREE_Demo07_OnDialogButton_m2751669690 ();
+extern "C" void GA_FREE_Demo07_MoveButtonsOut_m83758367 ();
+extern "C" void GA_FREE_Demo07_SetButtonMove_m798556968 ();
+extern "C" void GA_FREE_Demo07_DialogMoveIn_m1092623079 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32__ctor_m1935204454 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1004109558 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32_System_Collections_IEnumerator_get_Current_m3680775818 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32_MoveNext_m3558445750 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32_Dispose_m4203891491 ();
+extern "C" void U3CDialogMoveInU3Ec__Iterator32_Reset_m3876604691 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30__ctor_m1588762704 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1167506114 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30_System_Collections_IEnumerator_get_Current_m382370390 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30_MoveNext_m3936551588 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30_Dispose_m1985851533 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator30_Reset_m3530162941 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F__ctor_m320112367 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4142389005 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F_System_Collections_IEnumerator_get_Current_m918262945 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F_MoveNext_m3632365453 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F_Dispose_m2583589740 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator2F_Reset_m2261512604 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E__ctor_m3614130028 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2162137766 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E_System_Collections_IEnumerator_get_Current_m2482481722 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E_MoveNext_m1612020744 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E_Dispose_m2743664809 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator2E_Reset_m1260562969 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D__ctor_m3552337820 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2819330176 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D_System_Collections_IEnumerator_get_Current_m460231700 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D_MoveNext_m1694059456 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D_Dispose_m3490895065 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator2D_Reset_m1198770761 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C__ctor_m3366142642 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1606325738 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C_System_Collections_IEnumerator_get_Current_m337489278 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C_MoveNext_m2879482858 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C_Dispose_m650988143 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator2C_Reset_m1012575583 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31__ctor_m414201658 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2478441432 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31_System_Collections_IEnumerator_get_Current_m4083070828 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31_MoveNext_m3418886778 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31_Dispose_m2809085175 ();
+extern "C" void U3CSetButtonMoveU3Ec__Iterator31_Reset_m2355601895 ();
+extern "C" void GA_FREE_Demo08__ctor_m2905233442 ();
+extern "C" void GA_FREE_Demo08_Awake_m3142838661 ();
+extern "C" void GA_FREE_Demo08_Start_m1852371234 ();
+extern "C" void GA_FREE_Demo08_Update_m1594785579 ();
+extern "C" void GA_FREE_Demo08_MoveInTitleGameObjects_m4256440618 ();
+extern "C" void GA_FREE_Demo08_MoveInPrimaryButtons_m2398909311 ();
+extern "C" void GA_FREE_Demo08_HideAllGUIs_m3957070967 ();
+extern "C" void GA_FREE_Demo08_HideTitleTextMeshes_m476860406 ();
+extern "C" void GA_FREE_Demo08_EnableAllDemoButtons_m3125185354 ();
+extern "C" void GA_FREE_Demo08_DisableButtonForSeconds_m3695453157 ();
+extern "C" void GA_FREE_Demo08_OnButton_1_m2320965829 ();
+extern "C" void GA_FREE_Demo08_OnButton_2_m2320966790 ();
+extern "C" void GA_FREE_Demo08_OnButton_3_m2320967751 ();
+extern "C" void GA_FREE_Demo08_OnButton_4_m2320968712 ();
+extern "C" void GA_FREE_Demo08_ToggleBar1_m3532903316 ();
+extern "C" void GA_FREE_Demo08_ToggleBar2_m3532904277 ();
+extern "C" void GA_FREE_Demo08_ToggleBar3_m3532905238 ();
+extern "C" void GA_FREE_Demo08_ToggleBar4_m3532906199 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37__ctor_m205408810 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3068230952 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37_System_Collections_IEnumerator_get_Current_m2462240956 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37_MoveNext_m2651900554 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37_Dispose_m4022621159 ();
+extern "C" void U3CDisableButtonForSecondsU3Ec__Iterator37_Reset_m2146809047 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36__ctor_m484029791 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1527434909 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36_System_Collections_IEnumerator_get_Current_m3227495473 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36_MoveNext_m3518528285 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36_Dispose_m1194444252 ();
+extern "C" void U3CEnableAllDemoButtonsU3Ec__Iterator36_Reset_m2425430028 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35__ctor_m3260654270 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2373428884 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35_System_Collections_IEnumerator_get_Current_m2765181480 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35_MoveNext_m2475523958 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35_Dispose_m2355877755 ();
+extern "C" void U3CHideTitleTextMeshesU3Ec__Iterator35_Reset_m907087211 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34__ctor_m3716255244 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m204376080 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34_System_Collections_IEnumerator_get_Current_m2769464228 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34_MoveNext_m1580222288 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34_Dispose_m2101749577 ();
+extern "C" void U3CMoveInPrimaryButtonsU3Ec__Iterator34_Reset_m1362688185 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33__ctor_m1388021090 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4264730938 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33_System_Collections_IEnumerator_get_Current_m2922535118 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33_MoveNext_m3906595642 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33_Dispose_m2346688799 ();
+extern "C" void U3CMoveInTitleGameObjectsU3Ec__Iterator33_Reset_m3329421327 ();
+extern "C" void GA_FREE_DemoPlaySound__ctor_m528753217 ();
+extern "C" void GA_FREE_DemoPlaySound_Start_m3770858305 ();
+extern "C" void GA_FREE_DemoPlaySound_Update_m938342636 ();
+extern "C" void GA_FREE_DemoPlaySound_PlayOneShot_m1208262648 ();
+extern "C" void GA_FREE_DemoPlaySound_PlaySoundButton1_m4235504487 ();
+extern "C" void GA_FREE_DemoPlaySound_PlaySoundButton2_m4235505448 ();
+extern "C" void GA_FREE_OpenOtherScene__ctor_m853725799 ();
+extern "C" void GA_FREE_OpenOtherScene_Start_m4095830887 ();
+extern "C" void GA_FREE_OpenOtherScene_Update_m2422558086 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene1_m1363357601 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene2_m1363358562 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene3_m1363359523 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene4_m1363360484 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene5_m1363361445 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene6_m1363362406 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene7_m1363363367 ();
+extern "C" void GA_FREE_OpenOtherScene_ButtonOpenDemoScene8_m1363364328 ();
 extern "C" void GazeInputModule__ctor_m1046273690 ();
 extern "C" void GazeInputModule_ShouldActivateModule_m90977672 ();
 extern "C" void GazeInputModule_DeactivateModule_m3462298090 ();
@@ -11907,8 +13525,34 @@ extern "C" void GazeInputModule_GetCurrentGameObject_m3453813641 ();
 extern "C" void GazeInputModule_GetIntersectionPosition_m1734457914 ();
 extern "C" void GazeInputModule_DisableGazePointer_m2817493146 ();
 extern "C" void GazeInputModule_GetGazePointerPosition_m3374365818 ();
+extern "C" void GE_OrbitCamera__ctor_m320158285 ();
+extern "C" void GE_OrbitCamera_Start_m3562263373 ();
+extern "C" void GE_OrbitCamera_Update_m3061834336 ();
+extern "C" void GE_OrbitCamera_UpdatePosition_m2849694313 ();
+extern "C" void GE_OrbitCamera_ClampAngle_m198587418 ();
+extern "C" void GE_OrbitCamera_SetZoomMethod_m4001336348 ();
+extern "C" void GE_OrbitCameraUI__ctor_m1813023673 ();
+extern "C" void GE_OrbitCameraUI_Start_m760161465 ();
+extern "C" void GE_OrbitCameraUI_Update_m2096021108 ();
+extern "C" void GE_OrbitCameraUI_OnToggle_InvertX_m1877277409 ();
+extern "C" void GE_OrbitCameraUI_OnToggle_InvertY_m1877278370 ();
+extern "C" void GE_OrbitCameraUI_OnToggle_InvertZoom_m1327149996 ();
+extern "C" void GE_OrbitCameraUI_OnToggle_Help_m3343329700 ();
+extern "C" void GE_OrbitCameraUI_OnToggle_Details_m1921143265 ();
+extern "C" void GE_OrbitCameraUI_OnButton_PinchZoom_m3355527146 ();
+extern "C" void GE_OrbitCameraUI_OnButton_VScrollZoom_m1048579155 ();
+extern "C" void GE_OrbitCameraUI_OnButton_Settings_m3521962600 ();
+extern "C" void GE_ToggleFullScreenUI__ctor_m2261240743 ();
+extern "C" void GE_ToggleFullScreenUI_Start_m1208378535 ();
+extern "C" void GE_ToggleFullScreenUI_Update_m3105848390 ();
+extern "C" void GE_ToggleFullScreenUI_OnButton_ToggleFullScreen_m2983455362 ();
+extern "C" void GE_UIResponder__ctor_m3641091406 ();
+extern "C" void GE_UIResponder_Start_m2588229198 ();
+extern "C" void GE_UIResponder_Update_m2931545983 ();
+extern "C" void GE_UIResponder_OnButton_AssetName_m2779573987 ();
 extern "C" void GoToScene__ctor_m3508567778 ();
 extern "C" void GoToScene_LoadScene_m2884441670 ();
+extern "C" void GoToScene_LoadMainLevel_m1417123525 ();
 extern "C" void GoToScene_ResetLevel_m2485660567 ();
 extern "C" void BaseVRDevice__ctor_m309650530 ();
 extern "C" void BaseVRDevice__cctor_m527135627 ();
@@ -11981,12 +13625,12 @@ extern "C" void EmulatorManager_Start_m1192682473 ();
 extern "C" void EmulatorManager_EndOfFrame_m58878910 ();
 extern "C" void EmulatorManager_OnPhoneEvent_m612416532 ();
 extern "C" void EmulatorManager_ProcessEventAtEndOfFrame_m3189031586 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1__ctor_m1534605927 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4169840907 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m648950431 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1_MoveNext_m1164743981 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1_Dispose_m1480796388 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator1_Reset_m3476006164 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39__ctor_m389458056 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2206376084 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39_System_Collections_IEnumerator_get_Current_m4094708776 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39_MoveNext_m790647124 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39_Dispose_m505320133 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator39_Reset_m2330858293 ();
 extern "C" void OnAccelEvent__ctor_m1064389 ();
 extern "C" void OnAccelEvent_Invoke_m718084262 ();
 extern "C" void OnAccelEvent_BeginInvoke_m1866329421 ();
@@ -12346,12 +13990,12 @@ extern "C" void Networking__ctor_m3798141959 ();
 extern "C" void Networking_Start_m2745279751 ();
 extern "C" void Networking_Update_m3505145830 ();
 extern "C" void Networking_ScreenshotEncode_m508812993 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2__ctor_m2789006665 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2525317097 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m783170941 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2_MoveNext_m499630347 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2_Dispose_m74095430 ();
-extern "C" void U3CScreenshotEncodeU3Ec__Iterator2_Reset_m435439606 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A__ctor_m846018589 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3270839199 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A_System_Collections_IEnumerator_get_Current_m1578642739 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A_MoveNext_m4100262815 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A_Dispose_m1173328154 ();
+extern "C" void U3CScreenshotEncodeU3Ec__Iterator3A_Reset_m2787418826 ();
 extern "C" void Pose3D__ctor_m184997881 ();
 extern "C" void Pose3D__ctor_m2222637201 ();
 extern "C" void Pose3D__ctor_m3211564577 ();
@@ -12949,12 +14593,12 @@ extern "C" void StereoController_EndOfFrame_m473628192 ();
 extern "C" void StereoController_U3Cget_EyesU3Em__0_m2283112925 ();
 extern "C" void StereoController_U3Cget_HeadU3Em__1_m1513013532 ();
 extern "C" void StereoController_U3CAddStereoRigU3Em__2_m3086802611 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0__ctor_m2083007146 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1190860072 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4178340028 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0_MoveNext_m522808330 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0_Dispose_m213390439 ();
-extern "C" void U3CEndOfFrameU3Ec__Iterator0_Reset_m4024407383 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38__ctor_m2904556103 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2381268917 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38_System_Collections_IEnumerator_get_Current_m835278153 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38_MoveNext_m2153322805 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38_Dispose_m3742922948 ();
+extern "C" void U3CEndOfFrameU3Ec__Iterator38_Reset_m550989044 ();
 extern "C" void StereoRenderEffect__ctor_m2763955324 ();
 extern "C" void StereoRenderEffect__cctor_m3596140209 ();
 extern "C" void StereoRenderEffect_Awake_m3001560543 ();
@@ -13083,27 +14727,27 @@ extern "C" void Ext_UrlDecode_m251005989 ();
 extern "C" void Ext_UrlEncode_m1077906173 ();
 extern "C" void Ext_WriteContent_m3014329667 ();
 extern "C" void Ext_U3CCheckIfValidProtocolsU3Em__5_m2477356725 ();
-extern "C" void U3CContainsTwiceU3Ec__AnonStoreyC__ctor_m2615078695 ();
-extern "C" void U3CContainsTwiceU3Ec__AnonStoreyC_U3CU3Em__6_m1169127341 ();
-extern "C" void U3CCopyToAsyncU3Ec__AnonStoreyD__ctor_m1535564233 ();
-extern "C" void U3CCopyToAsyncU3Ec__AnonStoreyD_U3CU3Em__7_m2487349884 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStoreyE__ctor_m342714329 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStoreyE_U3CU3Em__8_m107647787 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStoreyF__ctor_m146200824 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStoreyF_U3CU3Em__9_m1745656844 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey10__ctor_m1440831548 ();
-extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey10_U3CU3Em__D_m2750559106 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3__ctor_m2170623256 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m561987130 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m2398367758 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m240561481 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m804962035 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_MoveNext_m3609310940 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_Dispose_m2808093525 ();
-extern "C" void U3CSplitHeaderValueU3Ec__Iterator3_Reset_m4112023493 ();
-extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey11__ctor_m652889877 ();
-extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey11_U3CU3Em__A_m2995637701 ();
-extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey11_U3CU3Em__B_m3112146486 ();
+extern "C" void U3CContainsTwiceU3Ec__AnonStorey44__ctor_m990345052 ();
+extern "C" void U3CContainsTwiceU3Ec__AnonStorey44_U3CU3Em__6_m3139089584 ();
+extern "C" void U3CCopyToAsyncU3Ec__AnonStorey45__ctor_m3485572952 ();
+extern "C" void U3CCopyToAsyncU3Ec__AnonStorey45_U3CU3Em__7_m1708743307 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey46__ctor_m2467402150 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey46_U3CU3Em__8_m1625085048 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey47__ctor_m2270888645 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey47_U3CU3Em__9_m936216415 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey48__ctor_m4166823748 ();
+extern "C" void U3CReadBytesAsyncU3Ec__AnonStorey48_U3CU3Em__D_m2602808970 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B__ctor_m456439948 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1081560044 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_IEnumerator_get_Current_m1111494948 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_IEnumerable_GetEnumerator_m3451310309 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m3882246895 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_MoveNext_m1928269008 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_Dispose_m450408905 ();
+extern "C" void U3CSplitHeaderValueU3Ec__Iterator3B_Reset_m2397840185 ();
+extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey49__ctor_m2279862352 ();
+extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey49_U3CU3Em__A_m1892176874 ();
+extern "C" void U3CWriteBytesAsyncU3Ec__AnonStorey49_U3CU3Em__B_m1450914395 ();
 extern "C" void HttpBase__ctor_m2861271121 ();
 extern "C" void HttpBase_get_EntityBody_m2143482024 ();
 extern "C" void HttpBase_get_Headers_m4258191640 ();
@@ -13111,8 +14755,8 @@ extern "C" void HttpBase_get_ProtocolVersion_m2990665920 ();
 extern "C" void HttpBase_readEntityBody_m67214369 ();
 extern "C" void HttpBase_readHeaders_m1246908778 ();
 extern "C" void HttpBase_ToByteArray_m1758981413 ();
-extern "C" void U3CreadHeadersU3Ec__AnonStorey13__ctor_m3846605617 ();
-extern "C" void U3CreadHeadersU3Ec__AnonStorey13_U3CU3Em__E_m1656290814 ();
+extern "C" void U3CreadHeadersU3Ec__AnonStorey4B__ctor_m4097983557 ();
+extern "C" void U3CreadHeadersU3Ec__AnonStorey4B_U3CU3Em__E_m2946868586 ();
 extern "C" void HttpRequest__ctor_m1840645905 ();
 extern "C" void HttpRequest__ctor_m3452466175 ();
 extern "C" void HttpRequest_get_AuthenticationResponse_m3607290725 ();
@@ -13477,8 +15121,8 @@ extern "C" void HttpListenerAsyncResult_Complete_m3332066195 ();
 extern "C" void HttpListenerAsyncResult_Complete_m2562971180 ();
 extern "C" void HttpListenerAsyncResult_Complete_m682090449 ();
 extern "C" void HttpListenerAsyncResult_GetContext_m1299003305 ();
-extern "C" void U3CcompleteU3Ec__AnonStorey15__ctor_m114555431 ();
-extern "C" void U3CcompleteU3Ec__AnonStorey15_U3CU3Em__13_m1796712962 ();
+extern "C" void U3CcompleteU3Ec__AnonStorey4D__ctor_m365933371 ();
+extern "C" void U3CcompleteU3Ec__AnonStorey4D_U3CU3Em__13_m796403310 ();
 extern "C" void HttpListenerContext__ctor_m2127277548 ();
 extern "C" void HttpListenerContext_get_Connection_m2508772408 ();
 extern "C" void HttpListenerContext_get_ErrorMessage_m898629483 ();
@@ -13607,16 +15251,16 @@ extern "C" void HttpListenerResponse_Close_m1346396252 ();
 extern "C" void HttpListenerResponse_CopyFrom_m870782152 ();
 extern "C" void HttpListenerResponse_Redirect_m2157529364 ();
 extern "C" void HttpListenerResponse_SetCookie_m740043324 ();
-extern "C" void U3CCloseU3Ec__AnonStorey16__ctor_m2023697819 ();
-extern "C" void U3CCloseU3Ec__AnonStorey16_U3CU3Em__14_m1995267964 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4__ctor_m3429543293 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m2730049766 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1531063827 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_System_Collections_IEnumerable_GetEnumerator_m3888054484 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m420454455 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_MoveNext_m1277270847 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_Dispose_m1449471610 ();
-extern "C" void U3CfindCookieU3Ec__Iterator4_Reset_m1075976234 ();
+extern "C" void U3CCloseU3Ec__AnonStorey4E__ctor_m2275075759 ();
+extern "C" void U3CCloseU3Ec__AnonStorey4E_U3CU3Em__14_m1226955496 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C__ctor_m2428693285 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m2526319380 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_System_Collections_IEnumerator_get_Current_m996235297 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_System_Collections_IEnumerable_GetEnumerator_m792257180 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m3237518703 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_MoveNext_m2861625775 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_Dispose_m1705288226 ();
+extern "C" void U3CfindCookieU3Ec__Iterator3C_Reset_m75126226 ();
 extern "C" void HttpStreamAsyncResult__ctor_m608371090 ();
 extern "C" void HttpStreamAsyncResult_get_Buffer_m2665459153 ();
 extern "C" void HttpStreamAsyncResult_set_Buffer_m781472974 ();
@@ -13836,12 +15480,12 @@ extern "C" void WebHeaderCollection_Set_m2535546596 ();
 extern "C" void WebHeaderCollection_Set_m2811227238 ();
 extern "C" void WebHeaderCollection_ToByteArray_m1886877506 ();
 extern "C" void WebHeaderCollection_ToString_m374624635 ();
-extern "C" void U3CGetObjectDataU3Ec__AnonStorey18__ctor_m1182728716 ();
-extern "C" void U3CGetObjectDataU3Ec__AnonStorey18_U3CU3Em__17_m642089804 ();
-extern "C" void U3CToStringU3Ec__AnonStorey19__ctor_m3851488686 ();
-extern "C" void U3CToStringU3Ec__AnonStorey19_U3CU3Em__18_m2719806895 ();
-extern "C" void U3CToStringMultiValueU3Ec__AnonStorey17__ctor_m1060954008 ();
-extern "C" void U3CToStringMultiValueU3Ec__AnonStorey17_U3CU3Em__16_m3307164055 ();
+extern "C" void U3CGetObjectDataU3Ec__AnonStorey50__ctor_m4156965912 ();
+extern "C" void U3CGetObjectDataU3Ec__AnonStorey50_U3CU3Em__17_m1459241048 ();
+extern "C" void U3CToStringU3Ec__AnonStorey51__ctor_m2530758586 ();
+extern "C" void U3CToStringU3Ec__AnonStorey51_U3CU3Em__18_m3536958139 ();
+extern "C" void U3CToStringMultiValueU3Ec__AnonStorey4F__ctor_m1312331948 ();
+extern "C" void U3CToStringMultiValueU3Ec__AnonStorey4F_U3CU3Em__16_m365402027 ();
 extern "C" void HttpListenerWebSocketContext__ctor_m1047238486 ();
 extern "C" void HttpListenerWebSocketContext_get_Log_m709667570 ();
 extern "C" void HttpListenerWebSocketContext_get_Stream_m1443623536 ();
@@ -13865,14 +15509,14 @@ extern "C" void HttpListenerWebSocketContext_get_WebSocket_m3774700236 ();
 extern "C" void HttpListenerWebSocketContext_Close_m2643023591 ();
 extern "C" void HttpListenerWebSocketContext_Close_m2714929608 ();
 extern "C" void HttpListenerWebSocketContext_ToString_m4269451170 ();
-extern "C" void U3CU3Ec__Iterator5__ctor_m2997548384 ();
-extern "C" void U3CU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3345322994 ();
-extern "C" void U3CU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m4231646150 ();
-extern "C" void U3CU3Ec__Iterator5_System_Collections_IEnumerable_GetEnumerator_m234218497 ();
-extern "C" void U3CU3Ec__Iterator5_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m183768491 ();
-extern "C" void U3CU3Ec__Iterator5_MoveNext_m399699348 ();
-extern "C" void U3CU3Ec__Iterator5_Dispose_m2914191773 ();
-extern "C" void U3CU3Ec__Iterator5_Reset_m643981325 ();
+extern "C" void U3CU3Ec__Iterator3D__ctor_m3522190848 ();
+extern "C" void U3CU3Ec__Iterator3D_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1102622200 ();
+extern "C" void U3CU3Ec__Iterator3D_System_Collections_IEnumerator_get_Current_m4111267120 ();
+extern "C" void U3CU3Ec__Iterator3D_System_Collections_IEnumerable_GetEnumerator_m3720239345 ();
+extern "C" void U3CU3Ec__Iterator3D_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m850903803 ();
+extern "C" void U3CU3Ec__Iterator3D_MoveNext_m1638868700 ();
+extern "C" void U3CU3Ec__Iterator3D_Dispose_m289458749 ();
+extern "C" void U3CU3Ec__Iterator3D_Reset_m1168623789 ();
 extern "C" void TcpListenerWebSocketContext__ctor_m3610312559 ();
 extern "C" void TcpListenerWebSocketContext_get_Log_m1273961413 ();
 extern "C" void TcpListenerWebSocketContext_get_Stream_m2213800901 ();
@@ -13898,16 +15542,16 @@ extern "C" void TcpListenerWebSocketContext_Close_m1144748106 ();
 extern "C" void TcpListenerWebSocketContext_Close_m3572588741 ();
 extern "C" void TcpListenerWebSocketContext_SendAuthenticationChallenge_m3663957037 ();
 extern "C" void TcpListenerWebSocketContext_ToString_m3432376121 ();
-extern "C" void U3CU3Ec__Iterator6__ctor_m2399466172 ();
-extern "C" void U3CU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1556284284 ();
-extern "C" void U3CU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m2831339316 ();
-extern "C" void U3CU3Ec__Iterator6_System_Collections_IEnumerable_GetEnumerator_m838900405 ();
-extern "C" void U3CU3Ec__Iterator6_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m156928191 ();
-extern "C" void U3CU3Ec__Iterator6_MoveNext_m1056957856 ();
-extern "C" void U3CU3Ec__Iterator6_Dispose_m3682803705 ();
-extern "C" void U3CU3Ec__Iterator6_Reset_m45899113 ();
-extern "C" void U3CAuthenticateU3Ec__AnonStorey1A__ctor_m1545945721 ();
-extern "C" void U3CAuthenticateU3Ec__AnonStorey1A_U3CU3Em__19_m2208706782 ();
+extern "C" void U3CU3Ec__Iterator3E__ctor_m3761949314 ();
+extern "C" void U3CU3Ec__Iterator3E_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3442978832 ();
+extern "C" void U3CU3Ec__Iterator3E_System_Collections_IEnumerator_get_Current_m357819364 ();
+extern "C" void U3CU3Ec__Iterator3E_System_Collections_IEnumerable_GetEnumerator_m1223322783 ();
+extern "C" void U3CU3Ec__Iterator3E_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m3836715593 ();
+extern "C" void U3CU3Ec__Iterator3E_MoveNext_m751201586 ();
+extern "C" void U3CU3Ec__Iterator3E_Dispose_m3064077887 ();
+extern "C" void U3CU3Ec__Iterator3E_Reset_m1408382255 ();
+extern "C" void U3CAuthenticateU3Ec__AnonStorey52__ctor_m1600810156 ();
+extern "C" void U3CAuthenticateU3Ec__AnonStorey52_U3CU3Em__19_m3393821265 ();
 extern "C" void WebSocketContext__ctor_m547194573 ();
 extern "C" void PayloadData__ctor_m1953054222 ();
 extern "C" void PayloadData__ctor_m719751291 ();
@@ -13927,12 +15571,12 @@ extern "C" void PayloadData_Mask_m2120375719 ();
 extern "C" void PayloadData_GetEnumerator_m2795194391 ();
 extern "C" void PayloadData_ToArray_m2183245024 ();
 extern "C" void PayloadData_ToString_m441557573 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7__ctor_m3248186007 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m3612312659 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1909391225 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7_MoveNext_m248522981 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7_Dispose_m3258778900 ();
-extern "C" void U3CGetEnumeratorU3Ec__Iterator7_Reset_m894618948 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F__ctor_m1607930981 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m2572723501 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F_System_Collections_IEnumerator_get_Current_m2843558049 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F_MoveNext_m1671679855 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F_Dispose_m3226696546 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator3F_Reset_m3549331218 ();
 extern "C" void HttpRequestEventArgs__ctor_m3223050676 ();
 extern "C" void HttpRequestEventArgs_get_Request_m765115273 ();
 extern "C" void HttpRequestEventArgs_get_Response_m1879778525 ();
@@ -14000,8 +15644,8 @@ extern "C" void HttpServer_Start_m1575199568 ();
 extern "C" void HttpServer_Stop_m1159604342 ();
 extern "C" void HttpServer_Stop_m3433714938 ();
 extern "C" void HttpServer_Stop_m1018467974 ();
-extern "C" void U3CreceiveRequestU3Ec__AnonStorey1B__ctor_m1546475101 ();
-extern "C" void U3CreceiveRequestU3Ec__AnonStorey1B_U3CU3Em__1A_m4011441470 ();
+extern "C" void U3CreceiveRequestU3Ec__AnonStorey53__ctor_m1601339536 ();
+extern "C" void U3CreceiveRequestU3Ec__AnonStorey53_U3CU3Em__1A_m933922475 ();
 extern "C" void WebSocketBehavior__ctor_m1044863730 ();
 extern "C" void WebSocketBehavior_get_Log_m3648840195 ();
 extern "C" void WebSocketBehavior_get_Sessions_m2811314691 ();
@@ -14083,8 +15727,8 @@ extern "C" void WebSocketServer_Start_m2111545953 ();
 extern "C" void WebSocketServer_Stop_m4086399813 ();
 extern "C" void WebSocketServer_Stop_m3824398539 ();
 extern "C" void WebSocketServer_Stop_m3607508693 ();
-extern "C" void U3CreceiveRequestU3Ec__AnonStorey1C__ctor_m335954573 ();
-extern "C" void U3CreceiveRequestU3Ec__AnonStorey1C_U3CU3Em__1C_m323528396 ();
+extern "C" void U3CreceiveRequestU3Ec__AnonStorey54__ctor_m390819008 ();
+extern "C" void U3CreceiveRequestU3Ec__AnonStorey54_U3CU3Em__1C_m1540976697 ();
 extern "C" void WebSocketServiceHost__ctor_m1517077253 ();
 extern "C" void WebSocketServiceHost_get_State_m2266518310 ();
 extern "C" void WebSocketServiceHost_Start_m464215045 ();
@@ -14118,13 +15762,13 @@ extern "C" void WebSocketServiceManager_BroadcastAsync_m3537348100 ();
 extern "C" void WebSocketServiceManager_Broadping_m4003056848 ();
 extern "C" void WebSocketServiceManager_Broadping_m1766270002 ();
 extern "C" void WebSocketServiceManager_TryGetServiceHost_m2799759582 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey1D__ctor_m2934175016 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey1D_U3CU3Em__1E_m2240136847 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey1E__ctor_m2737661511 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey1E_U3CU3Em__1F_m3947360623 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey1F__ctor_m2002251590 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey1F_U3CU3Em__20_m2453960092 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey1F_U3CU3Em__21_m2721662910 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey55__ctor_m2989039451 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey55_U3CU3Em__1E_m3457585148 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey56__ctor_m2792525946 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey56_U3CU3Em__1F_m869841628 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey57__ctor_m2057116025 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey57_U3CU3Em__20_m3671408393 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey57_U3CU3Em__21_m725183281 ();
 extern "C" void WebSocketSessionManager__ctor_m242715117 ();
 extern "C" void WebSocketSessionManager__ctor_m875185834 ();
 extern "C" void WebSocketSessionManager_get_State_m3748400376 ();
@@ -14172,29 +15816,29 @@ extern "C" void WebSocketSessionManager_SendToAsync_m1592347749 ();
 extern "C" void WebSocketSessionManager_Sweep_m3574010615 ();
 extern "C" void WebSocketSessionManager_TryGetSession_m3886672592 ();
 extern "C" void WebSocketSessionManager_U3CsetSweepTimerU3Em__24_m1245689501 ();
-extern "C" void U3CU3Ec__Iterator8__ctor_m3974673697 ();
-extern "C" void U3CU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m793899703 ();
-extern "C" void U3CU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1821974383 ();
-extern "C" void U3CU3Ec__Iterator8_System_Collections_IEnumerable_GetEnumerator_m462933168 ();
-extern "C" void U3CU3Ec__Iterator8_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m1621535930 ();
-extern "C" void U3CU3Ec__Iterator8_MoveNext_m2972793627 ();
-extern "C" void U3CU3Ec__Iterator8_Dispose_m1333779742 ();
-extern "C" void U3CU3Ec__Iterator8_Reset_m1621106638 ();
-extern "C" void U3CU3Ec__Iterator9__ctor_m3778160192 ();
-extern "C" void U3CU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m585201400 ();
-extern "C" void U3CU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m3792913840 ();
-extern "C" void U3CU3Ec__Iterator9_System_Collections_IEnumerable_GetEnumerator_m455173809 ();
-extern "C" void U3CU3Ec__Iterator9_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m2925929659 ();
-extern "C" void U3CU3Ec__Iterator9_MoveNext_m2679390620 ();
-extern "C" void U3CU3Ec__Iterator9_Dispose_m1462862461 ();
-extern "C" void U3CU3Ec__Iterator9_Reset_m1424593133 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey20__ctor_m2173101918 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey20_U3CU3Em__22_m3858483213 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey21__ctor_m1976588413 ();
-extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey21_U3CU3Em__23_m1270739693 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey22__ctor_m1241178492 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey22_U3CU3Em__25_m3351078401 ();
-extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey22_U3CU3Em__26_m1191723321 ();
+extern "C" void U3CU3Ec__Iterator40__ctor_m2682542705 ();
+extern "C" void U3CU3Ec__Iterator40_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3546270465 ();
+extern "C" void U3CU3Ec__Iterator40_System_Collections_IEnumerator_get_Current_m4017608149 ();
+extern "C" void U3CU3Ec__Iterator40_System_Collections_IEnumerable_GetEnumerator_m2856726992 ();
+extern "C" void U3CU3Ec__Iterator40_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m2885918074 ();
+extern "C" void U3CU3Ec__Iterator40_MoveNext_m2384622819 ();
+extern "C" void U3CU3Ec__Iterator40_Dispose_m841444974 ();
+extern "C" void U3CU3Ec__Iterator40_Reset_m328975646 ();
+extern "C" void U3CU3Ec__Iterator41__ctor_m2486029200 ();
+extern "C" void U3CU3Ec__Iterator41_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3337572162 ();
+extern "C" void U3CU3Ec__Iterator41_System_Collections_IEnumerator_get_Current_m1693580310 ();
+extern "C" void U3CU3Ec__Iterator41_System_Collections_IEnumerable_GetEnumerator_m2848967633 ();
+extern "C" void U3CU3Ec__Iterator41_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m4190311803 ();
+extern "C" void U3CU3Ec__Iterator41_MoveNext_m2091219812 ();
+extern "C" void U3CU3Ec__Iterator41_Dispose_m970527693 ();
+extern "C" void U3CU3Ec__Iterator41_Reset_m132462141 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey58__ctor_m3800074393 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey58_U3CU3Em__22_m218769778 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey59__ctor_m3603560888 ();
+extern "C" void U3CbroadcastAsyncU3Ec__AnonStorey59_U3CU3Em__23_m1925993554 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey5A__ctor_m1492556432 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey5A_U3CU3Em__25_m2350768749 ();
+extern "C" void U3CBroadcastAsyncU3Ec__AnonStorey5A_U3CU3Em__26_m3744947533 ();
 extern "C" void WebSocket__ctor_m1529266513 ();
 extern "C" void WebSocket__ctor_m4103642360 ();
 extern "C" void WebSocket__ctor_m2306802077 ();
@@ -14348,35 +15992,35 @@ extern "C" void WebSocket_SetCredentials_m4000006718 ();
 extern "C" void WebSocket_SetProxy_m707250473 ();
 extern "C" void WebSocket_U3CopenU3Em__29_m4263222090 ();
 extern "C" void WebSocket_U3CprocessSecWebSocketProtocolHeaderU3Em__2A_m663298973 ();
-extern "C" void U3CU3Ec__IteratorA__ctor_m309746886 ();
-extern "C" void U3CU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m1129872757 ();
-extern "C" void U3CU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m4107568864 ();
-extern "C" void U3CU3Ec__IteratorA_System_Collections_IEnumerable_GetEnumerator_m3605316571 ();
-extern "C" void U3CU3Ec__IteratorA_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m2748611536 ();
-extern "C" void U3CU3Ec__IteratorA_MoveNext_m1969665902 ();
-extern "C" void U3CU3Ec__IteratorA_Dispose_m1212297091 ();
-extern "C" void U3CU3Ec__IteratorA_Reset_m2251147123 ();
-extern "C" void U3CAcceptAsyncU3Ec__AnonStorey29__ctor_m3823949840 ();
-extern "C" void U3CAcceptAsyncU3Ec__AnonStorey29_U3CU3Em__2F_m375715990 ();
-extern "C" void U3CcloseAsyncU3Ec__AnonStorey23__ctor_m1037808996 ();
-extern "C" void U3CcloseAsyncU3Ec__AnonStorey23_U3CU3Em__27_m2438826097 ();
-extern "C" void U3CConnectAsyncU3Ec__AnonStorey2A__ctor_m3496309928 ();
-extern "C" void U3CConnectAsyncU3Ec__AnonStorey2A_U3CU3Em__30_m1019230869 ();
-extern "C" void U3CmessagesU3Ec__AnonStorey24__ctor_m3271696731 ();
-extern "C" void U3CmessagesU3Ec__AnonStorey24_U3CU3Em__28_m3491424170 ();
-extern "C" void U3CsendAsyncU3Ec__AnonStorey25__ctor_m3365435956 ();
-extern "C" void U3CsendAsyncU3Ec__AnonStorey25_U3CU3Em__2B_m3412716150 ();
-extern "C" void U3CSendAsyncU3Ec__AnonStorey2B__ctor_m2354754791 ();
-extern "C" void U3CSendAsyncU3Ec__AnonStorey2B_U3CU3Em__31_m3887551931 ();
-extern "C" void U3CSendAsyncU3Ec__AnonStorey2B_U3CU3Em__32_m1701347135 ();
-extern "C" void U3CstartReceivingU3Ec__AnonStorey26__ctor_m86196551 ();
-extern "C" void U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__2C_m3538594913 ();
-extern "C" void U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__33_m2515155025 ();
-extern "C" void U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__34_m618624801 ();
-extern "C" void U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey27__ctor_m198491892 ();
-extern "C" void U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey27_U3CU3Em__2D_m1829738887 ();
-extern "C" void U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey28__ctor_m593378511 ();
-extern "C" void U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey28_U3CU3Em__2E_m2198586667 ();
+extern "C" void U3CU3Ec__Iterator42__ctor_m3633594593 ();
+extern "C" void U3CU3Ec__Iterator42_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m373729098 ();
+extern "C" void U3CU3Ec__Iterator42_System_Collections_IEnumerator_get_Current_m1367210031 ();
+extern "C" void U3CU3Ec__Iterator42_System_Collections_IEnumerable_GetEnumerator_m3635707120 ();
+extern "C" void U3CU3Ec__Iterator42_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m667209371 ();
+extern "C" void U3CU3Ec__Iterator42_MoveNext_m1020688731 ();
+extern "C" void U3CU3Ec__Iterator42_Dispose_m4269242590 ();
+extern "C" void U3CU3Ec__Iterator42_Reset_m1280027534 ();
+extern "C" void U3CAcceptAsyncU3Ec__AnonStorey61__ctor_m2503219740 ();
+extern "C" void U3CAcceptAsyncU3Ec__AnonStorey61_U3CU3Em__2F_m2413803018 ();
+extern "C" void U3CcloseAsyncU3Ec__AnonStorey5B__ctor_m1289186936 ();
+extern "C" void U3CcloseAsyncU3Ec__AnonStorey5B_U3CU3Em__27_m1670513629 ();
+extern "C" void U3CConnectAsyncU3Ec__AnonStorey62__ctor_m3551174363 ();
+extern "C" void U3CConnectAsyncU3Ec__AnonStorey62_U3CU3Em__30_m601718338 ();
+extern "C" void U3CmessagesU3Ec__AnonStorey5C__ctor_m3523074671 ();
+extern "C" void U3CmessagesU3Ec__AnonStorey5C_U3CU3Em__28_m2491114518 ();
+extern "C" void U3CsendAsyncU3Ec__AnonStorey5D__ctor_m3616813896 ();
+extern "C" void U3CsendAsyncU3Ec__AnonStorey5D_U3CU3Em__2B_m2644403682 ();
+extern "C" void U3CSendAsyncU3Ec__AnonStorey63__ctor_m2409619226 ();
+extern "C" void U3CSendAsyncU3Ec__AnonStorey63_U3CU3Em__31_m810032936 ();
+extern "C" void U3CSendAsyncU3Ec__AnonStorey63_U3CU3Em__32_m3999834802 ();
+extern "C" void U3CstartReceivingU3Ec__AnonStorey5E__ctor_m337574491 ();
+extern "C" void U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__2C_m299659381 ();
+extern "C" void U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__33_m3917241533 ();
+extern "C" void U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__34_m3171849013 ();
+extern "C" void U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey5F__ctor_m449869832 ();
+extern "C" void U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey5F_U3CU3Em__2D_m829429235 ();
+extern "C" void U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey60__ctor_m3567615707 ();
+extern "C" void U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey60_U3CU3Em__2E_m1760471455 ();
 extern "C" void WebSocketException__ctor_m469025560 ();
 extern "C" void WebSocketException__ctor_m2177180616 ();
 extern "C" void WebSocketException__ctor_m3830227690 ();
@@ -14440,30 +16084,425 @@ extern "C" void WebSocketFrame_Print_m2623923964 ();
 extern "C" void WebSocketFrame_PrintToString_m2057514283 ();
 extern "C" void WebSocketFrame_ToArray_m813447968 ();
 extern "C" void WebSocketFrame_ToString_m2245624947 ();
-extern "C" void U3CdumpU3Ec__AnonStorey2C__ctor_m2030558047 ();
-extern "C" void U3CdumpU3Ec__AnonStorey2C_U3CU3Em__35_m1471269554 ();
-extern "C" void U3CdumpU3Ec__AnonStorey2D__ctor_m716587107 ();
-extern "C" void U3CdumpU3Ec__AnonStorey2D_U3CU3Em__3B_m227803835 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB__ctor_m1597371544 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m1607661850 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2245993870 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB_MoveNext_m2404522844 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB_Dispose_m1669012181 ();
-extern "C" void U3CGetEnumeratorU3Ec__IteratorB_Reset_m3538771781 ();
-extern "C" void U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey2E__ctor_m497928282 ();
-extern "C" void U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey2E_U3CU3Em__36_m3051086659 ();
-extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey32__ctor_m3296126528 ();
-extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3A_m2125705834 ();
-extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3C_m2400465448 ();
-extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3D_m390361607 ();
-extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3E_m2675225062 ();
-extern "C" void U3CreadHeaderAsyncU3Ec__AnonStorey2F__ctor_m364128067 ();
-extern "C" void U3CreadHeaderAsyncU3Ec__AnonStorey2F_U3CU3Em__37_m2950861593 ();
-extern "C" void U3CreadMaskingKeyAsyncU3Ec__AnonStorey30__ctor_m4144056534 ();
-extern "C" void U3CreadMaskingKeyAsyncU3Ec__AnonStorey30_U3CU3Em__38_m2699269893 ();
-extern "C" void U3CreadPayloadDataAsyncU3Ec__AnonStorey31__ctor_m708615660 ();
-extern "C" void U3CreadPayloadDataAsyncU3Ec__AnonStorey31_U3CU3Em__39_m3809382670 ();
-extern const Il2CppMethodPointer g_MethodPointers[14452] = 
+extern "C" void U3CdumpU3Ec__AnonStorey64__ctor_m2085422482 ();
+extern "C" void U3CdumpU3Ec__AnonStorey64_U3CU3Em__35_m2656384037 ();
+extern "C" void U3CdumpU3Ec__AnonStorey65__ctor_m713464969 ();
+extern "C" void U3CdumpU3Ec__AnonStorey65_U3CU3Em__3B_m3611596117 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43__ctor_m2200723885 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m2149090173 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43_System_Collections_IEnumerator_get_Current_m494318499 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43_MoveNext_m1828507663 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43_Dispose_m1670026922 ();
+extern "C" void U3CGetEnumeratorU3Ec__Iterator43_Reset_m4142124122 ();
+extern "C" void U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey66__ctor_m552792717 ();
+extern "C" void U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey66_U3CU3Em__36_m4268534960 ();
+extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey6A__ctor_m3547504468 ();
+extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3A_m3527792342 ();
+extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3C_m3802551956 ();
+extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3D_m1792448115 ();
+extern "C" void U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3E_m4077311570 ();
+extern "C" void U3CreadHeaderAsyncU3Ec__AnonStorey67__ctor_m418992502 ();
+extern "C" void U3CreadHeaderAsyncU3Ec__AnonStorey67_U3CU3Em__37_m4168309894 ();
+extern "C" void U3CreadMaskingKeyAsyncU3Ec__AnonStorey68__ctor_m1476061713 ();
+extern "C" void U3CreadMaskingKeyAsyncU3Ec__AnonStorey68_U3CU3Em__38_m3354523754 ();
+extern "C" void U3CreadPayloadDataAsyncU3Ec__AnonStorey69__ctor_m2335588135 ();
+extern "C" void U3CreadPayloadDataAsyncU3Ec__AnonStorey69_U3CU3Em__39_m169669235 ();
+extern "C" void GA_FREE_JS_Demo00__ctor_m2269481995 ();
+extern "C" void GA_FREE_JS_Demo00_Awake_m2507087214 ();
+extern "C" void GA_FREE_JS_Demo00_Start_m1216619787 ();
+extern "C" void GA_FREE_JS_Demo00_Update_m3361327202 ();
+extern "C" void GA_FREE_JS_Demo00_ShowText_m2894428026 ();
+extern "C" void U24ShowTextU245__ctor_m1174012688 ();
+extern "C" void U24ShowTextU245_GetEnumerator_m805742091 ();
+extern "C" void U24__ctor_m2300160293 ();
+extern "C" void U24_MoveNext_m2621307236 ();
+extern "C" void GA_FREE_JS_Demo01__ctor_m2072968490 ();
+extern "C" void GA_FREE_JS_Demo01_Awake_m2310573709 ();
+extern "C" void GA_FREE_JS_Demo01_Start_m1020106282 ();
+extern "C" void GA_FREE_JS_Demo01_Update_m1564375843 ();
+extern "C" void GA_FREE_JS_Demo01_MoveInTitleGameObjects_m399722760 ();
+extern "C" void GA_FREE_JS_Demo01_MoveInPrimaryButtons_m1407187677 ();
+extern "C" void GA_FREE_JS_Demo01_HideAllGUIs_m1789057919 ();
+extern "C" void GA_FREE_JS_Demo01_HideTitleTextMeshes_m3077268696 ();
+extern "C" void GA_FREE_JS_Demo01_EnableAllDemoButtons_m2133463720 ();
+extern "C" void GA_FREE_JS_Demo01_DisableButtonForSeconds_m4110757575 ();
+extern "C" void GA_FREE_JS_Demo01_OnButton_TopLeft_m3120748648 ();
+extern "C" void GA_FREE_JS_Demo01_OnButton_BottomLeft_m46497288 ();
+extern "C" void GA_FREE_JS_Demo01_OnButton_RightBar_m1577350541 ();
+extern "C" void GA_FREE_JS_Demo01_ToggleTopLeft_m3954008656 ();
+extern "C" void GA_FREE_JS_Demo01_ToggleBottomLeft_m3079392032 ();
+extern "C" void GA_FREE_JS_Demo01_ToggleRightBar_m1638607013 ();
+extern "C" void U24DisableButtonForSecondsU2421__ctor_m2220737855 ();
+extern "C" void U24DisableButtonForSecondsU2421_GetEnumerator_m2474395250 ();
+extern "C" void U24__ctor_m3726883274 ();
+extern "C" void U24_MoveNext_m2602522205 ();
+extern "C" void U24EnableAllDemoButtonsU2418__ctor_m4204672416 ();
+extern "C" void U24EnableAllDemoButtonsU2418_GetEnumerator_m3449795590 ();
+extern "C" void U24__ctor_m4234272757 ();
+extern "C" void U24_MoveNext_m952358549 ();
+extern "C" void U24HideTitleTextMeshesU2415__ctor_m880342811 ();
+extern "C" void U24HideTitleTextMeshesU2415_GetEnumerator_m546168731 ();
+extern "C" void U24__ctor_m714223280 ();
+extern "C" void U24_MoveNext_m1783743188 ();
+extern "C" void U24MoveInPrimaryButtonsU2412__ctor_m3470225349 ();
+extern "C" void U24MoveInPrimaryButtonsU2412_GetEnumerator_m545688641 ();
+extern "C" void U24__ctor_m2805277914 ();
+extern "C" void U24_MoveNext_m2358206522 ();
+extern "C" void U24MoveInTitleGameObjectsU249__ctor_m478052838 ();
+extern "C" void U24MoveInTitleGameObjectsU249_GetEnumerator_m1139246704 ();
+extern "C" void U24__ctor_m660615867 ();
+extern "C" void U24_MoveNext_m3530530207 ();
+extern "C" void GA_FREE_JS_Demo02__ctor_m1876454985 ();
+extern "C" void GA_FREE_JS_Demo02_Awake_m2114060204 ();
+extern "C" void GA_FREE_JS_Demo02_Start_m823592777 ();
+extern "C" void GA_FREE_JS_Demo02_Update_m4062391780 ();
+extern "C" void GA_FREE_JS_Demo02_MoveInTitleGameObjects_m1361336777 ();
+extern "C" void GA_FREE_JS_Demo02_ShowDialog_m1083902702 ();
+extern "C" void GA_FREE_JS_Demo02_HideAllGUIs_m1278523742 ();
+extern "C" void GA_FREE_JS_Demo02_HideTitleTextMeshes_m3010261943 ();
+extern "C" void GA_FREE_JS_Demo02_EnableAllDemoButtons_m56254377 ();
+extern "C" void GA_FREE_JS_Demo02_DisableAllButtonsForSeconds_m690847188 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_UpperEdge_m3014173868 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_LeftEdge_m2656520953 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_RightEdge_m2986379942 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_BottomEdge_m4073145629 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_UpperLeft_m3215486070 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_UpperRight_m2041030831 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_BottomLeft_m4274457831 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_BottomRight_m509417054 ();
+extern "C" void GA_FREE_JS_Demo02_OnButton_Center_m3148565930 ();
+extern "C" void GA_FREE_JS_Demo02_DialogMoveIn_m4200033808 ();
+extern "C" void U24DialogMoveInU2441__ctor_m2706353431 ();
+extern "C" void U24DialogMoveInU2441_GetEnumerator_m3333245263 ();
+extern "C" void U24__ctor_m2121628578 ();
+extern "C" void U24_MoveNext_m755864556 ();
+extern "C" void U24DisableAllButtonsForSecondsU2438__ctor_m3557635778 ();
+extern "C" void U24DisableAllButtonsForSecondsU2438_GetEnumerator_m433954585 ();
+extern "C" void U24__ctor_m3744381015 ();
+extern "C" void U24_MoveNext_m2291288598 ();
+extern "C" void U24EnableAllDemoButtonsU2435__ctor_m1579527321 ();
+extern "C" void U24EnableAllDemoButtonsU2435_GetEnumerator_m8404972 ();
+extern "C" void U24__ctor_m2615609454 ();
+extern "C" void U24_MoveNext_m1165182063 ();
+extern "C" void U24HideTitleTextMeshesU2432__ctor_m2914185590 ();
+extern "C" void U24HideTitleTextMeshesU2432_GetEnumerator_m1972515295 ();
+extern "C" void U24__ctor_m1026984459 ();
+extern "C" void U24_MoveNext_m3907270416 ();
+extern "C" void U24MoveInTitleGameObjectsU2426__ctor_m505752987 ();
+extern "C" void U24MoveInTitleGameObjectsU2426_GetEnumerator_m3340362410 ();
+extern "C" void U24__ctor_m1510625520 ();
+extern "C" void U24_MoveNext_m4092784881 ();
+extern "C" void U24ShowDialogU2429__ctor_m2350116121 ();
+extern "C" void U24ShowDialogU2429_GetEnumerator_m229869932 ();
+extern "C" void U24__ctor_m122104046 ();
+extern "C" void U24_MoveNext_m3763817071 ();
+extern "C" void GA_FREE_JS_Demo03__ctor_m1679941480 ();
+extern "C" void GA_FREE_JS_Demo03_Awake_m1917546699 ();
+extern "C" void GA_FREE_JS_Demo03_Start_m627079272 ();
+extern "C" void GA_FREE_JS_Demo03_Update_m2265440421 ();
+extern "C" void GA_FREE_JS_Demo03_MoveInTitleGameObjects_m2322950794 ();
+extern "C" void GA_FREE_JS_Demo03_ShowDialogs_m3025750598 ();
+extern "C" void GA_FREE_JS_Demo03_HideAllGUIs_m767989565 ();
+extern "C" void GA_FREE_JS_Demo03_HideTitleTextMeshes_m2943255190 ();
+extern "C" void GA_FREE_JS_Demo03_EnableAllDemoButtons_m2274012330 ();
+extern "C" void GA_FREE_JS_Demo03_DisableButtonForSeconds_m4056364677 ();
+extern "C" void GA_FREE_JS_Demo03_OnButton_Dialog1_m1028703511 ();
+extern "C" void GA_FREE_JS_Demo03_OnButton_Dialog2_m1028704472 ();
+extern "C" void GA_FREE_JS_Demo03_OnButton_Dialog3_m1028705433 ();
+extern "C" void GA_FREE_JS_Demo03_OnButton_Dialog4_m1028706394 ();
+extern "C" void GA_FREE_JS_Demo03_OnButton_MoveOutAllDialogs_m2589000277 ();
+extern "C" void GA_FREE_JS_Demo03_Dialog1_MoveIn_m2600084054 ();
+extern "C" void GA_FREE_JS_Demo03_Dialog2_MoveIn_m2403570549 ();
+extern "C" void GA_FREE_JS_Demo03_Dialog3_MoveIn_m2207057044 ();
+extern "C" void GA_FREE_JS_Demo03_Dialog4_MoveIn_m2010543539 ();
+extern "C" void U24Dialog1_MoveInU2464__ctor_m606845447 ();
+extern "C" void U24Dialog1_MoveInU2464_GetEnumerator_m3917947837 ();
+extern "C" void U24__ctor_m4171169308 ();
+extern "C" void U24_MoveNext_m2422089406 ();
+extern "C" void U24Dialog2_MoveInU2467__ctor_m3821453259 ();
+extern "C" void U24Dialog2_MoveInU2467_GetEnumerator_m671994233 ();
+extern "C" void U24__ctor_m1032823520 ();
+extern "C" void U24_MoveNext_m572568194 ();
+extern "C" void U24Dialog3_MoveInU2470__ctor_m1460151652 ();
+extern "C" void U24Dialog3_MoveInU2470_GetEnumerator_m2257324992 ();
+extern "C" void U24__ctor_m3859678777 ();
+extern "C" void U24_MoveNext_m316863899 ();
+extern "C" void U24Dialog4_MoveInU2473__ctor_m379792168 ();
+extern "C" void U24Dialog4_MoveInU2473_GetEnumerator_m3306338684 ();
+extern "C" void U24__ctor_m721332989 ();
+extern "C" void U24_MoveNext_m2762309983 ();
+extern "C" void U24DisableButtonForSecondsU2459__ctor_m3848967992 ();
+extern "C" void U24DisableButtonForSecondsU2459_GetEnumerator_m2482608107 ();
+extern "C" void U24__ctor_m792981891 ();
+extern "C" void U24_MoveNext_m3644006276 ();
+extern "C" void U24EnableAllDemoButtonsU2456__ctor_m2800838294 ();
+extern "C" void U24EnableAllDemoButtonsU2456_GetEnumerator_m1168659534 ();
+extern "C" void U24__ctor_m3769352939 ();
+extern "C" void U24_MoveNext_m3113245517 ();
+extern "C" void U24HideTitleTextMeshesU2453__ctor_m204549845 ();
+extern "C" void U24HideTitleTextMeshesU2453_GetEnumerator_m3705539743 ();
+extern "C" void U24__ctor_m4112152426 ();
+extern "C" void U24_MoveNext_m3471070288 ();
+extern "C" void U24MoveInTitleGameObjectsU2447__ctor_m1395903448 ();
+extern "C" void U24MoveInTitleGameObjectsU2447_GetEnumerator_m3248573132 ();
+extern "C" void U24__ctor_m2246696877 ();
+extern "C" void U24_MoveNext_m408374287 ();
+extern "C" void U24ShowDialogsU2450__ctor_m3654958562 ();
+extern "C" void U24ShowDialogsU2450_GetEnumerator_m3745194738 ();
+extern "C" void U24__ctor_m4240176951 ();
+extern "C" void U24_MoveNext_m2043687133 ();
+extern "C" void GA_FREE_JS_Demo04__ctor_m1483427975 ();
+extern "C" void GA_FREE_JS_Demo04_Awake_m1721033194 ();
+extern "C" void GA_FREE_JS_Demo04_Start_m430565767 ();
+extern "C" void GA_FREE_JS_Demo04_Update_m468489062 ();
+extern "C" void GA_FREE_JS_Demo04_MoveInTitleGameObjects_m3284564811 ();
+extern "C" void GA_FREE_JS_Demo04_MoveInPrimaryButtons_m3765494240 ();
+extern "C" void GA_FREE_JS_Demo04_HideAllGUIs_m257455388 ();
+extern "C" void GA_FREE_JS_Demo04_HideTitleTextMeshes_m2876248437 ();
+extern "C" void GA_FREE_JS_Demo04_EnableAllDemoButtons_m196802987 ();
+extern "C" void GA_FREE_JS_Demo04_DisableButtonForSeconds_m1881684580 ();
+extern "C" void GA_FREE_JS_Demo04_OnButton_Dialog1_m1240054424 ();
+extern "C" void GA_FREE_JS_Demo04_OnButton_Dialog2_m1240055385 ();
+extern "C" void GA_FREE_JS_Demo04_OnButton_Dialog3_m1240056346 ();
+extern "C" void GA_FREE_JS_Demo04_OnButton_Dialog4_m1240057307 ();
+extern "C" void GA_FREE_JS_Demo04_OnButton_MoveOutAllDialogs_m2939800214 ();
+extern "C" void GA_FREE_JS_Demo04_Dialog1_MoveIn_m1755612183 ();
+extern "C" void GA_FREE_JS_Demo04_Dialog2_MoveIn_m1559098678 ();
+extern "C" void GA_FREE_JS_Demo04_Dialog3_MoveIn_m1362585173 ();
+extern "C" void GA_FREE_JS_Demo04_Dialog4_MoveIn_m1166071668 ();
+extern "C" void U24Dialog1_MoveInU2493__ctor_m1992641825 ();
+extern "C" void U24Dialog1_MoveInU2493_GetEnumerator_m2711370338 ();
+extern "C" void U24__ctor_m186629750 ();
+extern "C" void U24_MoveNext_m408427065 ();
+extern "C" void U24Dialog2_MoveInU2496__ctor_m912282341 ();
+extern "C" void U24Dialog2_MoveInU2496_GetEnumerator_m3760384030 ();
+extern "C" void U24__ctor_m1343251258 ();
+extern "C" void U24_MoveNext_m2853873149 ();
+extern "C" void U24Dialog3_MoveInU2499__ctor_m4126890153 ();
+extern "C" void U24Dialog3_MoveInU2499_GetEnumerator_m514430426 ();
+extern "C" void U24__ctor_m2499872766 ();
+extern "C" void U24_MoveNext_m1004351937 ();
+extern "C" void U24Dialog4_MoveInU24102__ctor_m2853489769 ();
+extern "C" void U24Dialog4_MoveInU24102_GetEnumerator_m3902661514 ();
+extern "C" void U24__ctor_m2827783102 ();
+extern "C" void U24_MoveNext_m46901829 ();
+extern "C" void U24DisableButtonForSecondsU2488__ctor_m2798810491 ();
+extern "C" void U24DisableButtonForSecondsU2488_GetEnumerator_m4057884846 ();
+extern "C" void U24__ctor_m908937990 ();
+extern "C" void U24_MoveNext_m156155297 ();
+extern "C" void U24EnableAllDemoButtonsU2485__ctor_m1844184688 ();
+extern "C" void U24EnableAllDemoButtonsU2485_GetEnumerator_m3478586931 ();
+extern "C" void U24__ctor_m3548209157 ();
+extern "C" void U24_MoveNext_m1535671176 ();
+extern "C" void U24HideTitleTextMeshesU2482__ctor_m3906884113 ();
+extern "C" void U24HideTitleTextMeshesU2482_GetEnumerator_m2293269730 ();
+extern "C" void U24__ctor_m1527465830 ();
+extern "C" void U24_MoveNext_m3804199661 ();
+extern "C" void U24MoveInPrimaryButtonsU2479__ctor_m2390679744 ();
+extern "C" void U24MoveInPrimaryButtonsU2479_GetEnumerator_m38162915 ();
+extern "C" void U24__ctor_m448980565 ();
+extern "C" void U24_MoveNext_m1347702232 ();
+extern "C" void U24MoveInTitleGameObjectsU2476__ctor_m108089330 ();
+extern "C" void U24MoveInTitleGameObjectsU2476_GetEnumerator_m11489393 ();
+extern "C" void U24__ctor_m1607880967 ();
+extern "C" void U24_MoveNext_m1788260490 ();
+extern "C" void GA_FREE_JS_Demo05__ctor_m1286914470 ();
+extern "C" void GA_FREE_JS_Demo05_Awake_m1524519689 ();
+extern "C" void GA_FREE_JS_Demo05_Start_m234052262 ();
+extern "C" void GA_FREE_JS_Demo05_Update_m2966504999 ();
+extern "C" void GA_FREE_JS_Demo05_MoveInTitleGameObjects_m4246178828 ();
+extern "C" void GA_FREE_JS_Demo05_MoveInPrimaryButtons_m1688284897 ();
+extern "C" void GA_FREE_JS_Demo05_HideAllGUIs_m4041888507 ();
+extern "C" void GA_FREE_JS_Demo05_HideTitleTextMeshes_m2809241684 ();
+extern "C" void GA_FREE_JS_Demo05_EnableAllDemoButtons_m2414560940 ();
+extern "C" void GA_FREE_JS_Demo05_DisableButtonForSeconds_m4001971779 ();
+extern "C" void GA_FREE_JS_Demo05_OnButton_Dialog1_m1451405337 ();
+extern "C" void GA_FREE_JS_Demo05_OnButton_Dialog2_m1451406298 ();
+extern "C" void GA_FREE_JS_Demo05_OnButton_Dialog3_m1451407259 ();
+extern "C" void GA_FREE_JS_Demo05_OnButton_Dialog4_m1451408220 ();
+extern "C" void GA_FREE_JS_Demo05_OnButton_MoveOutAllDialogs_m3290600151 ();
+extern "C" void GA_FREE_JS_Demo05_Dialog1_MoveIn_m911140312 ();
+extern "C" void GA_FREE_JS_Demo05_Dialog2_MoveIn_m714626807 ();
+extern "C" void GA_FREE_JS_Demo05_Dialog3_MoveIn_m518113302 ();
+extern "C" void GA_FREE_JS_Demo05_Dialog4_MoveIn_m321599797 ();
+extern "C" void U24Dialog1_MoveInU24122__ctor_m3711511466 ();
+extern "C" void U24Dialog1_MoveInU24122_GetEnumerator_m1767216680 ();
+extern "C" void U24__ctor_m2752883327 ();
+extern "C" void U24_MoveNext_m658254951 ();
+extern "C" void U24Dialog2_MoveInU24125__ctor_m3934190220 ();
+extern "C" void U24Dialog2_MoveInU24125_GetEnumerator_m3764068614 ();
+extern "C" void U24__ctor_m1998801121 ();
+extern "C" void U24_MoveNext_m916962889 ();
+extern "C" void U24Dialog3_MoveInU24128__ctor_m4156868974 ();
+extern "C" void U24Dialog3_MoveInU24128_GetEnumerator_m1465953252 ();
+extern "C" void U24__ctor_m1244718915 ();
+extern "C" void U24_MoveNext_m1175670827 ();
+extern "C" void U24Dialog4_MoveInU24131__ctor_m3098605605 ();
+extern "C" void U24Dialog4_MoveInU24131_GetEnumerator_m3999122253 ();
+extern "C" void U24__ctor_m2160870458 ();
+extern "C" void U24_MoveNext_m3028195682 ();
+extern "C" void U24DisableButtonForSecondsU24117__ctor_m2677506991 ();
+extern "C" void U24DisableButtonForSecondsU24117_GetEnumerator_m570274162 ();
+extern "C" void U24__ctor_m300391482 ();
+extern "C" void U24_MoveNext_m2041929129 ();
+extern "C" void U24EnableAllDemoButtonsU24114__ctor_m2888374113 ();
+extern "C" void U24EnableAllDemoButtonsU24114_GetEnumerator_m1549043345 ();
+extern "C" void U24__ctor_m1991869558 ();
+extern "C" void U24_MoveNext_m3481958686 ();
+extern "C" void U24HideTitleTextMeshesU24111__ctor_m1453198488 ();
+extern "C" void U24HideTitleTextMeshesU24111_GetEnumerator_m197747210 ();
+extern "C" void U24__ctor_m1472595949 ();
+extern "C" void U24_MoveNext_m2429847313 ();
+extern "C" void U24MoveInPrimaryButtonsU24108__ctor_m4168124859 ();
+extern "C" void U24MoveInPrimaryButtonsU24108_GetEnumerator_m2095326967 ();
+extern "C" void U24__ctor_m3471689808 ();
+extern "C" void U24_MoveNext_m3296141944 ();
+extern "C" void U24MoveInTitleGameObjectsU24105__ctor_m1097173091 ();
+extern "C" void U24MoveInTitleGameObjectsU24105_GetEnumerator_m1567595855 ();
+extern "C" void U24__ctor_m2929573112 ();
+extern "C" void U24_MoveNext_m3796219040 ();
+extern "C" void GA_FREE_JS_Demo06__ctor_m1090400965 ();
+extern "C" void GA_FREE_JS_Demo06_Awake_m1328006184 ();
+extern "C" void GA_FREE_JS_Demo06_Start_m37538757 ();
+extern "C" void GA_FREE_JS_Demo06_Update_m1169553640 ();
+extern "C" void GA_FREE_JS_Demo06_MoveInTitleGameObjects_m912825549 ();
+extern "C" void GA_FREE_JS_Demo06_MoveInPrimaryButtons_m3906042850 ();
+extern "C" void GA_FREE_JS_Demo06_HideAllGUIs_m3531354330 ();
+extern "C" void GA_FREE_JS_Demo06_HideTitleTextMeshes_m2742234931 ();
+extern "C" void GA_FREE_JS_Demo06_EnableAllDemoButtons_m337351597 ();
+extern "C" void GA_FREE_JS_Demo06_DisableAllButtonsForSeconds_m2477819864 ();
+extern "C" void GA_FREE_JS_Demo06_OnButton_1_m2030138370 ();
+extern "C" void GA_FREE_JS_Demo06_OnButton_2_m2030139331 ();
+extern "C" void GA_FREE_JS_Demo06_OnButton_3_m2030140292 ();
+extern "C" void GA_FREE_JS_Demo06_OnButton_4_m2030141253 ();
+extern "C" void GA_FREE_JS_Demo06_OnButton_5_m2030142214 ();
+extern "C" void GA_FREE_JS_Demo06_ToggleButton_1_m3485021239 ();
+extern "C" void GA_FREE_JS_Demo06_ToggleButton_2_m3485022200 ();
+extern "C" void GA_FREE_JS_Demo06_ToggleButton_3_m3485023161 ();
+extern "C" void GA_FREE_JS_Demo06_ToggleButton_4_m3485024122 ();
+extern "C" void GA_FREE_JS_Demo06_ToggleButton_5_m3485025083 ();
+extern "C" void U24DisableAllButtonsForSecondsU24146__ctor_m2444555842 ();
+extern "C" void U24DisableAllButtonsForSecondsU24146_GetEnumerator_m3173911593 ();
+extern "C" void U24__ctor_m3521419223 ();
+extern "C" void U24_MoveNext_m3847029586 ();
+extern "C" void U24EnableAllDemoButtonsU24143__ctor_m3531984477 ();
+extern "C" void U24EnableAllDemoButtonsU24143_GetEnumerator_m3282973460 ();
+extern "C" void U24__ctor_m2026108978 ();
+extern "C" void U24_MoveNext_m2802111355 ();
+extern "C" void U24HideTitleTextMeshesU24140__ctor_m496544882 ();
+extern "C" void U24HideTitleTextMeshesU24140_GetEnumerator_m2507674607 ();
+extern "C" void U24__ctor_m1251452167 ();
+extern "C" void U24_MoveNext_m852272972 ();
+extern "C" void U24MoveInPrimaryButtonsU24137__ctor_m516767927 ();
+extern "C" void U24MoveInPrimaryButtonsU24137_GetEnumerator_m3829257082 ();
+extern "C" void U24__ctor_m3505929228 ();
+extern "C" void U24_MoveNext_m2616294613 ();
+extern "C" void U24MoveInTitleGameObjectsU24134__ctor_m64742175 ();
+extern "C" void U24MoveInTitleGameObjectsU24134_GetEnumerator_m3142872594 ();
+extern "C" void U24__ctor_m2900878452 ();
+extern "C" void U24_MoveNext_m308368061 ();
+extern "C" void GA_FREE_JS_Demo07__ctor_m893887460 ();
+extern "C" void GA_FREE_JS_Demo07_Awake_m1131492679 ();
+extern "C" void GA_FREE_JS_Demo07_Start_m4135992548 ();
+extern "C" void GA_FREE_JS_Demo07_Update_m3667569577 ();
+extern "C" void GA_FREE_JS_Demo07_MoveInTitleGameObjects_m1874439566 ();
+extern "C" void GA_FREE_JS_Demo07_MoveInPrimaryButtons_m1828833507 ();
+extern "C" void GA_FREE_JS_Demo07_HideAllGUIs_m3020820153 ();
+extern "C" void GA_FREE_JS_Demo07_HideTitleTextMeshes_m2675228178 ();
+extern "C" void GA_FREE_JS_Demo07_EnableAllDemoButtons_m2555109550 ();
+extern "C" void GA_FREE_JS_Demo07_DisableButtonForSeconds_m3947578881 ();
+extern "C" void GA_FREE_JS_Demo07_OnButton_1_m3537690179 ();
+extern "C" void GA_FREE_JS_Demo07_OnButton_2_m3537691140 ();
+extern "C" void GA_FREE_JS_Demo07_OnButton_3_m3537692101 ();
+extern "C" void GA_FREE_JS_Demo07_OnButton_4_m3537693062 ();
+extern "C" void GA_FREE_JS_Demo07_OnDialogButton_m1576818169 ();
+extern "C" void GA_FREE_JS_Demo07_MoveButtonsOut_m3203874142 ();
+extern "C" void GA_FREE_JS_Demo07_SetButtonMove_m2171194445 ();
+extern "C" void GA_FREE_JS_Demo07_DialogMoveIn_m1729950284 ();
+extern "C" void U24DialogMoveInU24171__ctor_m1618650166 ();
+extern "C" void U24DialogMoveInU24171_GetEnumerator_m730848282 ();
+extern "C" void U24__ctor_m1557809035 ();
+extern "C" void U24_MoveNext_m470209077 ();
+extern "C" void U24DisableButtonForSecondsU24161__ctor_m4186523324 ();
+extern "C" void U24DisableButtonForSecondsU24161_GetEnumerator_m1977260543 ();
+extern "C" void U24__ctor_m3061108743 ();
+extern "C" void U24_MoveNext_m1279461436 ();
+extern "C" void U24EnableAllDemoButtonsU24158__ctor_m1864817441 ();
+extern "C" void U24EnableAllDemoButtonsU24158_GetEnumerator_m723413199 ();
+extern "C" void U24__ctor_m1901359030 ();
+extern "C" void U24_MoveNext_m3598708640 ();
+extern "C" void U24HideTitleTextMeshesU24155__ctor_m1524081172 ();
+extern "C" void U24HideTitleTextMeshesU24155_GetEnumerator_m524111628 ();
+extern "C" void U24__ctor_m871319017 ();
+extern "C" void U24_MoveNext_m751143247 ();
+extern "C" void U24MoveInPrimaryButtonsU24152__ctor_m1863626064 ();
+extern "C" void U24MoveInPrimaryButtonsU24152_GetEnumerator_m1806013888 ();
+extern "C" void U24__ctor_m756445733 ();
+extern "C" void U24_MoveNext_m711741519 ();
+extern "C" void U24MoveInTitleGameObjectsU24149__ctor_m1016501155 ();
+extern "C" void U24MoveInTitleGameObjectsU24149_GetEnumerator_m424658957 ();
+extern "C" void U24__ctor_m2713194424 ();
+extern "C" void U24_MoveNext_m2591928994 ();
+extern "C" void U24SetButtonMoveU24166__ctor_m437543880 ();
+extern "C" void U24SetButtonMoveU24166_GetEnumerator_m1384601573 ();
+extern "C" void U24__ctor_m3638887635 ();
+extern "C" void U24_MoveNext_m1209967510 ();
+extern "C" void GA_FREE_JS_Demo08__ctor_m697373955 ();
+extern "C" void GA_FREE_JS_Demo08_Awake_m934979174 ();
+extern "C" void GA_FREE_JS_Demo08_Start_m3939479043 ();
+extern "C" void GA_FREE_JS_Demo08_Update_m1870618218 ();
+extern "C" void GA_FREE_JS_Demo08_MoveInTitleGameObjects_m2836053583 ();
+extern "C" void GA_FREE_JS_Demo08_MoveInPrimaryButtons_m4046591460 ();
+extern "C" void GA_FREE_JS_Demo08_HideAllGUIs_m2510285976 ();
+extern "C" void GA_FREE_JS_Demo08_HideTitleTextMeshes_m2608221425 ();
+extern "C" void GA_FREE_JS_Demo08_EnableAllDemoButtons_m477900207 ();
+extern "C" void GA_FREE_JS_Demo08_DisableButtonForSeconds_m1772898784 ();
+extern "C" void GA_FREE_JS_Demo08_OnButton_1_m750274692 ();
+extern "C" void GA_FREE_JS_Demo08_OnButton_2_m750275653 ();
+extern "C" void GA_FREE_JS_Demo08_OnButton_3_m750276614 ();
+extern "C" void GA_FREE_JS_Demo08_OnButton_4_m750277575 ();
+extern "C" void GA_FREE_JS_Demo08_ToggleBar1_m1962212179 ();
+extern "C" void GA_FREE_JS_Demo08_ToggleBar2_m1962213140 ();
+extern "C" void GA_FREE_JS_Demo08_ToggleBar3_m1962214101 ();
+extern "C" void GA_FREE_JS_Demo08_ToggleBar4_m1962215062 ();
+extern "C" void U24DisableButtonForSecondsU24186__ctor_m3078717978 ();
+extern "C" void U24DisableButtonForSecondsU24186_GetEnumerator_m1568861789 ();
+extern "C" void U24__ctor_m3612060645 ();
+extern "C" void U24_MoveNext_m2476490910 ();
+extern "C" void U24EnableAllDemoButtonsU24183__ctor_m2956939033 ();
+extern "C" void U24EnableAllDemoButtonsU24183_GetEnumerator_m2150665430 ();
+extern "C" void U24__ctor_m3458158958 ();
+extern "C" void U24_MoveNext_m1183621369 ();
+extern "C" void U24HideTitleTextMeshesU24180__ctor_m1015938794 ();
+extern "C" void U24HideTitleTextMeshesU24180_GetEnumerator_m2527361141 ();
+extern "C" void U24__ctor_m2172735743 ();
+extern "C" void U24_MoveNext_m1733296262 ();
+extern "C" void U24MoveInPrimaryButtonsU24177__ctor_m4236689779 ();
+extern "C" void U24MoveInPrimaryButtonsU24177_GetEnumerator_m2696949052 ();
+extern "C" void U24__ctor_m643011912 ();
+extern "C" void U24_MoveNext_m997804627 ();
+extern "C" void U24MoveInTitleGameObjectsU24174__ctor_m432581467 ();
+extern "C" void U24MoveInTitleGameObjectsU24174_GetEnumerator_m1693257812 ();
+extern "C" void U24__ctor_m4207060272 ();
+extern "C" void U24_MoveNext_m1663805371 ();
+extern "C" void GA_FREE_JS_DemoPlaySound__ctor_m2923058752 ();
+extern "C" void GA_FREE_JS_DemoPlaySound_Start_m1870196544 ();
+extern "C" void GA_FREE_JS_DemoPlaySound_Update_m2147370189 ();
+extern "C" void GA_FREE_JS_DemoPlaySound_PlayOneShot_m3158107289 ();
+extern "C" void GA_FREE_JS_DemoPlaySound_PlaySoundButton1_m1306808840 ();
+extern "C" void GA_FREE_JS_DemoPlaySound_PlaySoundButton2_m1306809801 ();
+extern "C" void GA_FREE_JS_OpenOtherScene__ctor_m2062753352 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_Start_m1009891144 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_Update_m1247706565 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene1_m3831989664 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene2_m3831990625 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene3_m3831991586 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene4_m3831992547 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m3831993508 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m3831994469 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m3831995430 ();
+extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m3831996391 ();
+extern const Il2CppMethodPointer g_MethodPointers[16491] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -15853,6 +17892,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Convert_ToSingle_m1897502751,
 	Convert_ToSingle_m1734305365,
 	Convert_ToString_m1313468513,
+	Convert_ToString_m130452839,
 	Convert_ToString_m427788191,
 	Convert_ToString_m1285681781,
 	Convert_ToUInt16_m386651276,
@@ -15974,6 +18014,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	DateTime_Parse_m1801557718,
 	DateTime_Parse_m1424797081,
 	DateTime_CoreParse_m2501063101,
+	DateTime_ParseExact_m1034945555,
 	DateTime_YearMonthDayFormats_m200860137,
 	DateTime__ParseNumber_m223303221,
 	DateTime__ParseEnum_m780384966,
@@ -16143,6 +18184,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Delegate_CreateDelegate_m1630815211,
 	Delegate_CreateDelegate_m3460497746,
 	Delegate_CreateDelegate_m2273250141,
+	Delegate_CreateDelegate_m2816771104,
 	Delegate_CreateDelegate_m1085193661,
 	Delegate_GetCandidateMethod_m1148532482,
 	Delegate_CreateDelegate_m812395778,
@@ -16283,6 +18325,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Enum_FormatFlags_m994697154,
 	Enum_Format_m1097709535,
 	Environment_get_SocketSecurityEnabled_m2002704895,
+	Environment_get_UnityWebSecurityEnabled_m2392762195,
 	Environment_get_NewLine_m1034655108,
 	Environment_get_Platform_m977128040,
 	Environment_GetOSVersionString_m2885926456,
@@ -16907,7 +18950,9 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Stream_Dispose_m2904306374,
 	Stream_Dispose_m3908539837,
 	Stream_Close_m3144153567,
+	Stream_get_ReadTimeout_m3547712461,
 	Stream_set_ReadTimeout_m3385086790,
+	Stream_get_WriteTimeout_m2997184130,
 	Stream_ReadByte_m3456529589,
 	Stream_WriteByte_m480466941,
 	Stream_BeginRead_m2456608939,
@@ -17364,6 +19409,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Random__ctor_m2490522898,
 	Random__ctor_m4002613091,
 	Random_Sample_m3542077785,
+	Random_Next_m1579033021,
 	Random_NextBytes_m3527347937,
 	RankException__ctor_m2171614254,
 	RankException__ctor_m3451921812,
@@ -17407,6 +19453,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	AssemblyFileVersionAttribute__ctor_m188013914,
 	AssemblyInformationalVersionAttribute__ctor_m684917983,
 	AssemblyKeyFileAttribute__ctor_m3089249851,
+	AssemblyKeyNameAttribute__ctor_m2210516812,
 	AssemblyName__ctor_m2021574845,
 	AssemblyName__ctor_m1431164030,
 	AssemblyName_get_Name_m1123490526,
@@ -17793,6 +19840,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Module_ToString_m2326023121,
 	Module_filter_by_type_name_m1428086970,
 	Module_filter_by_type_name_ignore_case_m825562172,
+	ModuleResolveEventHandler__ctor_m1364124346,
+	ModuleResolveEventHandler_Invoke_m2550379485,
+	ModuleResolveEventHandler_BeginInvoke_m3285111655,
+	ModuleResolveEventHandler_EndInvoke_m236958287,
 	MonoCMethod__ctor_m1949313751,
 	MonoCMethod_GetParameters_m993439667,
 	MonoCMethod_InternalInvoke_m1703330793,
@@ -18001,6 +20052,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	RuntimeResourceSet_GetObject_m3242127827,
 	RuntimeResourceSet_CloneDisposableObjectIfPossible_m1308606215,
 	SatelliteContractVersionAttribute__ctor_m69110617,
+	CompilationRelaxationsAttribute__ctor_m4277872656,
 	CompilationRelaxationsAttribute__ctor_m3469882264,
 	CompilerGeneratedAttribute__ctor_m2546676106,
 	DecimalConstantAttribute__ctor_m844034077,
@@ -18247,6 +20299,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Identity_get_ServerDynamicProperties_m841334805,
 	InternalRemotingServices__cctor_m2124821007,
 	InternalRemotingServices_GetCachedSoapAttribute_m1251902514,
+	RenewalDelegate__ctor_m3640898857,
+	RenewalDelegate_Invoke_m2399620050,
+	RenewalDelegate_BeginInvoke_m3159291988,
+	RenewalDelegate_EndInvoke_m331344822,
 	LeaseManager__ctor_m2522116882,
 	LeaseManager_SetPollTime_m4066717374,
 	LeaseSink__ctor_m1766448707,
@@ -19158,9 +21214,18 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	StrongNamePublicKeyBlob_ToString_m2295430737,
 	PermissionSet__ctor_m3410884176,
 	PermissionSet__ctor_m1161980594,
+	PermissionSet__ctor_m3799523257,
+	PermissionSet_SetReadOnly_m1922354057,
 	PermissionSet_set_DeclarativeSecurity_m1327442290,
 	PermissionSet_CreateFromBinaryFormat_m554196038,
 	ApplicationTrust__ctor_m3384937791,
+	CodeGroup_get_Description_m3483375035,
+	CodeGroup_get_MembershipCondition_m1069806301,
+	CodeGroup_get_Name_m2286683854,
+	CodeGroup_get_Children_m3916364187,
+	CodeGroup_Equals_m3162055676,
+	CodeGroup_Equals_m1198507690,
+	CodeGroup_GetHashCode_m2557386080,
 	Evidence__ctor_m2923485872,
 	Evidence_get_Count_m2256383184,
 	Evidence_get_IsSynchronized_m1680953145,
@@ -19180,6 +21245,9 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Hash_GetObjectData_m3237379831,
 	Hash_ToString_m280687476,
 	Hash_GetData_m808019137,
+	PolicyStatement_get_PermissionSet_m1663906971,
+	PolicyStatement_Equals_m248618065,
+	PolicyStatement_GetHashCode_m3804980789,
 	StrongName_get_Name_m2625731792,
 	StrongName_get_PublicKey_m99431051,
 	StrongName_get_Version_m1418835908,
@@ -19568,6 +21636,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Encoding_GetBytes_m1804873512,
 	ForwardingDecoder__ctor_m2930063152,
 	ForwardingDecoder_GetChars_m3390742011,
+	EncodingInfo_Equals_m1504812574,
+	EncodingInfo_GetHashCode_m3965017986,
 	Latin1Encoding__ctor_m1980938192,
 	Latin1Encoding_GetByteCount_m706721210,
 	Latin1Encoding_GetByteCount_m4034541857,
@@ -19948,6 +22018,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Type_GetMethod_m534507110,
 	Type_GetMethod_m527054833,
 	Type_GetMethod_m2171093265,
+	Type_GetProperty_m1904930970,
 	Type_GetProperty_m3455595366,
 	Type_GetProperty_m786720973,
 	Type_GetProperty_m3045839774,
@@ -20031,6 +22102,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	UInt32_Equals_m1584642517_AdjustorThunk,
 	UInt32_Parse_m178847972,
 	UInt32_Parse_m3291857117,
+	UInt32_Parse_m1474004442,
 	UInt32_Parse_m1670428837,
 	UInt32_Parse_m3087278554,
 	UInt32_TryParse_m537116052,
@@ -20143,6 +22215,18 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WeakReference_GetObjectData_m1524996508,
 	Locale_GetText_m3269873186,
 	Locale_GetText_m946430094,
+	OSX509Certificates__cctor_m1038795726,
+	OSX509Certificates_SecCertificateCreateWithData_m2116804160,
+	OSX509Certificates_SecTrustCreateWithCertificates_m1080605110,
+	OSX509Certificates_SecPolicyCreateSSL_m1415076668,
+	OSX509Certificates_SecTrustEvaluate_m82762637,
+	OSX509Certificates_CFDataCreate_m4203990262,
+	OSX509Certificates_CFRelease_m3975846355,
+	OSX509Certificates_CFArrayCreate_m2706647866,
+	OSX509Certificates_MakeCFData_m2635409790,
+	OSX509Certificates_FromIntPtrs_m2898371990,
+	OSX509Certificates_TrustEvaluateSsl_m1836821439,
+	OSX509Certificates__TrustEvaluateSsl_m2238821220,
 	GeneratedCodeAttribute__ctor_m3690080601,
 	HybridDictionary__ctor_m951312923,
 	HybridDictionary__ctor_m3356743441,
@@ -20254,6 +22338,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	StringDictionary_get_Values_m352867257,
 	StringDictionary_Add_m2876298361,
 	StringDictionary_GetEnumerator_m3815340904,
+	AsyncCompletedEventHandler__ctor_m1567555400,
+	AsyncCompletedEventHandler_Invoke_m2381493849,
+	AsyncCompletedEventHandler_BeginInvoke_m1323045516,
+	AsyncCompletedEventHandler_EndInvoke_m997545304,
 	BrowsableAttribute__ctor_m2277870761,
 	BrowsableAttribute__cctor_m3848088379,
 	BrowsableAttribute_get_Browsable_m608427366,
@@ -20326,6 +22414,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	NotifyParentPropertyAttribute_get_NotifyParent_m1568339889,
 	NotifyParentPropertyAttribute_Equals_m1614575104,
 	NotifyParentPropertyAttribute_GetHashCode_m4013146328,
+	ProgressChangedEventArgs__ctor_m2574618600,
 	RecommendedAsConfigurableAttribute__ctor_m4241311578,
 	RecommendedAsConfigurableAttribute__cctor_m3762742506,
 	RecommendedAsConfigurableAttribute_get_RecommendedAsConfigurable_m4158471496,
@@ -20405,6 +22494,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	ProcessStartInfo_get_UserName_m2607664632,
 	ProcessStartInfo_get_Domain_m580933254,
 	ProcessStartInfo_get_Password_m414565720,
+	DeflateStream__ctor_m2170106875,
 	DeflateStream__ctor_m3321842210,
 	DeflateStream__ctor_m3336782107,
 	DeflateStream_Dispose_m1280984772,
@@ -20447,6 +22537,24 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WriteMethod_Invoke_m4147400684,
 	WriteMethod_BeginInvoke_m703457547,
 	WriteMethod_EndInvoke_m3252788947,
+	GZipStream__ctor_m2136427100,
+	GZipStream__ctor_m1301775777,
+	GZipStream_Dispose_m1233763813,
+	GZipStream_Read_m295052112,
+	GZipStream_Write_m1453962747,
+	GZipStream_Flush_m1315355667,
+	GZipStream_Seek_m2685013297,
+	GZipStream_SetLength_m1780201801,
+	GZipStream_BeginRead_m2476912851,
+	GZipStream_BeginWrite_m1947383638,
+	GZipStream_EndRead_m2882247347,
+	GZipStream_EndWrite_m1193516172,
+	GZipStream_get_CanRead_m1595474582,
+	GZipStream_get_CanSeek_m1624229624,
+	GZipStream_get_CanWrite_m2737725313,
+	GZipStream_get_Length_m449516243,
+	GZipStream_get_Position_m2709881174,
+	GZipStream_set_Position_m2891315819,
 	MonoIO_Close_m2122881708,
 	MonoIO_get_ConsoleOutput_m3480549602,
 	MonoIO_get_ConsoleInput_m1787762475,
@@ -20468,8 +22576,155 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WriteDelegate_EndInvoke_m36075534,
 	MonoTODOAttribute__ctor_m754636072,
 	MonoTODOAttribute__ctor_m3809503962,
+	AuthenticationManager__cctor_m4133232566,
+	AuthenticationManager_EnsureModules_m3823797022,
+	AuthenticationManager_Authenticate_m926148532,
+	AuthenticationManager_DoAuthenticate_m3748190185,
+	AuthenticationManager_PreAuthenticate_m2542705561,
+	Authorization__ctor_m2068423663,
+	Authorization__ctor_m3964302254,
+	Authorization__ctor_m1461752682,
+	Authorization_get_Message_m3479035884,
+	Authorization_get_Complete_m47192841,
+	Authorization_get_Module_m2673205832,
+	Authorization_set_Module_m275959517,
+	BasicClient__ctor_m1780885267,
+	BasicClient_Authenticate_m2149911920,
+	BasicClient_GetBytes_m4147000082,
+	BasicClient_InternalAuthenticate_m4172385463,
+	BasicClient_PreAuthenticate_m3596333917,
+	BasicClient_get_AuthenticationType_m3361356495,
+	BindIPEndPoint__ctor_m218773313,
+	BindIPEndPoint_Invoke_m554750276,
+	BindIPEndPoint_BeginInvoke_m3404421758,
+	BindIPEndPoint_EndInvoke_m2887424362,
+	ChunkStream__ctor_m3019842669,
+	ChunkStream__ctor_m2952009328,
+	ChunkStream_ResetBuffer_m2311008684,
+	ChunkStream_WriteAndReadBack_m1174558148,
+	ChunkStream_Read_m154741438,
+	ChunkStream_ReadFromChunks_m1120476462,
+	ChunkStream_Write_m3815252045,
+	ChunkStream_InternalWrite_m1638992728,
+	ChunkStream_get_WantMore_m3792639849,
+	ChunkStream_get_ChunkLeft_m642792824,
+	ChunkStream_ReadBody_m977300054,
+	ChunkStream_GetChunkSize_m2303198550,
+	ChunkStream_RemoveChunkExtension_m615575460,
+	ChunkStream_ReadCRLF_m2102328829,
+	ChunkStream_ReadTrailer_m3634517875,
+	ChunkStream_ThrowProtocolViolation_m4007216022,
+	Chunk__ctor_m1565485384,
+	Chunk_Read_m87879296,
+	Cookie__ctor_m749965558,
+	Cookie__ctor_m473882888,
+	Cookie__cctor_m1291999607,
+	Cookie_get_Comment_m1065183021,
+	Cookie_set_Comment_m429647852,
+	Cookie_get_CommentUri_m1997904722,
+	Cookie_set_CommentUri_m2209531659,
+	Cookie_get_Discard_m3634482143,
+	Cookie_set_Discard_m1506297356,
+	Cookie_get_Domain_m380732312,
+	Cookie_set_Domain_m1439537299,
+	Cookie_get_ExactDomain_m3630794404,
+	Cookie_set_ExactDomain_m4164606225,
+	Cookie_get_Expired_m4018922662,
+	Cookie_get_Expires_m657225144,
+	Cookie_set_Expires_m3601651821,
+	Cookie_get_HttpOnly_m1683333781,
+	Cookie_set_HttpOnly_m2390693654,
+	Cookie_get_Name_m94989407,
+	Cookie_set_Name_m1518068076,
+	Cookie_get_Path_m152459129,
+	Cookie_set_Path_m3475722386,
+	Cookie_get_Port_m165340373,
+	Cookie_set_Port_m2158516406,
+	Cookie_get_Ports_m2139144971,
+	Cookie_get_Secure_m655046904,
+	Cookie_set_Secure_m3967528633,
+	Cookie_get_TimeStamp_m3414624826,
+	Cookie_get_Value_m1454378239,
+	Cookie_set_Value_m3944093978,
+	Cookie_get_Version_m275661107,
+	Cookie_set_Version_m128814560,
+	Cookie_Equals_m2267348733,
+	Cookie_GetHashCode_m4162714965,
+	Cookie_hash_m1162468957,
+	Cookie_ToString_m3751681783,
+	Cookie_ToString_m339822058,
+	Cookie_IsNullOrEmpty_m1158722015,
+	CookieCollection__ctor_m1008437304,
+	CookieCollection__cctor_m714689141,
+	CookieCollection_get_List_m772022205,
+	CookieCollection_get_Count_m2566970476,
+	CookieCollection_get_IsSynchronized_m928796317,
+	CookieCollection_get_SyncRoot_m821524061,
+	CookieCollection_CopyTo_m1816730389,
+	CookieCollection_GetEnumerator_m3631747258,
+	CookieCollection_Add_m3899574407,
+	CookieCollection_Sort_m4012327978,
+	CookieCollection_SearchCookie_m3863162774,
+	CookieCollection_get_Item_m2587555162,
+	CookieCollectionComparer__ctor_m4053308016,
+	CookieCollectionComparer_Compare_m556096851,
+	CookieContainer__ctor_m1858224687,
+	CookieContainer_AddCookie_m1415598700,
+	CookieContainer_CountDomain_m338866930,
+	CookieContainer_RemoveOldest_m3761972714,
+	CookieContainer_CheckExpiration_m4053631076,
+	CookieContainer_Cook_m2529807560,
+	CookieContainer_Add_m2554413433,
+	CookieContainer_GetCookieHeader_m710965252,
+	CookieContainer_CheckDomain_m1437975458,
+	CookieContainer_GetCookies_m68052290,
+	CookieContainer_IsNullOrEmpty_m1462660146,
+	CookieException__ctor_m766518817,
+	CookieException__ctor_m1882601089,
+	CookieException__ctor_m678641877,
+	CookieException__ctor_m915002338,
+	CookieException_System_Runtime_Serialization_ISerializable_GetObjectData_m1995220042,
+	CookieException_GetObjectData_m1773279551,
+	CookieParser__ctor_m797337355,
+	CookieParser__ctor_m2583936940,
+	CookieParser_GetNextNameValue_m877210514,
+	CookieParser_GetCookieName_m2141183901,
+	CookieParser_GetCookieValue_m461898113,
 	DefaultCertificatePolicy__ctor_m4248919730,
 	DefaultCertificatePolicy_CheckValidationResult_m4124026463,
+	DigestClient__ctor_m299255755,
+	DigestClient__cctor_m204897602,
+	DigestClient_get_Cache_m499281433,
+	DigestClient_CheckExpired_m4238582311,
+	DigestClient_Authenticate_m1457292628,
+	DigestClient_PreAuthenticate_m3609215481,
+	DigestClient_get_AuthenticationType_m1949045937,
+	DigestHeaderParser__ctor_m2093966808,
+	DigestHeaderParser__cctor_m1169466243,
+	DigestHeaderParser_get_Realm_m2537411729,
+	DigestHeaderParser_get_Opaque_m1594409025,
+	DigestHeaderParser_get_Nonce_m3580385777,
+	DigestHeaderParser_get_Algorithm_m1543204337,
+	DigestHeaderParser_get_QOP_m2289308564,
+	DigestHeaderParser_Parse_m1894726801,
+	DigestHeaderParser_SkipWhitespace_m780187062,
+	DigestHeaderParser_GetKey_m3307245952,
+	DigestHeaderParser_GetKeywordAndValue_m2110698101,
+	DigestSession__ctor_m151504474,
+	DigestSession__cctor_m4214542483,
+	DigestSession_get_Algorithm_m4256264891,
+	DigestSession_get_Realm_m2390347355,
+	DigestSession_get_Nonce_m3433321403,
+	DigestSession_get_Opaque_m1330380727,
+	DigestSession_get_QOP_m421001182,
+	DigestSession_get_CNonce_m2178640418,
+	DigestSession_Parse_m2526605709,
+	DigestSession_HashToHexString_m3897483626,
+	DigestSession_HA1_m3870903473,
+	DigestSession_HA2_m1731891633,
+	DigestSession_Response_m3528911305,
+	DigestSession_Authenticate_m3265953531,
+	DigestSession_get_LastUse_m349648871,
 	Dns__cctor_m2243593610,
 	Dns_GetHostByName_internal_m3697903137,
 	Dns_GetHostByAddr_internal_m516933499,
@@ -20481,6 +22736,19 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Dns_GetHostAddresses_m1512328765,
 	Dns_GetHostByName_m840368461,
 	Dns_GetHostName_m2369217447,
+	DownloadDataCompletedEventHandler__ctor_m365084767,
+	DownloadDataCompletedEventHandler_Invoke_m3471237625,
+	DownloadDataCompletedEventHandler_BeginInvoke_m1002964638,
+	DownloadDataCompletedEventHandler_EndInvoke_m822819311,
+	DownloadProgressChangedEventArgs__ctor_m2163266290,
+	DownloadProgressChangedEventHandler__ctor_m3662803621,
+	DownloadProgressChangedEventHandler_Invoke_m1663937529,
+	DownloadProgressChangedEventHandler_BeginInvoke_m3903691410,
+	DownloadProgressChangedEventHandler_EndInvoke_m753565493,
+	DownloadStringCompletedEventHandler__ctor_m1526234648,
+	DownloadStringCompletedEventHandler_Invoke_m1773329369,
+	DownloadStringCompletedEventHandler_BeginInvoke_m433017132,
+	DownloadStringCompletedEventHandler_EndInvoke_m3568221224,
 	EndPoint__ctor_m4041742149,
 	EndPoint_get_AddressFamily_m756653815,
 	EndPoint_Create_m1369380444,
@@ -20489,15 +22757,185 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	FileWebRequest__ctor_m1190066806,
 	FileWebRequest__ctor_m2417420612,
 	FileWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m3587475368,
+	FileWebRequest_get_ContentLength_m3959517096,
+	FileWebRequest_set_ContentLength_m3507692309,
+	FileWebRequest_set_ContentType_m2123986763,
+	FileWebRequest_get_Credentials_m3151607268,
+	FileWebRequest_set_Credentials_m2271052495,
+	FileWebRequest_get_Headers_m3065734382,
+	FileWebRequest_get_Method_m2005929480,
+	FileWebRequest_set_Method_m339613475,
+	FileWebRequest_get_Proxy_m469077010,
+	FileWebRequest_set_Proxy_m1837681983,
+	FileWebRequest_get_RequestUri_m3313865781,
+	FileWebRequest_GetMustImplement_m391298838,
+	FileWebRequest_Abort_m303714001,
+	FileWebRequest_BeginGetRequestStream_m2530068115,
+	FileWebRequest_EndGetRequestStream_m5977400,
+	FileWebRequest_GetRequestStream_m3303490852,
+	FileWebRequest_GetRequestStreamInternal_m1727879617,
+	FileWebRequest_BeginGetResponse_m1046890263,
+	FileWebRequest_EndGetResponse_m1769167488,
+	FileWebRequest_GetResponse_m3466591250,
+	FileWebRequest_GetResponseInternal_m3074376367,
 	FileWebRequest_GetObjectData_m1166847137,
+	FileWebRequest_Close_m2365028249,
+	FileWebStream__ctor_m3702192034,
+	FileWebStream_Close_m3452177360,
+	GetRequestStreamCallback__ctor_m609089324,
+	GetRequestStreamCallback_Invoke_m2602366844,
+	GetRequestStreamCallback_BeginInvoke_m1340948413,
+	GetRequestStreamCallback_EndInvoke_m697554866,
+	GetResponseCallback__ctor_m910176172,
+	GetResponseCallback_Invoke_m2012732236,
+	GetResponseCallback_BeginInvoke_m2487994309,
+	GetResponseCallback_EndInvoke_m3391029122,
 	FileWebRequestCreator__ctor_m349516791,
 	FileWebRequestCreator_Create_m2860446468,
+	FileWebResponse__ctor_m4203086907,
+	FileWebResponse__ctor_m2377823828,
+	FileWebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m1417232536,
+	FileWebResponse_System_IDisposable_Dispose_m423821804,
+	FileWebResponse_get_ContentLength_m3196153590,
+	FileWebResponse_get_Headers_m2315356702,
+	FileWebResponse_GetObjectData_m22702513,
+	FileWebResponse_GetResponseStream_m3644434002,
+	FileWebResponse_Finalize_m2775464943,
+	FileWebResponse_Close_m3579247785,
+	FileWebResponse_Dispose_m1051444359,
+	FileWebResponse_CheckDisposed_m3815230654,
+	FtpAsyncResult__ctor_m996159919,
+	FtpAsyncResult_get_AsyncState_m2681175690,
+	FtpAsyncResult_get_AsyncWaitHandle_m3104266194,
+	FtpAsyncResult_get_IsCompleted_m2040148559,
+	FtpAsyncResult_get_GotException_m2919804343,
+	FtpAsyncResult_get_Exception_m2991776342,
+	FtpAsyncResult_get_Response_m3336946139,
+	FtpAsyncResult_get_Stream_m4166990260,
+	FtpAsyncResult_set_Stream_m3014354805,
+	FtpAsyncResult_WaitUntilComplete_m1609274803,
+	FtpAsyncResult_SetCompleted_m2460255838,
+	FtpAsyncResult_SetCompleted_m1997870026,
+	FtpAsyncResult_SetCompleted_m3064165237,
+	FtpAsyncResult_DoCallback_m2621895697,
+	FtpDataStream__ctor_m1292366195,
+	FtpDataStream_System_IDisposable_Dispose_m1477901983,
+	FtpDataStream_get_CanRead_m4232145253,
+	FtpDataStream_get_CanWrite_m2870137490,
+	FtpDataStream_get_CanSeek_m4260900295,
+	FtpDataStream_get_Length_m1564877092,
+	FtpDataStream_get_Position_m829833063,
+	FtpDataStream_set_Position_m2281268732,
+	FtpDataStream_Close_m2523731478,
+	FtpDataStream_Flush_m896819234,
+	FtpDataStream_Seek_m1228510272,
+	FtpDataStream_SetLength_m592797528,
+	FtpDataStream_ReadInternal_m2823798498,
+	FtpDataStream_BeginRead_m2271171234,
+	FtpDataStream_EndRead_m3674314244,
+	FtpDataStream_Read_m3453883423,
+	FtpDataStream_WriteInternal_m1319050447,
+	FtpDataStream_BeginWrite_m4159328103,
+	FtpDataStream_EndWrite_m3582344027,
+	FtpDataStream_Write_m336375564,
+	FtpDataStream_Finalize_m1344737122,
+	FtpDataStream_Dispose_m46359540,
+	FtpDataStream_CheckDisposed_m4269287723,
+	ReadDelegate__ctor_m1305620294,
+	ReadDelegate_Invoke_m1815127289,
+	ReadDelegate_BeginInvoke_m3824213480,
+	ReadDelegate_EndInvoke_m531823142,
+	WriteDelegate__ctor_m4253415927,
+	WriteDelegate_Invoke_m4256820664,
+	WriteDelegate_BeginInvoke_m3502042447,
+	WriteDelegate_EndInvoke_m937099143,
 	FtpRequestCreator__ctor_m3461046285,
 	FtpRequestCreator_Create_m2169393454,
+	FtpStatus__ctor_m258616099,
+	FtpStatus_get_StatusCode_m806266466,
+	FtpStatus_get_StatusDescription_m575693492,
 	FtpWebRequest__ctor_m3137933378,
 	FtpWebRequest__cctor_m2914795070,
+	FtpWebRequest_GetMustImplement_m1436910600,
+	FtpWebRequest_set_ContentType_m856042751,
+	FtpWebRequest_get_ContentLength_m3510047858,
+	FtpWebRequest_set_ContentLength_m2856133601,
+	FtpWebRequest_get_Credentials_m3110452944,
+	FtpWebRequest_set_Credentials_m133801859,
+	FtpWebRequest_get_EnableSsl_m3398943863,
+	FtpWebRequest_get_Headers_m1485893850,
+	FtpWebRequest_set_Headers_m3991826215,
+	FtpWebRequest_get_Method_m2046966946,
+	FtpWebRequest_set_Method_m2449187055,
+	FtpWebRequest_get_Proxy_m942600838,
+	FtpWebRequest_set_Proxy_m1186123275,
+	FtpWebRequest_get_ReadWriteTimeout_m3540049670,
+	FtpWebRequest_get_RequestUri_m2356179533,
+	FtpWebRequest_get_ServicePoint_m1902344865,
+	FtpWebRequest_get_DataType_m2074737925,
+	FtpWebRequest_get_State_m1818655718,
+	FtpWebRequest_set_State_m1873142957,
+	FtpWebRequest_Abort_m728953757,
+	FtpWebRequest_BeginGetResponse_m4107018323,
+	FtpWebRequest_EndGetResponse_m2534638616,
+	FtpWebRequest_GetResponse_m3573508010,
+	FtpWebRequest_BeginGetRequestStream_m3381285591,
+	FtpWebRequest_EndGetRequestStream_m1866077208,
+	FtpWebRequest_GetRequestStream_m3141045252,
+	FtpWebRequest_GetServicePoint_m483585814,
+	FtpWebRequest_ResolveHost_m2575242273,
+	FtpWebRequest_ProcessRequest_m1634672693,
+	FtpWebRequest_SetType_m2494411049,
+	FtpWebRequest_GetRemoteFolderPath_m2340338028,
+	FtpWebRequest_CWDAndSetFileName_m1594277826,
+	FtpWebRequest_ProcessMethod_m141324445,
+	FtpWebRequest_CloseControlConnection_m2759704408,
+	FtpWebRequest_CloseDataConnection_m1443100077,
+	FtpWebRequest_CloseConnection_m874562275,
+	FtpWebRequest_ProcessSimpleMethod_m2514275375,
+	FtpWebRequest_UploadData_m3924710304,
+	FtpWebRequest_DownloadData_m3903854567,
+	FtpWebRequest_CheckRequestStarted_m486165255,
+	FtpWebRequest_OpenControlConnection_m875311902,
+	FtpWebRequest_GetInitialPath_m2140946823,
+	FtpWebRequest_SetupPassiveConnection_m4028813507,
+	FtpWebRequest_CreateExceptionFromResponse_m3067811096,
+	FtpWebRequest_SetTransferCompleted_m2900587251,
+	FtpWebRequest_OperationCompleted_m1627023545,
+	FtpWebRequest_SetCompleteWithError_m2243416684,
+	FtpWebRequest_InitDataConnection_m2932897423,
+	FtpWebRequest_OpenDataConnection_m1100056487,
+	FtpWebRequest_Authenticate_m4136436138,
+	FtpWebRequest_SendCommand_m4255745575,
+	FtpWebRequest_SendCommand_m1304781218,
+	FtpWebRequest_ServiceNotAvailable_m797374525,
+	FtpWebRequest_GetResponseStatus_m1396642043,
+	FtpWebRequest_InitiateSecureConnection_m3249464690,
+	FtpWebRequest_ChangeToSSLSocket_m485421130,
+	FtpWebRequest_InFinalState_m2632872555,
+	FtpWebRequest_InProgress_m4217774877,
+	FtpWebRequest_CheckIfAborted_m1919386719,
+	FtpWebRequest_CheckFinalState_m1058126992,
 	FtpWebRequest_U3CcallbackU3Em__B_m1388175350,
+	FtpWebResponse__ctor_m3542190242,
+	FtpWebResponse__ctor_m2217738742,
+	FtpWebResponse__ctor_m287332007,
+	FtpWebResponse_get_ContentLength_m2147509100,
+	FtpWebResponse_get_Headers_m584940466,
+	FtpWebResponse_set_LastModified_m1304868287,
+	FtpWebResponse_set_BannerMessage_m1222407647,
+	FtpWebResponse_set_WelcomeMessage_m1191478019,
+	FtpWebResponse_Close_m3876778333,
+	FtpWebResponse_GetResponseStream_m2153035058,
+	FtpWebResponse_set_Stream_m4206595185,
+	FtpWebResponse_UpdateStatus_m2179474228,
+	FtpWebResponse_CheckDisposed_m2215497074,
+	FtpWebResponse_IsFinal_m2524807527,
 	GlobalProxySelection_get_Select_m3561358852,
+	HttpContinueDelegate__ctor_m2092117820,
+	HttpContinueDelegate_Invoke_m1655092752,
+	HttpContinueDelegate_BeginInvoke_m2329366165,
+	HttpContinueDelegate_EndInvoke_m697802572,
 	HttpRequestCreator__ctor_m2335588533,
 	HttpRequestCreator_Create_m3368655414,
 	HttpVersion__cctor_m1997660113,
@@ -20505,10 +22943,83 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpWebRequest__ctor_m1235446968,
 	HttpWebRequest__cctor_m2196070038,
 	HttpWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m2246907828,
+	HttpWebRequest_set_Accept_m1873716368,
 	HttpWebRequest_get_Address_m3157794738,
+	HttpWebRequest_get_AutomaticDecompression_m2503915258,
+	HttpWebRequest_get_InternalAllowBuffering_m1304022486,
+	HttpWebRequest_get_ClientCertificates_m937340960,
+	HttpWebRequest_set_Connection_m1989927034,
+	HttpWebRequest_get_ContentLength_m585169692,
+	HttpWebRequest_set_ContentLength_m3914932361,
+	HttpWebRequest_set_InternalContentLength_m856181900,
+	HttpWebRequest_set_ContentType_m2275670871,
+	HttpWebRequest_get_Credentials_m1078824536,
+	HttpWebRequest_set_Credentials_m852191195,
+	HttpWebRequest_set_Expect_m4217356575,
+	HttpWebRequest_get_Headers_m1094031202,
+	HttpWebRequest_set_Headers_m3706499023,
+	HttpWebRequest_get_KeepAlive_m1231113482,
+	HttpWebRequest_get_ReadWriteTimeout_m3135707902,
+	HttpWebRequest_get_Method_m2357968148,
+	HttpWebRequest_set_Method_m1650211735,
+	HttpWebRequest_get_Proxy_m2558643078,
+	HttpWebRequest_set_Proxy_m2244922035,
+	HttpWebRequest_set_Referer_m4222739133,
+	HttpWebRequest_get_RequestUri_m2277170497,
+	HttpWebRequest_get_SendChunked_m2844571814,
 	HttpWebRequest_get_ServicePoint_m146133801,
+	HttpWebRequest_get_TransferEncoding_m4082338001,
+	HttpWebRequest_set_UserAgent_m2912453648,
+	HttpWebRequest_get_UnsafeAuthenticatedConnectionSharing_m3363503189,
+	HttpWebRequest_get_ExpectContinue_m3807522816,
+	HttpWebRequest_set_ExpectContinue_m372676545,
+	HttpWebRequest_get_AuthUri_m3734849122,
+	HttpWebRequest_get_ProxyQuery_m4268410842,
 	HttpWebRequest_GetServicePoint_m2366596494,
+	HttpWebRequest_BeginGetRequestStream_m1226644231,
+	HttpWebRequest_EndGetRequestStream_m2882083396,
+	HttpWebRequest_GetRequestStream_m3471735600,
+	HttpWebRequest_CheckIfForceWrite_m3239743150,
+	HttpWebRequest_BeginGetResponse_m2437478947,
+	HttpWebRequest_EndGetResponse_m3402989044,
+	HttpWebRequest_GetResponse_m1494888070,
+	HttpWebRequest_get_FinishedReading_m884104508,
+	HttpWebRequest_set_FinishedReading_m1315164329,
+	HttpWebRequest_get_Aborted_m2228829969,
+	HttpWebRequest_Abort_m3338168389,
 	HttpWebRequest_GetObjectData_m3873995797,
+	HttpWebRequest_CheckRequestStarted_m266500527,
+	HttpWebRequest_DoContinueDelegate_m1174339138,
+	HttpWebRequest_Redirect_m67901887,
+	HttpWebRequest_GetHeaders_m306062586,
+	HttpWebRequest_DoPreAuthenticate_m1395833058,
+	HttpWebRequest_SetWriteStreamError_m4044682561,
+	HttpWebRequest_SendRequestHeaders_m1174520259,
+	HttpWebRequest_SetWriteStream_m3202818152,
+	HttpWebRequest_SetResponseError_m1093010447,
+	HttpWebRequest_CheckSendError_m181530809,
+	HttpWebRequest_HandleNtlmAuth_m418121433,
+	HttpWebRequest_SetResponseData_m2474314870,
+	HttpWebRequest_CheckAuthorization_m3745404856,
+	HttpWebRequest_CheckFinalStatus_m52272070,
+	HttpWebResponse__ctor_m704868621,
+	HttpWebResponse__ctor_m96379232,
+	HttpWebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m2809311756,
+	HttpWebResponse_System_IDisposable_Dispose_m705809504,
+	HttpWebResponse_get_ContentLength_m1670599170,
+	HttpWebResponse_get_Headers_m1322100266,
+	HttpWebResponse_get_StatusCode_m1024380905,
+	HttpWebResponse_get_StatusDescription_m1329734203,
+	HttpWebResponse_ReadAll_m1984785448,
+	HttpWebResponse_GetResponseStream_m2118879582,
+	HttpWebResponse_GetObjectData_m2339932349,
+	HttpWebResponse_Close_m3158053301,
+	HttpWebResponse_Dispose_m1925005715,
+	HttpWebResponse_CheckDisposed_m2778535370,
+	HttpWebResponse_FillCookies_m3918912841,
+	HttpWebResponse_SetCookie_m1353788479,
+	HttpWebResponse_SetCookie2_m1214268497,
+	HttpWebResponse_TryParseCookieExpires_m1708112230,
 	IPAddress__ctor_m927672017,
 	IPAddress__ctor_m3937524101,
 	IPAddress__cctor_m3356110606,
@@ -20567,6 +23078,18 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	IPv6Address_Equals_m1266534874,
 	IPv6Address_GetHashCode_m691770942,
 	IPv6Address_Hash_m1904786435,
+	NetworkCredential_get_Domain_m1006306893,
+	NetworkCredential_get_UserName_m3369838591,
+	NetworkCredential_get_Password_m3230765156,
+	NetworkCredential_GetCredential_m1548991703,
+	OpenReadCompletedEventHandler__ctor_m1559053553,
+	OpenReadCompletedEventHandler_Invoke_m1793628985,
+	OpenReadCompletedEventHandler_BeginInvoke_m3698310650,
+	OpenReadCompletedEventHandler_EndInvoke_m3208828801,
+	OpenWriteCompletedEventHandler__ctor_m2704479118,
+	OpenWriteCompletedEventHandler_Invoke_m451376585,
+	OpenWriteCompletedEventHandler_BeginInvoke_m1419109786,
+	OpenWriteCompletedEventHandler_EndInvoke_m3360324766,
 	ProtocolViolationException__ctor_m2465868344,
 	ProtocolViolationException__ctor_m893374410,
 	ProtocolViolationException__ctor_m682305401,
@@ -20593,7 +23116,9 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	SslStream_get_Position_m833298281,
 	SslStream_set_Position_m1453586112,
 	SslStream_get_IsAuthenticated_m800088812,
+	SslStream_get_ReadTimeout_m2679126988,
 	SslStream_set_ReadTimeout_m3143165177,
+	SslStream_get_WriteTimeout_m1840838243,
 	SslStream_OnCertificateSelection_m280533825,
 	SslStream_BeginAuthenticateAsClient_m2535801674,
 	SslStream_BeginRead_m3663021798,
@@ -20621,15 +23146,28 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	U3CBeginAuthenticateAsServerU3Ec__AnonStorey8_U3CU3Em__A_m956293964,
 	ServicePoint__ctor_m4244145138,
 	ServicePoint_get_Address_m1466650202,
+	ServicePoint_get_ConnectionLimit_m3121072129,
 	ServicePoint_get_CurrentConnections_m1954016890,
 	ServicePoint_get_IdleSince_m3269103731,
 	ServicePoint_set_IdleSince_m305314386,
+	ServicePoint_get_ProtocolVersion_m1049388570,
 	ServicePoint_set_Expect100Continue_m285998358,
+	ServicePoint_get_UseNagleAlgorithm_m3421720563,
 	ServicePoint_set_UseNagleAlgorithm_m4121109536,
+	ServicePoint_get_SendContinue_m2781931911,
 	ServicePoint_set_SendContinue_m515260680,
+	ServicePoint_get_UsesProxy_m287961580,
 	ServicePoint_set_UsesProxy_m3686577241,
+	ServicePoint_get_UseConnect_m86082395,
 	ServicePoint_set_UseConnect_m3883999836,
 	ServicePoint_get_AvailableForRecycling_m4047613978,
+	ServicePoint_get_Groups_m2859817643,
+	ServicePoint_get_HostEntry_m2097536138,
+	ServicePoint_SetVersion_m3470915170,
+	ServicePoint_GetConnectionGroup_m1152498600,
+	ServicePoint_SendRequest_m2674493811,
+	ServicePoint_SetCertificates_m3816091347,
+	ServicePoint_CallEndPointDelegate_m3251688122,
 	ServicePointManager__cctor_m1197717107,
 	ServicePointManager_get_CertificatePolicy_m2939782421,
 	ServicePointManager_get_CheckCertificateRevocationList_m2088706324,
@@ -20637,6 +23175,16 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	ServicePointManager_get_ServerCertificateValidationCallback_m258265119,
 	ServicePointManager_FindServicePoint_m543399130,
 	ServicePointManager_RecycleServicePoints_m3960742511,
+	ChainValidationHelper__ctor_m3198340947,
+	ChainValidationHelper__cctor_m2442608620,
+	ChainValidationHelper_get_Host_m3959355223,
+	ChainValidationHelper_ValidateChain_m3606027497,
+	ChainValidationHelper_GetStatusFromChain_m4189907822,
+	ChainValidationHelper_GetErrorsFromChain_m2003394607,
+	ChainValidationHelper_CheckCertificateUsage_m2553305441,
+	ChainValidationHelper_CheckServerIdentity_m517822786,
+	ChainValidationHelper_CheckDomainName_m4230222526,
+	ChainValidationHelper_Match_m2776004176,
 	SPKey__ctor_m1893054627,
 	SPKey_GetHashCode_m4255714790,
 	SPKey_Equals_m4194939906,
@@ -20649,6 +23197,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	SocketAddress_Equals_m4239961542,
 	SocketAddress_GetHashCode_m1308071082,
 	LingerOption__ctor_m134971468,
+	NetworkStream__ctor_m2753228565,
 	NetworkStream__ctor_m520140744,
 	NetworkStream__ctor_m1461663701,
 	NetworkStream_System_IDisposable_Dispose_m4271513331,
@@ -20658,7 +23207,9 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	NetworkStream_get_Length_m1553131640,
 	NetworkStream_get_Position_m2427355579,
 	NetworkStream_set_Position_m1068534608,
+	NetworkStream_get_ReadTimeout_m2947262172,
 	NetworkStream_set_ReadTimeout_m3931457129,
+	NetworkStream_get_WriteTimeout_m1563094355,
 	NetworkStream_BeginRead_m601033934,
 	NetworkStream_BeginWrite_m3924679355,
 	NetworkStream_Finalize_m1616600246,
@@ -20678,6 +23229,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Socket_LocalEndPoint_internal_m842593232,
 	Socket_get_LocalEndPoint_m2353653724,
 	Socket_get_SocketType_m179480281,
+	Socket_get_SendTimeout_m1516554807,
+	Socket_get_ReceiveTimeout_m432366242,
 	Socket_set_ReceiveTimeout_m3463473559,
 	Socket_Accept_internal_m3645944116,
 	Socket_Accept_m2109262001,
@@ -20695,6 +23248,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Socket_InvalidAsyncOp_m521531680,
 	Socket_Listen_internal_m526300996,
 	Socket_Listen_m2133463779,
+	Socket_Poll_m3896260468,
 	Socket_Receive_m1175719569,
 	Socket_RecvFrom_internal_m548074296,
 	Socket_ReceiveFrom_nochecks_m1640775589,
@@ -20717,6 +23271,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Socket_set_Blocking_m1232454324,
 	Socket_get_Connected_m32348333,
 	Socket_get_ProtocolType_m1063510627,
+	Socket_set_NoDelay_m320978003,
 	Socket_RemoteEndPoint_internal_m2146026531,
 	Socket_get_RemoteEndPoint_m3864554657,
 	Socket_Linger_m3971058726,
@@ -20733,12 +23288,15 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Socket_Poll_internal_m1151471955,
 	Socket_Receive_internal_m2102825858,
 	Socket_Receive_nochecks_m2765323495,
+	Socket_GetSocketOption_obj_internal_m3360460275,
 	Socket_Send_internal_m2939578505,
 	Socket_Send_nochecks_m2300802670,
+	Socket_GetSocketOption_m3158663719,
 	Socket_Shutdown_internal_m2019310737,
 	Socket_Shutdown_m202135370,
 	Socket_SetSocketOption_internal_m111805231,
 	Socket_SetSocketOption_m225156057,
+	Socket_ThrowIfUpd_m253258129,
 	SocketAsyncCall__ctor_m641028609,
 	SocketAsyncCall_Invoke_m90963355,
 	SocketAsyncCall_BeginInvoke_m2857843088,
@@ -20806,16 +23364,184 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	TcpListener_Start_m2992146021,
 	TcpListener_Start_m3019820086,
 	TcpListener_Stop_m2175143617,
+	UploadDataCompletedEventHandler__ctor_m3690739526,
+	UploadDataCompletedEventHandler_Invoke_m3794616473,
+	UploadDataCompletedEventHandler_BeginInvoke_m2280310608,
+	UploadDataCompletedEventHandler_EndInvoke_m3706338390,
+	UploadFileCompletedEventHandler__ctor_m789301684,
+	UploadFileCompletedEventHandler_Invoke_m3490991705,
+	UploadFileCompletedEventHandler_BeginInvoke_m4056259188,
+	UploadFileCompletedEventHandler_EndInvoke_m1334851012,
+	UploadProgressChangedEventHandler__ctor_m4161358796,
+	UploadProgressChangedEventHandler_Invoke_m2650283737,
+	UploadProgressChangedEventHandler_BeginInvoke_m1713599236,
+	UploadProgressChangedEventHandler_EndInvoke_m1561494492,
+	UploadStringCompletedEventHandler__ctor_m2024789823,
+	UploadStringCompletedEventHandler_Invoke_m828569081,
+	UploadStringCompletedEventHandler_BeginInvoke_m1061327070,
+	UploadStringCompletedEventHandler_EndInvoke_m81182927,
+	UploadValuesCompletedEventHandler__ctor_m1088471886,
+	UploadValuesCompletedEventHandler_Invoke_m2739632025,
+	UploadValuesCompletedEventHandler_BeginInvoke_m4064605312,
+	UploadValuesCompletedEventHandler_EndInvoke_m3016100958,
+	WebAsyncResult__ctor_m1701398049,
+	WebAsyncResult__ctor_m3971274728,
+	WebAsyncResult__ctor_m3917357508,
+	WebAsyncResult_SetCompleted_m3561553639,
+	WebAsyncResult_Reset_m1140937314,
+	WebAsyncResult_SetCompleted_m2960316168,
+	WebAsyncResult_SetCompleted_m3009393870,
+	WebAsyncResult_SetCompleted_m400315642,
+	WebAsyncResult_DoCallback_m612756063,
+	WebAsyncResult_WaitUntilComplete_m2752681109,
+	WebAsyncResult_WaitUntilComplete_m4143413377,
+	WebAsyncResult_get_AsyncState_m1743691224,
+	WebAsyncResult_get_AsyncWaitHandle_m2543688004,
+	WebAsyncResult_get_IsCompleted_m3042901185,
+	WebAsyncResult_get_GotException_m3940364677,
+	WebAsyncResult_get_Exception_m3377176904,
+	WebAsyncResult_get_NBytes_m1499555429,
+	WebAsyncResult_set_NBytes_m1001309402,
+	WebAsyncResult_get_InnerAsyncResult_m3256692535,
+	WebAsyncResult_set_InnerAsyncResult_m2944274132,
+	WebAsyncResult_get_WriteStream_m3622907551,
+	WebAsyncResult_get_Response_m3433104279,
+	WebAsyncResult_get_Buffer_m1120906510,
+	WebAsyncResult_get_Offset_m287883483,
+	WebAsyncResult_get_Size_m788557449,
+	WebClient__ctor_m2477960557,
+	WebClient__cctor_m3320237024,
+	WebClient_get_Headers_m4159086712,
+	WebClient_get_Proxy_m212112292,
+	WebClient_get_IsBusy_m2414763289,
+	WebClient_CheckBusy_m581754988,
+	WebClient_SetBusy_m1659299526,
+	WebClient_DetermineMethod_m196435218,
+	WebClient_UploadData_m1237853397,
+	WebClient_UploadData_m1634783582,
+	WebClient_UploadDataCore_m7188651,
+	WebClient_UploadString_m1121356526,
+	WebClient_CreateUri_m3126770009,
+	WebClient_GetQueryString_m3086610068,
+	WebClient_MakeUri_m1674872779,
+	WebClient_SetupRequest_m931338404,
+	WebClient_SetupRequest_m479462813,
+	WebClient_ReadAll_m1240881634,
+	WebClient_UrlEncode_m1541238133,
+	WebClient_OnDownloadProgressChanged_m2326155103,
+	WebClient_GetWebRequest_m2859966311,
+	WebClient_GetWebResponse_m242843735,
+	WebConnection__ctor_m570141276,
+	WebConnection__cctor_m1414380979,
+	WebConnection_CanReuse_m429734244,
+	WebConnection_LoggedThrow_m289187660,
+	WebConnection_CheckUnityWebSecurity_m2005814720,
+	WebConnection_Connect_m1601206237,
+	WebConnection_EnsureSSLStreamAvailable_m2023486437,
+	WebConnection_CreateTunnel_m2875476391,
+	WebConnection_ReadHeaders_m1472946024,
+	WebConnection_CreateStream_m3681331491,
+	WebConnection_HandleError_m1182435509,
+	WebConnection_ReadDone_m2966323745,
+	WebConnection_ExpectContent_m3311255475,
+	WebConnection_GetCertificates_m1592645962,
+	WebConnection_InitRead_m4254490116,
+	WebConnection_GetResponse_m157348301,
+	WebConnection_InitConnection_m1634600572,
+	WebConnection_SendRequest_m3112009476,
+	WebConnection_SendNext_m3731024933,
+	WebConnection_NextRead_m2095832371,
+	WebConnection_ReadLine_m2759062765,
+	WebConnection_BeginRead_m3015313059,
+	WebConnection_EndRead_m1274630179,
+	WebConnection_EnsureRead_m929166331,
+	WebConnection_CompleteChunkedRead_m3721158923,
+	WebConnection_BeginWrite_m2573847028,
+	WebConnection_EndWrite2_m4288679990,
+	WebConnection_EndWrite_m2260987032,
+	WebConnection_Read_m1730466610,
+	WebConnection_Write_m2555077423,
+	WebConnection_Close_m1582875591,
+	WebConnection_Abort_m1843916898,
+	WebConnection_ResetNtlm_m1493144846,
+	WebConnection_get_Busy_m2822871714,
+	WebConnection_set_PriorityRequest_m4059548249,
+	WebConnection_get_NtlmAuthenticated_m2752033729,
+	WebConnection_set_NtlmAuthenticated_m1641730266,
+	WebConnection_get_NtlmCredential_m2164891099,
+	WebConnection_set_NtlmCredential_m870530416,
+	WebConnection_get_UnsafeAuthenticatedConnectionSharing_m1443601566,
+	WebConnection_set_UnsafeAuthenticatedConnectionSharing_m1418610931,
+	AbortHelper__ctor_m551363659,
+	AbortHelper_Abort_m3565251507,
+	WebConnectionData__ctor_m37470512,
+	WebConnectionGroup__ctor_m1503299254,
+	WebConnectionGroup_GetConnection_m3061212227,
+	WebConnectionGroup_PrepareSharingNtlm_m4279924202,
+	WebConnectionGroup_CreateOrReuseConnection_m1829131780,
+	WebConnectionGroup_get_Queue_m318446937,
+	WebConnectionStream__ctor_m1279182072,
+	WebConnectionStream__ctor_m2579331537,
+	WebConnectionStream__cctor_m1397878419,
+	WebConnectionStream_IsNtlmAuth_m1696095129,
+	WebConnectionStream_CheckResponseInBuffer_m2876129862,
+	WebConnectionStream_get_Connection_m2978195726,
+	WebConnectionStream_get_ReadTimeout_m4090731914,
+	WebConnectionStream_set_ReadTimeout_m926708759,
+	WebConnectionStream_get_WriteTimeout_m2650917989,
+	WebConnectionStream_get_CompleteRequestWritten_m817760810,
+	WebConnectionStream_set_SendChunked_m761764086,
+	WebConnectionStream_set_ReadBuffer_m3498879948,
+	WebConnectionStream_set_ReadBufferOffset_m1760629601,
+	WebConnectionStream_set_ReadBufferSize_m2254280015,
+	WebConnectionStream_get_WriteBuffer_m2699123428,
+	WebConnectionStream_get_WriteBufferLength_m47053412,
+	WebConnectionStream_ForceCompletion_m2616236063,
+	WebConnectionStream_CheckComplete_m212386969,
+	WebConnectionStream_ReadAll_m950658339,
+	WebConnectionStream_WriteCallbackWrapper_m2881691306,
+	WebConnectionStream_ReadCallbackWrapper_m2369472659,
+	WebConnectionStream_Read_m635345913,
+	WebConnectionStream_BeginRead_m1757407100,
+	WebConnectionStream_EndRead_m803616490,
+	WebConnectionStream_WriteRequestAsyncCB_m2808602240,
+	WebConnectionStream_BeginWrite_m1117541837,
+	WebConnectionStream_CheckWriteOverflow_m2000670613,
+	WebConnectionStream_EndWrite_m1280201525,
+	WebConnectionStream_Write_m2245002866,
+	WebConnectionStream_Flush_m3469727612,
+	WebConnectionStream_SetHeaders_m859079643,
+	WebConnectionStream_get_RequestWritten_m2994269905,
+	WebConnectionStream_WriteRequestAsync_m1160923980,
+	WebConnectionStream_WriteHeaders_m3079500177,
+	WebConnectionStream_WriteRequest_m3986708058,
+	WebConnectionStream_InternalClose_m3340523763,
+	WebConnectionStream_Close_m801672560,
+	WebConnectionStream_KillBuffer_m2133152936,
+	WebConnectionStream_Seek_m4285092954,
+	WebConnectionStream_SetLength_m4170900146,
+	WebConnectionStream_get_CanSeek_m1235161633,
+	WebConnectionStream_get_CanRead_m1206406591,
+	WebConnectionStream_get_CanWrite_m3561519480,
+	WebConnectionStream_get_Length_m2762373450,
+	WebConnectionStream_get_Position_m572597773,
+	WebConnectionStream_set_Position_m743042146,
 	WebException__ctor_m350863519,
+	WebException__ctor_m1678776515,
 	WebException__ctor_m1447032160,
+	WebException__ctor_m3103124179,
+	WebException__ctor_m2973981746,
+	WebException__ctor_m1782198850,
 	WebException__ctor_m3379283423,
 	WebException_System_Runtime_Serialization_ISerializable_GetObjectData_m871947788,
+	WebException_get_Status_m2264404714,
 	WebException_GetObjectData_m1063640253,
 	WebHeaderCollection__ctor_m40272365,
 	WebHeaderCollection__ctor_m3165611438,
 	WebHeaderCollection__ctor_m2599998628,
 	WebHeaderCollection__cctor_m766347104,
 	WebHeaderCollection_System_Runtime_Serialization_ISerializable_GetObjectData_m3098703614,
+	WebHeaderCollection_Add_m375449750,
 	WebHeaderCollection_Add_m4256453202,
 	WebHeaderCollection_AddWithoutValidate_m1282121770,
 	WebHeaderCollection_GetValues_m3929772416,
@@ -20832,14 +23558,22 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebHeaderCollection_Get_m249241391,
 	WebHeaderCollection_Get_m3888214244,
 	WebHeaderCollection_GetKey_m721597780,
+	WebHeaderCollection_RequestHeaderToString_m3348830764,
+	WebHeaderCollection_set_Item_m761277535,
 	WebHeaderCollection_Clear_m1741372952,
 	WebHeaderCollection_GetEnumerator_m671727323,
+	WebHeaderCollection_SetInternal_m805656120,
+	WebHeaderCollection_SetInternal_m2976857204,
+	WebHeaderCollection_RemoveAndAdd_m205461369,
+	WebHeaderCollection_RemoveInternal_m2085139626,
+	WebHeaderCollection_IsMultiValue_m762987923,
 	WebHeaderCollection_IsHeaderValue_m3476411603,
 	WebHeaderCollection_IsHeaderName_m671697555,
 	WebProxy__ctor_m2333292256,
 	WebProxy__ctor_m1295075053,
 	WebProxy__ctor_m3926845473,
 	WebProxy_System_Runtime_Serialization_ISerializable_GetObjectData_m1269108139,
+	WebProxy_get_Credentials_m3075169793,
 	WebProxy_get_UseDefaultCredentials_m2666418573,
 	WebProxy_GetProxy_m1799832125,
 	WebProxy_IsBypassed_m2441560530,
@@ -20851,16 +23585,40 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m3499262348,
 	WebRequest_AddDynamicPrefix_m4259958729,
 	WebRequest_GetMustImplement_m2345556858,
+	WebRequest_get_ContentLength_m282902724,
+	WebRequest_set_ContentLength_m2204879281,
+	WebRequest_set_ContentType_m696487215,
+	WebRequest_get_Credentials_m632231296,
+	WebRequest_set_Credentials_m1948289971,
+	WebRequest_get_Headers_m2569908874,
+	WebRequest_set_Headers_m2948783351,
+	WebRequest_get_Method_m1855994732,
+	WebRequest_set_Method_m89055935,
+	WebRequest_get_Proxy_m1263414958,
+	WebRequest_set_Proxy_m534868955,
+	WebRequest_get_RequestUri_m3887362073,
 	WebRequest_get_DefaultWebProxy_m645383963,
 	WebRequest_GetDefaultWebProxy_m3231963326,
+	WebRequest_Abort_m3557951853,
+	WebRequest_BeginGetRequestStream_m886113327,
+	WebRequest_BeginGetResponse_m1262614523,
+	WebRequest_Create_m1795071884,
+	WebRequest_EndGetRequestStream_m653456156,
+	WebRequest_EndGetResponse_m1707925532,
+	WebRequest_GetRequestStream_m2000848392,
+	WebRequest_GetResponse_m461741742,
 	WebRequest_GetObjectData_m3619776829,
+	WebRequest_GetCreator_m1370740790,
 	WebRequest_AddPrefix_m2923345701,
 	WebResponse__ctor_m3965513847,
 	WebResponse__ctor_m2042933560,
 	WebResponse_System_IDisposable_Dispose_m931962760,
 	WebResponse_System_Runtime_Serialization_ISerializable_GetObjectData_m2977596212,
+	WebResponse_get_ContentLength_m890257754,
+	WebResponse_get_Headers_m4124635138,
 	WebResponse_GetMustImplement_m1484151200,
 	WebResponse_Close_m1381406093,
+	WebResponse_GetResponseStream_m1640513078,
 	WebResponse_GetObjectData_m3049078933,
 	AsnEncodedData__ctor_m4216053755,
 	AsnEncodedData__ctor_m2841294762,
@@ -20891,8 +23649,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	OidCollection_get_Count_m924395419,
 	OidCollection_get_IsSynchronized_m2984568922,
 	OidCollection_get_Item_m1851824850,
+	OidCollection_get_Item_m2028693921,
 	OidCollection_get_SyncRoot_m887599928,
 	OidCollection_Add_m1834548415,
+	OidCollection_set_ReadOnly_m3730819443,
 	OidEnumerator__ctor_m1686464972,
 	OidEnumerator_System_Collections_IEnumerator_get_Current_m530360623,
 	OidEnumerator_MoveNext_m3766070973,
@@ -20983,6 +23743,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	X509Chain__ctor_m2887631967,
 	X509Chain__cctor_m297182149,
 	X509Chain_get_ChainPolicy_m3141824143,
+	X509Chain_set_ChainPolicy_m1767857922,
 	X509Chain_get_ChainStatus_m3128438893,
 	X509Chain_Build_m417178512,
 	X509Chain_Reset_m2382180245,
@@ -21048,6 +23809,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	X509ChainStatus_set_StatusInformation_m2801383985_AdjustorThunk,
 	X509ChainStatus_GetInformation_m369546830,
 	X509EnhancedKeyUsageExtension__ctor_m1143045852,
+	X509EnhancedKeyUsageExtension_get_EnhancedKeyUsages_m337632124,
 	X509EnhancedKeyUsageExtension_CopyFrom_m3559074914,
 	X509EnhancedKeyUsageExtension_Decode_m3913247855,
 	X509EnhancedKeyUsageExtension_ToString_m554823682,
@@ -21488,6 +24250,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Uri__ctor_m3285657729,
 	Uri__ctor_m1689224330,
 	Uri__ctor_m2876888702,
+	Uri__ctor_m3555389759,
 	Uri__cctor_m2145170622,
 	Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m3581151196,
 	Uri_Merge_m1925025748,
@@ -21497,9 +24260,11 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Uri_get_Fragment_m219209233,
 	Uri_get_Host_m1446697833,
 	Uri_get_HostNameType_m3669497072,
+	Uri_get_IsDefaultPort_m1824629382,
 	Uri_get_IsFile_m1860057402,
 	Uri_get_IsLoopback_m224603913,
 	Uri_get_IsUnc_m766729742,
+	Uri_get_LocalPath_m2505724017,
 	Uri_get_PathAndQuery_m3621173943,
 	Uri_get_Port_m2253782543,
 	Uri_get_Query_m1454422281,
@@ -21544,6 +24309,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Uri_NeedToEscapeDataChar_m2713938880,
 	Uri_EscapeDataString_m3238747918,
 	Uri_TryCreate_m1126538084,
+	Uri_UnescapeDataString_m207009557,
+	Uri_GetInt_m2652275821,
+	Uri_GetChar_m979940409,
+	Uri_GetChars_m731438051,
 	Uri_EnsureAbsoluteUri_m3407571844,
 	Uri_op_Equality_m877019543,
 	Uri_op_Inequality_m2899852498,
@@ -21804,7 +24573,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	CertificateValidationCallback_Invoke_m481730652,
 	CertificateValidationCallback_BeginInvoke_m1580004723,
 	CertificateValidationCallback_EndInvoke_m2267930199,
-	CertificateValidationCallback2__ctor_m1854682743,
+	CertificateValidationCallback2__ctor_m1840059355,
 	CertificateValidationCallback2_Invoke_m4228010672,
 	CertificateValidationCallback2_BeginInvoke_m1231864174,
 	CertificateValidationCallback2_EndInvoke_m2684174416,
@@ -22174,7 +24943,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	SslClientStream_remove_ClientCertSelection_m3341991123,
 	SslClientStream_add_PrivateKeySelection_m3756271176,
 	SslClientStream_remove_PrivateKeySelection_m7214243,
-	SslClientStream_add_ServerCertValidation2_m2720675414,
+	SslClientStream_add_ServerCertValidation2_m1264991858,
 	SslClientStream_remove_ServerCertValidation2_m737020123,
 	SslClientStream_get_InputBuffer_m4205110840,
 	SslClientStream_get_ClientCertificates_m4081278826,
@@ -22349,6 +25118,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	TlsStream_Seek_m484817355,
 	TlsStream_Read_m3435838442,
 	TlsStream_Write_m2853472233,
+	ValidationResult__ctor_m1740064959,
 	ValidationResult_get_Trusted_m3614004972,
 	ValidationResult_get_ErrorCode_m4021319972,
 	AuthorityKeyIdentifierExtension__ctor_m273322001,
@@ -22378,10 +25148,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	NetscapeCertTypeExtension_Decode_m4024937351,
 	NetscapeCertTypeExtension_Support_m1416151043,
 	NetscapeCertTypeExtension_ToString_m3439723074,
-	SubjectAltNameExtension__ctor_m607242584,
+	SubjectAltNameExtension__ctor_m153917556,
 	SubjectAltNameExtension_Decode_m3473224134,
-	SubjectAltNameExtension_get_DNSNames_m3652648031,
-	SubjectAltNameExtension_get_IPAddresses_m3152105661,
+	SubjectAltNameExtension_get_DNSNames_m2281272259,
+	SubjectAltNameExtension_get_IPAddresses_m2225401561,
 	SubjectAltNameExtension_ToString_m2980757505,
 	PKCS12__ctor_m2645615037,
 	PKCS12__ctor_m1570997648,
@@ -22686,6 +25456,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Application_get_isEditor_m1279348309,
 	Application_get_platform_m2918632856,
 	Application_get_unityVersion_m3443350436,
+	Application_OpenURL_m1861717334,
 	Application_set_targetFrameRate_m498658007,
 	Application_CallLogCallback_m419361836,
 	Application_LoadLevel_m2722573885,
@@ -22752,6 +25523,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	AudioSource_INTERNAL_CALL_UnPause_m258094196,
 	AudioSource_get_isPlaying_m4213444423,
 	AudioSource_PlayOneShot_m823779350,
+	AudioSource_PlayOneShot_m1217449713,
 	AudioSource_set_loop_m3617666708,
 	AudioSource_set_playOnAwake_m1884534674,
 	AudioSource_set_spatialBlend_m2546548421,
@@ -22760,6 +25532,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	AudioSource_set_dopplerLevel_m4264527772,
 	AudioSource_set_priority_m3031232686,
 	AudioSource_set_mute_m4040046601,
+	AudioSource_set_rolloffMode_m2308725576,
 	AudioSource_GetOutputDataHelper_m1525923523,
 	AudioSource_GetOutputData_m2583313397,
 	AudioSource_SetSpatializerFloat_m3192603774,
@@ -23278,6 +26051,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	FontTextureRebuildCallback_BeginInvoke_m2984345076,
 	FontTextureRebuildCallback_EndInvoke_m2078440109,
 	GameObject__ctor_m3920833606,
+	GameObject__ctor_m845034556,
 	GameObject__ctor_m176066391,
 	GameObject_GetComponent_m1004814461,
 	GameObject_GetComponentFastPath_m2905716663,
@@ -23294,6 +26068,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	GameObject_SetActive_m3538205401,
 	GameObject_get_activeSelf_m3858025161,
 	GameObject_get_activeInHierarchy_m612450965,
+	GameObject_set_isStatic_m1907529556,
 	GameObject_get_tag_m211612200,
 	GameObject_set_tag_m859036203,
 	GameObject_FindGameObjectWithTag_m2635560165,
@@ -23337,8 +26112,11 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	GUI_set_skin_m1213959601,
 	GUI_get_skin_m4001454842,
 	GUI_DoSetSkin_m800823745,
+	GUI_Button_m885093907,
 	GUI_CallWindowDelegate_m2260338804,
 	GUI_set_changed_m727947722,
+	GUI_DoButton_m2194494269,
+	GUI_INTERNAL_CALL_DoButton_m1954108340,
 	ScrollViewState__ctor_m739544590,
 	WindowFunction__ctor_m732638321,
 	WindowFunction_Invoke_m2798584028,
@@ -23646,6 +26424,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	IL2CPPStructAlignmentAttribute__ctor_m55581643,
 	Input__cctor_m1327041086,
 	Input_GetKeyDownInt_m3548492840,
+	Input_GetAxis_m2027668530,
 	Input_GetAxisRaw_m1900207208,
 	Input_GetButtonDown_m1879002085,
 	Input_GetKeyDown_m2928824675,
@@ -24099,6 +26878,26 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Object_op_Implicit_m2106766291,
 	Object_op_Equality_m3964590952,
 	Object_op_Inequality_m1296218211,
+	ParticleSystem_get_isPlaying_m184625675,
+	ParticleSystem_set_loop_m2070057540,
+	ParticleSystem_set_enableEmission_m3362064842,
+	ParticleSystem_Internal_Play_m594025146,
+	ParticleSystem_Internal_Stop_m4175525512,
+	ParticleSystem_Internal_IsAlive_m3898640007,
+	ParticleSystem_Play_m1637509303,
+	ParticleSystem_Stop_m1331160206,
+	ParticleSystem_Stop_m1876199813,
+	ParticleSystem_IsAlive_m3733722867,
+	ParticleSystem_IsAlive_m2723817258,
+	ParticleSystem_IterateParticleSystems_m2232250723,
+	ParticleSystem_IterateParticleSystemsRecursive_m389741621,
+	ParticleSystem_U3CPlayU3Em__1_m745236472,
+	ParticleSystem_U3CStopU3Em__2_m2892570987,
+	ParticleSystem_U3CIsAliveU3Em__5_m576010307,
+	IteratorDelegate__ctor_m2534678614,
+	IteratorDelegate_Invoke_m3641019902,
+	IteratorDelegate_BeginInvoke_m3274238639,
+	IteratorDelegate_EndInvoke_m3581459136,
 	Physics_Raycast_m1758069759,
 	Physics_Raycast_m1600345803,
 	Physics_Raycast_m165875788,
@@ -24139,6 +26938,13 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Quaternion_Inverse_m3542515566,
 	Quaternion_INTERNAL_CALL_Inverse_m4175627710,
 	Quaternion_ToString_m1793285860_AdjustorThunk,
+	Quaternion_get_eulerAngles_m997303795_AdjustorThunk,
+	Quaternion_Euler_m1204688217,
+	Quaternion_Internal_MakePositive_m4059160381,
+	Quaternion_Internal_ToEulerRad_m1608666215,
+	Quaternion_INTERNAL_CALL_Internal_ToEulerRad_m1660134351,
+	Quaternion_Internal_FromEulerRad_m3681319598,
+	Quaternion_INTERNAL_CALL_Internal_FromEulerRad_m1312441940,
 	Quaternion_GetHashCode_m3823258238_AdjustorThunk,
 	Quaternion_Equals_m3843409946_AdjustorThunk,
 	Quaternion_op_Multiply_m3077481361,
@@ -24291,16 +27097,22 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	RenderTexture_get_active_m1725644858,
 	RenderTexture_set_active_m1002947377,
 	RequireComponent__ctor_m2023271172,
+	Resolution_get_width_m3522089436_AdjustorThunk,
+	Resolution_get_height_m2314404467_AdjustorThunk,
+	Resolution_ToString_m139257714_AdjustorThunk,
 	ResourceRequest__ctor_m2863879896,
 	ResourceRequest_get_asset_m670320982,
 	Resources_Load_m2187391845,
 	Resources_Load_m3601699608,
 	Resources_GetBuiltinResource_m1250078467,
+	Rigidbody_set_freezeRotation_m3989473889,
 	RPC__ctor_m281827604,
 	Scene_get_handle_m2277248521_AdjustorThunk,
+	Scene_get_name_m894591657_AdjustorThunk,
 	Scene_get_buildIndex_m3533090789_AdjustorThunk,
 	Scene_GetHashCode_m2000109307_AdjustorThunk,
 	Scene_Equals_m93578403_AdjustorThunk,
+	Scene_GetNameInternal_m2496405436,
 	Scene_GetBuildIndexInternal_m76376146,
 	SceneManager_GetActiveScene_m3062973092,
 	SceneManager_INTERNAL_CALL_GetActiveScene_m3594338006,
@@ -24311,9 +27123,14 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	SceneManager_Internal_SceneLoaded_m1398790415,
 	SceneManager_Internal_SceneUnloaded_m3773648285,
 	SceneManager_Internal_ActiveSceneChanged_m3583151927,
+	Screen_get_currentResolution_m2532370351,
+	Screen_SetResolution_m1695402355,
+	Screen_SetResolution_m3920430564,
 	Screen_get_width_m3080333084,
 	Screen_get_height_m1504859443,
 	Screen_get_dpi_m3780069159,
+	Screen_get_fullScreen_m4283694285,
+	Screen_set_fullScreen_m2604999058,
 	Screen_set_sleepTimeout_m4188281051,
 	ScriptableObject__ctor_m1827087273,
 	ScriptableObject_Internal_CreateScriptableObject_m2334361070,
@@ -24594,6 +27411,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	TooltipAttribute__ctor_m3341446606,
 	Touch_get_fingerId_m1427167959_AdjustorThunk,
 	Touch_get_position_m1943849441_AdjustorThunk,
+	Touch_get_deltaPosition_m3983677995_AdjustorThunk,
 	Touch_get_phase_m3314549414_AdjustorThunk,
 	Touch_get_type_m1428398012_AdjustorThunk,
 	TouchScreenKeyboard__ctor_m3607055310,
@@ -24622,6 +27440,7 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Transform_set_localPosition_m3504330903,
 	Transform_INTERNAL_get_localPosition_m2703574131,
 	Transform_INTERNAL_set_localPosition_m221305727,
+	Transform_get_eulerAngles_m1058084741,
 	Transform_get_forward_m877665793,
 	Transform_get_rotation_m11483428,
 	Transform_set_rotation_m1525803229,
@@ -24645,6 +27464,10 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Transform_INTERNAL_get_worldToLocalMatrix_m3861589095,
 	Transform_get_localToWorldMatrix_m3571020210,
 	Transform_INTERNAL_get_localToWorldMatrix_m3747334677,
+	Transform_LookAt_m2663225588,
+	Transform_LookAt_m3252223111,
+	Transform_LookAt_m2054691043,
+	Transform_INTERNAL_CALL_LookAt_m302711157,
 	Transform_TransformPoint_m437395512,
 	Transform_INTERNAL_CALL_TransformPoint_m1435510371,
 	Transform_InverseTransformPoint_m1626812000,
@@ -24678,7 +27501,9 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Vector2_GetHashCode_m128434585_AdjustorThunk,
 	Vector2_Equals_m3404198849_AdjustorThunk,
 	Vector2_Dot_m2437602225,
+	Vector2_get_magnitude_m1987058139_AdjustorThunk,
 	Vector2_get_sqrMagnitude_m996072851_AdjustorThunk,
+	Vector2_Distance_m340609291,
 	Vector2_SqrMagnitude_m4007443280,
 	Vector2_get_zero_m199872368,
 	Vector2_get_one_m2767488832,
@@ -24773,107 +27598,71 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	TypeInferenceRuleAttribute__ctor_m1168575159,
 	TypeInferenceRuleAttribute__ctor_m2173394041,
 	TypeInferenceRuleAttribute_ToString_m318752778,
-	ByteArray_Copy_m3670225728,
-	ByteArray_ByteCopy_m2791369704,
-	ByteArray_Reverse_m4198676671,
-	ByteString__ctor_m3954052279,
-	ByteString_GetEnumerator_m2168507865,
-	ByteString_System_Collections_IEnumerable_GetEnumerator_m740940383,
-	ByteString_CreateCodedInput_m74995625,
-	ByteString_Equals_m1850465767,
-	ByteString_GetHashCode_m3538174975,
-	ByteString_Equals_m1393476260,
-	ByteString__cctor_m3533786523,
-	CodedInputStream__ctor_m3357527409,
-	CodedInputStream__ctor_m2622803471,
-	CodedInputStream_get_ReachedLimit_m802249722,
-	CodedInputStream_get_IsAtEnd_m238754927,
-	CodedInputStream_CreateInstance_m2850959676,
-	CodedInputStream_CreateInstance_m361471812,
-	CodedInputStream_CheckLastTagWas_m200294519,
-	CodedInputStream_PeekNextTag_m2476726456,
-	CodedInputStream_ReadTag_m1590405344,
-	CodedInputStream_ReadFloat_m232796065,
-	CodedInputStream_ReadInt64_m3858450537,
-	CodedInputStream_ReadInt32_m819498505,
-	CodedInputStream_ReadMessage_m1770546095,
-	CodedInputStream_BeginArray_m2258619110,
-	CodedInputStream_ContinueArray_m3756366926,
-	CodedInputStream_ContinueArray_m1770543048,
-	CodedInputStream_ReadFloatArray_m2123658713,
-	CodedInputStream_SlowReadRawVarint32_m2448488201,
-	CodedInputStream_ReadRawVarint32_m3662731018,
-	CodedInputStream_ReadRawVarint32_m3276130721,
-	CodedInputStream_ReadRawVarint64_m364557290,
-	CodedInputStream_ReadRawLittleEndian32_m2952990675,
-	CodedInputStream_ReadRawLittleEndian64_m396883955,
-	CodedInputStream_PushLimit_m994285030,
-	CodedInputStream_RecomputeBufferSizeAfterLimit_m488640474,
-	CodedInputStream_PopLimit_m1836646151,
-	CodedInputStream_RefillBuffer_m1860958645,
-	CodedInputStream_ReadRawByte_m1059326780,
-	CodedInputStream_ReadRawBytes_m2322882316,
-	CodedInputStream_SkipField_m2087251765,
-	CodedInputStream_SkipMessage_m3718327390,
-	CodedInputStream_SkipRawBytes_m242966367,
-	CodedInputStream_SkipImpl_m789886620,
-	CodedOutputStream__ctor_m734597254,
-	CodedOutputStream_get_SpaceLeft_m250911719,
-	CodedOutputStream_ComputeFloatSize_m65298715,
-	CodedOutputStream_ComputeInt64Size_m1718363313,
-	CodedOutputStream_ComputeInt32Size_m3699664239,
-	CodedOutputStream_ComputeMessageSize_m1597509401,
-	CodedOutputStream_ComputeEnumSize_m1393339146,
-	CodedOutputStream_ComputeInt32SizeNoTag_m1540664629,
-	CodedOutputStream_ComputeEnumSizeNoTag_m4278042064,
-	CodedOutputStream_ComputeRawVarint32Size_m3154776802,
-	CodedOutputStream_ComputeRawVarint64Size_m2971184036,
-	CodedOutputStream_ComputeTagSize_m1517401140,
-	CodedOutputStream_CreateInstance_m3802784570,
-	CodedOutputStream_CreateInstance_m869516314,
-	CodedOutputStream_WriteFloat_m3588002640,
-	CodedOutputStream_WriteInt64_m913588508,
-	CodedOutputStream_WriteInt32_m2011528986,
-	CodedOutputStream_WriteMessage_m2366649166,
-	CodedOutputStream_WriteEnum_m3638986103,
-	CodedOutputStream_WriteFloatNoTag_m477583950,
-	CodedOutputStream_WriteInt32NoTag_m3134807772,
-	CodedOutputStream_WritePackedFloatArray_m634747521,
-	CodedOutputStream_WriteTag_m290734255,
-	CodedOutputStream_WriteRawVarint32_m3990844169,
-	CodedOutputStream_WriteRawVarint64_m2734740555,
-	CodedOutputStream_WriteRawByte_m2647428377,
-	CodedOutputStream_WriteRawBytes_m2953237958,
-	CodedOutputStream_RefreshBuffer_m1643705180,
-	CodedOutputStream_CheckNoSpaceLeft_m1026714917,
-	CodedOutputStream__cctor_m6508042,
-	OutOfSpaceException__ctor_m3337708164,
-	ExtensionRegistry__ctor_m2795137368,
-	ExtensionRegistry_get_Empty_m1266638344,
-	ExtensionRegistry_CreateInstance_m3058044271,
-	ExtensionRegistry__cctor_m1625575694,
-	ExtensionIntPair_GetHashCode_m4207818331_AdjustorThunk,
-	ExtensionIntPair_Equals_m2022810179_AdjustorThunk,
-	ExtensionIntPair_Equals_m2689844828_AdjustorThunk,
-	FrameworkPortability_get_InvariantCulture_m862252542,
-	FrameworkPortability__cctor_m4092266125,
-	InvalidProtocolBufferException__ctor_m3776365495,
-	InvalidProtocolBufferException_TruncatedMessage_m1598354167,
-	InvalidProtocolBufferException_NegativeSize_m1628852644,
-	InvalidProtocolBufferException_MalformedVarint_m3939893207,
-	InvalidProtocolBufferException_InvalidTag_m699195889,
-	InvalidProtocolBufferException_InvalidEndTag_m1685121642,
-	InvalidProtocolBufferException_InvalidWireType_m1883139210,
-	InvalidProtocolBufferException_RecursionLimitExceeded_m737951226,
-	InvalidProtocolBufferException_SizeLimitExceeded_m1580964673,
-	ThrowHelper_ThrowIfNull_m1218964513,
-	ThrowHelper_ThrowIfNull_m2241939621,
-	UninitializedMessageException__ctor_m787888070,
-	UninitializedMessageException_AsInvalidProtocolBufferException_m3036469865,
-	WireFormat_GetTagWireType_m1783698341,
-	WireFormat_IsEndGroupTag_m4227909309,
-	WireFormat_GetTagFieldNumber_m1275894768,
-	WireFormat_MakeTag_m3371601783,
+	GETween_get_m_TweenEmpty_m1509105679,
+	GETween_Init_m2605954517,
+	GETween_Init_m1677611942,
+	GETween_Reset_m2623976268,
+	GETween_Update_m1411882574,
+	GETween_update_m1347238446,
+	GETween_RemoveTween_m321420386,
+	GETween_RemoveTween_m2082421397,
+	GETween_SendLogError_m875186694,
+	GETween_MoreInfo_m2593037845,
+	GETween_AddTween_m2750561912,
+	GETween_TweenValue_m2679995032,
+	GETween_UpdateEaseOutQuadOpt_m2786964999,
+	GETween_UpdateEaseInQuadOpt_m256846748,
+	GETween_UpdateEaseInOutQuadOpt_m311188898,
+	GETween_UpdateEaseLinear_m403930560,
+	GETween_UpdateEaseSpring_m3744025048,
+	GETween_UpdateEaseInQuad_m3659569785,
+	GETween_UpdateEaseOutQuad_m1383931886,
+	GETween_UpdateEaseInOutQuad_m125965875,
+	GETween_UpdateEaseInCubic_m1868468862,
+	GETween_UpdateEaseOutCubic_m43170729,
+	GETween_UpdateEaseInOutCubic_m3995897348,
+	GETween_UpdateEaseInQuart_m1079358697,
+	GETween_UpdateEaseOutQuart_m3549027860,
+	GETween_UpdateEaseInOutQuart_m3206787183,
+	GETween_UpdateEaseInQuint_m2710509533,
+	GETween_UpdateEaseOutQuint_m885211400,
+	GETween_UpdateEaseInOutQuint_m542970723,
+	GETween_UpdateEaseInSine_m2962263411,
+	GETween_UpdateEaseOutSine_m686625512,
+	GETween_UpdateEaseInOutSine_m3723626797,
+	GETween_UpdateEaseInExpo_m4100023534,
+	GETween_UpdateEaseOutExpo_m1824385635,
+	GETween_UpdateEaseInOutExpo_m566419624,
+	GETween_UpdateEaseInCirc_m1033396393,
+	GETween_UpdateEaseOutCirc_m3052725790,
+	GETween_UpdateEaseInOutCirc_m1794759779,
+	GETween_UpdateEaseInBounce_m1867457432,
+	GETween_UpdateEaseOutBounce_m1117790157,
+	GETween_UpdateEaseInOutBounce_m3393231058,
+	GETween_UpdateEaseInBack_m72987353,
+	GETween_UpdateEaseOutBack_m2092316750,
+	GETween_UpdateEaseInOutBack_m834350739,
+	GETween_UpdateEaseInElastic_m1138515219,
+	GETween_UpdateEaseOutElastic_m3668633470,
+	GETween_UpdateEaseInOutElastic_m1192857369,
+	GETween__ctor_m682576031,
+	GETween__cctor_m3497891566,
+	GETweenItem__ctor_m3140834508,
+	GETweenItem_Cancel_m2625553503,
+	GETweenItem_get_UniqueID_m249811457,
+	GETweenItem_Reset_m787267449,
+	GETweenItem_cleanup_m3939713390,
+	GETweenItem_Init_m1022685192,
+	GETweenItem_SetDelay_m3834119685,
+	GETweenItem_SetEase_m3132869312,
+	GETweenItem_SetTo_m3973005631,
+	GETweenItem_SetFrom_m143244016,
+	GETweenItem_SetId_m2745889856,
+	GETweenItem_SetUseEstimatedTime_m3697277496,
+	GETweenItem_SetLoopPingPong_m2654548717,
+	GETweenItem_SetOnComplete_m4052648454,
+	GETweenItem_SetOnUpdate_m4105995130,
+	GETweenItem__cctor_m2394493025,
 	U3CPrivateImplementationDetailsU3E__ctor_m2615655811,
 	AbstractEventData__ctor_m3016870691,
 	AbstractEventData_Reset_m663303632,
@@ -26318,8 +29107,356 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	VerticalLayoutGroup_CalculateLayoutInputVertical_m920247256,
 	VerticalLayoutGroup_SetLayoutHorizontal_m244631242,
 	VerticalLayoutGroup_SetLayoutVertical_m2764536540,
+	Builtins_join_m2635169011,
+	Dispatcher__ctor_m350483677,
+	Dispatcher_Invoke_m1310332756,
+	Dispatcher_BeginInvoke_m4243774386,
+	Dispatcher_EndInvoke_m1615025250,
+	DispatcherCache__ctor_m2809249023,
+	DispatcherCache__cctor_m705277582,
+	DispatcherCache_Get_m3716505639,
+	DispatcherFactory__ctor_m1032703159,
+	DispatcherFactory_Invoke_m1095288990,
+	DispatcherFactory_BeginInvoke_m2582758298,
+	DispatcherFactory_EndInvoke_m1714635604,
+	DispatcherKey__ctor_m2591469636,
+	DispatcherKey__cctor_m1394410923,
+	_EqualityComparer__ctor_m1480403179,
+	_EqualityComparer_GetHashCode_m125800277,
+	_EqualityComparer_Equals_m2138112120,
+	ExtensionRegistry__ctor_m4038359029,
+	ExtensionRegistry_get_Extensions_m2753467576,
+	RuntimeServices__cctor_m3801547026,
+	RuntimeServices_GetDispatcher_m1240650646,
+	RuntimeServices_Coerce_m3737249806,
+	RuntimeServices_CreateCoerceDispatcher_m1712438829,
+	RuntimeServices_EmitPromotionDispatcher_m678082319,
+	RuntimeServices_IsPromotableNumeric_m3776066856,
+	RuntimeServices_EmitImplicitConversionDispatcher_m2166552894,
+	RuntimeServices_CoercibleDispatcher_m750535641,
+	RuntimeServices_IdentityDispatcher_m913361469,
+	RuntimeServices_IsNumeric_m3157108604,
+	RuntimeServices_EqualityOperator_m1206578319,
+	RuntimeServices_op_Equality_m2960058433,
+	RuntimeServices_ArrayEqualityImpl_m2683726598,
+	RuntimeServices_GetConvertTypeCode_m754613208,
+	RuntimeServices_EqualityOperator_m1787011483,
+	RuntimeServices_IsPromotableNumeric_m4140154171,
+	RuntimeServices_FindImplicitConversionOperator_m907683305,
+	RuntimeServices_GetExtensionMethods_m851624495,
+	RuntimeServices_FindImplicitConversionMethod_m251076132,
+	U3CCoerceU3Ec__AnonStorey1D__ctor_m2374928375,
+	U3CCoerceU3Ec__AnonStorey1D_U3CU3Em__15_m3179201137,
+	U3CEmitImplicitConversionDispatcherU3Ec__AnonStorey1E__ctor_m4222958460,
+	U3CEmitImplicitConversionDispatcherU3Ec__AnonStorey1E_U3CU3Em__16_m3497110411,
+	U3CGetExtensionMethodsU3Ec__IteratorC__ctor_m140685095,
+	U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CSystem_Reflection_MethodInfoU3E_get_Current_m1476898990,
+	U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2916943977,
+	U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_IEnumerable_GetEnumerator_m2454778882,
+	U3CGetExtensionMethodsU3Ec__IteratorC_System_Collections_Generic_IEnumerableU3CSystem_Reflection_MethodInfoU3E_GetEnumerator_m3662757521,
+	U3CGetExtensionMethodsU3Ec__IteratorC_MoveNext_m3727538797,
+	U3CGetExtensionMethodsU3Ec__IteratorC_Dispose_m1952673188,
+	U3CGetExtensionMethodsU3Ec__IteratorC_Reset_m2082085332,
+	GUIAnimFREE_Awake_m820465174,
+	GUIAnimFREE_Start_m3824965043,
+	GUIAnimFREE_Update_m2615651514,
+	GUIAnimFREE_Reset_m2524260192,
+	GUIAnimFREE_Free_ResetPositionDoneFlag_m2483622383,
+	GUIAnimFREE_ResetAllChildren_m412912610,
+	GUIAnimFREE_InitScaleIn_m380765811,
+	GUIAnimFREE_CalculateCameraArea_m1237959977,
+	GUIAnimFREE_InitMoveIn_m3641694903,
+	GUIAnimFREE_InitMoveOut_m1229215006,
+	GUIAnimFREE_InitRotationIn_m2548293604,
+	GUIAnimFREE_InitScaleIn_m2592199408,
+	GUIAnimFREE_InitFadeIn_m4271450082,
+	GUIAnimFREE_MoveIn_m1188313479,
+	GUIAnimFREE_MoveIn_m1533929816,
+	GUIAnimFREE_RecuresiveMoveIn_m211463865,
+	GUIAnimFREE_StartMoveIdle_m2833924568,
+	GUIAnimFREE_MoveIdle_m3795769398,
+	GUIAnimFREE_CoroutineMoveIdle_m2218978133,
+	GUIAnimFREE_MoveOut_m2483802190,
+	GUIAnimFREE_CoroutineMoveOut_m1279631869,
+	GUIAnimFREE_MoveOut_m263849311,
+	GUIAnimFREE_RecuresiveMoveOut_m392929644,
+	GUIAnimFREE_AnimIn_MoveUpdateByValue_m2475605315,
+	GUIAnimFREE_AnimIn_MoveComplete_m1081140196,
+	GUIAnimFREE_AnimOut_MoveUpdateByValue_m2062852636,
+	GUIAnimFREE_AnimOut_MoveComplete_m122125565,
+	GUIAnimFREE_AnimIn_RotationUpdateByValue_m1873958640,
+	GUIAnimFREE_AnimIn_RotationComplete_m3679092433,
+	GUIAnimFREE_AnimOut_RotationUpdateByValue_m3044550473,
+	GUIAnimFREE_AnimOut_RotationComplete_m3029132138,
+	GUIAnimFREE_AnimIn_ScaleUpdateByValue_m2424307818,
+	GUIAnimFREE_AnimIn_ScaleComplete_m2431349451,
+	GUIAnimFREE_AnimOut_ScaleUpdateByValue_m2513876657,
+	GUIAnimFREE_AnimOut_ScaleComplete_m2766666962,
+	GUIAnimFREE_AnimIn_FadeUpdateByValue_m2841508206,
+	GUIAnimFREE_AnimIn_FadeComplete_m2109236431,
+	GUIAnimFREE_AnimOut_FadeUpdateByValue_m2428755527,
+	GUIAnimFREE_AnimOut_FadeComplete_m1150221800,
+	GUIAnimFREE_ScaleLoopStart_m2186273446,
+	GUIAnimFREE_ScaleLoopUpdateByValue_m3571416791,
+	GUIAnimFREE_ScaleLoopComplete_m1098162808,
+	GUIAnimFREE_StopScaleLoop_m1287077885,
+	GUIAnimFREE_FadeLoopStart_m1549016632,
+	GUIAnimFREE_FadeLoopUpdateByValue_m3212839017,
+	GUIAnimFREE_FadeLoopComplete_m4044409994,
+	GUIAnimFREE_StopFadeLoop_m110086931,
+	GUIAnimFREE_PlaySoundOneShot_m1031562925,
+	GUIAnimFREE_PlaySoundOneShotWithDelay_m58747511,
+	GUIAnimFREE_PlaySoundLoop_m4166640346,
+	GUIAnimFREE_StartScaleLoopSound_m753653940,
+	GUIAnimFREE_StopScaleLoopSound_m2675286196,
+	GUIAnimFREE_StartFadeLoopSound_m4071185246,
+	GUIAnimFREE_StopFadeLoopSound_m2747700062,
+	GUIAnimFREE_CalculateTotalBounds_m3960727876,
+	GUIAnimFREE_ScreenResolutionChange_m1791767609,
+	GUIAnimFREE_IsAnimating_m2914853593,
+	GUIAnimFREE_GetFadeValue_m3771945465,
+	GUIAnimFREE_GetFadeTextOutlineValue_m2092732114,
+	GUIAnimFREE_GetFadeTextShadowValue_m271541190,
+	GUIAnimFREE_RecursiveFade_m185724474,
+	GUIAnimFREE_FadeTextOutline_m3877423448,
+	GUIAnimFREE_FadeTextShadow_m324415720,
+	GUIAnimFREE_GETweenEaseType_m2967032936,
+	GUIAnimFREE__ctor_m582859955,
+	U3CCoroutineMoveIdleU3Ed__85__ctor_m281575793,
+	U3CCoroutineMoveIdleU3Ed__85_System_IDisposable_Dispose_m2711791487,
+	U3CCoroutineMoveIdleU3Ed__85_MoveNext_m1354304188,
+	U3CCoroutineMoveIdleU3Ed__85_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m510781513,
+	U3CCoroutineMoveIdleU3Ed__85_System_Collections_IEnumerator_Reset_m1183839450,
+	U3CCoroutineMoveIdleU3Ed__85_System_Collections_IEnumerator_get_Current_m3699460816,
+	U3CCoroutineMoveOutU3Ed__87__ctor_m2745595853,
+	U3CCoroutineMoveOutU3Ed__87_System_IDisposable_Dispose_m1417549987,
+	U3CCoroutineMoveOutU3Ed__87_MoveNext_m686762744,
+	U3CCoroutineMoveOutU3Ed__87_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1811265391,
+	U3CCoroutineMoveOutU3Ed__87_System_Collections_IEnumerator_Reset_m1186679038,
+	U3CCoroutineMoveOutU3Ed__87_System_Collections_IEnumerator_get_Current_m2948730474,
+	U3CFree_ResetPositionDoneFlagU3Ed__67__ctor_m3219075197,
+	U3CFree_ResetPositionDoneFlagU3Ed__67_System_IDisposable_Dispose_m856827379,
+	U3CFree_ResetPositionDoneFlagU3Ed__67_MoveNext_m2188221768,
+	U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3119313375,
+	U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_IEnumerator_Reset_m551219790,
+	U3CFree_ResetPositionDoneFlagU3Ed__67_System_Collections_IEnumerator_get_Current_m1105187322,
+	U3CInitScaleInU3Ed__69__ctor_m646484809,
+	U3CInitScaleInU3Ed__69_System_IDisposable_Dispose_m39659687,
+	U3CInitScaleInU3Ed__69_MoveNext_m1195400420,
+	U3CInitScaleInU3Ed__69_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3482007137,
+	U3CInitScaleInU3Ed__69_System_Collections_IEnumerator_Reset_m144253954,
+	U3CInitScaleInU3Ed__69_System_Collections_IEnumerator_get_Current_m1494218680,
+	U3CPlaySoundOneShotWithDelayU3Ed__115__ctor_m1565878528,
+	U3CPlaySoundOneShotWithDelayU3Ed__115_System_IDisposable_Dispose_m1823461584,
+	U3CPlaySoundOneShotWithDelayU3Ed__115_MoveNext_m2872325477,
+	U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m813496418,
+	U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_IEnumerator_Reset_m576351467,
+	U3CPlaySoundOneShotWithDelayU3Ed__115_System_Collections_IEnumerator_get_Current_m294527703,
+	cFade__ctor_m3425843203,
+	cMoveIn__ctor_m975261673,
+	cMoveOut__ctor_m1899934570,
+	cPingPongFade__ctor_m2020202393,
+	cPingPongScale__ctor_m3150183079,
+	cRotationIn__ctor_m2586591260,
+	cRotationOut__ctor_m311544215,
+	cScaleIn__ctor_m3674301784,
+	cScaleOut__ctor_m3965799387,
+	cSounds__ctor_m630171451,
+	cSoundsForPingPongAnim__ctor_m479391303,
+	GUIAnimSystemFREE_get_Instance_m2205931826,
+	GUIAnimSystemFREE_set_Instance_m2239190265,
+	GUIAnimSystemFREE_GetInstance_m173415833,
+	GUIAnimSystemFREE_Awake_m3912475431,
+	GUIAnimSystemFREE_Start_m2622008004,
+	GUIAnimSystemFREE_Update_m3978688969,
+	GUIAnimSystemFREE_OnGUI_m3170268862,
+	GUIAnimSystemFREE_ShowFreeVersionText_m2041238910,
+	GUIAnimSystemFREE_LoadLevel_m68779335,
+	GUIAnimSystemFREE_LoadLevelDelay_m2351210922,
+	GUIAnimSystemFREE_MoveIn_m2286384694,
+	GUIAnimSystemFREE_MoveInAll_m3579593869,
+	GUIAnimSystemFREE_MoveOut_m2183480383,
+	GUIAnimSystemFREE_MoveOutAll_m208219492,
+	GUIAnimSystemFREE_PlayParticle_m1156811811,
+	GUIAnimSystemFREE_StopParticle_m2056648085,
+	GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewScene_m3359080861,
+	GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewSceneDelay_m3681472485,
+	GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewScene_m1321076396,
+	GUIAnimSystemFREE_DontDestroyParticleWhenLoadNewSceneDelay_m3269523534,
+	GUIAnimSystemFREE_FocusOnlyThisCanvas_m264901236,
+	GUIAnimSystemFREE_FocusTheseCanvases_m1979802567,
+	GUIAnimSystemFREE_FocusThisCanvas_m49145729,
+	GUIAnimSystemFREE_FocusTheseCanvas_m154725810,
+	GUIAnimSystemFREE_FocusThisCanvas_m2095958609,
+	GUIAnimSystemFREE_FocusTheseCanvases_m454767054,
+	GUIAnimSystemFREE_SetGraphicRaycasterEnable_m1931655568,
+	GUIAnimSystemFREE_SetGraphicRaycasterEnable_m2630492311,
+	GUIAnimSystemFREE_SetGraphicRaycasterEnable_m4179541553,
+	GUIAnimSystemFREE_EnableAllGraphicRaycasters_m1281116958,
+	GUIAnimSystemFREE_EnableAllButtons_m2854808698,
+	GUIAnimSystemFREE_EnableButton_m2906038257,
+	GUIAnimSystemFREE_DelayEnableButton_m3602513790,
+	GUIAnimSystemFREE_EnableButton_m1474763125,
+	GUIAnimSystemFREE_EnableButton_m1942582170,
+	GUIAnimSystemFREE_DelayEnableButton_m2386361191,
+	GUIAnimSystemFREE_SetInteracableAllButtons_m3125534925,
+	GUIAnimSystemFREE_SetInteracableAllButtons_m1244823794,
+	GUIAnimSystemFREE_DelayInteracableOfAllButton_m870155853,
+	GUIAnimSystemFREE_InteracableButton_m2016942380,
+	GUIAnimSystemFREE_InteracableButton_m2462656273,
+	GUIAnimSystemFREE_DelayInteracableButton_m3292755812,
+	GUIAnimSystemFREE_GetParent_Canvas_m2212399732,
+	GUIAnimSystemFREE__ctor_m3674870212,
+	U3CDelayEnableButtonU3Ed__42__ctor_m1986218948,
+	U3CDelayEnableButtonU3Ed__42_System_IDisposable_Dispose_m274385548,
+	U3CDelayEnableButtonU3Ed__42_MoveNext_m3854741513,
+	U3CDelayEnableButtonU3Ed__42_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2109899868,
+	U3CDelayEnableButtonU3Ed__42_System_Collections_IEnumerator_Reset_m2203413415,
+	U3CDelayEnableButtonU3Ed__42_System_Collections_IEnumerator_get_Current_m2179205149,
+	U3CDelayEnableButtonU3Ed__45__ctor_m167017377,
+	U3CDelayEnableButtonU3Ed__45_System_IDisposable_Dispose_m1326785359,
+	U3CDelayEnableButtonU3Ed__45_MoveNext_m2974532492,
+	U3CDelayEnableButtonU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m677619257,
+	U3CDelayEnableButtonU3Ed__45_System_Collections_IEnumerator_Reset_m691399850,
+	U3CDelayEnableButtonU3Ed__45_System_Collections_IEnumerator_get_Current_m3797056224,
+	U3CDelayInteracableButtonU3Ed__51__ctor_m1301481983,
+	U3CDelayInteracableButtonU3Ed__51_System_IDisposable_Dispose_m2901270193,
+	U3CDelayInteracableButtonU3Ed__51_MoveNext_m3259672198,
+	U3CDelayInteracableButtonU3Ed__51_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3952703009,
+	U3CDelayInteracableButtonU3Ed__51_System_Collections_IEnumerator_Reset_m657282444,
+	U3CDelayInteracableButtonU3Ed__51_System_Collections_IEnumerator_get_Current_m1486778360,
+	U3CDelayInteracableOfAllButtonU3Ed__48__ctor_m938778831,
+	U3CDelayInteracableOfAllButtonU3Ed__48_System_IDisposable_Dispose_m1671492065,
+	U3CDelayInteracableOfAllButtonU3Ed__48_MoveNext_m2285281694,
+	U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2474991015,
+	U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_IEnumerator_Reset_m1044786364,
+	U3CDelayInteracableOfAllButtonU3Ed__48_System_Collections_IEnumerator_get_Current_m2580743986,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27__ctor_m1273604501,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_IDisposable_Dispose_m799172571,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_MoveNext_m2596514608,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2208271991,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_IEnumerator_Reset_m2853171766,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__27_System_Collections_IEnumerator_get_Current_m3079372898,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29__ctor_m1492459219,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_IDisposable_Dispose_m1500772445,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_MoveNext_m2009708594,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4116729781,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_IEnumerator_Reset_m3276818488,
+	U3CDontDestroyParticleWhenLoadNewSceneDelayU3Ed__29_System_Collections_IEnumerator_get_Current_m2726284516,
+	U3CLoadLevelDelayU3Ed__19__ctor_m402387893,
+	U3CLoadLevelDelayU3Ed__19_System_IDisposable_Dispose_m2612101563,
+	U3CLoadLevelDelayU3Ed__19_MoveNext_m1341416464,
+	U3CLoadLevelDelayU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3657294039,
+	U3CLoadLevelDelayU3Ed__19_System_Collections_IEnumerator_Reset_m753939478,
+	U3CLoadLevelDelayU3Ed__19_System_Collections_IEnumerator_get_Current_m2676120066,
+	ByteArray_Copy_m3670225728,
+	ByteArray_ByteCopy_m2791369704,
+	ByteArray_Reverse_m4198676671,
+	ByteString__ctor_m3954052279,
+	ByteString_GetEnumerator_m2168507865,
+	ByteString_System_Collections_IEnumerable_GetEnumerator_m740940383,
+	ByteString_CreateCodedInput_m74995625,
+	ByteString_Equals_m1850465767,
+	ByteString_GetHashCode_m3538174975,
+	ByteString_Equals_m1393476260,
+	ByteString__cctor_m3533786523,
+	CodedInputStream__ctor_m3357527409,
+	CodedInputStream__ctor_m2622803471,
+	CodedInputStream_get_ReachedLimit_m802249722,
+	CodedInputStream_get_IsAtEnd_m238754927,
+	CodedInputStream_CreateInstance_m2850959676,
+	CodedInputStream_CreateInstance_m361471812,
+	CodedInputStream_CheckLastTagWas_m200294519,
+	CodedInputStream_PeekNextTag_m2476726456,
+	CodedInputStream_ReadTag_m1590405344,
+	CodedInputStream_ReadFloat_m232796065,
+	CodedInputStream_ReadInt64_m3858450537,
+	CodedInputStream_ReadInt32_m819498505,
+	CodedInputStream_ReadMessage_m1770546095,
+	CodedInputStream_BeginArray_m2258619110,
+	CodedInputStream_ContinueArray_m3756366926,
+	CodedInputStream_ContinueArray_m1770543048,
+	CodedInputStream_ReadFloatArray_m2123658713,
+	CodedInputStream_SlowReadRawVarint32_m2448488201,
+	CodedInputStream_ReadRawVarint32_m3662731018,
+	CodedInputStream_ReadRawVarint32_m3276130721,
+	CodedInputStream_ReadRawVarint64_m364557290,
+	CodedInputStream_ReadRawLittleEndian32_m2952990675,
+	CodedInputStream_ReadRawLittleEndian64_m396883955,
+	CodedInputStream_PushLimit_m994285030,
+	CodedInputStream_RecomputeBufferSizeAfterLimit_m488640474,
+	CodedInputStream_PopLimit_m1836646151,
+	CodedInputStream_RefillBuffer_m1860958645,
+	CodedInputStream_ReadRawByte_m1059326780,
+	CodedInputStream_ReadRawBytes_m2322882316,
+	CodedInputStream_SkipField_m2087251765,
+	CodedInputStream_SkipMessage_m3718327390,
+	CodedInputStream_SkipRawBytes_m242966367,
+	CodedInputStream_SkipImpl_m789886620,
+	CodedOutputStream__ctor_m734597254,
+	CodedOutputStream_get_SpaceLeft_m250911719,
+	CodedOutputStream_ComputeFloatSize_m65298715,
+	CodedOutputStream_ComputeInt64Size_m1718363313,
+	CodedOutputStream_ComputeInt32Size_m3699664239,
+	CodedOutputStream_ComputeMessageSize_m1597509401,
+	CodedOutputStream_ComputeEnumSize_m1393339146,
+	CodedOutputStream_ComputeInt32SizeNoTag_m1540664629,
+	CodedOutputStream_ComputeEnumSizeNoTag_m4278042064,
+	CodedOutputStream_ComputeRawVarint32Size_m3154776802,
+	CodedOutputStream_ComputeRawVarint64Size_m2971184036,
+	CodedOutputStream_ComputeTagSize_m1517401140,
+	CodedOutputStream_CreateInstance_m3802784570,
+	CodedOutputStream_CreateInstance_m869516314,
+	CodedOutputStream_WriteFloat_m3588002640,
+	CodedOutputStream_WriteInt64_m913588508,
+	CodedOutputStream_WriteInt32_m2011528986,
+	CodedOutputStream_WriteMessage_m2366649166,
+	CodedOutputStream_WriteEnum_m3638986103,
+	CodedOutputStream_WriteFloatNoTag_m477583950,
+	CodedOutputStream_WriteInt32NoTag_m3134807772,
+	CodedOutputStream_WritePackedFloatArray_m634747521,
+	CodedOutputStream_WriteTag_m290734255,
+	CodedOutputStream_WriteRawVarint32_m3990844169,
+	CodedOutputStream_WriteRawVarint64_m2734740555,
+	CodedOutputStream_WriteRawByte_m2647428377,
+	CodedOutputStream_WriteRawBytes_m2953237958,
+	CodedOutputStream_RefreshBuffer_m1643705180,
+	CodedOutputStream_CheckNoSpaceLeft_m1026714917,
+	CodedOutputStream__cctor_m6508042,
+	OutOfSpaceException__ctor_m3337708164,
+	ExtensionRegistry__ctor_m2795137368,
+	ExtensionRegistry_get_Empty_m1266638344,
+	ExtensionRegistry_CreateInstance_m3058044271,
+	ExtensionRegistry__cctor_m1625575694,
+	ExtensionIntPair_GetHashCode_m4207818331_AdjustorThunk,
+	ExtensionIntPair_Equals_m2022810179_AdjustorThunk,
+	ExtensionIntPair_Equals_m2689844828_AdjustorThunk,
+	FrameworkPortability_get_InvariantCulture_m862252542,
+	FrameworkPortability__cctor_m4092266125,
+	InvalidProtocolBufferException__ctor_m3776365495,
+	InvalidProtocolBufferException_TruncatedMessage_m1598354167,
+	InvalidProtocolBufferException_NegativeSize_m1628852644,
+	InvalidProtocolBufferException_MalformedVarint_m3939893207,
+	InvalidProtocolBufferException_InvalidTag_m699195889,
+	InvalidProtocolBufferException_InvalidEndTag_m1685121642,
+	InvalidProtocolBufferException_InvalidWireType_m1883139210,
+	InvalidProtocolBufferException_RecursionLimitExceeded_m737951226,
+	InvalidProtocolBufferException_SizeLimitExceeded_m1580964673,
+	ThrowHelper_ThrowIfNull_m1218964513,
+	ThrowHelper_ThrowIfNull_m2241939621,
+	UninitializedMessageException__ctor_m787888070,
+	UninitializedMessageException_AsInvalidProtocolBufferException_m3036469865,
+	WireFormat_GetTagWireType_m1783698341,
+	WireFormat_IsEndGroupTag_m4227909309,
+	WireFormat_GetTagFieldNumber_m1275894768,
+	WireFormat_MakeTag_m3371601783,
 	U3CPrivateImplementationDetailsU3E__ctor_m795736486,
 	ControllerDemoManager__ctor_m2236454461,
+	Demo__ctor_m2996546552,
+	Demo_Awake_m3234151771,
+	Demo_Start_m1943684344,
+	Demo_Update_m130524693,
+	Demo_OnGUI_m2491945202,
 	DragAtom__ctor_m1931880310,
 	DragAtom_Start_m879018102,
 	DragAtom_LateUpdate_m1674271901,
@@ -26340,11 +29477,531 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	DragAtom_OnGazeTrigger_m287452584,
 	DragAtom_DuplicateModel_m895533100,
 	DragAtom_ActivateModel_m4276353546,
+	DragAtom_DeactivateModel_m625762985,
+	DragAtom_CameraAbout_m474986428,
+	DragAtom_InitOnPlayerClose_m744663836,
+	DragAtom_FlashMessage_m528587333,
+	DragAtom_FadeMessageIn_m476243460,
+	DragAtom_FadeMessageOut_m1884468081,
+	FadeIntoScene__ctor_m3547056283,
+	FadeIntoScene_Start_m2494194075,
+	FadeIntoScene_Update_m16457170,
+	FadeIntoScene_TakePhoto_m2276399332,
+	FadeIntoScene_DoIt_m1723897567,
+	FadeIntoScene_FadeToHalf_m582090675,
+	FadeIntoScene_FadeRest_m1209150905,
 	FlashCamera__ctor_m1445367798,
 	FlashCamera_Start_m392505590,
 	FlashCamera_Update_m3583590871,
 	FlashCamera_TakePhoto_m380680895,
 	FlashCamera_DoIt_m1379006500,
+	GA_FREE_Demo00__ctor_m182374186,
+	GA_FREE_Demo00_Awake_m419979405,
+	GA_FREE_Demo00_Start_m3424479274,
+	GA_FREE_Demo00_Update_m3085494563,
+	GA_FREE_Demo00_ShowText_m3355888959,
+	U3CShowTextU3Ec__Iterator0__ctor_m4059866550,
+	U3CShowTextU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m43317020,
+	U3CShowTextU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2859512496,
+	U3CShowTextU3Ec__Iterator0_MoveNext_m2834385790,
+	U3CShowTextU3Ec__Iterator0_Dispose_m1599732851,
+	U3CShowTextU3Ec__Iterator0_Reset_m1706299491,
+	GA_FREE_Demo01__ctor_m4280827977,
+	GA_FREE_Demo01_Awake_m223465900,
+	GA_FREE_Demo01_Start_m3227965769,
+	GA_FREE_Demo01_Update_m1288543204,
+	GA_FREE_Demo01_MoveInTitleGameObjects_m1820109795,
+	GA_FREE_Demo01_MoveInPrimaryButtons_m4054472824,
+	GA_FREE_Demo01_HideAllGUIs_m3235842910,
+	GA_FREE_Demo01_HideTitleTextMeshes_m945907677,
+	GA_FREE_Demo01_EnableAllDemoButtons_m485781571,
+	GA_FREE_Demo01_DisableButtonForSeconds_m1738344652,
+	GA_FREE_Demo01_OnButton_TopLeft_m2576661481,
+	GA_FREE_Demo01_OnButton_BottomLeft_m352280295,
+	GA_FREE_Demo01_OnButton_RightBar_m1890517548,
+	GA_FREE_Demo01_ToggleTopLeft_m2744981103,
+	GA_FREE_Demo01_ToggleBottomLeft_m2535304865,
+	GA_FREE_Demo01_ToggleRightBar_m2813458534,
+	U3CDisableButtonForSecondsU3Ec__Iterator5__ctor_m1562972650,
+	U3CDisableButtonForSecondsU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m96459186,
+	U3CDisableButtonForSecondsU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1970241862,
+	U3CDisableButtonForSecondsU3Ec__Iterator5_MoveNext_m1798222258,
+	U3CDisableButtonForSecondsU3Ec__Iterator5_Dispose_m2971413415,
+	U3CDisableButtonForSecondsU3Ec__Iterator5_Reset_m3504372887,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4__ctor_m2997421449,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3939429545,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m3596182077,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4_MoveNext_m3116836043,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4_Dispose_m2792207238,
+	U3CEnableAllDemoButtonsU3Ec__Iterator4_Reset_m643854390,
+	U3CHideTitleTextMeshesU3Ec__Iterator3__ctor_m2562711066,
+	U3CHideTitleTextMeshesU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3807596034,
+	U3CHideTitleTextMeshesU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m607491478,
+	U3CHideTitleTextMeshesU3Ec__Iterator3_MoveNext_m652587394,
+	U3CHideTitleTextMeshesU3Ec__Iterator3_Dispose_m1647356887,
+	U3CHideTitleTextMeshesU3Ec__Iterator3_Reset_m209144007,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2__ctor_m1819467520,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2915209106,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m4200199974,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2_MoveNext_m574145524,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2_Dispose_m354880317,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2_Reset_m3760867757,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1__ctor_m1864034444,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4274153158,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1681307226,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1_MoveNext_m1229683688,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1_Dispose_m234021321,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1_Reset_m3805434681,
+	GA_FREE_Demo02__ctor_m4084314472,
+	GA_FREE_Demo02_Awake_m26952395,
+	GA_FREE_Demo02_Start_m3031452264,
+	GA_FREE_Demo02_Update_m3786559141,
+	GA_FREE_Demo02_MoveInTitleGameObjects_m2781723812,
+	GA_FREE_Demo02_ShowDialog_m1190501961,
+	GA_FREE_Demo02_HideAllGUIs_m2725308733,
+	GA_FREE_Demo02_HideTitleTextMeshes_m878900924,
+	GA_FREE_Demo02_EnableAllDemoButtons_m2703539524,
+	GA_FREE_Demo02_DisableAllButtonsForSeconds_m801374191,
+	GA_FREE_Demo02_OnButton_UpperEdge_m4132416493,
+	GA_FREE_Demo02_OnButton_LeftEdge_m2969687960,
+	GA_FREE_Demo02_OnButton_RightEdge_m4104622567,
+	GA_FREE_Demo02_OnButton_BottomEdge_m83961340,
+	GA_FREE_Demo02_OnButton_UpperLeft_m38761399,
+	GA_FREE_Demo02_OnButton_UpperRight_m2346813838,
+	GA_FREE_Demo02_OnButton_BottomLeft_m285273542,
+	GA_FREE_Demo02_OnButton_BottomRight_m1398755679,
+	GA_FREE_Demo02_OnButton_Center_m914257417,
+	GA_FREE_Demo02_DialogMoveIn_m1003698987,
+	U3CDialogMoveInU3Ec__IteratorB__ctor_m14219610,
+	U3CDialogMoveInU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1662391416,
+	U3CDialogMoveInU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m87033868,
+	U3CDialogMoveInU3Ec__IteratorB_MoveNext_m2054020954,
+	U3CDialogMoveInU3Ec__IteratorB_Dispose_m678426391,
+	U3CDialogMoveInU3Ec__IteratorB_Reset_m1955619847,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA__ctor_m3272997035,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1998284561,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2138549413,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA_MoveNext_m716787025,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA_Dispose_m1332373032,
+	U3CDisableAllButtonsForSecondsU3Ec__IteratorA_Reset_m919429976,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9__ctor_m314113445,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1942736397,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1349356449,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9_MoveNext_m2619402031,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9_Dispose_m1113592994,
+	U3CEnableAllDemoButtonsU3Ec__Iterator9_Reset_m2255513682,
+	U3CHideTitleTextMeshesU3Ec__Iterator8__ctor_m555449620,
+	U3CHideTitleTextMeshesU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3564640072,
+	U3CHideTitleTextMeshesU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1343335132,
+	U3CHideTitleTextMeshesU3Ec__Iterator8_MoveNext_m1156511816,
+	U3CHideTitleTextMeshesU3Ec__Iterator8_Dispose_m1109423185,
+	U3CHideTitleTextMeshesU3Ec__Iterator8_Reset_m2496849857,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6__ctor_m2852406376,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2031926378,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m4153988094,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6_MoveNext_m3817095820,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6_Dispose_m871675557,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator6_Reset_m498839317,
+	U3CShowDialogU3Ec__Iterator7__ctor_m3726230060,
+	U3CShowDialogU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3872430502,
+	U3CShowDialogU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m566667578,
+	U3CShowDialogU3Ec__Iterator7_MoveNext_m284921928,
+	U3CShowDialogU3Ec__Iterator7_Dispose_m3097613161,
+	U3CShowDialogU3Ec__Iterator7_Reset_m1372663001,
+	GA_FREE_Demo03__ctor_m3887800967,
+	GA_FREE_Demo03_Awake_m4125406186,
+	GA_FREE_Demo03_Start_m2834938759,
+	GA_FREE_Demo03_Update_m1989607782,
+	GA_FREE_Demo03_MoveInTitleGameObjects_m3743337829,
+	GA_FREE_Demo03_ShowDialogs_m2035360331,
+	GA_FREE_Demo03_HideAllGUIs_m2214774556,
+	GA_FREE_Demo03_HideTitleTextMeshes_m811894171,
+	GA_FREE_Demo03_EnableAllDemoButtons_m626330181,
+	GA_FREE_Demo03_DisableButtonForSeconds_m1683951754,
+	GA_FREE_Demo03_OnButton_Dialog1_m484616344,
+	GA_FREE_Demo03_OnButton_Dialog2_m484617305,
+	GA_FREE_Demo03_OnButton_Dialog3_m484618266,
+	GA_FREE_Demo03_OnButton_Dialog4_m484619227,
+	GA_FREE_Demo03_OnButton_MoveOutAllDialogs_m3395369110,
+	GA_FREE_Demo03_Dialog1_MoveIn_m13996081,
+	GA_FREE_Demo03_Dialog2_MoveIn_m4112449872,
+	GA_FREE_Demo03_Dialog3_MoveIn_m3915936367,
+	GA_FREE_Demo03_Dialog4_MoveIn_m3719422862,
+	U3CDialog1_MoveInU3Ec__Iterator11__ctor_m1724789755,
+	U3CDialog1_MoveInU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1421518145,
+	U3CDialog1_MoveInU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m137972437,
+	U3CDialog1_MoveInU3Ec__Iterator11_MoveNext_m1948909057,
+	U3CDialog1_MoveInU3Ec__Iterator11_Dispose_m3858828664,
+	U3CDialog1_MoveInU3Ec__Iterator11_Reset_m3666189992,
+	U3CDialog2_MoveInU3Ec__Iterator12__ctor_m1879076187,
+	U3CDialog2_MoveInU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2420738017,
+	U3CDialog2_MoveInU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m438398325,
+	U3CDialog2_MoveInU3Ec__Iterator12_MoveNext_m2680998049,
+	U3CDialog2_MoveInU3Ec__Iterator12_Dispose_m1804234456,
+	U3CDialog2_MoveInU3Ec__Iterator12_Reset_m3820476424,
+	U3CDialog3_MoveInU3Ec__Iterator13__ctor_m2033362619,
+	U3CDialog3_MoveInU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3419957889,
+	U3CDialog3_MoveInU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m738824213,
+	U3CDialog3_MoveInU3Ec__Iterator13_MoveNext_m3413087041,
+	U3CDialog3_MoveInU3Ec__Iterator13_Dispose_m4044607544,
+	U3CDialog3_MoveInU3Ec__Iterator13_Reset_m3974762856,
+	U3CDialog4_MoveInU3Ec__Iterator14__ctor_m2187649051,
+	U3CDialog4_MoveInU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m124210465,
+	U3CDialog4_MoveInU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m1039250101,
+	U3CDialog4_MoveInU3Ec__Iterator14_MoveNext_m4145176033,
+	U3CDialog4_MoveInU3Ec__Iterator14_Dispose_m1990013336,
+	U3CDialog4_MoveInU3Ec__Iterator14_Reset_m4129049288,
+	U3CDisableButtonForSecondsU3Ec__Iterator10__ctor_m918735562,
+	U3CDisableButtonForSecondsU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m660349064,
+	U3CDisableButtonForSecondsU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2360357916,
+	U3CDisableButtonForSecondsU3Ec__Iterator10_MoveNext_m1870988778,
+	U3CDisableButtonForSecondsU3Ec__Iterator10_Dispose_m2334862471,
+	U3CDisableButtonForSecondsU3Ec__Iterator10_Reset_m2860135799,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF__ctor_m353664697,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2571424121,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m1985144589,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF_MoveNext_m4069711259,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF_Dispose_m467640502,
+	U3CEnableAllDemoButtonsU3Ec__IteratorF_Reset_m2295064934,
+	U3CHideTitleTextMeshesU3Ec__IteratorE__ctor_m1271047430,
+	U3CHideTitleTextMeshesU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1652097686,
+	U3CHideTitleTextMeshesU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m666825258,
+	U3CHideTitleTextMeshesU3Ec__IteratorE_MoveNext_m3608179478,
+	U3CHideTitleTextMeshesU3Ec__IteratorE_Dispose_m1604151235,
+	U3CHideTitleTextMeshesU3Ec__IteratorE_Reset_m3212447667,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC__ctor_m2268670268,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2415080470,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m919348138,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC_MoveNext_m4057283896,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC_Dispose_m2541991545,
+	U3CMoveInTitleGameObjectsU3Ec__IteratorC_Reset_m4210070505,
+	U3CShowDialogsU3Ec__IteratorD__ctor_m3551724439,
+	U3CShowDialogsU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3722437029,
+	U3CShowDialogsU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m1552666425,
+	U3CShowDialogsU3Ec__IteratorD_MoveNext_m1568355045,
+	U3CShowDialogsU3Ec__IteratorD_Dispose_m2901435924,
+	U3CShowDialogsU3Ec__IteratorD_Reset_m1198157380,
+	GA_FREE_Demo04__ctor_m3691287462,
+	GA_FREE_Demo04_Awake_m3928892681,
+	GA_FREE_Demo04_Start_m2638425254,
+	GA_FREE_Demo04_Update_m192656423,
+	GA_FREE_Demo04_MoveInTitleGameObjects_m409984550,
+	GA_FREE_Demo04_MoveInPrimaryButtons_m2117812091,
+	GA_FREE_Demo04_HideAllGUIs_m1704240379,
+	GA_FREE_Demo04_HideTitleTextMeshes_m744887418,
+	GA_FREE_Demo04_EnableAllDemoButtons_m2844088134,
+	GA_FREE_Demo04_DisableButtonForSeconds_m3804238953,
+	GA_FREE_Demo04_OnButton_Dialog1_m695967257,
+	GA_FREE_Demo04_OnButton_Dialog2_m695968218,
+	GA_FREE_Demo04_OnButton_Dialog3_m695969179,
+	GA_FREE_Demo04_OnButton_Dialog4_m695970140,
+	GA_FREE_Demo04_OnButton_MoveOutAllDialogs_m3746169047,
+	GA_FREE_Demo04_Dialog1_MoveIn_m3464491506,
+	GA_FREE_Demo04_Dialog2_MoveIn_m3267978001,
+	GA_FREE_Demo04_Dialog3_MoveIn_m3071464496,
+	GA_FREE_Demo04_Dialog4_MoveIn_m2874950991,
+	U3CDialog1_MoveInU3Ec__Iterator1A__ctor_m42153674,
+	U3CDialog1_MoveInU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1935558098,
+	U3CDialog1_MoveInU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m1621765478,
+	U3CDialog1_MoveInU3Ec__Iterator1A_MoveNext_m1100731602,
+	U3CDialog1_MoveInU3Ec__Iterator1A_Dispose_m1753258119,
+	U3CDialog1_MoveInU3Ec__Iterator1A_Reset_m1983553911,
+	U3CDialog2_MoveInU3Ec__Iterator1B__ctor_m196440106,
+	U3CDialog2_MoveInU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2934777970,
+	U3CDialog2_MoveInU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m1922191366,
+	U3CDialog2_MoveInU3Ec__Iterator1B_MoveNext_m1832820594,
+	U3CDialog2_MoveInU3Ec__Iterator1B_Dispose_m3993631207,
+	U3CDialog2_MoveInU3Ec__Iterator1B_Reset_m2137840343,
+	U3CDialog3_MoveInU3Ec__Iterator1C__ctor_m350726538,
+	U3CDialog3_MoveInU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3933997842,
+	U3CDialog3_MoveInU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m2222617254,
+	U3CDialog3_MoveInU3Ec__Iterator1C_MoveNext_m2564909586,
+	U3CDialog3_MoveInU3Ec__Iterator1C_Dispose_m1939036999,
+	U3CDialog3_MoveInU3Ec__Iterator1C_Reset_m2292126775,
+	U3CDialog4_MoveInU3Ec__Iterator1D__ctor_m505012970,
+	U3CDialog4_MoveInU3Ec__Iterator1D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m638250418,
+	U3CDialog4_MoveInU3Ec__Iterator1D_System_Collections_IEnumerator_get_Current_m2523043142,
+	U3CDialog4_MoveInU3Ec__Iterator1D_MoveNext_m3296998578,
+	U3CDialog4_MoveInU3Ec__Iterator1D_Dispose_m4179410087,
+	U3CDialog4_MoveInU3Ec__Iterator1D_Reset_m2446413207,
+	U3CDisableButtonForSecondsU3Ec__Iterator19__ctor_m3437321954,
+	U3CDisableButtonForSecondsU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2143677296,
+	U3CDisableButtonForSecondsU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m4087140100,
+	U3CDisableButtonForSecondsU3Ec__Iterator19_MoveNext_m4294499026,
+	U3CDisableButtonForSecondsU3Ec__Iterator19_Dispose_m334830239,
+	U3CDisableButtonForSecondsU3Ec__Iterator19_Reset_m1083754895,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18__ctor_m4123327391,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3397316701,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m2580499953,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18_MoveNext_m3973876957,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18_Dispose_m2456058908,
+	U3CEnableAllDemoButtonsU3Ec__Iterator18_Reset_m1769760332,
+	U3CHideTitleTextMeshesU3Ec__Iterator17__ctor_m379590006,
+	U3CHideTitleTextMeshesU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1528264412,
+	U3CHideTitleTextMeshesU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m1634382448,
+	U3CHideTitleTextMeshesU3Ec__Iterator17_MoveNext_m3316478398,
+	U3CHideTitleTextMeshesU3Ec__Iterator17_Dispose_m3907025971,
+	U3CHideTitleTextMeshesU3Ec__Iterator17_Reset_m2320990243,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16__ctor_m3060585548,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2074257872,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m2122468708,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16_MoveNext_m2035570960,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16_Dispose_m3363364233,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator16_Reset_m707018489,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15__ctor_m710572706,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2221044730,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m1172286350,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15_MoveNext_m4093111802,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15_Dispose_m4153820767,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator15_Reset_m2651972943,
+	GA_FREE_Demo05__ctor_m3494773957,
+	GA_FREE_Demo05_Awake_m3732379176,
+	GA_FREE_Demo05_Start_m2441911749,
+	GA_FREE_Demo05_Update_m2690672360,
+	GA_FREE_Demo05_MoveInTitleGameObjects_m1371598567,
+	GA_FREE_Demo05_MoveInPrimaryButtons_m40602748,
+	GA_FREE_Demo05_HideAllGUIs_m1193706202,
+	GA_FREE_Demo05_HideTitleTextMeshes_m677880665,
+	GA_FREE_Demo05_EnableAllDemoButtons_m766878791,
+	GA_FREE_Demo05_DisableButtonForSeconds_m1629558856,
+	GA_FREE_Demo05_OnButton_Dialog1_m907318170,
+	GA_FREE_Demo05_OnButton_Dialog2_m907319131,
+	GA_FREE_Demo05_OnButton_Dialog3_m907320092,
+	GA_FREE_Demo05_OnButton_Dialog4_m907321053,
+	GA_FREE_Demo05_OnButton_MoveOutAllDialogs_m4096968984,
+	GA_FREE_Demo05_Dialog1_MoveIn_m2620019635,
+	GA_FREE_Demo05_Dialog2_MoveIn_m2423506130,
+	GA_FREE_Demo05_Dialog3_MoveIn_m2226992625,
+	GA_FREE_Demo05_Dialog4_MoveIn_m2030479120,
+	U3CDialog1_MoveInU3Ec__Iterator23__ctor_m2457971384,
+	U3CDialog1_MoveInU3Ec__Iterator23_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2240899748,
+	U3CDialog1_MoveInU3Ec__Iterator23_System_Collections_IEnumerator_get_Current_m781530680,
+	U3CDialog1_MoveInU3Ec__Iterator23_MoveNext_m4254118436,
+	U3CDialog1_MoveInU3Ec__Iterator23_Dispose_m4071737589,
+	U3CDialog1_MoveInU3Ec__Iterator23_Reset_m104404325,
+	U3CDialog2_MoveInU3Ec__Iterator24__ctor_m2612257816,
+	U3CDialog2_MoveInU3Ec__Iterator24_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3240119620,
+	U3CDialog2_MoveInU3Ec__Iterator24_System_Collections_IEnumerator_get_Current_m1081956568,
+	U3CDialog2_MoveInU3Ec__Iterator24_MoveNext_m691240132,
+	U3CDialog2_MoveInU3Ec__Iterator24_Dispose_m2017143381,
+	U3CDialog2_MoveInU3Ec__Iterator24_Reset_m258690757,
+	U3CDialog3_MoveInU3Ec__Iterator25__ctor_m2766544248,
+	U3CDialog3_MoveInU3Ec__Iterator25_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4239339492,
+	U3CDialog3_MoveInU3Ec__Iterator25_System_Collections_IEnumerator_get_Current_m1382382456,
+	U3CDialog3_MoveInU3Ec__Iterator25_MoveNext_m1423329124,
+	U3CDialog3_MoveInU3Ec__Iterator25_Dispose_m4257516469,
+	U3CDialog3_MoveInU3Ec__Iterator25_Reset_m412977189,
+	U3CDialog4_MoveInU3Ec__Iterator26__ctor_m2920830680,
+	U3CDialog4_MoveInU3Ec__Iterator26_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m943592068,
+	U3CDialog4_MoveInU3Ec__Iterator26_System_Collections_IEnumerator_get_Current_m1682808344,
+	U3CDialog4_MoveInU3Ec__Iterator26_MoveNext_m2155418116,
+	U3CDialog4_MoveInU3Ec__Iterator26_Dispose_m2202922261,
+	U3CDialog4_MoveInU3Ec__Iterator26_Reset_m567263621,
+	U3CDisableButtonForSecondsU3Ec__Iterator22__ctor_m3008205771,
+	U3CDisableButtonForSecondsU3Ec__Iterator22_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m496530983,
+	U3CDisableButtonForSecondsU3Ec__Iterator22_System_Collections_IEnumerator_get_Current_m1018275771,
+	U3CDisableButtonForSecondsU3Ec__Iterator22_MoveNext_m2316964169,
+	U3CDisableButtonForSecondsU3Ec__Iterator22_Dispose_m271038792,
+	U3CDisableButtonForSecondsU3Ec__Iterator22_Reset_m654638712,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21__ctor_m2518623270,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3199045174,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m1153351114,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21_MoveNext_m1219412726,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21_Dispose_m2228657891,
+	U3CEnableAllDemoButtonsU3Ec__Iterator21_Reset_m165056211,
+	U3CHideTitleTextMeshesU3Ec__Iterator20__ctor_m2552459999,
+	U3CHideTitleTextMeshesU3Ec__Iterator20_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4156238099,
+	U3CHideTitleTextMeshesU3Ec__Iterator20_System_Collections_IEnumerator_get_Current_m2475668135,
+	U3CHideTitleTextMeshesU3Ec__Iterator20_MoveNext_m1539354549,
+	U3CHideTitleTextMeshesU3Ec__Iterator20_Dispose_m386016092,
+	U3CHideTitleTextMeshesU3Ec__Iterator20_Reset_m198892940,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F__ctor_m3027989467,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3545572769,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F_System_Collections_IEnumerator_get_Current_m2107673397,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F_MoveNext_m1628330785,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F_Dispose_m2103301464,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1F_Reset_m674422408,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E__ctor_m2830904945,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m375784331,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E_System_Collections_IEnumerator_get_Current_m1433304351,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E_MoveNext_m531854283,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E_Dispose_m1683636846,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator1E_Reset_m477337886,
+	GA_FREE_Demo06__ctor_m3298260452,
+	GA_FREE_Demo06_Awake_m3535865671,
+	GA_FREE_Demo06_Start_m2245398244,
+	GA_FREE_Demo06_Update_m893721001,
+	GA_FREE_Demo06_MoveInTitleGameObjects_m2333212584,
+	GA_FREE_Demo06_MoveInPrimaryButtons_m2258360701,
+	GA_FREE_Demo06_HideAllGUIs_m683172025,
+	GA_FREE_Demo06_HideTitleTextMeshes_m610873912,
+	GA_FREE_Demo06_EnableAllDemoButtons_m2984636744,
+	GA_FREE_Demo06_DisableAllButtonsForSeconds_m2588346867,
+	GA_FREE_Demo06_OnButton_1_m3600829507,
+	GA_FREE_Demo06_OnButton_2_m3600830468,
+	GA_FREE_Demo06_OnButton_3_m3600831429,
+	GA_FREE_Demo06_OnButton_4_m3600832390,
+	GA_FREE_Demo06_OnButton_5_m3600833351,
+	GA_FREE_Demo06_ToggleButton_1_m364905464,
+	GA_FREE_Demo06_ToggleButton_2_m364906425,
+	GA_FREE_Demo06_ToggleButton_3_m364907386,
+	GA_FREE_Demo06_ToggleButton_4_m364908347,
+	GA_FREE_Demo06_ToggleButton_5_m364909308,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B__ctor_m2342556686,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3092581444,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_System_Collections_IEnumerator_get_Current_m3742373848,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_MoveNext_m1529135142,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_Dispose_m532395211,
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator2B_Reset_m4283956923,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A__ctor_m2486027189,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m375392775,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A_System_Collections_IEnumerator_get_Current_m1138555803,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A_MoveNext_m812172551,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A_Dispose_m968595122,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2A_Reset_m132460130,
+	U3CHideTitleTextMeshesU3Ec__Iterator29__ctor_m3378065271,
+	U3CHideTitleTextMeshesU3Ec__Iterator29_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1324751739,
+	U3CHideTitleTextMeshesU3Ec__Iterator29_System_Collections_IEnumerator_get_Current_m3817633039,
+	U3CHideTitleTextMeshesU3Ec__Iterator29_MoveNext_m4163275805,
+	U3CHideTitleTextMeshesU3Ec__Iterator29_Dispose_m3518700020,
+	U3CHideTitleTextMeshesU3Ec__Iterator29_Reset_m1024498212,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28__ctor_m2798879881,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m513222067,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28_System_Collections_IEnumerator_get_Current_m4063817543,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28_MoveNext_m927687603,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28_Dispose_m972321414,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator28_Reset_m445312822,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27__ctor_m459756383,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2616792925,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27_System_Collections_IEnumerator_get_Current_m3665261809,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27_MoveNext_m972161053,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27_Dispose_m3637502940,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator27_Reset_m2401156620,
+	GA_FREE_Demo07__ctor_m3101746947,
+	GA_FREE_Demo07_Awake_m3339352166,
+	GA_FREE_Demo07_Start_m2048884739,
+	GA_FREE_Demo07_Update_m3391736938,
+	GA_FREE_Demo07_MoveInTitleGameObjects_m3294826601,
+	GA_FREE_Demo07_MoveInPrimaryButtons_m181151358,
+	GA_FREE_Demo07_HideAllGUIs_m172637848,
+	GA_FREE_Demo07_HideTitleTextMeshes_m543867159,
+	GA_FREE_Demo07_EnableAllDemoButtons_m907427401,
+	GA_FREE_Demo07_DisableButtonForSeconds_m1575165958,
+	GA_FREE_Demo07_OnButton_1_m813414020,
+	GA_FREE_Demo07_OnButton_2_m813414981,
+	GA_FREE_Demo07_OnButton_3_m813415942,
+	GA_FREE_Demo07_OnButton_4_m813416903,
+	GA_FREE_Demo07_OnDialogButton_m2751669690,
+	GA_FREE_Demo07_MoveButtonsOut_m83758367,
+	GA_FREE_Demo07_SetButtonMove_m798556968,
+	GA_FREE_Demo07_DialogMoveIn_m1092623079,
+	U3CDialogMoveInU3Ec__Iterator32__ctor_m1935204454,
+	U3CDialogMoveInU3Ec__Iterator32_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1004109558,
+	U3CDialogMoveInU3Ec__Iterator32_System_Collections_IEnumerator_get_Current_m3680775818,
+	U3CDialogMoveInU3Ec__Iterator32_MoveNext_m3558445750,
+	U3CDialogMoveInU3Ec__Iterator32_Dispose_m4203891491,
+	U3CDialogMoveInU3Ec__Iterator32_Reset_m3876604691,
+	U3CDisableButtonForSecondsU3Ec__Iterator30__ctor_m1588762704,
+	U3CDisableButtonForSecondsU3Ec__Iterator30_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1167506114,
+	U3CDisableButtonForSecondsU3Ec__Iterator30_System_Collections_IEnumerator_get_Current_m382370390,
+	U3CDisableButtonForSecondsU3Ec__Iterator30_MoveNext_m3936551588,
+	U3CDisableButtonForSecondsU3Ec__Iterator30_Dispose_m1985851533,
+	U3CDisableButtonForSecondsU3Ec__Iterator30_Reset_m3530162941,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F__ctor_m320112367,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4142389005,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F_System_Collections_IEnumerator_get_Current_m918262945,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F_MoveNext_m3632365453,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F_Dispose_m2583589740,
+	U3CEnableAllDemoButtonsU3Ec__Iterator2F_Reset_m2261512604,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E__ctor_m3614130028,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2162137766,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E_System_Collections_IEnumerator_get_Current_m2482481722,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E_MoveNext_m1612020744,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E_Dispose_m2743664809,
+	U3CHideTitleTextMeshesU3Ec__Iterator2E_Reset_m1260562969,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D__ctor_m3552337820,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2819330176,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D_System_Collections_IEnumerator_get_Current_m460231700,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D_MoveNext_m1694059456,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D_Dispose_m3490895065,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator2D_Reset_m1198770761,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C__ctor_m3366142642,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1606325738,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C_System_Collections_IEnumerator_get_Current_m337489278,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C_MoveNext_m2879482858,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C_Dispose_m650988143,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator2C_Reset_m1012575583,
+	U3CSetButtonMoveU3Ec__Iterator31__ctor_m414201658,
+	U3CSetButtonMoveU3Ec__Iterator31_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2478441432,
+	U3CSetButtonMoveU3Ec__Iterator31_System_Collections_IEnumerator_get_Current_m4083070828,
+	U3CSetButtonMoveU3Ec__Iterator31_MoveNext_m3418886778,
+	U3CSetButtonMoveU3Ec__Iterator31_Dispose_m2809085175,
+	U3CSetButtonMoveU3Ec__Iterator31_Reset_m2355601895,
+	GA_FREE_Demo08__ctor_m2905233442,
+	GA_FREE_Demo08_Awake_m3142838661,
+	GA_FREE_Demo08_Start_m1852371234,
+	GA_FREE_Demo08_Update_m1594785579,
+	GA_FREE_Demo08_MoveInTitleGameObjects_m4256440618,
+	GA_FREE_Demo08_MoveInPrimaryButtons_m2398909311,
+	GA_FREE_Demo08_HideAllGUIs_m3957070967,
+	GA_FREE_Demo08_HideTitleTextMeshes_m476860406,
+	GA_FREE_Demo08_EnableAllDemoButtons_m3125185354,
+	GA_FREE_Demo08_DisableButtonForSeconds_m3695453157,
+	GA_FREE_Demo08_OnButton_1_m2320965829,
+	GA_FREE_Demo08_OnButton_2_m2320966790,
+	GA_FREE_Demo08_OnButton_3_m2320967751,
+	GA_FREE_Demo08_OnButton_4_m2320968712,
+	GA_FREE_Demo08_ToggleBar1_m3532903316,
+	GA_FREE_Demo08_ToggleBar2_m3532904277,
+	GA_FREE_Demo08_ToggleBar3_m3532905238,
+	GA_FREE_Demo08_ToggleBar4_m3532906199,
+	U3CDisableButtonForSecondsU3Ec__Iterator37__ctor_m205408810,
+	U3CDisableButtonForSecondsU3Ec__Iterator37_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3068230952,
+	U3CDisableButtonForSecondsU3Ec__Iterator37_System_Collections_IEnumerator_get_Current_m2462240956,
+	U3CDisableButtonForSecondsU3Ec__Iterator37_MoveNext_m2651900554,
+	U3CDisableButtonForSecondsU3Ec__Iterator37_Dispose_m4022621159,
+	U3CDisableButtonForSecondsU3Ec__Iterator37_Reset_m2146809047,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36__ctor_m484029791,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1527434909,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36_System_Collections_IEnumerator_get_Current_m3227495473,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36_MoveNext_m3518528285,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36_Dispose_m1194444252,
+	U3CEnableAllDemoButtonsU3Ec__Iterator36_Reset_m2425430028,
+	U3CHideTitleTextMeshesU3Ec__Iterator35__ctor_m3260654270,
+	U3CHideTitleTextMeshesU3Ec__Iterator35_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2373428884,
+	U3CHideTitleTextMeshesU3Ec__Iterator35_System_Collections_IEnumerator_get_Current_m2765181480,
+	U3CHideTitleTextMeshesU3Ec__Iterator35_MoveNext_m2475523958,
+	U3CHideTitleTextMeshesU3Ec__Iterator35_Dispose_m2355877755,
+	U3CHideTitleTextMeshesU3Ec__Iterator35_Reset_m907087211,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34__ctor_m3716255244,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m204376080,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34_System_Collections_IEnumerator_get_Current_m2769464228,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34_MoveNext_m1580222288,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34_Dispose_m2101749577,
+	U3CMoveInPrimaryButtonsU3Ec__Iterator34_Reset_m1362688185,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33__ctor_m1388021090,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4264730938,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33_System_Collections_IEnumerator_get_Current_m2922535118,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33_MoveNext_m3906595642,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33_Dispose_m2346688799,
+	U3CMoveInTitleGameObjectsU3Ec__Iterator33_Reset_m3329421327,
+	GA_FREE_DemoPlaySound__ctor_m528753217,
+	GA_FREE_DemoPlaySound_Start_m3770858305,
+	GA_FREE_DemoPlaySound_Update_m938342636,
+	GA_FREE_DemoPlaySound_PlayOneShot_m1208262648,
+	GA_FREE_DemoPlaySound_PlaySoundButton1_m4235504487,
+	GA_FREE_DemoPlaySound_PlaySoundButton2_m4235505448,
+	GA_FREE_OpenOtherScene__ctor_m853725799,
+	GA_FREE_OpenOtherScene_Start_m4095830887,
+	GA_FREE_OpenOtherScene_Update_m2422558086,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene1_m1363357601,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene2_m1363358562,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene3_m1363359523,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene4_m1363360484,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene5_m1363361445,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene6_m1363362406,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene7_m1363363367,
+	GA_FREE_OpenOtherScene_ButtonOpenDemoScene8_m1363364328,
 	GazeInputModule__ctor_m1046273690,
 	GazeInputModule_ShouldActivateModule_m90977672,
 	GazeInputModule_DeactivateModule_m3462298090,
@@ -26361,8 +30018,34 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	GazeInputModule_GetIntersectionPosition_m1734457914,
 	GazeInputModule_DisableGazePointer_m2817493146,
 	GazeInputModule_GetGazePointerPosition_m3374365818,
+	GE_OrbitCamera__ctor_m320158285,
+	GE_OrbitCamera_Start_m3562263373,
+	GE_OrbitCamera_Update_m3061834336,
+	GE_OrbitCamera_UpdatePosition_m2849694313,
+	GE_OrbitCamera_ClampAngle_m198587418,
+	GE_OrbitCamera_SetZoomMethod_m4001336348,
+	GE_OrbitCameraUI__ctor_m1813023673,
+	GE_OrbitCameraUI_Start_m760161465,
+	GE_OrbitCameraUI_Update_m2096021108,
+	GE_OrbitCameraUI_OnToggle_InvertX_m1877277409,
+	GE_OrbitCameraUI_OnToggle_InvertY_m1877278370,
+	GE_OrbitCameraUI_OnToggle_InvertZoom_m1327149996,
+	GE_OrbitCameraUI_OnToggle_Help_m3343329700,
+	GE_OrbitCameraUI_OnToggle_Details_m1921143265,
+	GE_OrbitCameraUI_OnButton_PinchZoom_m3355527146,
+	GE_OrbitCameraUI_OnButton_VScrollZoom_m1048579155,
+	GE_OrbitCameraUI_OnButton_Settings_m3521962600,
+	GE_ToggleFullScreenUI__ctor_m2261240743,
+	GE_ToggleFullScreenUI_Start_m1208378535,
+	GE_ToggleFullScreenUI_Update_m3105848390,
+	GE_ToggleFullScreenUI_OnButton_ToggleFullScreen_m2983455362,
+	GE_UIResponder__ctor_m3641091406,
+	GE_UIResponder_Start_m2588229198,
+	GE_UIResponder_Update_m2931545983,
+	GE_UIResponder_OnButton_AssetName_m2779573987,
 	GoToScene__ctor_m3508567778,
 	GoToScene_LoadScene_m2884441670,
+	GoToScene_LoadMainLevel_m1417123525,
 	GoToScene_ResetLevel_m2485660567,
 	BaseVRDevice__ctor_m309650530,
 	BaseVRDevice__cctor_m527135627,
@@ -26435,12 +30118,12 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	EmulatorManager_EndOfFrame_m58878910,
 	EmulatorManager_OnPhoneEvent_m612416532,
 	EmulatorManager_ProcessEventAtEndOfFrame_m3189031586,
-	U3CEndOfFrameU3Ec__Iterator1__ctor_m1534605927,
-	U3CEndOfFrameU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4169840907,
-	U3CEndOfFrameU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m648950431,
-	U3CEndOfFrameU3Ec__Iterator1_MoveNext_m1164743981,
-	U3CEndOfFrameU3Ec__Iterator1_Dispose_m1480796388,
-	U3CEndOfFrameU3Ec__Iterator1_Reset_m3476006164,
+	U3CEndOfFrameU3Ec__Iterator39__ctor_m389458056,
+	U3CEndOfFrameU3Ec__Iterator39_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2206376084,
+	U3CEndOfFrameU3Ec__Iterator39_System_Collections_IEnumerator_get_Current_m4094708776,
+	U3CEndOfFrameU3Ec__Iterator39_MoveNext_m790647124,
+	U3CEndOfFrameU3Ec__Iterator39_Dispose_m505320133,
+	U3CEndOfFrameU3Ec__Iterator39_Reset_m2330858293,
 	OnAccelEvent__ctor_m1064389,
 	OnAccelEvent_Invoke_m718084262,
 	OnAccelEvent_BeginInvoke_m1866329421,
@@ -26800,12 +30483,12 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Networking_Start_m2745279751,
 	Networking_Update_m3505145830,
 	Networking_ScreenshotEncode_m508812993,
-	U3CScreenshotEncodeU3Ec__Iterator2__ctor_m2789006665,
-	U3CScreenshotEncodeU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2525317097,
-	U3CScreenshotEncodeU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m783170941,
-	U3CScreenshotEncodeU3Ec__Iterator2_MoveNext_m499630347,
-	U3CScreenshotEncodeU3Ec__Iterator2_Dispose_m74095430,
-	U3CScreenshotEncodeU3Ec__Iterator2_Reset_m435439606,
+	U3CScreenshotEncodeU3Ec__Iterator3A__ctor_m846018589,
+	U3CScreenshotEncodeU3Ec__Iterator3A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3270839199,
+	U3CScreenshotEncodeU3Ec__Iterator3A_System_Collections_IEnumerator_get_Current_m1578642739,
+	U3CScreenshotEncodeU3Ec__Iterator3A_MoveNext_m4100262815,
+	U3CScreenshotEncodeU3Ec__Iterator3A_Dispose_m1173328154,
+	U3CScreenshotEncodeU3Ec__Iterator3A_Reset_m2787418826,
 	Pose3D__ctor_m184997881,
 	Pose3D__ctor_m2222637201,
 	Pose3D__ctor_m3211564577,
@@ -27403,12 +31086,12 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	StereoController_U3Cget_EyesU3Em__0_m2283112925,
 	StereoController_U3Cget_HeadU3Em__1_m1513013532,
 	StereoController_U3CAddStereoRigU3Em__2_m3086802611,
-	U3CEndOfFrameU3Ec__Iterator0__ctor_m2083007146,
-	U3CEndOfFrameU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1190860072,
-	U3CEndOfFrameU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4178340028,
-	U3CEndOfFrameU3Ec__Iterator0_MoveNext_m522808330,
-	U3CEndOfFrameU3Ec__Iterator0_Dispose_m213390439,
-	U3CEndOfFrameU3Ec__Iterator0_Reset_m4024407383,
+	U3CEndOfFrameU3Ec__Iterator38__ctor_m2904556103,
+	U3CEndOfFrameU3Ec__Iterator38_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2381268917,
+	U3CEndOfFrameU3Ec__Iterator38_System_Collections_IEnumerator_get_Current_m835278153,
+	U3CEndOfFrameU3Ec__Iterator38_MoveNext_m2153322805,
+	U3CEndOfFrameU3Ec__Iterator38_Dispose_m3742922948,
+	U3CEndOfFrameU3Ec__Iterator38_Reset_m550989044,
 	StereoRenderEffect__ctor_m2763955324,
 	StereoRenderEffect__cctor_m3596140209,
 	StereoRenderEffect_Awake_m3001560543,
@@ -27537,27 +31220,27 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	Ext_UrlEncode_m1077906173,
 	Ext_WriteContent_m3014329667,
 	Ext_U3CCheckIfValidProtocolsU3Em__5_m2477356725,
-	U3CContainsTwiceU3Ec__AnonStoreyC__ctor_m2615078695,
-	U3CContainsTwiceU3Ec__AnonStoreyC_U3CU3Em__6_m1169127341,
-	U3CCopyToAsyncU3Ec__AnonStoreyD__ctor_m1535564233,
-	U3CCopyToAsyncU3Ec__AnonStoreyD_U3CU3Em__7_m2487349884,
-	U3CReadBytesAsyncU3Ec__AnonStoreyE__ctor_m342714329,
-	U3CReadBytesAsyncU3Ec__AnonStoreyE_U3CU3Em__8_m107647787,
-	U3CReadBytesAsyncU3Ec__AnonStoreyF__ctor_m146200824,
-	U3CReadBytesAsyncU3Ec__AnonStoreyF_U3CU3Em__9_m1745656844,
-	U3CReadBytesAsyncU3Ec__AnonStorey10__ctor_m1440831548,
-	U3CReadBytesAsyncU3Ec__AnonStorey10_U3CU3Em__D_m2750559106,
-	U3CSplitHeaderValueU3Ec__Iterator3__ctor_m2170623256,
-	U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m561987130,
-	U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m2398367758,
-	U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_IEnumerable_GetEnumerator_m240561481,
-	U3CSplitHeaderValueU3Ec__Iterator3_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m804962035,
-	U3CSplitHeaderValueU3Ec__Iterator3_MoveNext_m3609310940,
-	U3CSplitHeaderValueU3Ec__Iterator3_Dispose_m2808093525,
-	U3CSplitHeaderValueU3Ec__Iterator3_Reset_m4112023493,
-	U3CWriteBytesAsyncU3Ec__AnonStorey11__ctor_m652889877,
-	U3CWriteBytesAsyncU3Ec__AnonStorey11_U3CU3Em__A_m2995637701,
-	U3CWriteBytesAsyncU3Ec__AnonStorey11_U3CU3Em__B_m3112146486,
+	U3CContainsTwiceU3Ec__AnonStorey44__ctor_m990345052,
+	U3CContainsTwiceU3Ec__AnonStorey44_U3CU3Em__6_m3139089584,
+	U3CCopyToAsyncU3Ec__AnonStorey45__ctor_m3485572952,
+	U3CCopyToAsyncU3Ec__AnonStorey45_U3CU3Em__7_m1708743307,
+	U3CReadBytesAsyncU3Ec__AnonStorey46__ctor_m2467402150,
+	U3CReadBytesAsyncU3Ec__AnonStorey46_U3CU3Em__8_m1625085048,
+	U3CReadBytesAsyncU3Ec__AnonStorey47__ctor_m2270888645,
+	U3CReadBytesAsyncU3Ec__AnonStorey47_U3CU3Em__9_m936216415,
+	U3CReadBytesAsyncU3Ec__AnonStorey48__ctor_m4166823748,
+	U3CReadBytesAsyncU3Ec__AnonStorey48_U3CU3Em__D_m2602808970,
+	U3CSplitHeaderValueU3Ec__Iterator3B__ctor_m456439948,
+	U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1081560044,
+	U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_IEnumerator_get_Current_m1111494948,
+	U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_IEnumerable_GetEnumerator_m3451310309,
+	U3CSplitHeaderValueU3Ec__Iterator3B_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m3882246895,
+	U3CSplitHeaderValueU3Ec__Iterator3B_MoveNext_m1928269008,
+	U3CSplitHeaderValueU3Ec__Iterator3B_Dispose_m450408905,
+	U3CSplitHeaderValueU3Ec__Iterator3B_Reset_m2397840185,
+	U3CWriteBytesAsyncU3Ec__AnonStorey49__ctor_m2279862352,
+	U3CWriteBytesAsyncU3Ec__AnonStorey49_U3CU3Em__A_m1892176874,
+	U3CWriteBytesAsyncU3Ec__AnonStorey49_U3CU3Em__B_m1450914395,
 	HttpBase__ctor_m2861271121,
 	HttpBase_get_EntityBody_m2143482024,
 	HttpBase_get_Headers_m4258191640,
@@ -27565,8 +31248,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpBase_readEntityBody_m67214369,
 	HttpBase_readHeaders_m1246908778,
 	HttpBase_ToByteArray_m1758981413,
-	U3CreadHeadersU3Ec__AnonStorey13__ctor_m3846605617,
-	U3CreadHeadersU3Ec__AnonStorey13_U3CU3Em__E_m1656290814,
+	U3CreadHeadersU3Ec__AnonStorey4B__ctor_m4097983557,
+	U3CreadHeadersU3Ec__AnonStorey4B_U3CU3Em__E_m2946868586,
 	HttpRequest__ctor_m1840645905,
 	HttpRequest__ctor_m3452466175,
 	HttpRequest_get_AuthenticationResponse_m3607290725,
@@ -27931,8 +31614,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpListenerAsyncResult_Complete_m2562971180,
 	HttpListenerAsyncResult_Complete_m682090449,
 	HttpListenerAsyncResult_GetContext_m1299003305,
-	U3CcompleteU3Ec__AnonStorey15__ctor_m114555431,
-	U3CcompleteU3Ec__AnonStorey15_U3CU3Em__13_m1796712962,
+	U3CcompleteU3Ec__AnonStorey4D__ctor_m365933371,
+	U3CcompleteU3Ec__AnonStorey4D_U3CU3Em__13_m796403310,
 	HttpListenerContext__ctor_m2127277548,
 	HttpListenerContext_get_Connection_m2508772408,
 	HttpListenerContext_get_ErrorMessage_m898629483,
@@ -28061,16 +31744,16 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpListenerResponse_CopyFrom_m870782152,
 	HttpListenerResponse_Redirect_m2157529364,
 	HttpListenerResponse_SetCookie_m740043324,
-	U3CCloseU3Ec__AnonStorey16__ctor_m2023697819,
-	U3CCloseU3Ec__AnonStorey16_U3CU3Em__14_m1995267964,
-	U3CfindCookieU3Ec__Iterator4__ctor_m3429543293,
-	U3CfindCookieU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m2730049766,
-	U3CfindCookieU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1531063827,
-	U3CfindCookieU3Ec__Iterator4_System_Collections_IEnumerable_GetEnumerator_m3888054484,
-	U3CfindCookieU3Ec__Iterator4_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m420454455,
-	U3CfindCookieU3Ec__Iterator4_MoveNext_m1277270847,
-	U3CfindCookieU3Ec__Iterator4_Dispose_m1449471610,
-	U3CfindCookieU3Ec__Iterator4_Reset_m1075976234,
+	U3CCloseU3Ec__AnonStorey4E__ctor_m2275075759,
+	U3CCloseU3Ec__AnonStorey4E_U3CU3Em__14_m1226955496,
+	U3CfindCookieU3Ec__Iterator3C__ctor_m2428693285,
+	U3CfindCookieU3Ec__Iterator3C_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m2526319380,
+	U3CfindCookieU3Ec__Iterator3C_System_Collections_IEnumerator_get_Current_m996235297,
+	U3CfindCookieU3Ec__Iterator3C_System_Collections_IEnumerable_GetEnumerator_m792257180,
+	U3CfindCookieU3Ec__Iterator3C_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m3237518703,
+	U3CfindCookieU3Ec__Iterator3C_MoveNext_m2861625775,
+	U3CfindCookieU3Ec__Iterator3C_Dispose_m1705288226,
+	U3CfindCookieU3Ec__Iterator3C_Reset_m75126226,
 	HttpStreamAsyncResult__ctor_m608371090,
 	HttpStreamAsyncResult_get_Buffer_m2665459153,
 	HttpStreamAsyncResult_set_Buffer_m781472974,
@@ -28290,12 +31973,12 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebHeaderCollection_Set_m2811227238,
 	WebHeaderCollection_ToByteArray_m1886877506,
 	WebHeaderCollection_ToString_m374624635,
-	U3CGetObjectDataU3Ec__AnonStorey18__ctor_m1182728716,
-	U3CGetObjectDataU3Ec__AnonStorey18_U3CU3Em__17_m642089804,
-	U3CToStringU3Ec__AnonStorey19__ctor_m3851488686,
-	U3CToStringU3Ec__AnonStorey19_U3CU3Em__18_m2719806895,
-	U3CToStringMultiValueU3Ec__AnonStorey17__ctor_m1060954008,
-	U3CToStringMultiValueU3Ec__AnonStorey17_U3CU3Em__16_m3307164055,
+	U3CGetObjectDataU3Ec__AnonStorey50__ctor_m4156965912,
+	U3CGetObjectDataU3Ec__AnonStorey50_U3CU3Em__17_m1459241048,
+	U3CToStringU3Ec__AnonStorey51__ctor_m2530758586,
+	U3CToStringU3Ec__AnonStorey51_U3CU3Em__18_m3536958139,
+	U3CToStringMultiValueU3Ec__AnonStorey4F__ctor_m1312331948,
+	U3CToStringMultiValueU3Ec__AnonStorey4F_U3CU3Em__16_m365402027,
 	HttpListenerWebSocketContext__ctor_m1047238486,
 	HttpListenerWebSocketContext_get_Log_m709667570,
 	HttpListenerWebSocketContext_get_Stream_m1443623536,
@@ -28319,14 +32002,14 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpListenerWebSocketContext_Close_m2643023591,
 	HttpListenerWebSocketContext_Close_m2714929608,
 	HttpListenerWebSocketContext_ToString_m4269451170,
-	U3CU3Ec__Iterator5__ctor_m2997548384,
-	U3CU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3345322994,
-	U3CU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m4231646150,
-	U3CU3Ec__Iterator5_System_Collections_IEnumerable_GetEnumerator_m234218497,
-	U3CU3Ec__Iterator5_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m183768491,
-	U3CU3Ec__Iterator5_MoveNext_m399699348,
-	U3CU3Ec__Iterator5_Dispose_m2914191773,
-	U3CU3Ec__Iterator5_Reset_m643981325,
+	U3CU3Ec__Iterator3D__ctor_m3522190848,
+	U3CU3Ec__Iterator3D_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1102622200,
+	U3CU3Ec__Iterator3D_System_Collections_IEnumerator_get_Current_m4111267120,
+	U3CU3Ec__Iterator3D_System_Collections_IEnumerable_GetEnumerator_m3720239345,
+	U3CU3Ec__Iterator3D_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m850903803,
+	U3CU3Ec__Iterator3D_MoveNext_m1638868700,
+	U3CU3Ec__Iterator3D_Dispose_m289458749,
+	U3CU3Ec__Iterator3D_Reset_m1168623789,
 	TcpListenerWebSocketContext__ctor_m3610312559,
 	TcpListenerWebSocketContext_get_Log_m1273961413,
 	TcpListenerWebSocketContext_get_Stream_m2213800901,
@@ -28352,16 +32035,16 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	TcpListenerWebSocketContext_Close_m3572588741,
 	TcpListenerWebSocketContext_SendAuthenticationChallenge_m3663957037,
 	TcpListenerWebSocketContext_ToString_m3432376121,
-	U3CU3Ec__Iterator6__ctor_m2399466172,
-	U3CU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1556284284,
-	U3CU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m2831339316,
-	U3CU3Ec__Iterator6_System_Collections_IEnumerable_GetEnumerator_m838900405,
-	U3CU3Ec__Iterator6_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m156928191,
-	U3CU3Ec__Iterator6_MoveNext_m1056957856,
-	U3CU3Ec__Iterator6_Dispose_m3682803705,
-	U3CU3Ec__Iterator6_Reset_m45899113,
-	U3CAuthenticateU3Ec__AnonStorey1A__ctor_m1545945721,
-	U3CAuthenticateU3Ec__AnonStorey1A_U3CU3Em__19_m2208706782,
+	U3CU3Ec__Iterator3E__ctor_m3761949314,
+	U3CU3Ec__Iterator3E_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3442978832,
+	U3CU3Ec__Iterator3E_System_Collections_IEnumerator_get_Current_m357819364,
+	U3CU3Ec__Iterator3E_System_Collections_IEnumerable_GetEnumerator_m1223322783,
+	U3CU3Ec__Iterator3E_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m3836715593,
+	U3CU3Ec__Iterator3E_MoveNext_m751201586,
+	U3CU3Ec__Iterator3E_Dispose_m3064077887,
+	U3CU3Ec__Iterator3E_Reset_m1408382255,
+	U3CAuthenticateU3Ec__AnonStorey52__ctor_m1600810156,
+	U3CAuthenticateU3Ec__AnonStorey52_U3CU3Em__19_m3393821265,
 	WebSocketContext__ctor_m547194573,
 	PayloadData__ctor_m1953054222,
 	PayloadData__ctor_m719751291,
@@ -28381,12 +32064,12 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	PayloadData_GetEnumerator_m2795194391,
 	PayloadData_ToArray_m2183245024,
 	PayloadData_ToString_m441557573,
-	U3CGetEnumeratorU3Ec__Iterator7__ctor_m3248186007,
-	U3CGetEnumeratorU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m3612312659,
-	U3CGetEnumeratorU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1909391225,
-	U3CGetEnumeratorU3Ec__Iterator7_MoveNext_m248522981,
-	U3CGetEnumeratorU3Ec__Iterator7_Dispose_m3258778900,
-	U3CGetEnumeratorU3Ec__Iterator7_Reset_m894618948,
+	U3CGetEnumeratorU3Ec__Iterator3F__ctor_m1607930981,
+	U3CGetEnumeratorU3Ec__Iterator3F_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m2572723501,
+	U3CGetEnumeratorU3Ec__Iterator3F_System_Collections_IEnumerator_get_Current_m2843558049,
+	U3CGetEnumeratorU3Ec__Iterator3F_MoveNext_m1671679855,
+	U3CGetEnumeratorU3Ec__Iterator3F_Dispose_m3226696546,
+	U3CGetEnumeratorU3Ec__Iterator3F_Reset_m3549331218,
 	HttpRequestEventArgs__ctor_m3223050676,
 	HttpRequestEventArgs_get_Request_m765115273,
 	HttpRequestEventArgs_get_Response_m1879778525,
@@ -28454,8 +32137,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	HttpServer_Stop_m1159604342,
 	HttpServer_Stop_m3433714938,
 	HttpServer_Stop_m1018467974,
-	U3CreceiveRequestU3Ec__AnonStorey1B__ctor_m1546475101,
-	U3CreceiveRequestU3Ec__AnonStorey1B_U3CU3Em__1A_m4011441470,
+	U3CreceiveRequestU3Ec__AnonStorey53__ctor_m1601339536,
+	U3CreceiveRequestU3Ec__AnonStorey53_U3CU3Em__1A_m933922475,
 	WebSocketBehavior__ctor_m1044863730,
 	WebSocketBehavior_get_Log_m3648840195,
 	WebSocketBehavior_get_Sessions_m2811314691,
@@ -28537,8 +32220,8 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebSocketServer_Stop_m4086399813,
 	WebSocketServer_Stop_m3824398539,
 	WebSocketServer_Stop_m3607508693,
-	U3CreceiveRequestU3Ec__AnonStorey1C__ctor_m335954573,
-	U3CreceiveRequestU3Ec__AnonStorey1C_U3CU3Em__1C_m323528396,
+	U3CreceiveRequestU3Ec__AnonStorey54__ctor_m390819008,
+	U3CreceiveRequestU3Ec__AnonStorey54_U3CU3Em__1C_m1540976697,
 	WebSocketServiceHost__ctor_m1517077253,
 	WebSocketServiceHost_get_State_m2266518310,
 	WebSocketServiceHost_Start_m464215045,
@@ -28572,13 +32255,13 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebSocketServiceManager_Broadping_m4003056848,
 	WebSocketServiceManager_Broadping_m1766270002,
 	WebSocketServiceManager_TryGetServiceHost_m2799759582,
-	U3CbroadcastAsyncU3Ec__AnonStorey1D__ctor_m2934175016,
-	U3CbroadcastAsyncU3Ec__AnonStorey1D_U3CU3Em__1E_m2240136847,
-	U3CbroadcastAsyncU3Ec__AnonStorey1E__ctor_m2737661511,
-	U3CbroadcastAsyncU3Ec__AnonStorey1E_U3CU3Em__1F_m3947360623,
-	U3CBroadcastAsyncU3Ec__AnonStorey1F__ctor_m2002251590,
-	U3CBroadcastAsyncU3Ec__AnonStorey1F_U3CU3Em__20_m2453960092,
-	U3CBroadcastAsyncU3Ec__AnonStorey1F_U3CU3Em__21_m2721662910,
+	U3CbroadcastAsyncU3Ec__AnonStorey55__ctor_m2989039451,
+	U3CbroadcastAsyncU3Ec__AnonStorey55_U3CU3Em__1E_m3457585148,
+	U3CbroadcastAsyncU3Ec__AnonStorey56__ctor_m2792525946,
+	U3CbroadcastAsyncU3Ec__AnonStorey56_U3CU3Em__1F_m869841628,
+	U3CBroadcastAsyncU3Ec__AnonStorey57__ctor_m2057116025,
+	U3CBroadcastAsyncU3Ec__AnonStorey57_U3CU3Em__20_m3671408393,
+	U3CBroadcastAsyncU3Ec__AnonStorey57_U3CU3Em__21_m725183281,
 	WebSocketSessionManager__ctor_m242715117,
 	WebSocketSessionManager__ctor_m875185834,
 	WebSocketSessionManager_get_State_m3748400376,
@@ -28626,29 +32309,29 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebSocketSessionManager_Sweep_m3574010615,
 	WebSocketSessionManager_TryGetSession_m3886672592,
 	WebSocketSessionManager_U3CsetSweepTimerU3Em__24_m1245689501,
-	U3CU3Ec__Iterator8__ctor_m3974673697,
-	U3CU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m793899703,
-	U3CU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1821974383,
-	U3CU3Ec__Iterator8_System_Collections_IEnumerable_GetEnumerator_m462933168,
-	U3CU3Ec__Iterator8_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m1621535930,
-	U3CU3Ec__Iterator8_MoveNext_m2972793627,
-	U3CU3Ec__Iterator8_Dispose_m1333779742,
-	U3CU3Ec__Iterator8_Reset_m1621106638,
-	U3CU3Ec__Iterator9__ctor_m3778160192,
-	U3CU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m585201400,
-	U3CU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m3792913840,
-	U3CU3Ec__Iterator9_System_Collections_IEnumerable_GetEnumerator_m455173809,
-	U3CU3Ec__Iterator9_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m2925929659,
-	U3CU3Ec__Iterator9_MoveNext_m2679390620,
-	U3CU3Ec__Iterator9_Dispose_m1462862461,
-	U3CU3Ec__Iterator9_Reset_m1424593133,
-	U3CbroadcastAsyncU3Ec__AnonStorey20__ctor_m2173101918,
-	U3CbroadcastAsyncU3Ec__AnonStorey20_U3CU3Em__22_m3858483213,
-	U3CbroadcastAsyncU3Ec__AnonStorey21__ctor_m1976588413,
-	U3CbroadcastAsyncU3Ec__AnonStorey21_U3CU3Em__23_m1270739693,
-	U3CBroadcastAsyncU3Ec__AnonStorey22__ctor_m1241178492,
-	U3CBroadcastAsyncU3Ec__AnonStorey22_U3CU3Em__25_m3351078401,
-	U3CBroadcastAsyncU3Ec__AnonStorey22_U3CU3Em__26_m1191723321,
+	U3CU3Ec__Iterator40__ctor_m2682542705,
+	U3CU3Ec__Iterator40_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3546270465,
+	U3CU3Ec__Iterator40_System_Collections_IEnumerator_get_Current_m4017608149,
+	U3CU3Ec__Iterator40_System_Collections_IEnumerable_GetEnumerator_m2856726992,
+	U3CU3Ec__Iterator40_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m2885918074,
+	U3CU3Ec__Iterator40_MoveNext_m2384622819,
+	U3CU3Ec__Iterator40_Dispose_m841444974,
+	U3CU3Ec__Iterator40_Reset_m328975646,
+	U3CU3Ec__Iterator41__ctor_m2486029200,
+	U3CU3Ec__Iterator41_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m3337572162,
+	U3CU3Ec__Iterator41_System_Collections_IEnumerator_get_Current_m1693580310,
+	U3CU3Ec__Iterator41_System_Collections_IEnumerable_GetEnumerator_m2848967633,
+	U3CU3Ec__Iterator41_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m4190311803,
+	U3CU3Ec__Iterator41_MoveNext_m2091219812,
+	U3CU3Ec__Iterator41_Dispose_m970527693,
+	U3CU3Ec__Iterator41_Reset_m132462141,
+	U3CbroadcastAsyncU3Ec__AnonStorey58__ctor_m3800074393,
+	U3CbroadcastAsyncU3Ec__AnonStorey58_U3CU3Em__22_m218769778,
+	U3CbroadcastAsyncU3Ec__AnonStorey59__ctor_m3603560888,
+	U3CbroadcastAsyncU3Ec__AnonStorey59_U3CU3Em__23_m1925993554,
+	U3CBroadcastAsyncU3Ec__AnonStorey5A__ctor_m1492556432,
+	U3CBroadcastAsyncU3Ec__AnonStorey5A_U3CU3Em__25_m2350768749,
+	U3CBroadcastAsyncU3Ec__AnonStorey5A_U3CU3Em__26_m3744947533,
 	WebSocket__ctor_m1529266513,
 	WebSocket__ctor_m4103642360,
 	WebSocket__ctor_m2306802077,
@@ -28802,35 +32485,35 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebSocket_SetProxy_m707250473,
 	WebSocket_U3CopenU3Em__29_m4263222090,
 	WebSocket_U3CprocessSecWebSocketProtocolHeaderU3Em__2A_m663298973,
-	U3CU3Ec__IteratorA__ctor_m309746886,
-	U3CU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m1129872757,
-	U3CU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m4107568864,
-	U3CU3Ec__IteratorA_System_Collections_IEnumerable_GetEnumerator_m3605316571,
-	U3CU3Ec__IteratorA_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m2748611536,
-	U3CU3Ec__IteratorA_MoveNext_m1969665902,
-	U3CU3Ec__IteratorA_Dispose_m1212297091,
-	U3CU3Ec__IteratorA_Reset_m2251147123,
-	U3CAcceptAsyncU3Ec__AnonStorey29__ctor_m3823949840,
-	U3CAcceptAsyncU3Ec__AnonStorey29_U3CU3Em__2F_m375715990,
-	U3CcloseAsyncU3Ec__AnonStorey23__ctor_m1037808996,
-	U3CcloseAsyncU3Ec__AnonStorey23_U3CU3Em__27_m2438826097,
-	U3CConnectAsyncU3Ec__AnonStorey2A__ctor_m3496309928,
-	U3CConnectAsyncU3Ec__AnonStorey2A_U3CU3Em__30_m1019230869,
-	U3CmessagesU3Ec__AnonStorey24__ctor_m3271696731,
-	U3CmessagesU3Ec__AnonStorey24_U3CU3Em__28_m3491424170,
-	U3CsendAsyncU3Ec__AnonStorey25__ctor_m3365435956,
-	U3CsendAsyncU3Ec__AnonStorey25_U3CU3Em__2B_m3412716150,
-	U3CSendAsyncU3Ec__AnonStorey2B__ctor_m2354754791,
-	U3CSendAsyncU3Ec__AnonStorey2B_U3CU3Em__31_m3887551931,
-	U3CSendAsyncU3Ec__AnonStorey2B_U3CU3Em__32_m1701347135,
-	U3CstartReceivingU3Ec__AnonStorey26__ctor_m86196551,
-	U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__2C_m3538594913,
-	U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__33_m2515155025,
-	U3CstartReceivingU3Ec__AnonStorey26_U3CU3Em__34_m618624801,
-	U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey27__ctor_m198491892,
-	U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey27_U3CU3Em__2D_m1829738887,
-	U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey28__ctor_m593378511,
-	U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey28_U3CU3Em__2E_m2198586667,
+	U3CU3Ec__Iterator42__ctor_m3633594593,
+	U3CU3Ec__Iterator42_System_Collections_Generic_IEnumeratorU3CWebSocketSharp_Net_CookieU3E_get_Current_m373729098,
+	U3CU3Ec__Iterator42_System_Collections_IEnumerator_get_Current_m1367210031,
+	U3CU3Ec__Iterator42_System_Collections_IEnumerable_GetEnumerator_m3635707120,
+	U3CU3Ec__Iterator42_System_Collections_Generic_IEnumerableU3CWebSocketSharp_Net_CookieU3E_GetEnumerator_m667209371,
+	U3CU3Ec__Iterator42_MoveNext_m1020688731,
+	U3CU3Ec__Iterator42_Dispose_m4269242590,
+	U3CU3Ec__Iterator42_Reset_m1280027534,
+	U3CAcceptAsyncU3Ec__AnonStorey61__ctor_m2503219740,
+	U3CAcceptAsyncU3Ec__AnonStorey61_U3CU3Em__2F_m2413803018,
+	U3CcloseAsyncU3Ec__AnonStorey5B__ctor_m1289186936,
+	U3CcloseAsyncU3Ec__AnonStorey5B_U3CU3Em__27_m1670513629,
+	U3CConnectAsyncU3Ec__AnonStorey62__ctor_m3551174363,
+	U3CConnectAsyncU3Ec__AnonStorey62_U3CU3Em__30_m601718338,
+	U3CmessagesU3Ec__AnonStorey5C__ctor_m3523074671,
+	U3CmessagesU3Ec__AnonStorey5C_U3CU3Em__28_m2491114518,
+	U3CsendAsyncU3Ec__AnonStorey5D__ctor_m3616813896,
+	U3CsendAsyncU3Ec__AnonStorey5D_U3CU3Em__2B_m2644403682,
+	U3CSendAsyncU3Ec__AnonStorey63__ctor_m2409619226,
+	U3CSendAsyncU3Ec__AnonStorey63_U3CU3Em__31_m810032936,
+	U3CSendAsyncU3Ec__AnonStorey63_U3CU3Em__32_m3999834802,
+	U3CstartReceivingU3Ec__AnonStorey5E__ctor_m337574491,
+	U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__2C_m299659381,
+	U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__33_m3917241533,
+	U3CstartReceivingU3Ec__AnonStorey5E_U3CU3Em__34_m3171849013,
+	U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey5F__ctor_m449869832,
+	U3CvalidateSecWebSocketExtensionsServerHeaderU3Ec__AnonStorey5F_U3CU3Em__2D_m829429235,
+	U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey60__ctor_m3567615707,
+	U3CvalidateSecWebSocketProtocolServerHeaderU3Ec__AnonStorey60_U3CU3Em__2E_m1760471455,
 	WebSocketException__ctor_m469025560,
 	WebSocketException__ctor_m2177180616,
 	WebSocketException__ctor_m3830227690,
@@ -28894,27 +32577,422 @@ extern const Il2CppMethodPointer g_MethodPointers[14452] =
 	WebSocketFrame_PrintToString_m2057514283,
 	WebSocketFrame_ToArray_m813447968,
 	WebSocketFrame_ToString_m2245624947,
-	U3CdumpU3Ec__AnonStorey2C__ctor_m2030558047,
-	U3CdumpU3Ec__AnonStorey2C_U3CU3Em__35_m1471269554,
-	U3CdumpU3Ec__AnonStorey2D__ctor_m716587107,
-	U3CdumpU3Ec__AnonStorey2D_U3CU3Em__3B_m227803835,
-	U3CGetEnumeratorU3Ec__IteratorB__ctor_m1597371544,
-	U3CGetEnumeratorU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m1607661850,
-	U3CGetEnumeratorU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2245993870,
-	U3CGetEnumeratorU3Ec__IteratorB_MoveNext_m2404522844,
-	U3CGetEnumeratorU3Ec__IteratorB_Dispose_m1669012181,
-	U3CGetEnumeratorU3Ec__IteratorB_Reset_m3538771781,
-	U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey2E__ctor_m497928282,
-	U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey2E_U3CU3Em__36_m3051086659,
-	U3CReadFrameAsyncU3Ec__AnonStorey32__ctor_m3296126528,
-	U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3A_m2125705834,
-	U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3C_m2400465448,
-	U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3D_m390361607,
-	U3CReadFrameAsyncU3Ec__AnonStorey32_U3CU3Em__3E_m2675225062,
-	U3CreadHeaderAsyncU3Ec__AnonStorey2F__ctor_m364128067,
-	U3CreadHeaderAsyncU3Ec__AnonStorey2F_U3CU3Em__37_m2950861593,
-	U3CreadMaskingKeyAsyncU3Ec__AnonStorey30__ctor_m4144056534,
-	U3CreadMaskingKeyAsyncU3Ec__AnonStorey30_U3CU3Em__38_m2699269893,
-	U3CreadPayloadDataAsyncU3Ec__AnonStorey31__ctor_m708615660,
-	U3CreadPayloadDataAsyncU3Ec__AnonStorey31_U3CU3Em__39_m3809382670,
+	U3CdumpU3Ec__AnonStorey64__ctor_m2085422482,
+	U3CdumpU3Ec__AnonStorey64_U3CU3Em__35_m2656384037,
+	U3CdumpU3Ec__AnonStorey65__ctor_m713464969,
+	U3CdumpU3Ec__AnonStorey65_U3CU3Em__3B_m3611596117,
+	U3CGetEnumeratorU3Ec__Iterator43__ctor_m2200723885,
+	U3CGetEnumeratorU3Ec__Iterator43_System_Collections_Generic_IEnumeratorU3CbyteU3E_get_Current_m2149090173,
+	U3CGetEnumeratorU3Ec__Iterator43_System_Collections_IEnumerator_get_Current_m494318499,
+	U3CGetEnumeratorU3Ec__Iterator43_MoveNext_m1828507663,
+	U3CGetEnumeratorU3Ec__Iterator43_Dispose_m1670026922,
+	U3CGetEnumeratorU3Ec__Iterator43_Reset_m4142124122,
+	U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey66__ctor_m552792717,
+	U3CreadExtendedPayloadLengthAsyncU3Ec__AnonStorey66_U3CU3Em__36_m4268534960,
+	U3CReadFrameAsyncU3Ec__AnonStorey6A__ctor_m3547504468,
+	U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3A_m3527792342,
+	U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3C_m3802551956,
+	U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3D_m1792448115,
+	U3CReadFrameAsyncU3Ec__AnonStorey6A_U3CU3Em__3E_m4077311570,
+	U3CreadHeaderAsyncU3Ec__AnonStorey67__ctor_m418992502,
+	U3CreadHeaderAsyncU3Ec__AnonStorey67_U3CU3Em__37_m4168309894,
+	U3CreadMaskingKeyAsyncU3Ec__AnonStorey68__ctor_m1476061713,
+	U3CreadMaskingKeyAsyncU3Ec__AnonStorey68_U3CU3Em__38_m3354523754,
+	U3CreadPayloadDataAsyncU3Ec__AnonStorey69__ctor_m2335588135,
+	U3CreadPayloadDataAsyncU3Ec__AnonStorey69_U3CU3Em__39_m169669235,
+	GA_FREE_JS_Demo00__ctor_m2269481995,
+	GA_FREE_JS_Demo00_Awake_m2507087214,
+	GA_FREE_JS_Demo00_Start_m1216619787,
+	GA_FREE_JS_Demo00_Update_m3361327202,
+	GA_FREE_JS_Demo00_ShowText_m2894428026,
+	U24ShowTextU245__ctor_m1174012688,
+	U24ShowTextU245_GetEnumerator_m805742091,
+	U24__ctor_m2300160293,
+	U24_MoveNext_m2621307236,
+	GA_FREE_JS_Demo01__ctor_m2072968490,
+	GA_FREE_JS_Demo01_Awake_m2310573709,
+	GA_FREE_JS_Demo01_Start_m1020106282,
+	GA_FREE_JS_Demo01_Update_m1564375843,
+	GA_FREE_JS_Demo01_MoveInTitleGameObjects_m399722760,
+	GA_FREE_JS_Demo01_MoveInPrimaryButtons_m1407187677,
+	GA_FREE_JS_Demo01_HideAllGUIs_m1789057919,
+	GA_FREE_JS_Demo01_HideTitleTextMeshes_m3077268696,
+	GA_FREE_JS_Demo01_EnableAllDemoButtons_m2133463720,
+	GA_FREE_JS_Demo01_DisableButtonForSeconds_m4110757575,
+	GA_FREE_JS_Demo01_OnButton_TopLeft_m3120748648,
+	GA_FREE_JS_Demo01_OnButton_BottomLeft_m46497288,
+	GA_FREE_JS_Demo01_OnButton_RightBar_m1577350541,
+	GA_FREE_JS_Demo01_ToggleTopLeft_m3954008656,
+	GA_FREE_JS_Demo01_ToggleBottomLeft_m3079392032,
+	GA_FREE_JS_Demo01_ToggleRightBar_m1638607013,
+	U24DisableButtonForSecondsU2421__ctor_m2220737855,
+	U24DisableButtonForSecondsU2421_GetEnumerator_m2474395250,
+	U24__ctor_m3726883274,
+	U24_MoveNext_m2602522205,
+	U24EnableAllDemoButtonsU2418__ctor_m4204672416,
+	U24EnableAllDemoButtonsU2418_GetEnumerator_m3449795590,
+	U24__ctor_m4234272757,
+	U24_MoveNext_m952358549,
+	U24HideTitleTextMeshesU2415__ctor_m880342811,
+	U24HideTitleTextMeshesU2415_GetEnumerator_m546168731,
+	U24__ctor_m714223280,
+	U24_MoveNext_m1783743188,
+	U24MoveInPrimaryButtonsU2412__ctor_m3470225349,
+	U24MoveInPrimaryButtonsU2412_GetEnumerator_m545688641,
+	U24__ctor_m2805277914,
+	U24_MoveNext_m2358206522,
+	U24MoveInTitleGameObjectsU249__ctor_m478052838,
+	U24MoveInTitleGameObjectsU249_GetEnumerator_m1139246704,
+	U24__ctor_m660615867,
+	U24_MoveNext_m3530530207,
+	GA_FREE_JS_Demo02__ctor_m1876454985,
+	GA_FREE_JS_Demo02_Awake_m2114060204,
+	GA_FREE_JS_Demo02_Start_m823592777,
+	GA_FREE_JS_Demo02_Update_m4062391780,
+	GA_FREE_JS_Demo02_MoveInTitleGameObjects_m1361336777,
+	GA_FREE_JS_Demo02_ShowDialog_m1083902702,
+	GA_FREE_JS_Demo02_HideAllGUIs_m1278523742,
+	GA_FREE_JS_Demo02_HideTitleTextMeshes_m3010261943,
+	GA_FREE_JS_Demo02_EnableAllDemoButtons_m56254377,
+	GA_FREE_JS_Demo02_DisableAllButtonsForSeconds_m690847188,
+	GA_FREE_JS_Demo02_OnButton_UpperEdge_m3014173868,
+	GA_FREE_JS_Demo02_OnButton_LeftEdge_m2656520953,
+	GA_FREE_JS_Demo02_OnButton_RightEdge_m2986379942,
+	GA_FREE_JS_Demo02_OnButton_BottomEdge_m4073145629,
+	GA_FREE_JS_Demo02_OnButton_UpperLeft_m3215486070,
+	GA_FREE_JS_Demo02_OnButton_UpperRight_m2041030831,
+	GA_FREE_JS_Demo02_OnButton_BottomLeft_m4274457831,
+	GA_FREE_JS_Demo02_OnButton_BottomRight_m509417054,
+	GA_FREE_JS_Demo02_OnButton_Center_m3148565930,
+	GA_FREE_JS_Demo02_DialogMoveIn_m4200033808,
+	U24DialogMoveInU2441__ctor_m2706353431,
+	U24DialogMoveInU2441_GetEnumerator_m3333245263,
+	U24__ctor_m2121628578,
+	U24_MoveNext_m755864556,
+	U24DisableAllButtonsForSecondsU2438__ctor_m3557635778,
+	U24DisableAllButtonsForSecondsU2438_GetEnumerator_m433954585,
+	U24__ctor_m3744381015,
+	U24_MoveNext_m2291288598,
+	U24EnableAllDemoButtonsU2435__ctor_m1579527321,
+	U24EnableAllDemoButtonsU2435_GetEnumerator_m8404972,
+	U24__ctor_m2615609454,
+	U24_MoveNext_m1165182063,
+	U24HideTitleTextMeshesU2432__ctor_m2914185590,
+	U24HideTitleTextMeshesU2432_GetEnumerator_m1972515295,
+	U24__ctor_m1026984459,
+	U24_MoveNext_m3907270416,
+	U24MoveInTitleGameObjectsU2426__ctor_m505752987,
+	U24MoveInTitleGameObjectsU2426_GetEnumerator_m3340362410,
+	U24__ctor_m1510625520,
+	U24_MoveNext_m4092784881,
+	U24ShowDialogU2429__ctor_m2350116121,
+	U24ShowDialogU2429_GetEnumerator_m229869932,
+	U24__ctor_m122104046,
+	U24_MoveNext_m3763817071,
+	GA_FREE_JS_Demo03__ctor_m1679941480,
+	GA_FREE_JS_Demo03_Awake_m1917546699,
+	GA_FREE_JS_Demo03_Start_m627079272,
+	GA_FREE_JS_Demo03_Update_m2265440421,
+	GA_FREE_JS_Demo03_MoveInTitleGameObjects_m2322950794,
+	GA_FREE_JS_Demo03_ShowDialogs_m3025750598,
+	GA_FREE_JS_Demo03_HideAllGUIs_m767989565,
+	GA_FREE_JS_Demo03_HideTitleTextMeshes_m2943255190,
+	GA_FREE_JS_Demo03_EnableAllDemoButtons_m2274012330,
+	GA_FREE_JS_Demo03_DisableButtonForSeconds_m4056364677,
+	GA_FREE_JS_Demo03_OnButton_Dialog1_m1028703511,
+	GA_FREE_JS_Demo03_OnButton_Dialog2_m1028704472,
+	GA_FREE_JS_Demo03_OnButton_Dialog3_m1028705433,
+	GA_FREE_JS_Demo03_OnButton_Dialog4_m1028706394,
+	GA_FREE_JS_Demo03_OnButton_MoveOutAllDialogs_m2589000277,
+	GA_FREE_JS_Demo03_Dialog1_MoveIn_m2600084054,
+	GA_FREE_JS_Demo03_Dialog2_MoveIn_m2403570549,
+	GA_FREE_JS_Demo03_Dialog3_MoveIn_m2207057044,
+	GA_FREE_JS_Demo03_Dialog4_MoveIn_m2010543539,
+	U24Dialog1_MoveInU2464__ctor_m606845447,
+	U24Dialog1_MoveInU2464_GetEnumerator_m3917947837,
+	U24__ctor_m4171169308,
+	U24_MoveNext_m2422089406,
+	U24Dialog2_MoveInU2467__ctor_m3821453259,
+	U24Dialog2_MoveInU2467_GetEnumerator_m671994233,
+	U24__ctor_m1032823520,
+	U24_MoveNext_m572568194,
+	U24Dialog3_MoveInU2470__ctor_m1460151652,
+	U24Dialog3_MoveInU2470_GetEnumerator_m2257324992,
+	U24__ctor_m3859678777,
+	U24_MoveNext_m316863899,
+	U24Dialog4_MoveInU2473__ctor_m379792168,
+	U24Dialog4_MoveInU2473_GetEnumerator_m3306338684,
+	U24__ctor_m721332989,
+	U24_MoveNext_m2762309983,
+	U24DisableButtonForSecondsU2459__ctor_m3848967992,
+	U24DisableButtonForSecondsU2459_GetEnumerator_m2482608107,
+	U24__ctor_m792981891,
+	U24_MoveNext_m3644006276,
+	U24EnableAllDemoButtonsU2456__ctor_m2800838294,
+	U24EnableAllDemoButtonsU2456_GetEnumerator_m1168659534,
+	U24__ctor_m3769352939,
+	U24_MoveNext_m3113245517,
+	U24HideTitleTextMeshesU2453__ctor_m204549845,
+	U24HideTitleTextMeshesU2453_GetEnumerator_m3705539743,
+	U24__ctor_m4112152426,
+	U24_MoveNext_m3471070288,
+	U24MoveInTitleGameObjectsU2447__ctor_m1395903448,
+	U24MoveInTitleGameObjectsU2447_GetEnumerator_m3248573132,
+	U24__ctor_m2246696877,
+	U24_MoveNext_m408374287,
+	U24ShowDialogsU2450__ctor_m3654958562,
+	U24ShowDialogsU2450_GetEnumerator_m3745194738,
+	U24__ctor_m4240176951,
+	U24_MoveNext_m2043687133,
+	GA_FREE_JS_Demo04__ctor_m1483427975,
+	GA_FREE_JS_Demo04_Awake_m1721033194,
+	GA_FREE_JS_Demo04_Start_m430565767,
+	GA_FREE_JS_Demo04_Update_m468489062,
+	GA_FREE_JS_Demo04_MoveInTitleGameObjects_m3284564811,
+	GA_FREE_JS_Demo04_MoveInPrimaryButtons_m3765494240,
+	GA_FREE_JS_Demo04_HideAllGUIs_m257455388,
+	GA_FREE_JS_Demo04_HideTitleTextMeshes_m2876248437,
+	GA_FREE_JS_Demo04_EnableAllDemoButtons_m196802987,
+	GA_FREE_JS_Demo04_DisableButtonForSeconds_m1881684580,
+	GA_FREE_JS_Demo04_OnButton_Dialog1_m1240054424,
+	GA_FREE_JS_Demo04_OnButton_Dialog2_m1240055385,
+	GA_FREE_JS_Demo04_OnButton_Dialog3_m1240056346,
+	GA_FREE_JS_Demo04_OnButton_Dialog4_m1240057307,
+	GA_FREE_JS_Demo04_OnButton_MoveOutAllDialogs_m2939800214,
+	GA_FREE_JS_Demo04_Dialog1_MoveIn_m1755612183,
+	GA_FREE_JS_Demo04_Dialog2_MoveIn_m1559098678,
+	GA_FREE_JS_Demo04_Dialog3_MoveIn_m1362585173,
+	GA_FREE_JS_Demo04_Dialog4_MoveIn_m1166071668,
+	U24Dialog1_MoveInU2493__ctor_m1992641825,
+	U24Dialog1_MoveInU2493_GetEnumerator_m2711370338,
+	U24__ctor_m186629750,
+	U24_MoveNext_m408427065,
+	U24Dialog2_MoveInU2496__ctor_m912282341,
+	U24Dialog2_MoveInU2496_GetEnumerator_m3760384030,
+	U24__ctor_m1343251258,
+	U24_MoveNext_m2853873149,
+	U24Dialog3_MoveInU2499__ctor_m4126890153,
+	U24Dialog3_MoveInU2499_GetEnumerator_m514430426,
+	U24__ctor_m2499872766,
+	U24_MoveNext_m1004351937,
+	U24Dialog4_MoveInU24102__ctor_m2853489769,
+	U24Dialog4_MoveInU24102_GetEnumerator_m3902661514,
+	U24__ctor_m2827783102,
+	U24_MoveNext_m46901829,
+	U24DisableButtonForSecondsU2488__ctor_m2798810491,
+	U24DisableButtonForSecondsU2488_GetEnumerator_m4057884846,
+	U24__ctor_m908937990,
+	U24_MoveNext_m156155297,
+	U24EnableAllDemoButtonsU2485__ctor_m1844184688,
+	U24EnableAllDemoButtonsU2485_GetEnumerator_m3478586931,
+	U24__ctor_m3548209157,
+	U24_MoveNext_m1535671176,
+	U24HideTitleTextMeshesU2482__ctor_m3906884113,
+	U24HideTitleTextMeshesU2482_GetEnumerator_m2293269730,
+	U24__ctor_m1527465830,
+	U24_MoveNext_m3804199661,
+	U24MoveInPrimaryButtonsU2479__ctor_m2390679744,
+	U24MoveInPrimaryButtonsU2479_GetEnumerator_m38162915,
+	U24__ctor_m448980565,
+	U24_MoveNext_m1347702232,
+	U24MoveInTitleGameObjectsU2476__ctor_m108089330,
+	U24MoveInTitleGameObjectsU2476_GetEnumerator_m11489393,
+	U24__ctor_m1607880967,
+	U24_MoveNext_m1788260490,
+	GA_FREE_JS_Demo05__ctor_m1286914470,
+	GA_FREE_JS_Demo05_Awake_m1524519689,
+	GA_FREE_JS_Demo05_Start_m234052262,
+	GA_FREE_JS_Demo05_Update_m2966504999,
+	GA_FREE_JS_Demo05_MoveInTitleGameObjects_m4246178828,
+	GA_FREE_JS_Demo05_MoveInPrimaryButtons_m1688284897,
+	GA_FREE_JS_Demo05_HideAllGUIs_m4041888507,
+	GA_FREE_JS_Demo05_HideTitleTextMeshes_m2809241684,
+	GA_FREE_JS_Demo05_EnableAllDemoButtons_m2414560940,
+	GA_FREE_JS_Demo05_DisableButtonForSeconds_m4001971779,
+	GA_FREE_JS_Demo05_OnButton_Dialog1_m1451405337,
+	GA_FREE_JS_Demo05_OnButton_Dialog2_m1451406298,
+	GA_FREE_JS_Demo05_OnButton_Dialog3_m1451407259,
+	GA_FREE_JS_Demo05_OnButton_Dialog4_m1451408220,
+	GA_FREE_JS_Demo05_OnButton_MoveOutAllDialogs_m3290600151,
+	GA_FREE_JS_Demo05_Dialog1_MoveIn_m911140312,
+	GA_FREE_JS_Demo05_Dialog2_MoveIn_m714626807,
+	GA_FREE_JS_Demo05_Dialog3_MoveIn_m518113302,
+	GA_FREE_JS_Demo05_Dialog4_MoveIn_m321599797,
+	U24Dialog1_MoveInU24122__ctor_m3711511466,
+	U24Dialog1_MoveInU24122_GetEnumerator_m1767216680,
+	U24__ctor_m2752883327,
+	U24_MoveNext_m658254951,
+	U24Dialog2_MoveInU24125__ctor_m3934190220,
+	U24Dialog2_MoveInU24125_GetEnumerator_m3764068614,
+	U24__ctor_m1998801121,
+	U24_MoveNext_m916962889,
+	U24Dialog3_MoveInU24128__ctor_m4156868974,
+	U24Dialog3_MoveInU24128_GetEnumerator_m1465953252,
+	U24__ctor_m1244718915,
+	U24_MoveNext_m1175670827,
+	U24Dialog4_MoveInU24131__ctor_m3098605605,
+	U24Dialog4_MoveInU24131_GetEnumerator_m3999122253,
+	U24__ctor_m2160870458,
+	U24_MoveNext_m3028195682,
+	U24DisableButtonForSecondsU24117__ctor_m2677506991,
+	U24DisableButtonForSecondsU24117_GetEnumerator_m570274162,
+	U24__ctor_m300391482,
+	U24_MoveNext_m2041929129,
+	U24EnableAllDemoButtonsU24114__ctor_m2888374113,
+	U24EnableAllDemoButtonsU24114_GetEnumerator_m1549043345,
+	U24__ctor_m1991869558,
+	U24_MoveNext_m3481958686,
+	U24HideTitleTextMeshesU24111__ctor_m1453198488,
+	U24HideTitleTextMeshesU24111_GetEnumerator_m197747210,
+	U24__ctor_m1472595949,
+	U24_MoveNext_m2429847313,
+	U24MoveInPrimaryButtonsU24108__ctor_m4168124859,
+	U24MoveInPrimaryButtonsU24108_GetEnumerator_m2095326967,
+	U24__ctor_m3471689808,
+	U24_MoveNext_m3296141944,
+	U24MoveInTitleGameObjectsU24105__ctor_m1097173091,
+	U24MoveInTitleGameObjectsU24105_GetEnumerator_m1567595855,
+	U24__ctor_m2929573112,
+	U24_MoveNext_m3796219040,
+	GA_FREE_JS_Demo06__ctor_m1090400965,
+	GA_FREE_JS_Demo06_Awake_m1328006184,
+	GA_FREE_JS_Demo06_Start_m37538757,
+	GA_FREE_JS_Demo06_Update_m1169553640,
+	GA_FREE_JS_Demo06_MoveInTitleGameObjects_m912825549,
+	GA_FREE_JS_Demo06_MoveInPrimaryButtons_m3906042850,
+	GA_FREE_JS_Demo06_HideAllGUIs_m3531354330,
+	GA_FREE_JS_Demo06_HideTitleTextMeshes_m2742234931,
+	GA_FREE_JS_Demo06_EnableAllDemoButtons_m337351597,
+	GA_FREE_JS_Demo06_DisableAllButtonsForSeconds_m2477819864,
+	GA_FREE_JS_Demo06_OnButton_1_m2030138370,
+	GA_FREE_JS_Demo06_OnButton_2_m2030139331,
+	GA_FREE_JS_Demo06_OnButton_3_m2030140292,
+	GA_FREE_JS_Demo06_OnButton_4_m2030141253,
+	GA_FREE_JS_Demo06_OnButton_5_m2030142214,
+	GA_FREE_JS_Demo06_ToggleButton_1_m3485021239,
+	GA_FREE_JS_Demo06_ToggleButton_2_m3485022200,
+	GA_FREE_JS_Demo06_ToggleButton_3_m3485023161,
+	GA_FREE_JS_Demo06_ToggleButton_4_m3485024122,
+	GA_FREE_JS_Demo06_ToggleButton_5_m3485025083,
+	U24DisableAllButtonsForSecondsU24146__ctor_m2444555842,
+	U24DisableAllButtonsForSecondsU24146_GetEnumerator_m3173911593,
+	U24__ctor_m3521419223,
+	U24_MoveNext_m3847029586,
+	U24EnableAllDemoButtonsU24143__ctor_m3531984477,
+	U24EnableAllDemoButtonsU24143_GetEnumerator_m3282973460,
+	U24__ctor_m2026108978,
+	U24_MoveNext_m2802111355,
+	U24HideTitleTextMeshesU24140__ctor_m496544882,
+	U24HideTitleTextMeshesU24140_GetEnumerator_m2507674607,
+	U24__ctor_m1251452167,
+	U24_MoveNext_m852272972,
+	U24MoveInPrimaryButtonsU24137__ctor_m516767927,
+	U24MoveInPrimaryButtonsU24137_GetEnumerator_m3829257082,
+	U24__ctor_m3505929228,
+	U24_MoveNext_m2616294613,
+	U24MoveInTitleGameObjectsU24134__ctor_m64742175,
+	U24MoveInTitleGameObjectsU24134_GetEnumerator_m3142872594,
+	U24__ctor_m2900878452,
+	U24_MoveNext_m308368061,
+	GA_FREE_JS_Demo07__ctor_m893887460,
+	GA_FREE_JS_Demo07_Awake_m1131492679,
+	GA_FREE_JS_Demo07_Start_m4135992548,
+	GA_FREE_JS_Demo07_Update_m3667569577,
+	GA_FREE_JS_Demo07_MoveInTitleGameObjects_m1874439566,
+	GA_FREE_JS_Demo07_MoveInPrimaryButtons_m1828833507,
+	GA_FREE_JS_Demo07_HideAllGUIs_m3020820153,
+	GA_FREE_JS_Demo07_HideTitleTextMeshes_m2675228178,
+	GA_FREE_JS_Demo07_EnableAllDemoButtons_m2555109550,
+	GA_FREE_JS_Demo07_DisableButtonForSeconds_m3947578881,
+	GA_FREE_JS_Demo07_OnButton_1_m3537690179,
+	GA_FREE_JS_Demo07_OnButton_2_m3537691140,
+	GA_FREE_JS_Demo07_OnButton_3_m3537692101,
+	GA_FREE_JS_Demo07_OnButton_4_m3537693062,
+	GA_FREE_JS_Demo07_OnDialogButton_m1576818169,
+	GA_FREE_JS_Demo07_MoveButtonsOut_m3203874142,
+	GA_FREE_JS_Demo07_SetButtonMove_m2171194445,
+	GA_FREE_JS_Demo07_DialogMoveIn_m1729950284,
+	U24DialogMoveInU24171__ctor_m1618650166,
+	U24DialogMoveInU24171_GetEnumerator_m730848282,
+	U24__ctor_m1557809035,
+	U24_MoveNext_m470209077,
+	U24DisableButtonForSecondsU24161__ctor_m4186523324,
+	U24DisableButtonForSecondsU24161_GetEnumerator_m1977260543,
+	U24__ctor_m3061108743,
+	U24_MoveNext_m1279461436,
+	U24EnableAllDemoButtonsU24158__ctor_m1864817441,
+	U24EnableAllDemoButtonsU24158_GetEnumerator_m723413199,
+	U24__ctor_m1901359030,
+	U24_MoveNext_m3598708640,
+	U24HideTitleTextMeshesU24155__ctor_m1524081172,
+	U24HideTitleTextMeshesU24155_GetEnumerator_m524111628,
+	U24__ctor_m871319017,
+	U24_MoveNext_m751143247,
+	U24MoveInPrimaryButtonsU24152__ctor_m1863626064,
+	U24MoveInPrimaryButtonsU24152_GetEnumerator_m1806013888,
+	U24__ctor_m756445733,
+	U24_MoveNext_m711741519,
+	U24MoveInTitleGameObjectsU24149__ctor_m1016501155,
+	U24MoveInTitleGameObjectsU24149_GetEnumerator_m424658957,
+	U24__ctor_m2713194424,
+	U24_MoveNext_m2591928994,
+	U24SetButtonMoveU24166__ctor_m437543880,
+	U24SetButtonMoveU24166_GetEnumerator_m1384601573,
+	U24__ctor_m3638887635,
+	U24_MoveNext_m1209967510,
+	GA_FREE_JS_Demo08__ctor_m697373955,
+	GA_FREE_JS_Demo08_Awake_m934979174,
+	GA_FREE_JS_Demo08_Start_m3939479043,
+	GA_FREE_JS_Demo08_Update_m1870618218,
+	GA_FREE_JS_Demo08_MoveInTitleGameObjects_m2836053583,
+	GA_FREE_JS_Demo08_MoveInPrimaryButtons_m4046591460,
+	GA_FREE_JS_Demo08_HideAllGUIs_m2510285976,
+	GA_FREE_JS_Demo08_HideTitleTextMeshes_m2608221425,
+	GA_FREE_JS_Demo08_EnableAllDemoButtons_m477900207,
+	GA_FREE_JS_Demo08_DisableButtonForSeconds_m1772898784,
+	GA_FREE_JS_Demo08_OnButton_1_m750274692,
+	GA_FREE_JS_Demo08_OnButton_2_m750275653,
+	GA_FREE_JS_Demo08_OnButton_3_m750276614,
+	GA_FREE_JS_Demo08_OnButton_4_m750277575,
+	GA_FREE_JS_Demo08_ToggleBar1_m1962212179,
+	GA_FREE_JS_Demo08_ToggleBar2_m1962213140,
+	GA_FREE_JS_Demo08_ToggleBar3_m1962214101,
+	GA_FREE_JS_Demo08_ToggleBar4_m1962215062,
+	U24DisableButtonForSecondsU24186__ctor_m3078717978,
+	U24DisableButtonForSecondsU24186_GetEnumerator_m1568861789,
+	U24__ctor_m3612060645,
+	U24_MoveNext_m2476490910,
+	U24EnableAllDemoButtonsU24183__ctor_m2956939033,
+	U24EnableAllDemoButtonsU24183_GetEnumerator_m2150665430,
+	U24__ctor_m3458158958,
+	U24_MoveNext_m1183621369,
+	U24HideTitleTextMeshesU24180__ctor_m1015938794,
+	U24HideTitleTextMeshesU24180_GetEnumerator_m2527361141,
+	U24__ctor_m2172735743,
+	U24_MoveNext_m1733296262,
+	U24MoveInPrimaryButtonsU24177__ctor_m4236689779,
+	U24MoveInPrimaryButtonsU24177_GetEnumerator_m2696949052,
+	U24__ctor_m643011912,
+	U24_MoveNext_m997804627,
+	U24MoveInTitleGameObjectsU24174__ctor_m432581467,
+	U24MoveInTitleGameObjectsU24174_GetEnumerator_m1693257812,
+	U24__ctor_m4207060272,
+	U24_MoveNext_m1663805371,
+	GA_FREE_JS_DemoPlaySound__ctor_m2923058752,
+	GA_FREE_JS_DemoPlaySound_Start_m1870196544,
+	GA_FREE_JS_DemoPlaySound_Update_m2147370189,
+	GA_FREE_JS_DemoPlaySound_PlayOneShot_m3158107289,
+	GA_FREE_JS_DemoPlaySound_PlaySoundButton1_m1306808840,
+	GA_FREE_JS_DemoPlaySound_PlaySoundButton2_m1306809801,
+	GA_FREE_JS_OpenOtherScene__ctor_m2062753352,
+	GA_FREE_JS_OpenOtherScene_Start_m1009891144,
+	GA_FREE_JS_OpenOtherScene_Update_m1247706565,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene1_m3831989664,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene2_m3831990625,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene3_m3831991586,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene4_m3831992547,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m3831993508,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m3831994469,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m3831995430,
+	GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m3831996391,
 };

@@ -100,6 +100,8 @@
 #define List_1_Reverse_m148448684(__this, method) ((  void (*) (List_1_t3407888198 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::Sort()
 #define List_1_Sort_m197646710(__this, method) ((  void (*) (List_1_t3407888198 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m1651247406(__this, ___comparer0, method) ((  void (*) (List_1_t3407888198 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m3553741129(__this, ___comparison0, method) ((  void (*) (List_1_t3407888198 *, Comparison_1_t756063833 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::ToArray()

@@ -7,6 +7,7 @@ UnityEngine.Animator::get_runtimeAnimatorController
 UnityEngine.Application::get_isEditor
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_unityVersion
+UnityEngine.Application::OpenURL
 UnityEngine.Application::Quit
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
@@ -46,6 +47,7 @@ UnityEngine.AudioSource::set_outputAudioMixerGroup
 UnityEngine.AudioSource::set_pitch
 UnityEngine.AudioSource::set_playOnAwake
 UnityEngine.AudioSource::set_priority
+UnityEngine.AudioSource::set_rolloffMode
 UnityEngine.AudioSource::set_spatialBlend
 UnityEngine.AudioSource::set_spatialize
 UnityEngine.AudioSource::set_time
@@ -208,6 +210,7 @@ UnityEngine.GameObject::GetComponentFastPath
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
 UnityEngine.GameObject::SetActive
+UnityEngine.GameObject::set_isStatic
 UnityEngine.GameObject::set_layer
 UnityEngine.GameObject::set_tag
 UnityEngine.GameObject::GetComponent
@@ -233,6 +236,7 @@ UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
 UnityEngine.Graphics::DrawTexture
 UnityEngine.Graphics::INTERNAL_CALL_Internal_DrawMeshNow1
+UnityEngine.GUI::INTERNAL_CALL_DoButton
 UnityEngine.GUI::set_changed
 UnityEngine.GUILayer::INTERNAL_CALL_HitTest
 UnityEngine.GUILayoutUtility::INTERNAL_CALL_Internal_GetWindowRect
@@ -313,6 +317,7 @@ UnityEngine.Input::GetMouseButtonUp
 UnityEngine.Input::get_mousePresent
 UnityEngine.Input::get_touchSupported
 UnityEngine.Input::get_touchCount
+UnityEngine.Input::GetAxis
 UnityEngine.Input::GetAxisRaw
 UnityEngine.Input::get_compositionString
 UnityEngine.Input::INTERNAL_CALL_GetTouch
@@ -476,6 +481,12 @@ UnityEngine.Object::Internal_CloneSingleWithParent
 UnityEngine.Object::FindObjectsOfType
 UnityEngine.Object::FindObjectsOfTypeIncludingAssets
 UnityEngine.Object::FindSceneObjectsOfType
+UnityEngine.ParticleSystem::Internal_IsAlive
+UnityEngine.ParticleSystem::Internal_Play
+UnityEngine.ParticleSystem::Internal_Stop
+UnityEngine.ParticleSystem::get_isPlaying
+UnityEngine.ParticleSystem::set_enableEmission
+UnityEngine.ParticleSystem::set_loop
 UnityEngine.Physics::INTERNAL_CALL_Internal_CapsuleCast
 UnityEngine.Physics::INTERNAL_CALL_Internal_Raycast
 UnityEngine.Physics::INTERNAL_CALL_CapsuleCastAll
@@ -484,6 +495,8 @@ UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast
 UnityEngine.Physics2D::INTERNAL_CALL_GetRayIntersectionAll
 UnityEngine.QualitySettings::get_antiAliasing
 UnityEngine.QualitySettings::get_activeColorSpace
+UnityEngine.Quaternion::INTERNAL_CALL_Internal_FromEulerRad
+UnityEngine.Quaternion::INTERNAL_CALL_Internal_ToEulerRad
 UnityEngine.Quaternion::INTERNAL_CALL_Inverse
 UnityEngine.Quaternion::INTERNAL_CALL_LookRotation
 UnityEngine.Random::RandomRangeInt
@@ -533,13 +546,19 @@ UnityEngine.RenderTexture::set_format
 UnityEngine.RenderTexture::get_active
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
+UnityEngine.Rigidbody::set_freezeRotation
 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
+UnityEngine.SceneManagement.Scene::GetNameInternal
 UnityEngine.SceneManagement.SceneManager::INTERNAL_CALL_GetActiveScene
 UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal
+UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi
+UnityEngine.Screen::SetResolution
+UnityEngine.Screen::set_fullScreen
 UnityEngine.Screen::set_sleepTimeout
+UnityEngine.Screen::get_currentResolution
 UnityEngine.ScriptableObject::Internal_CreateScriptableObject
 UnityEngine.ScriptableObject::CreateInstance
 UnityEngine.ScriptableObject::CreateInstanceFromType
@@ -622,6 +641,7 @@ UnityEngine.TouchScreenKeyboard::set_text
 UnityEngine.Transform::IsChildOf
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::INTERNAL_CALL_InverseTransformPoint
+UnityEngine.Transform::INTERNAL_CALL_LookAt
 UnityEngine.Transform::INTERNAL_CALL_TransformPoint
 UnityEngine.Transform::INTERNAL_get_localPosition
 UnityEngine.Transform::INTERNAL_get_localRotation

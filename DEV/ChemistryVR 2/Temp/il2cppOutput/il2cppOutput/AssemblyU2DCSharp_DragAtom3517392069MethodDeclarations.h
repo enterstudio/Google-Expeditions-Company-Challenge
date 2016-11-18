@@ -63,3 +63,15 @@ extern "C"  void DragAtom_OnGazeTrigger_m287452584 (DragAtom_t3517392069 * __thi
 extern "C"  void DragAtom_DuplicateModel_m895533100 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DragAtom::ActivateModel()
 extern "C"  void DragAtom_ActivateModel_m4276353546 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::DeactivateModel()
+extern "C"  void DragAtom_DeactivateModel_m625762985 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::CameraAbout()
+extern "C"  void DragAtom_CameraAbout_m474986428 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::InitOnPlayerClose()
+extern "C"  void DragAtom_InitOnPlayerClose_m744663836 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::FlashMessage()
+extern "C"  void DragAtom_FlashMessage_m528587333 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::FadeMessageIn()
+extern "C"  void DragAtom_FadeMessageIn_m476243460 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void DragAtom::FadeMessageOut()
+extern "C"  void DragAtom_FadeMessageOut_m1884468081 (DragAtom_t3517392069 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

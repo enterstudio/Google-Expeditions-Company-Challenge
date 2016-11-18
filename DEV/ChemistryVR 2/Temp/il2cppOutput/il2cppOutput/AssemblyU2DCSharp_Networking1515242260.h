@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+// System.Net.WebClient
+struct WebClient_t220232441;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
 
@@ -27,8 +29,8 @@ public:
 	int32_t ___frames_2;
 	// System.Int32 Networking::refreshInterval
 	int32_t ___refreshInterval_3;
-	// System.Int32 Networking::count
-	int32_t ___count_4;
+	// System.Net.WebClient Networking::client
+	WebClient_t220232441 * ___client_4;
 
 public:
 	inline static int32_t get_offset_of_frames_2() { return static_cast<int32_t>(offsetof(Networking_t1515242260, ___frames_2)); }
@@ -47,12 +49,13 @@ public:
 		___refreshInterval_3 = value;
 	}
 
-	inline static int32_t get_offset_of_count_4() { return static_cast<int32_t>(offsetof(Networking_t1515242260, ___count_4)); }
-	inline int32_t get_count_4() const { return ___count_4; }
-	inline int32_t* get_address_of_count_4() { return &___count_4; }
-	inline void set_count_4(int32_t value)
+	inline static int32_t get_offset_of_client_4() { return static_cast<int32_t>(offsetof(Networking_t1515242260, ___client_4)); }
+	inline WebClient_t220232441 * get_client_4() const { return ___client_4; }
+	inline WebClient_t220232441 ** get_address_of_client_4() { return &___client_4; }
+	inline void set_client_4(WebClient_t220232441 * value)
 	{
-		___count_4 = value;
+		___client_4 = value;
+		Il2CppCodeGenWriteBarrier(&___client_4, value);
 	}
 };
 

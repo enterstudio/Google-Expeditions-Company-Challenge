@@ -42,8 +42,12 @@ extern "C"  int32_t Vector2_GetHashCode_m128434585 (Vector2_t4282066565 * __this
 extern "C"  bool Vector2_Equals_m3404198849 (Vector2_t4282066565 * __this, Il2CppObject * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector2::Dot(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C"  float Vector2_Dot_m2437602225 (Il2CppObject * __this /* static, unused */, Vector2_t4282066565  ___lhs0, Vector2_t4282066565  ___rhs1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector2::get_magnitude()
+extern "C"  float Vector2_get_magnitude_m1987058139 (Vector2_t4282066565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector2::get_sqrMagnitude()
 extern "C"  float Vector2_get_sqrMagnitude_m996072851 (Vector2_t4282066565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector2::Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  float Vector2_Distance_m340609291 (Il2CppObject * __this /* static, unused */, Vector2_t4282066565  ___a0, Vector2_t4282066565  ___b1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Vector2::SqrMagnitude(UnityEngine.Vector2)
 extern "C"  float Vector2_SqrMagnitude_m4007443280 (Il2CppObject * __this /* static, unused */, Vector2_t4282066565  ___a0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()

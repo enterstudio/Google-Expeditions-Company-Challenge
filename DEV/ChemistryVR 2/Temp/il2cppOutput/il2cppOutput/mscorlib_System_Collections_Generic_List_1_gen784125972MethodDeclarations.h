@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t973017956;
 struct PointerU5BU5D_t2242107693;
 // System.Predicate`1<Gvr.Internal.EmulatorTouchEvent/Pointer>
 struct Predicate_1_t3321964599;
+// System.Collections.Generic.IComparer`1<Gvr.Internal.EmulatorTouchEvent/Pointer>
+struct IComparer_1_t1990954462;
 // System.Comparison`1<Gvr.Internal.EmulatorTouchEvent/Pointer>
 struct Comparison_1_t2427268903;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m3599201146_gshared (List_1_t784125972 * __this,
 // System.Void System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>::Sort()
 extern "C"  void List_1_Sort_m2202734184_gshared (List_1_t784125972 * __this, const MethodInfo* method);
 #define List_1_Sort_m2202734184(__this, method) ((  void (*) (List_1_t784125972 *, const MethodInfo*))List_1_Sort_m2202734184_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m2260700284_gshared (List_1_t784125972 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m2260700284(__this, ___comparer0, method) ((  void (*) (List_1_t784125972 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m2260700284_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m2904087739_gshared (List_1_t784125972 * __this, Comparison_1_t2427268903 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m2904087739(__this, ___comparison0, method) ((  void (*) (List_1_t784125972 *, Comparison_1_t2427268903 *, const MethodInfo*))List_1_Sort_m2904087739_gshared)(__this, ___comparison0, method)

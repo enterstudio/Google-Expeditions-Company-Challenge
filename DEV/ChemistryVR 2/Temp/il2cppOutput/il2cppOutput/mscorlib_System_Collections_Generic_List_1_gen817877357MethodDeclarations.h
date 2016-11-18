@@ -100,6 +100,8 @@
 #define List_1_Reverse_m982844235(__this, method) ((  void (*) (List_1_t817877357 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<WebSocketSharp.Net.HttpListenerContext>::Sort()
 #define List_1_Sort_m1738995767(__this, method) ((  void (*) (List_1_t817877357 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<WebSocketSharp.Net.HttpListenerContext>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m485734285(__this, ___comparer0, method) ((  void (*) (List_1_t817877357 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<WebSocketSharp.Net.HttpListenerContext>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m768274762(__this, ___comparison0, method) ((  void (*) (List_1_t817877357 *, Comparison_1_t2461020288 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<WebSocketSharp.Net.HttpListenerContext>::ToArray()

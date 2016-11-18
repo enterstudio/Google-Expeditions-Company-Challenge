@@ -11,6 +11,8 @@
 
 // System.Net.IPAddress
 struct IPAddress_t3525271463;
+// System.Net.Cookie
+struct Cookie_t2033273982;
 // System.Text.RegularExpressions.Capture
 struct Capture_t754001812;
 // System.Text.RegularExpressions.Group
@@ -21,6 +23,7 @@ struct IPEndPoint_t2123960758;
 #include "mscorlib_System_Array1146569071.h"
 #include "System_System_Security_Cryptography_X509Certificate766901931.h"
 #include "System_System_Net_IPAddress3525271463.h"
+#include "System_System_Net_Cookie2033273982.h"
 #include "System_System_Text_RegularExpressions_Capture754001812.h"
 #include "System_System_Text_RegularExpressions_Group2151468941.h"
 #include "System_System_Text_RegularExpressions_Mark3811539797.h"
@@ -52,6 +55,21 @@ public:
 	inline IPAddress_t3525271463 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline IPAddress_t3525271463 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, IPAddress_t3525271463 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Net.Cookie[]
+struct CookieU5BU5D_t1520446411  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Cookie_t2033273982 * m_Items[1];
+
+public:
+	inline Cookie_t2033273982 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline Cookie_t2033273982 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, Cookie_t2033273982 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

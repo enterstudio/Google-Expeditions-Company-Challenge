@@ -39,15 +39,15 @@ public:
 	// <PrivateImplementationDetails>/$ArrayType$28 <PrivateImplementationDetails>::$$field-1
 	U24ArrayTypeU2428_t3379220385  ___U24U24fieldU2D1_1;
 	// <PrivateImplementationDetails>/$ArrayType$16 <PrivateImplementationDetails>::$$field-2
-	U24ArrayTypeU2416_t3379220354  ___U24U24fieldU2D2_2;
+	U24ArrayTypeU2416_t3379220355  ___U24U24fieldU2D2_2;
 	// <PrivateImplementationDetails>/$ArrayType$16 <PrivateImplementationDetails>::$$field-3
-	U24ArrayTypeU2416_t3379220354  ___U24U24fieldU2D3_3;
+	U24ArrayTypeU2416_t3379220355  ___U24U24fieldU2D3_3;
 	// <PrivateImplementationDetails>/$ArrayType$16 <PrivateImplementationDetails>::$$field-4
-	U24ArrayTypeU2416_t3379220354  ___U24U24fieldU2D4_4;
+	U24ArrayTypeU2416_t3379220355  ___U24U24fieldU2D4_4;
 	// <PrivateImplementationDetails>/$ArrayType$20 <PrivateImplementationDetails>::$$field-5
 	U24ArrayTypeU2420_t3379220379  ___U24U24fieldU2D5_5;
 	// <PrivateImplementationDetails>/$ArrayType$16 <PrivateImplementationDetails>::$$field-6
-	U24ArrayTypeU2416_t3379220354  ___U24U24fieldU2D6_6;
+	U24ArrayTypeU2416_t3379220355  ___U24U24fieldU2D6_6;
 	// <PrivateImplementationDetails>/$ArrayType$8 <PrivateImplementationDetails>::$$field-7
 	U24ArrayTypeU248_t3988332414  ___U24U24fieldU2D7_7;
 
@@ -69,25 +69,25 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U24U24fieldU2D2_2() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24U24fieldU2D2_2)); }
-	inline U24ArrayTypeU2416_t3379220354  get_U24U24fieldU2D2_2() const { return ___U24U24fieldU2D2_2; }
-	inline U24ArrayTypeU2416_t3379220354 * get_address_of_U24U24fieldU2D2_2() { return &___U24U24fieldU2D2_2; }
-	inline void set_U24U24fieldU2D2_2(U24ArrayTypeU2416_t3379220354  value)
+	inline U24ArrayTypeU2416_t3379220355  get_U24U24fieldU2D2_2() const { return ___U24U24fieldU2D2_2; }
+	inline U24ArrayTypeU2416_t3379220355 * get_address_of_U24U24fieldU2D2_2() { return &___U24U24fieldU2D2_2; }
+	inline void set_U24U24fieldU2D2_2(U24ArrayTypeU2416_t3379220355  value)
 	{
 		___U24U24fieldU2D2_2 = value;
 	}
 
 	inline static int32_t get_offset_of_U24U24fieldU2D3_3() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24U24fieldU2D3_3)); }
-	inline U24ArrayTypeU2416_t3379220354  get_U24U24fieldU2D3_3() const { return ___U24U24fieldU2D3_3; }
-	inline U24ArrayTypeU2416_t3379220354 * get_address_of_U24U24fieldU2D3_3() { return &___U24U24fieldU2D3_3; }
-	inline void set_U24U24fieldU2D3_3(U24ArrayTypeU2416_t3379220354  value)
+	inline U24ArrayTypeU2416_t3379220355  get_U24U24fieldU2D3_3() const { return ___U24U24fieldU2D3_3; }
+	inline U24ArrayTypeU2416_t3379220355 * get_address_of_U24U24fieldU2D3_3() { return &___U24U24fieldU2D3_3; }
+	inline void set_U24U24fieldU2D3_3(U24ArrayTypeU2416_t3379220355  value)
 	{
 		___U24U24fieldU2D3_3 = value;
 	}
 
 	inline static int32_t get_offset_of_U24U24fieldU2D4_4() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24U24fieldU2D4_4)); }
-	inline U24ArrayTypeU2416_t3379220354  get_U24U24fieldU2D4_4() const { return ___U24U24fieldU2D4_4; }
-	inline U24ArrayTypeU2416_t3379220354 * get_address_of_U24U24fieldU2D4_4() { return &___U24U24fieldU2D4_4; }
-	inline void set_U24U24fieldU2D4_4(U24ArrayTypeU2416_t3379220354  value)
+	inline U24ArrayTypeU2416_t3379220355  get_U24U24fieldU2D4_4() const { return ___U24U24fieldU2D4_4; }
+	inline U24ArrayTypeU2416_t3379220355 * get_address_of_U24U24fieldU2D4_4() { return &___U24U24fieldU2D4_4; }
+	inline void set_U24U24fieldU2D4_4(U24ArrayTypeU2416_t3379220355  value)
 	{
 		___U24U24fieldU2D4_4 = value;
 	}
@@ -101,9 +101,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U24U24fieldU2D6_6() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238938_StaticFields, ___U24U24fieldU2D6_6)); }
-	inline U24ArrayTypeU2416_t3379220354  get_U24U24fieldU2D6_6() const { return ___U24U24fieldU2D6_6; }
-	inline U24ArrayTypeU2416_t3379220354 * get_address_of_U24U24fieldU2D6_6() { return &___U24U24fieldU2D6_6; }
-	inline void set_U24U24fieldU2D6_6(U24ArrayTypeU2416_t3379220354  value)
+	inline U24ArrayTypeU2416_t3379220355  get_U24U24fieldU2D6_6() const { return ___U24U24fieldU2D6_6; }
+	inline U24ArrayTypeU2416_t3379220355 * get_address_of_U24U24fieldU2D6_6() { return &___U24U24fieldU2D6_6; }
+	inline void set_U24U24fieldU2D6_6(U24ArrayTypeU2416_t3379220355  value)
 	{
 		___U24U24fieldU2D6_6 = value;
 	}

@@ -100,6 +100,8 @@
 #define List_1_Reverse_m539586249(__this, method) ((  void (*) (List_1_t45843923 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::Sort()
 #define List_1_Sort_m4106251641(__this, method) ((  void (*) (List_1_t45843923 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m2304349323(__this, ___comparer0, method) ((  void (*) (List_1_t45843923 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m3187157260(__this, ___comparison0, method) ((  void (*) (List_1_t45843923 *, Comparison_1_t1688986854 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::ToArray()

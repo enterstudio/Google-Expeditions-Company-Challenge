@@ -302,6 +302,8 @@ struct Il2CppArray;
 #include "UnityEngine_UnityEngine_AudioClip_PCMSetPositionCa4244274966.h"
 #include "UnityEngine_UnityEngine_AudioConfiguration4109410948.h"
 #include "UnityEngine_UnityEngine_AudioConfiguration4109410948MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioListener3685735200.h"
+#include "UnityEngine_UnityEngine_AudioListener3685735200MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioRolloffMode1562508899.h"
 #include "UnityEngine_UnityEngine_AudioRolloffMode1562508899MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioSettings3774206607.h"
@@ -530,8 +532,6 @@ struct Il2CppArray;
 #include "UnityEngine_UnityEngine_FontStyle3350479768MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Gizmos2849394813.h"
 #include "UnityEngine_UnityEngine_Gizmos2849394813MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_GL2267613321.h"
-#include "UnityEngine_UnityEngine_GL2267613321MethodDeclarations.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -1612,6 +1612,15 @@ extern "C"  String_t* Application_get_unityVersion_m3443350436 (Il2CppObject * _
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Application_get_unityVersion_m3443350436_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_unityVersion()");
 	return _il2cpp_icall_func();
+}
+// System.Void UnityEngine.Application::OpenURL(System.String)
+extern "C"  void Application_OpenURL_m1861717334 (Il2CppObject * __this /* static, unused */, String_t* ___url0, const MethodInfo* method)
+{
+	typedef void (*Application_OpenURL_m1861717334_ftn) (String_t*);
+	static Application_OpenURL_m1861717334_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_OpenURL_m1861717334_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::OpenURL(System.String)");
+	_il2cpp_icall_func(___url0);
 }
 // System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
 extern "C"  void Application_set_targetFrameRate_m498658007 (Il2CppObject * __this /* static, unused */, int32_t ___value0, const MethodInfo* method)
@@ -2974,6 +2983,18 @@ extern "C"  void AudioSource_PlayOneShot_m823779350 (AudioSource_t1740077639 * _
 	_il2cpp_icall_func = (AudioSource_PlayOneShot_m823779350_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)");
 	_il2cpp_icall_func(__this, ___clip0, ___volumeScale1);
 }
+// System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
+extern "C"  void AudioSource_PlayOneShot_m1217449713 (AudioSource_t1740077639 * __this, AudioClip_t794140988 * ___clip0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		V_0 = (1.0f);
+		AudioClip_t794140988 * L_0 = ___clip0;
+		float L_1 = V_0;
+		AudioSource_PlayOneShot_m823779350(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
 extern "C"  void AudioSource_set_loop_m3617666708 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
 {
@@ -3044,6 +3065,15 @@ extern "C"  void AudioSource_set_mute_m4040046601 (AudioSource_t1740077639 * __t
 	static AudioSource_set_mute_m4040046601_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_mute_m4040046601_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_mute(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+extern "C"  void AudioSource_set_rolloffMode_m2308725576 (AudioSource_t1740077639 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_rolloffMode_m2308725576_ftn) (AudioSource_t1740077639 *, int32_t);
+	static AudioSource_set_rolloffMode_m2308725576_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_rolloffMode_m2308725576_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.AudioSource::GetOutputDataHelper(System.Single[],System.Int32)
@@ -9445,7 +9475,7 @@ IL_0039:
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_12);
 		NullCheck(L_10);
-		Type_t * L_13 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t3339007067* >::Invoke(77 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_10, L_11);
+		Type_t * L_13 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t3339007067* >::Invoke(78 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_10, L_11);
 		V_2 = L_13;
 		Type_t * L_14 = V_2;
 		TypeU5BU5D_t3339007067* L_15 = ((TypeU5BU5D_t3339007067*)SZArrayNew(TypeU5BU5D_t3339007067_il2cpp_TypeInfo_var, (uint32_t)3));
@@ -12734,6 +12764,24 @@ extern "C"  void GameObject__ctor_m3920833606 (GameObject_t3674682005 * __this, 
 		return;
 	}
 }
+// System.Void UnityEngine.GameObject::.ctor()
+extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
+extern const uint32_t GameObject__ctor_m845034556_MetadataUsageId;
+extern "C"  void GameObject__ctor_m845034556 (GameObject_t3674682005 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameObject__ctor_m845034556_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3071478659_il2cpp_TypeInfo_var);
+		Object__ctor_m570634126(__this, /*hidden argument*/NULL);
+		GameObject_Internal_CreateGameObject_m2521325981(NULL /*static, unused*/, __this, (String_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.GameObject::.ctor(System.String,System.Type[])
 extern Il2CppClass* Object_t3071478659_il2cpp_TypeInfo_var;
 extern const uint32_t GameObject__ctor_m176066391_MetadataUsageId;
@@ -12949,6 +12997,15 @@ extern "C"  bool GameObject_get_activeInHierarchy_m612450965 (GameObject_t367468
 	_il2cpp_icall_func = (GameObject_get_activeInHierarchy_m612450965_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_activeInHierarchy()");
 	return _il2cpp_icall_func(__this);
 }
+// System.Void UnityEngine.GameObject::set_isStatic(System.Boolean)
+extern "C"  void GameObject_set_isStatic_m1907529556 (GameObject_t3674682005 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*GameObject_set_isStatic_m1907529556_ftn) (GameObject_t3674682005 *, bool);
+	static GameObject_set_isStatic_m1907529556_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_set_isStatic_m1907529556_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::set_isStatic(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.String UnityEngine.GameObject::get_tag()
 extern "C"  String_t* GameObject_get_tag_m211612200 (GameObject_t3674682005 * __this, const MethodInfo* method)
 {
@@ -13117,107 +13174,6 @@ extern "C"  void Gizmos_INTERNAL_set_matrix_m176789860 (Il2CppObject * __this /*
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Gizmos_INTERNAL_set_matrix_m176789860_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Gizmos::INTERNAL_set_matrix(UnityEngine.Matrix4x4&)");
 	_il2cpp_icall_func(___value0);
-}
-// System.Void UnityEngine.GL::Vertex3(System.Single,System.Single,System.Single)
-extern "C"  void GL_Vertex3_m3691855584 (Il2CppObject * __this /* static, unused */, float ___x0, float ___y1, float ___z2, const MethodInfo* method)
-{
-	typedef void (*GL_Vertex3_m3691855584_ftn) (float, float, float);
-	static GL_Vertex3_m3691855584_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_Vertex3_m3691855584_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::Vertex3(System.Single,System.Single,System.Single)");
-	_il2cpp_icall_func(___x0, ___y1, ___z2);
-}
-// System.Void UnityEngine.GL::BeginInternal(System.Int32)
-extern "C"  void GL_BeginInternal_m4095419965 (Il2CppObject * __this /* static, unused */, int32_t ___mode0, const MethodInfo* method)
-{
-	typedef void (*GL_BeginInternal_m4095419965_ftn) (int32_t);
-	static GL_BeginInternal_m4095419965_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_BeginInternal_m4095419965_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::BeginInternal(System.Int32)");
-	_il2cpp_icall_func(___mode0);
-}
-// System.Void UnityEngine.GL::Begin(System.Int32)
-extern "C"  void GL_Begin_m3089952800 (Il2CppObject * __this /* static, unused */, int32_t ___mode0, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___mode0;
-		GL_BeginInternal_m4095419965(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GL::End()
-extern "C"  void GL_End_m2013837889 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef void (*GL_End_m2013837889_ftn) ();
-	static GL_End_m2013837889_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_End_m2013837889_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::End()");
-	_il2cpp_icall_func();
-}
-// System.Void UnityEngine.GL::LoadOrtho()
-extern "C"  void GL_LoadOrtho_m1297524312 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef void (*GL_LoadOrtho_m1297524312_ftn) ();
-	static GL_LoadOrtho_m1297524312_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_LoadOrtho_m1297524312_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::LoadOrtho()");
-	_il2cpp_icall_func();
-}
-// System.Void UnityEngine.GL::LoadPixelMatrixArgs(System.Single,System.Single,System.Single,System.Single)
-extern "C"  void GL_LoadPixelMatrixArgs_m1248760214 (Il2CppObject * __this /* static, unused */, float ___left0, float ___right1, float ___bottom2, float ___top3, const MethodInfo* method)
-{
-	typedef void (*GL_LoadPixelMatrixArgs_m1248760214_ftn) (float, float, float, float);
-	static GL_LoadPixelMatrixArgs_m1248760214_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_LoadPixelMatrixArgs_m1248760214_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::LoadPixelMatrixArgs(System.Single,System.Single,System.Single,System.Single)");
-	_il2cpp_icall_func(___left0, ___right1, ___bottom2, ___top3);
-}
-// System.Void UnityEngine.GL::LoadPixelMatrix(System.Single,System.Single,System.Single,System.Single)
-extern "C"  void GL_LoadPixelMatrix_m3692194035 (Il2CppObject * __this /* static, unused */, float ___left0, float ___right1, float ___bottom2, float ___top3, const MethodInfo* method)
-{
-	{
-		float L_0 = ___left0;
-		float L_1 = ___right1;
-		float L_2 = ___bottom2;
-		float L_3 = ___top3;
-		GL_LoadPixelMatrixArgs_m1248760214(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GL::MultMatrix(UnityEngine.Matrix4x4)
-extern "C"  void GL_MultMatrix_m1618741133 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333  ___mat0, const MethodInfo* method)
-{
-	{
-		GL_INTERNAL_CALL_MultMatrix_m1564496030(NULL /*static, unused*/, (&___mat0), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GL::INTERNAL_CALL_MultMatrix(UnityEngine.Matrix4x4&)
-extern "C"  void GL_INTERNAL_CALL_MultMatrix_m1564496030 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333 * ___mat0, const MethodInfo* method)
-{
-	typedef void (*GL_INTERNAL_CALL_MultMatrix_m1564496030_ftn) (Matrix4x4_t1651859333 *);
-	static GL_INTERNAL_CALL_MultMatrix_m1564496030_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_INTERNAL_CALL_MultMatrix_m1564496030_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::INTERNAL_CALL_MultMatrix(UnityEngine.Matrix4x4&)");
-	_il2cpp_icall_func(___mat0);
-}
-// System.Void UnityEngine.GL::PushMatrix()
-extern "C"  void GL_PushMatrix_m626765559 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef void (*GL_PushMatrix_m626765559_ftn) ();
-	static GL_PushMatrix_m626765559_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_PushMatrix_m626765559_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::PushMatrix()");
-	_il2cpp_icall_func();
-}
-// System.Void UnityEngine.GL::PopMatrix()
-extern "C"  void GL_PopMatrix_m3073322328 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef void (*GL_PopMatrix_m3073322328_ftn) ();
-	static GL_PopMatrix_m3073322328_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GL_PopMatrix_m3073322328_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GL::PopMatrix()");
-	_il2cpp_icall_func();
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

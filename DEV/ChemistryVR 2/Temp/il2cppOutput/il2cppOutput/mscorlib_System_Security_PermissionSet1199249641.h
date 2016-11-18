@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+// System.Security.Policy.PolicyLevel
+struct PolicyLevel_t1214940608;
 
 #include "mscorlib_System_Object4170816371.h"
 
@@ -23,16 +25,27 @@
 struct  PermissionSet_t1199249641  : public Il2CppObject
 {
 public:
+	// System.Security.Policy.PolicyLevel System.Security.PermissionSet::<Resolver>k__BackingField
+	PolicyLevel_t1214940608 * ___U3CResolverU3Ek__BackingField_0;
 	// System.Boolean System.Security.PermissionSet::<DeclarativeSecurity>k__BackingField
-	bool ___U3CDeclarativeSecurityU3Ek__BackingField_0;
+	bool ___U3CDeclarativeSecurityU3Ek__BackingField_1;
 
 public:
-	inline static int32_t get_offset_of_U3CDeclarativeSecurityU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(PermissionSet_t1199249641, ___U3CDeclarativeSecurityU3Ek__BackingField_0)); }
-	inline bool get_U3CDeclarativeSecurityU3Ek__BackingField_0() const { return ___U3CDeclarativeSecurityU3Ek__BackingField_0; }
-	inline bool* get_address_of_U3CDeclarativeSecurityU3Ek__BackingField_0() { return &___U3CDeclarativeSecurityU3Ek__BackingField_0; }
-	inline void set_U3CDeclarativeSecurityU3Ek__BackingField_0(bool value)
+	inline static int32_t get_offset_of_U3CResolverU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(PermissionSet_t1199249641, ___U3CResolverU3Ek__BackingField_0)); }
+	inline PolicyLevel_t1214940608 * get_U3CResolverU3Ek__BackingField_0() const { return ___U3CResolverU3Ek__BackingField_0; }
+	inline PolicyLevel_t1214940608 ** get_address_of_U3CResolverU3Ek__BackingField_0() { return &___U3CResolverU3Ek__BackingField_0; }
+	inline void set_U3CResolverU3Ek__BackingField_0(PolicyLevel_t1214940608 * value)
 	{
-		___U3CDeclarativeSecurityU3Ek__BackingField_0 = value;
+		___U3CResolverU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CResolverU3Ek__BackingField_0, value);
+	}
+
+	inline static int32_t get_offset_of_U3CDeclarativeSecurityU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(PermissionSet_t1199249641, ___U3CDeclarativeSecurityU3Ek__BackingField_1)); }
+	inline bool get_U3CDeclarativeSecurityU3Ek__BackingField_1() const { return ___U3CDeclarativeSecurityU3Ek__BackingField_1; }
+	inline bool* get_address_of_U3CDeclarativeSecurityU3Ek__BackingField_1() { return &___U3CDeclarativeSecurityU3Ek__BackingField_1; }
+	inline void set_U3CDeclarativeSecurityU3Ek__BackingField_1(bool value)
+	{
+		___U3CDeclarativeSecurityU3Ek__BackingField_1 = value;
 	}
 };
 

@@ -18,5 +18,7 @@ struct CompilationRelaxationsAttribute_t3111187931;
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_CompilerServices_Compilati1666434957.h"
 
+// System.Void System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(System.Int32)
+extern "C"  void CompilationRelaxationsAttribute__ctor_m4277872656 (CompilationRelaxationsAttribute_t3111187931 * __this, int32_t ___relaxations0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(System.Runtime.CompilerServices.CompilationRelaxations)
 extern "C"  void CompilationRelaxationsAttribute__ctor_m3469882264 (CompilationRelaxationsAttribute_t3111187931 * __this, int32_t ___relaxations0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

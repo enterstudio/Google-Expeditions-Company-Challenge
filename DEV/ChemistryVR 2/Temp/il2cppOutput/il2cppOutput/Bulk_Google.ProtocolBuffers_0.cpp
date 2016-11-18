@@ -1424,7 +1424,7 @@ IL_0009:
 	{
 		Stream_t1561764144 * L_0 = ___input0;
 		NullCheck(L_0);
-		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(16 /* System.Int32 System.IO.Stream::ReadByte() */, L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 System.IO.Stream::ReadByte() */, L_0);
 		V_2 = L_1;
 		int32_t L_2 = V_2;
 		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
@@ -1476,7 +1476,7 @@ IL_0048:
 	{
 		Stream_t1561764144 * L_11 = ___input0;
 		NullCheck(L_11);
-		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(16 /* System.Int32 System.IO.Stream::ReadByte() */, L_11);
+		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 System.IO.Stream::ReadByte() */, L_11);
 		V_3 = L_12;
 		int32_t L_13 = V_3;
 		if ((!(((uint32_t)L_13) == ((uint32_t)(-1)))))
@@ -1812,7 +1812,7 @@ IL_006e:
 		ByteU5BU5D_t4260760469* L_13 = __this->get_buffer_0();
 		NullCheck(L_13);
 		NullCheck(L_11);
-		int32_t L_14 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(15 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_13)->max_length)))));
+		int32_t L_14 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(17 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_13)->max_length)))));
 		G_B9_0 = L_14;
 		G_B9_1 = G_B8_0;
 	}
@@ -2139,7 +2139,7 @@ IL_01a3:
 		NullCheck(L_64);
 		int32_t L_65 = V_8;
 		NullCheck(L_61);
-		int32_t L_66 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(15 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_61, L_62, L_63, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_64)->max_length))))-(int32_t)L_65)));
+		int32_t L_66 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(17 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_61, L_62, L_63, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_64)->max_length))))-(int32_t)L_65)));
 		G_B16_0 = L_66;
 	}
 
@@ -2561,7 +2561,7 @@ IL_005f:
 		int32_t L_16 = ___amountToSkip0;
 		int32_t L_17 = Math_Min_m811624909(NULL /*static, unused*/, (((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length)))), L_16, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		int32_t L_18 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(15 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_13, L_14, 0, L_17);
+		int32_t L_18 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(17 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_13, L_14, 0, L_17);
 		V_2 = L_18;
 		int32_t L_19 = V_2;
 		if ((((int32_t)L_19) > ((int32_t)0)))
@@ -3670,7 +3670,7 @@ IL_009f:
 		int32_t L_31 = ___offset1;
 		int32_t L_32 = ___length2;
 		NullCheck(L_29);
-		VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_29, L_30, L_31, L_32);
+		VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(21 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_29, L_30, L_31, L_32);
 	}
 
 IL_00ad:
@@ -3708,7 +3708,7 @@ IL_0011:
 		ByteU5BU5D_t4260760469* L_3 = __this->get_buffer_1();
 		int32_t L_4 = __this->get_position_3();
 		NullCheck(L_2);
-		VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
+		VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(21 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_2, L_3, 0, L_4);
 		__this->set_position_3(0);
 		return;
 	}

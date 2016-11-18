@@ -28,6 +28,8 @@ struct StringU5BU5D_t4054002952;
 
 // System.Boolean System.Environment::get_SocketSecurityEnabled()
 extern "C"  bool Environment_get_SocketSecurityEnabled_m2002704895 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Environment::get_UnityWebSecurityEnabled()
+extern "C"  bool Environment_get_UnityWebSecurityEnabled_m2392762195 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::get_NewLine()
 extern "C"  String_t* Environment_get_NewLine_m1034655108 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.PlatformID System.Environment::get_Platform()

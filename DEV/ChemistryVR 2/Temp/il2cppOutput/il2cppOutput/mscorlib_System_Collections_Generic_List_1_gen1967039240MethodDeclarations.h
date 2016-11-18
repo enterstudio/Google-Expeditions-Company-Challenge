@@ -32,6 +32,8 @@ struct ReadOnlyCollection_1_t2155931224;
 struct Color32U5BU5D_t2960766953;
 // System.Predicate`1<UnityEngine.Color32>
 struct Predicate_1_t209910571;
+// System.Collections.Generic.IComparer`1<UnityEngine.Color32>
+struct IComparer_1_t3173867730;
 // System.Comparison`1<UnityEngine.Color32>
 struct Comparison_1_t3610182171;
 
@@ -167,6 +169,9 @@ extern "C"  void List_1_Reverse_m465101345_gshared (List_1_t1967039240 * __this,
 // System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Sort()
 extern "C"  void List_1_Sort_m1566406945_gshared (List_1_t1967039240 * __this, const MethodInfo* method);
 #define List_1_Sort_m1566406945(__this, method) ((  void (*) (List_1_t1967039240 *, const MethodInfo*))List_1_Sort_m1566406945_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C"  void List_1_Sort_m3910125027_gshared (List_1_t1967039240 * __this, Il2CppObject* ___comparer0, const MethodInfo* method);
+#define List_1_Sort_m3910125027(__this, ___comparer0, method) ((  void (*) (List_1_t1967039240 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3910125027_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Sort(System.Comparison`1<T>)
 extern "C"  void List_1_Sort_m4109862580_gshared (List_1_t1967039240 * __this, Comparison_1_t3610182171 * ___comparison0, const MethodInfo* method);
 #define List_1_Sort_m4109862580(__this, ___comparison0, method) ((  void (*) (List_1_t1967039240 *, Comparison_1_t3610182171 *, const MethodInfo*))List_1_Sort_m4109862580_gshared)(__this, ___comparison0, method)

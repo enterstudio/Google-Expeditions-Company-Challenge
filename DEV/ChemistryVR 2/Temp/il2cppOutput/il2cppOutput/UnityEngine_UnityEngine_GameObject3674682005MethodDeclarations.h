@@ -41,6 +41,8 @@ struct Transform_t1659122786;
 
 // System.Void UnityEngine.GameObject::.ctor(System.String)
 extern "C"  void GameObject__ctor_m3920833606 (GameObject_t3674682005 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::.ctor()
+extern "C"  void GameObject__ctor_m845034556 (GameObject_t3674682005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor(System.String,System.Type[])
 extern "C"  void GameObject__ctor_m176066391 (GameObject_t3674682005 * __this, String_t* ___name0, TypeU5BU5D_t3339007067* ___components1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::GetComponent(System.Type)
@@ -73,6 +75,8 @@ extern "C"  void GameObject_SetActive_m3538205401 (GameObject_t3674682005 * __th
 extern "C"  bool GameObject_get_activeSelf_m3858025161 (GameObject_t3674682005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
 extern "C"  bool GameObject_get_activeInHierarchy_m612450965 (GameObject_t3674682005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::set_isStatic(System.Boolean)
+extern "C"  void GameObject_set_isStatic_m1907529556 (GameObject_t3674682005 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GameObject::get_tag()
 extern "C"  String_t* GameObject_get_tag_m211612200 (GameObject_t3674682005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::set_tag(System.String)

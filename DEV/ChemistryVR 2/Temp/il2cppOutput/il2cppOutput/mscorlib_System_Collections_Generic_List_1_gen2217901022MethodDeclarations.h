@@ -100,6 +100,8 @@
 #define List_1_Reverse_m3714760644(__this, method) ((  void (*) (List_1_t2217901022 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::Sort()
 #define List_1_Sort_m1899116126(__this, method) ((  void (*) (List_1_t2217901022 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m2937147718(__this, ___comparer0, method) ((  void (*) (List_1_t2217901022 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m4257351729(__this, ___comparison0, method) ((  void (*) (List_1_t2217901022 *, Comparison_1_t3861043953 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>::ToArray()

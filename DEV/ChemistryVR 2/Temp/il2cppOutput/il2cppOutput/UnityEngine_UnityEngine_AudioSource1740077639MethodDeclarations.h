@@ -25,6 +25,7 @@ struct SingleU5BU5D_t2316563989;
 #include "UnityEngine_UnityEngine_AudioClip794140988.h"
 #include "UnityEngine_UnityEngine_Audio_AudioMixerGroup3743235458.h"
 #include "UnityEngine_UnityEngine_AudioSource1740077639.h"
+#include "UnityEngine_UnityEngine_AudioRolloffMode1562508899.h"
 
 // System.Void UnityEngine.AudioSource::set_volume(System.Single)
 extern "C"  void AudioSource_set_volume_m1410546616 (AudioSource_t1740077639 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -64,6 +65,8 @@ extern "C"  void AudioSource_INTERNAL_CALL_UnPause_m258094196 (Il2CppObject * __
 extern "C"  bool AudioSource_get_isPlaying_m4213444423 (AudioSource_t1740077639 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
 extern "C"  void AudioSource_PlayOneShot_m823779350 (AudioSource_t1740077639 * __this, AudioClip_t794140988 * ___clip0, float ___volumeScale1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
+extern "C"  void AudioSource_PlayOneShot_m1217449713 (AudioSource_t1740077639 * __this, AudioClip_t794140988 * ___clip0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
 extern "C"  void AudioSource_set_loop_m3617666708 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
@@ -80,6 +83,8 @@ extern "C"  void AudioSource_set_dopplerLevel_m4264527772 (AudioSource_t17400776
 extern "C"  void AudioSource_set_priority_m3031232686 (AudioSource_t1740077639 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
 extern "C"  void AudioSource_set_mute_m4040046601 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+extern "C"  void AudioSource_set_rolloffMode_m2308725576 (AudioSource_t1740077639 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::GetOutputDataHelper(System.Single[],System.Int32)
 extern "C"  void AudioSource_GetOutputDataHelper_m1525923523 (AudioSource_t1740077639 * __this, SingleU5BU5D_t2316563989* ___samples0, int32_t ___channel1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::GetOutputData(System.Single[],System.Int32)

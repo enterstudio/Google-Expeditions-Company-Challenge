@@ -156,6 +156,8 @@ extern "C"  DateTime_t4283661327  DateTime_Parse_m1801557718 (Il2CppObject * __t
 extern "C"  DateTime_t4283661327  DateTime_Parse_m1424797081 (Il2CppObject * __this /* static, unused */, String_t* ___s0, Il2CppObject * ___provider1, int32_t ___styles2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::CoreParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime&,System.DateTimeOffset&,System.Boolean,System.Exception&)
 extern "C"  bool DateTime_CoreParse_m2501063101 (Il2CppObject * __this /* static, unused */, String_t* ___s0, Il2CppObject * ___provider1, int32_t ___styles2, DateTime_t4283661327 * ___result3, DateTimeOffset_t3884714306 * ___dto4, bool ___setExceptionOnError5, Exception_t3991598821 ** ___exception6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.DateTime System.DateTime::ParseExact(System.String,System.String,System.IFormatProvider)
+extern "C"  DateTime_t4283661327  DateTime_ParseExact_m1034945555 (Il2CppObject * __this /* static, unused */, String_t* ___s0, String_t* ___format1, Il2CppObject * ___provider2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.DateTime::YearMonthDayFormats(System.Globalization.DateTimeFormatInfo,System.Boolean,System.Exception&)
 extern "C"  StringU5BU5D_t4054002952* DateTime_YearMonthDayFormats_m200860137 (Il2CppObject * __this /* static, unused */, DateTimeFormatInfo_t2490955586 * ___dfi0, bool ___setExceptionOnError1, Exception_t3991598821 ** ___exc2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTime::_ParseNumber(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32&)

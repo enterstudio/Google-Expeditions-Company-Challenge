@@ -100,6 +100,8 @@
 #define List_1_Reverse_m2362745932(__this, method) ((  void (*) (List_1_t3695856611 *, const MethodInfo*))List_1_Reverse_m449081940_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::Sort()
 #define List_1_Sort_m108912342(__this, method) ((  void (*) (List_1_t3695856611 *, const MethodInfo*))List_1_Sort_m1168641486_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::Sort(System.Collections.Generic.IComparer`1<T>)
+#define List_1_Sort_m745770958(__this, ___comparer0, method) ((  void (*) (List_1_t3695856611 *, Il2CppObject*, const MethodInfo*))List_1_Sort_m3726677974_gshared)(__this, ___comparer0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::Sort(System.Comparison`1<T>)
 #define List_1_Sort_m211781289(__this, ___comparison0, method) ((  void (*) (List_1_t3695856611 *, Comparison_1_t1044032246 *, const MethodInfo*))List_1_Sort_m4192185249_gshared)(__this, ___comparison0, method)
 // T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>::ToArray()

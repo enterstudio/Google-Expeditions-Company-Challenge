@@ -29,6 +29,8 @@ public class FlashCamera : MonoBehaviour {
 		//GazeInputModule gazeTest = GameObject.Find ("EventSystem").GetComponent<GazeInputModule> ();
 	}
 
+
+
 	public void TakePhoto() {
 		Invoke ("DoIt", 1);
 	}

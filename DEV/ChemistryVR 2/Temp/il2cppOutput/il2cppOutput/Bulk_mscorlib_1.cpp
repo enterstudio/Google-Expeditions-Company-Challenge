@@ -2072,7 +2072,7 @@ IL_007a:
 	{
 		Type_t * L_15 = ___elementType0;
 		NullCheck(L_15);
-		bool L_16 = VirtFuncInvoker0< bool >::Invoke(73 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
+		bool L_16 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
 		if (!L_16)
 		{
 			goto IL_0090;
@@ -2204,7 +2204,7 @@ IL_0076:
 	{
 		Type_t * L_15 = ___elementType0;
 		NullCheck(L_15);
-		bool L_16 = VirtFuncInvoker0< bool >::Invoke(73 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
+		bool L_16 = VirtFuncInvoker0< bool >::Invoke(74 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
 		if (!L_16)
 		{
 			goto IL_008c;
@@ -26684,7 +26684,7 @@ extern "C"  DateTime_t4283661327  Convert_ToDateTime_m4273293575 (Il2CppObject *
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_1 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_1 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		return L_1;
 	}
 
@@ -26790,7 +26790,7 @@ extern "C"  DateTime_t4283661327  Convert_ToDateTime_m1253401141 (Il2CppObject *
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_1 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_1 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		return L_1;
 	}
 
@@ -29370,6 +29370,14 @@ IL_0055:
 		ArgumentException_t928607144 * L_16 = (ArgumentException_t928607144 *)il2cpp_codegen_object_new(ArgumentException_t928607144_il2cpp_TypeInfo_var);
 		ArgumentException__ctor_m3544856547(L_16, L_15, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16);
+	}
+}
+// System.String System.Convert::ToString(System.Int64)
+extern "C"  String_t* Convert_ToString_m130452839 (Il2CppObject * __this /* static, unused */, int64_t ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = Int64_ToString_m3478011791((&___value0), /*hidden argument*/NULL);
+		return L_0;
 	}
 }
 // System.String System.Convert::ToString(System.Object)
@@ -32487,10 +32495,10 @@ extern "C"  void DateTime__ctor_m4059138700 (DateTime_t4283661327 * __this, int6
 		TimeSpan_t413522987  L_1;
 		memset(&L_1, 0, sizeof(L_1));
 		TimeSpan__ctor_m477860848(&L_1, L_0, /*hidden argument*/NULL);
-		__this->set_ticks_0(L_1);
+		__this->set_ticks_10(L_1);
 		int64_t L_2 = ___ticks0;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		V_1 = L_3;
 		int64_t L_4 = DateTime_get_Ticks_m386468226((&V_1), /*hidden argument*/NULL);
 		if ((((int64_t)L_2) < ((int64_t)L_4)))
@@ -32501,7 +32509,7 @@ extern "C"  void DateTime__ctor_m4059138700 (DateTime_t4283661327 * __this, int6
 	{
 		int64_t L_5 = ___ticks0;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_6 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_6 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		V_2 = L_6;
 		int64_t L_7 = DateTime_get_Ticks_m386468226((&V_2), /*hidden argument*/NULL);
 		if ((((int64_t)L_5) <= ((int64_t)L_7)))
@@ -32522,7 +32530,7 @@ IL_0032:
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_11);
 		ObjectU5BU5D_t1108656482* L_12 = L_8;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_13 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_13 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		V_3 = L_13;
 		int64_t L_14 = DateTime_get_Ticks_m386468226((&V_3), /*hidden argument*/NULL);
 		int64_t L_15 = L_14;
@@ -32532,7 +32540,7 @@ IL_0032:
 		ArrayElementTypeCheck (L_12, L_16);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_16);
 		ObjectU5BU5D_t1108656482* L_17 = L_12;
-		DateTime_t4283661327  L_18 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_18 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		V_4 = L_18;
 		int64_t L_19 = DateTime_get_Ticks_m386468226((&V_4), /*hidden argument*/NULL);
 		int64_t L_20 = L_19;
@@ -32551,7 +32559,7 @@ IL_0032:
 
 IL_0083:
 	{
-		__this->set_kind_1(0);
+		__this->set_kind_11(0);
 		return;
 	}
 }
@@ -32732,8 +32740,8 @@ IL_0087:
 		TimeSpan_t413522987  L_26;
 		memset(&L_26, 0, sizeof(L_26));
 		TimeSpan__ctor_m3191091631(&L_26, L_21, L_22, L_23, L_24, L_25, /*hidden argument*/NULL);
-		__this->set_ticks_0(L_26);
-		__this->set_kind_1(0);
+		__this->set_ticks_10(L_26);
+		__this->set_kind_11(0);
 		return;
 	}
 }
@@ -32768,7 +32776,7 @@ extern "C"  void DateTime__ctor_m270463751 (DateTime_t4283661327 * __this, bool 
 	{
 		int64_t L_1 = TimeSpan_get_Ticks_m315930342((&___value1), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_2 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_2 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		V_0 = L_2;
 		int64_t L_3 = DateTime_get_Ticks_m386468226((&V_0), /*hidden argument*/NULL);
 		if ((((int64_t)L_1) < ((int64_t)L_3)))
@@ -32779,7 +32787,7 @@ extern "C"  void DateTime__ctor_m270463751 (DateTime_t4283661327 * __this, bool 
 	{
 		int64_t L_4 = TimeSpan_get_Ticks_m315930342((&___value1), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_5 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_5 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		V_1 = L_5;
 		int64_t L_6 = DateTime_get_Ticks_m386468226((&V_1), /*hidden argument*/NULL);
 		if ((((int64_t)L_4) <= ((int64_t)L_6)))
@@ -32798,8 +32806,8 @@ IL_0038:
 IL_003e:
 	{
 		TimeSpan_t413522987  L_8 = ___value1;
-		__this->set_ticks_0(L_8);
-		__this->set_kind_1(0);
+		__this->set_ticks_10(L_8);
+		__this->set_kind_11(0);
 		return;
 	}
 }
@@ -32817,7 +32825,7 @@ extern "C"  void DateTime__ctor_m2747883466 (DateTime_t4283661327 * __this, int6
 		int32_t L_1 = ___kind1;
 		DateTime_CheckDateTimeKind_m1840811157(__this, L_1, /*hidden argument*/NULL);
 		int32_t L_2 = ___kind1;
-		__this->set_kind_1(L_2);
+		__this->set_kind_11(L_2);
 		return;
 	}
 }
@@ -32840,7 +32848,7 @@ extern "C"  void DateTime__ctor_m3805233578 (DateTime_t4283661327 * __this, int3
 		int32_t L_6 = ___kind6;
 		DateTime_CheckDateTimeKind_m1840811157(__this, L_6, /*hidden argument*/NULL);
 		int32_t L_7 = ___kind6;
-		__this->set_kind_1(L_7);
+		__this->set_kind_11(L_7);
 		return;
 	}
 }
@@ -32917,14 +32925,14 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		DateTime_t4283661327  L_1;
 		memset(&L_1, 0, sizeof(L_1));
 		DateTime__ctor_m270463751(&L_1, (bool)0, L_0, /*hidden argument*/NULL);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MaxValue_2(L_1);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MaxValue_12(L_1);
 		TimeSpan_t413522987  L_2;
 		memset(&L_2, 0, sizeof(L_2));
 		TimeSpan__ctor_m477860848(&L_2, (((int64_t)((int64_t)0))), /*hidden argument*/NULL);
 		DateTime_t4283661327  L_3;
 		memset(&L_3, 0, sizeof(L_3));
 		DateTime__ctor_m270463751(&L_3, (bool)0, L_2, /*hidden argument*/NULL);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MinValue_3(L_3);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MinValue_13(L_3);
 		StringU5BU5D_t4054002952* L_4 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9)));
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
@@ -32970,7 +32978,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 8);
 		ArrayElementTypeCheck (L_12, _stringLiteral4047011112);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteral4047011112);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseTimeFormats_4(L_12);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseTimeFormats_14(L_12);
 		StringU5BU5D_t4054002952* L_13 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10)));
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 0);
@@ -33021,7 +33029,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, ((int32_t)9));
 		ArrayElementTypeCheck (L_22, _stringLiteral3577371123);
 		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)_stringLiteral3577371123);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseYearDayMonthFormats_5(L_22);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseYearDayMonthFormats_15(L_22);
 		StringU5BU5D_t4054002952* L_23 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12)));
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, 0);
@@ -33082,7 +33090,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, ((int32_t)11));
 		ArrayElementTypeCheck (L_34, _stringLiteral2922288983);
 		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (String_t*)_stringLiteral2922288983);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseYearMonthDayFormats_6(L_34);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseYearMonthDayFormats_16(L_34);
 		StringU5BU5D_t4054002952* L_35 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)((int32_t)15)));
 		NullCheck(L_35);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, 0);
@@ -33158,7 +33166,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_49, ((int32_t)14));
 		ArrayElementTypeCheck (L_49, _stringLiteral2922288983);
 		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteral2922288983);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseDayMonthYearFormats_7(L_49);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseDayMonthYearFormats_17(L_49);
 		StringU5BU5D_t4054002952* L_50 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)((int32_t)15)));
 		NullCheck(L_50);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_50, 0);
@@ -33234,7 +33242,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_64, ((int32_t)14));
 		ArrayElementTypeCheck (L_64, _stringLiteral1879814867);
 		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteral1879814867);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseMonthDayYearFormats_8(L_64);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_ParseMonthDayYearFormats_18(L_64);
 		StringU5BU5D_t4054002952* L_65 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)3));
 		NullCheck(L_65);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_65, 0);
@@ -33250,7 +33258,7 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_67, 2);
 		ArrayElementTypeCheck (L_67, _stringLiteral4291661231);
 		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral4291661231);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MonthDayShortFormats_9(L_67);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_MonthDayShortFormats_19(L_67);
 		StringU5BU5D_t4054002952* L_68 = ((StringU5BU5D_t4054002952*)SZArrayNew(StringU5BU5D_t4054002952_il2cpp_TypeInfo_var, (uint32_t)3));
 		NullCheck(L_68);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_68, 0);
@@ -33266,13 +33274,13 @@ extern "C"  void DateTime__cctor_m2266812979 (Il2CppObject * __this /* static, u
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_70, 2);
 		ArrayElementTypeCheck (L_70, _stringLiteral4291661231);
 		(L_70)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral4291661231);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_DayMonthShortFormats_10(L_70);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_DayMonthShortFormats_20(L_70);
 		Int32U5BU5D_t3230847821* L_71 = ((Int32U5BU5D_t3230847821*)SZArrayNew(Int32U5BU5D_t3230847821_il2cpp_TypeInfo_var, (uint32_t)((int32_t)13)));
 		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_71, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238933____U24U24fieldU2D64_51_FieldInfo_var), /*hidden argument*/NULL);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_daysmonth_11(L_71);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_daysmonth_21(L_71);
 		Int32U5BU5D_t3230847821* L_72 = ((Int32U5BU5D_t3230847821*)SZArrayNew(Int32U5BU5D_t3230847821_il2cpp_TypeInfo_var, (uint32_t)((int32_t)13)));
 		RuntimeHelpers_InitializeArray_m2058365049(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_72, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t3053238933____U24U24fieldU2D65_52_FieldInfo_var), /*hidden argument*/NULL);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_daysmonthleap_12(L_72);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_daysmonthleap_22(L_72);
 		IL2CPP_RUNTIME_CLASS_INIT(MonoTouchAOTHelper_t3725724748_il2cpp_TypeInfo_var);
 		bool L_73 = ((MonoTouchAOTHelper_t3725724748_StaticFields*)MonoTouchAOTHelper_t3725724748_il2cpp_TypeInfo_var->static_fields)->get_FalseFlag_0();
 		if (!L_73)
@@ -33711,7 +33719,7 @@ extern "C"  int32_t DateTime_AbsoluteDays_m1774199309 (Il2CppObject * __this /* 
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_2 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_12();
+		Int32U5BU5D_t3230847821* L_2 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_22();
 		G_B3_0 = L_2;
 		goto IL_001e;
 	}
@@ -33719,7 +33727,7 @@ extern "C"  int32_t DateTime_AbsoluteDays_m1774199309 (Il2CppObject * __this /* 
 IL_0019:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_11();
+		Int32U5BU5D_t3230847821* L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_21();
 		G_B3_0 = L_3;
 	}
 
@@ -33783,9 +33791,9 @@ extern "C"  int32_t DateTime_FromTicks_m1238653738 (DateTime_t4283661327 * __thi
 	{
 		V_4 = 1;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_0 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_11();
+		Int32U5BU5D_t3230847821* L_0 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_21();
 		V_5 = L_0;
-		TimeSpan_t413522987 * L_1 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_1 = __this->get_address_of_ticks_10();
 		int32_t L_2 = TimeSpan_get_Days_m1311834346(L_1, /*hidden argument*/NULL);
 		V_6 = L_2;
 		int32_t L_3 = V_6;
@@ -33885,7 +33893,7 @@ IL_00a5:
 IL_00bb:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_12();
+		Int32U5BU5D_t3230847821* L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_22();
 		V_5 = L_27;
 	}
 
@@ -33975,7 +33983,7 @@ extern "C"  int32_t DateTime_get_Day_m609985447_AdjustorThunk (Il2CppObject * __
 extern "C"  int32_t DateTime_get_DayOfWeek_m1793620473 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int32_t L_1 = TimeSpan_get_Days_m1311834346(L_0, /*hidden argument*/NULL);
 		return (int32_t)(((int32_t)((int32_t)((int32_t)((int32_t)L_1+(int32_t)1))%(int32_t)7)));
 	}
@@ -33989,7 +33997,7 @@ extern "C"  int32_t DateTime_get_DayOfWeek_m1793620473_AdjustorThunk (Il2CppObje
 extern "C"  int32_t DateTime_get_Hour_m1857077531 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int32_t L_1 = TimeSpan_get_Hours_m1664362814(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -34003,7 +34011,7 @@ extern "C"  int32_t DateTime_get_Hour_m1857077531_AdjustorThunk (Il2CppObject * 
 extern "C"  int32_t DateTime_get_Minute_m1138831307 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int32_t L_1 = TimeSpan_get_Minutes_m1876674446(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -34017,7 +34025,7 @@ extern "C"  int32_t DateTime_get_Minute_m1138831307_AdjustorThunk (Il2CppObject 
 extern "C"  int32_t DateTime_get_Second_m3430069803 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int32_t L_1 = TimeSpan_get_Seconds_m4185591086(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -34066,7 +34074,7 @@ extern "C"  DateTime_t4283661327  DateTime_get_Now_m1812131422 (Il2CppObject * _
 		int64_t L_1 = V_0;
 		DateTime__ctor_m4059138700((&V_1), L_1, /*hidden argument*/NULL);
 		int64_t L_2 = V_0;
-		int64_t L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_last_now_14();
+		int64_t L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_last_now_24();
 		if ((((int64_t)((int64_t)((int64_t)L_2-(int64_t)L_3))) <= ((int64_t)(((int64_t)((int64_t)((int32_t)600000000)))))))
 		{
 			goto IL_003b;
@@ -34081,19 +34089,19 @@ extern "C"  DateTime_t4283661327  DateTime_get_Now_m1812131422 (Il2CppObject * _
 		TimeSpan_t413522987  L_7 = L_6;
 		Il2CppObject * L_8 = Box(TimeSpan_t413522987_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_to_local_time_span_object_13(L_8);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_to_local_time_span_object_23(L_8);
 		int64_t L_9 = V_0;
-		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_last_now_14(L_9);
+		((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->set_last_now_24(L_9);
 	}
 
 IL_003b:
 	{
 		DateTime_t4283661327  L_10 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Il2CppObject * L_11 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_to_local_time_span_object_13();
+		Il2CppObject * L_11 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_to_local_time_span_object_23();
 		DateTime_t4283661327  L_12 = DateTime_op_Addition_m4061583523(NULL /*static, unused*/, L_10, ((*(TimeSpan_t413522987 *)((TimeSpan_t413522987 *)UnBox (L_11, TimeSpan_t413522987_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		V_2 = L_12;
-		(&V_2)->set_kind_1(2);
+		(&V_2)->set_kind_11(2);
 		DateTime_t4283661327  L_13 = V_2;
 		return L_13;
 	}
@@ -34102,7 +34110,7 @@ IL_003b:
 extern "C"  int64_t DateTime_get_Ticks_m386468226 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int64_t L_1 = TimeSpan_get_Ticks_m315930342(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
@@ -34135,8 +34143,8 @@ extern "C"  DateTime_t4283661327  DateTime_get_Today_m3010825801 (Il2CppObject *
 		int32_t L_2 = DateTime_get_Month_m1871036171((&V_0), /*hidden argument*/NULL);
 		int32_t L_3 = DateTime_get_Day_m609985447((&V_0), /*hidden argument*/NULL);
 		DateTime__ctor_m145640619((&V_1), L_1, L_2, L_3, /*hidden argument*/NULL);
-		int32_t L_4 = (&V_0)->get_kind_1();
-		(&V_1)->set_kind_1(L_4);
+		int32_t L_4 = (&V_0)->get_kind_11();
+		(&V_1)->set_kind_11(L_4);
 		DateTime_t4283661327  L_5 = V_1;
 		return L_5;
 	}
@@ -34178,7 +34186,7 @@ extern "C"  int32_t DateTime_get_Year_m2333942068_AdjustorThunk (Il2CppObject * 
 extern "C"  int32_t DateTime_get_Kind_m3496013602 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = __this->get_kind_1();
+		int32_t L_0 = __this->get_kind_11();
 		return L_0;
 	}
 }
@@ -34196,8 +34204,8 @@ extern "C"  DateTime_t4283661327  DateTime_Add_m1332740042 (DateTime_t4283661327
 		int64_t L_0 = TimeSpan_get_Ticks_m315930342((&___value0), /*hidden argument*/NULL);
 		DateTime_t4283661327  L_1 = DateTime_AddTicks_m2395456952(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		int32_t L_2 = __this->get_kind_1();
-		(&V_0)->set_kind_1(L_2);
+		int32_t L_2 = __this->get_kind_11();
+		(&V_0)->set_kind_11(L_2);
 		DateTime_t4283661327  L_3 = V_0;
 		return L_3;
 	}
@@ -34222,7 +34230,7 @@ extern "C"  DateTime_t4283661327  DateTime_AddTicks_m2395456952 (DateTime_t42836
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		int64_t L_0 = ___value0;
-		TimeSpan_t413522987 * L_1 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_1 = __this->get_address_of_ticks_10();
 		int64_t L_2 = TimeSpan_get_Ticks_m315930342(L_1, /*hidden argument*/NULL);
 		if ((((int64_t)((int64_t)((int64_t)L_0+(int64_t)L_2))) > ((int64_t)((int64_t)3155378975999999999LL))))
 		{
@@ -34231,7 +34239,7 @@ extern "C"  DateTime_t4283661327  DateTime_AddTicks_m2395456952 (DateTime_t42836
 	}
 	{
 		int64_t L_3 = ___value0;
-		TimeSpan_t413522987 * L_4 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_4 = __this->get_address_of_ticks_10();
 		int64_t L_5 = TimeSpan_get_Ticks_m315930342(L_4, /*hidden argument*/NULL);
 		if ((((int64_t)((int64_t)((int64_t)L_3+(int64_t)L_5))) >= ((int64_t)(((int64_t)((int64_t)0))))))
 		{
@@ -34249,11 +34257,11 @@ IL_002f:
 IL_0035:
 	{
 		int64_t L_7 = ___value0;
-		TimeSpan_t413522987 * L_8 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_8 = __this->get_address_of_ticks_10();
 		int64_t L_9 = TimeSpan_get_Ticks_m315930342(L_8, /*hidden argument*/NULL);
 		DateTime__ctor_m4059138700((&V_0), ((int64_t)((int64_t)L_7+(int64_t)L_9)), /*hidden argument*/NULL);
-		int32_t L_10 = __this->get_kind_1();
-		(&V_0)->set_kind_1(L_10);
+		int32_t L_10 = __this->get_kind_11();
+		(&V_0)->set_kind_11(L_10);
 		DateTime_t4283661327  L_11 = V_0;
 		return L_11;
 	}
@@ -34338,8 +34346,8 @@ extern "C"  int32_t DateTime_Compare_m1646075697 (Il2CppObject * __this /* stati
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_LessThan_m4265983228(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
@@ -34353,8 +34361,8 @@ extern "C"  int32_t DateTime_Compare_m1646075697 (Il2CppObject * __this /* stati
 
 IL_001a:
 	{
-		TimeSpan_t413522987  L_3 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_4 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_3 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_4 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_5 = TimeSpan_op_GreaterThan_m3920451985(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
@@ -34458,8 +34466,8 @@ extern "C"  bool DateTime_Equals_m1479384337 (DateTime_t4283661327 * __this, Dat
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___value0)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = __this->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___value0)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = __this->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_Equality_m2213378780(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -34605,7 +34613,7 @@ IL_002d:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_8 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_12();
+		Int32U5BU5D_t3230847821* L_8 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonthleap_22();
 		G_B9_0 = L_8;
 		goto IL_0047;
 	}
@@ -34613,7 +34621,7 @@ IL_002d:
 IL_0042:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		Int32U5BU5D_t3230847821* L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_11();
+		Int32U5BU5D_t3230847821* L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_daysmonth_21();
 		G_B9_0 = L_9;
 	}
 
@@ -34658,8 +34666,8 @@ IL_000d:
 	{
 		Il2CppObject * L_1 = ___value0;
 		V_0 = ((*(DateTime_t4283661327 *)((DateTime_t4283661327 *)UnBox (L_1, DateTime_t4283661327_il2cpp_TypeInfo_var))));
-		TimeSpan_t413522987  L_2 = (&V_0)->get_ticks_0();
-		TimeSpan_t413522987  L_3 = __this->get_ticks_0();
+		TimeSpan_t413522987  L_2 = (&V_0)->get_ticks_10();
+		TimeSpan_t413522987  L_3 = __this->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_4 = TimeSpan_op_Equality_m2213378780(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
@@ -34724,7 +34732,7 @@ extern "C"  void DateTime_CheckDateTimeKind_m1840811157_AdjustorThunk (Il2CppObj
 extern "C"  int32_t DateTime_GetHashCode_m2255586565 (DateTime_t4283661327 * __this, const MethodInfo* method)
 {
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int64_t L_1 = TimeSpan_get_Ticks_m315930342(L_0, /*hidden argument*/NULL);
 		return (((int32_t)((int32_t)L_1)));
 	}
@@ -34917,7 +34925,7 @@ extern "C"  bool DateTime_CoreParse_m2501063101 (Il2CppObject * __this /* static
 	{
 		DateTimeOffset_t3884714306 * L_0 = ___dto4;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		DateTimeOffset__ctor_m2468003023(L_0, (((int64_t)((int64_t)0))), L_1, /*hidden argument*/NULL);
 		String_t* L_2 = ___s0;
 		if (!L_2)
@@ -34955,7 +34963,7 @@ IL_0033:
 	{
 		DateTime_t4283661327 * L_8 = ___result3;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		(*(DateTime_t4283661327 *)L_8) = L_9;
 		return (bool)0;
 	}
@@ -34995,7 +35003,7 @@ IL_004d:
 	{
 		DateTime_t4283661327 * L_19 = ___result3;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_20 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_20 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		(*(DateTime_t4283661327 *)L_19) = L_20;
 		return (bool)0;
 	}
@@ -35059,7 +35067,7 @@ IL_00b6:
 		String_t* L_34 = ___s0;
 		String_t* L_35 = V_4;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_36 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_4();
+		StringU5BU5D_t4054002952* L_36 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_14();
 		int32_t L_37 = V_6;
 		NullCheck(L_36);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_36, L_37);
@@ -35089,7 +35097,7 @@ IL_00de:
 	{
 		int32_t L_46 = V_6;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_47 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_4();
+		StringU5BU5D_t4054002952* L_47 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_14();
 		NullCheck(L_47);
 		if ((((int32_t)L_46) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_47)->max_length)))))))
 		{
@@ -35144,7 +35152,7 @@ IL_0127:
 	{
 		DateTime_t4283661327 * L_59 = ___result3;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_60 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_60 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		(*(DateTime_t4283661327 *)L_59) = L_60;
 		bool L_61 = ___setExceptionOnError5;
 		if (!L_61)
@@ -35187,7 +35195,7 @@ IL_015c:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_71 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_DayMonthShortFormats_10();
+		StringU5BU5D_t4054002952* L_71 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_DayMonthShortFormats_20();
 		G_B29_0 = L_71;
 		goto IL_017a;
 	}
@@ -35195,7 +35203,7 @@ IL_015c:
 IL_0175:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_72 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MonthDayShortFormats_9();
+		StringU5BU5D_t4054002952* L_72 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MonthDayShortFormats_19();
 		G_B29_0 = L_72;
 	}
 
@@ -35257,7 +35265,7 @@ IL_01af:
 IL_01c2:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_87 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_4();
+		StringU5BU5D_t4054002952* L_87 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_14();
 		int32_t L_88 = V_13;
 		NullCheck(L_87);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_87, L_88);
@@ -35418,7 +35426,7 @@ IL_028e:
 	{
 		int32_t L_134 = V_13;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_135 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_4();
+		StringU5BU5D_t4054002952* L_135 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseTimeFormats_14();
 		NullCheck(L_135);
 		if ((((int32_t)L_134) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_135)->max_length)))))))
 		{
@@ -35466,6 +35474,26 @@ IL_02c2:
 		*((Il2CppObject **)(L_146)) = (Il2CppObject *)L_147;
 		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_146), (Il2CppObject *)L_147);
 		return (bool)0;
+	}
+}
+// System.DateTime System.DateTime::ParseExact(System.String,System.String,System.IFormatProvider)
+extern Il2CppClass* DateTime_t4283661327_il2cpp_TypeInfo_var;
+extern const uint32_t DateTime_ParseExact_m1034945555_MetadataUsageId;
+extern "C"  DateTime_t4283661327  DateTime_ParseExact_m1034945555 (Il2CppObject * __this /* static, unused */, String_t* ___s0, String_t* ___format1, Il2CppObject * ___provider2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (DateTime_ParseExact_m1034945555_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___s0;
+		String_t* L_1 = ___format1;
+		Il2CppObject * L_2 = ___provider2;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
+		DateTime_t4283661327  L_3 = DateTime_ParseExact_m3158704214(NULL /*static, unused*/, L_0, L_1, L_2, 0, /*hidden argument*/NULL);
+		return L_3;
 	}
 }
 // System.String[] System.DateTime::YearMonthDayFormats(System.Globalization.DateTimeFormatInfo,System.Boolean,System.Exception&)
@@ -35576,7 +35604,7 @@ IL_0067:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_23 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseYearMonthDayFormats_6();
+		StringU5BU5D_t4054002952* L_23 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseYearMonthDayFormats_16();
 		return L_23;
 	}
 
@@ -35591,7 +35619,7 @@ IL_007b:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_26 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseYearDayMonthFormats_5();
+		StringU5BU5D_t4054002952* L_26 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseYearDayMonthFormats_15();
 		return L_26;
 	}
 
@@ -35636,7 +35664,7 @@ IL_00b0:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_36 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseDayMonthYearFormats_7();
+		StringU5BU5D_t4054002952* L_36 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseDayMonthYearFormats_17();
 		return L_36;
 	}
 
@@ -35651,7 +35679,7 @@ IL_00bd:
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		StringU5BU5D_t4054002952* L_39 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseMonthDayYearFormats_8();
+		StringU5BU5D_t4054002952* L_39 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_ParseMonthDayYearFormats_18();
 		return L_39;
 	}
 
@@ -36667,7 +36695,7 @@ extern "C"  bool DateTime__DoParse_m760672305 (Il2CppObject * __this /* static, 
 		V_2 = (bool)0;
 		DateTimeOffset_t3884714306 * L_0 = ___dto5;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		DateTimeOffset__ctor_m2468003023(L_0, (((int64_t)((int64_t)0))), L_1, /*hidden argument*/NULL);
 		bool L_2 = ___exact3;
 		if (L_2)
@@ -39969,7 +39997,7 @@ IL_1154:
 	{
 		DateTime_t4283661327 * L_709 = ___result4;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_710 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_710 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		bool L_711 = DateTime_op_Inequality_m3446449971(NULL /*static, unused*/, (*(DateTime_t4283661327 *)L_709), L_710, /*hidden argument*/NULL);
 		if (!L_711)
 		{
@@ -40080,7 +40108,7 @@ IL_11db:
 	}
 	{
 		DateTime_t4283661327 * L_726 = ___result4;
-		TimeSpan_t413522987  L_727 = L_726->get_ticks_0();
+		TimeSpan_t413522987  L_727 = L_726->get_ticks_10();
 		DateTimeOffset_t3884714306 * L_728 = ___dto5;
 		TimeSpan_t413522987  L_729 = DateTimeOffset_get_Offset_m3938299132(L_728, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
@@ -40108,7 +40136,7 @@ IL_1225:
 		TimeSpan__ctor_m477860848(&L_736, L_735, /*hidden argument*/NULL);
 		DateTime__ctor_m270463751(L_734, (bool)0, L_736, /*hidden argument*/NULL);
 		DateTime_t4283661327 * L_737 = ___result4;
-		L_737->set_kind_1(1);
+		L_737->set_kind_11(1);
 		int32_t L_738 = ___style7;
 		if (!((int32_t)((int32_t)L_738&(int32_t)((int32_t)128))))
 		{
@@ -40146,7 +40174,7 @@ IL_125c:
 IL_126c:
 	{
 		DateTime_t4283661327 * L_744 = ___result4;
-		L_744->set_kind_1(1);
+		L_744->set_kind_11(1);
 		goto IL_128b;
 	}
 
@@ -40160,7 +40188,7 @@ IL_1279:
 	}
 	{
 		DateTime_t4283661327 * L_746 = ___result4;
-		L_746->set_kind_1(2);
+		L_746->set_kind_11(2);
 	}
 
 IL_128b:
@@ -40186,7 +40214,7 @@ IL_12a0:
 	{
 		V_34 = (bool)G_B413_0;
 		DateTime_t4283661327 * L_749 = ___result4;
-		int32_t L_750 = L_749->get_kind_1();
+		int32_t L_750 = L_749->get_kind_11();
 		if (!L_750)
 		{
 			goto IL_12dd;
@@ -40509,7 +40537,7 @@ CATCH_0027:
 		{
 			DateTime_t4283661327 * L_8 = ___result4;
 			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-			DateTime_t4283661327  L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+			DateTime_t4283661327  L_9 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 			(*(DateTime_t4283661327 *)L_8) = L_9;
 			V_3 = (bool)0;
 			goto IL_0040;
@@ -40649,7 +40677,7 @@ IL_006f:
 	{
 		DateTime_t4283661327 * L_26 = ___ret4;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		(*(DateTime_t4283661327 *)L_26) = L_27;
 		return (bool)0;
 	}
@@ -40670,7 +40698,7 @@ extern "C"  DateTime_t4283661327  DateTime_Subtract_m4130550807 (DateTime_t42836
 	DateTime_t4283661327  V_1;
 	memset(&V_1, 0, sizeof(V_1));
 	{
-		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_0();
+		TimeSpan_t413522987 * L_0 = __this->get_address_of_ticks_10();
 		int64_t L_1 = TimeSpan_get_Ticks_m315930342(L_0, /*hidden argument*/NULL);
 		TimeSpan_t413522987  L_2;
 		memset(&L_2, 0, sizeof(L_2));
@@ -40681,8 +40709,8 @@ extern "C"  DateTime_t4283661327  DateTime_Subtract_m4130550807 (DateTime_t42836
 		V_0 = L_4;
 		TimeSpan_t413522987  L_5 = V_0;
 		DateTime__ctor_m270463751((&V_1), (bool)1, L_5, /*hidden argument*/NULL);
-		int32_t L_6 = __this->get_kind_1();
-		(&V_1)->set_kind_1(L_6);
+		int32_t L_6 = __this->get_kind_11();
+		(&V_1)->set_kind_11(L_6);
 		DateTime_t4283661327  L_7 = V_1;
 		return L_7;
 	}
@@ -40897,13 +40925,13 @@ extern "C"  DateTime_t4283661327  DateTime_op_Addition_m4061583523 (Il2CppObject
 	DateTime_t4283661327  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		TimeSpan_t413522987  L_0 = (&___d0)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___d0)->get_ticks_10();
 		TimeSpan_t413522987  L_1 = ___t1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		TimeSpan_t413522987  L_2 = TimeSpan_op_Addition_m141072959(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		DateTime__ctor_m270463751((&V_0), (bool)1, L_2, /*hidden argument*/NULL);
-		int32_t L_3 = (&___d0)->get_kind_1();
-		(&V_0)->set_kind_1(L_3);
+		int32_t L_3 = (&___d0)->get_kind_11();
+		(&V_0)->set_kind_11(L_3);
 		DateTime_t4283661327  L_4 = V_0;
 		return L_4;
 	}
@@ -40920,8 +40948,8 @@ extern "C"  bool DateTime_op_Equality_m2277436664 (Il2CppObject * __this /* stat
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_Equality_m2213378780(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -40939,8 +40967,8 @@ extern "C"  bool DateTime_op_GreaterThan_m3846016869 (Il2CppObject * __this /* s
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_GreaterThan_m3920451985(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -40958,8 +40986,8 @@ extern "C"  bool DateTime_op_GreaterThanOrEqual_m717787228 (Il2CppObject * __thi
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_GreaterThanOrEqual_m2152983360(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -40977,8 +41005,8 @@ extern "C"  bool DateTime_op_Inequality_m3446449971 (Il2CppObject * __this /* st
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_Inequality_m2184437271(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -40996,8 +41024,8 @@ extern "C"  bool DateTime_op_LessThan_m35073816 (Il2CppObject * __this /* static
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_LessThan_m4265983228(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -41015,8 +41043,8 @@ extern "C"  bool DateTime_op_LessThanOrEqual_m354447689 (Il2CppObject * __this /
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___t10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___t21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		bool L_2 = TimeSpan_op_LessThanOrEqual_m271837557(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -41036,8 +41064,8 @@ extern "C"  TimeSpan_t413522987  DateTime_op_Subtraction_m3612355463 (Il2CppObje
 	TimeSpan_t413522987  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_0();
-		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___d10)->get_ticks_10();
+		TimeSpan_t413522987  L_1 = (&___d21)->get_ticks_10();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		TimeSpan_t413522987  L_2 = TimeSpan_op_Subtraction_m3686790579(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -41062,13 +41090,13 @@ extern "C"  DateTime_t4283661327  DateTime_op_Subtraction_m3609021319 (Il2CppObj
 	DateTime_t4283661327  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		TimeSpan_t413522987  L_0 = (&___d0)->get_ticks_0();
+		TimeSpan_t413522987  L_0 = (&___d0)->get_ticks_10();
 		TimeSpan_t413522987  L_1 = ___t1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
 		TimeSpan_t413522987  L_2 = TimeSpan_op_Subtraction_m3686790579(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		DateTime__ctor_m270463751((&V_0), (bool)1, L_2, /*hidden argument*/NULL);
-		int32_t L_3 = (&___d0)->get_kind_1();
-		(&V_0)->set_kind_1(L_3);
+		int32_t L_3 = (&___d0)->get_kind_11();
+		(&V_0)->set_kind_11(L_3);
 		DateTime_t4283661327  L_4 = V_0;
 		return L_4;
 	}
@@ -41099,7 +41127,7 @@ extern "C"  void DateTimeOffset__ctor_m206991153 (DateTimeOffset_t3884714306 * _
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_2 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_2 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		__this->set_utc_offset_3(L_2);
 		goto IL_0035;
 	}
@@ -41118,7 +41146,7 @@ IL_0035:
 	{
 		DateTime_t4283661327  L_6 = DateTimeOffset_get_UtcDateTime_m2831969300(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_7 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_7 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		bool L_8 = DateTime_op_LessThan_m35073816(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 		if (L_8)
 		{
@@ -41128,7 +41156,7 @@ IL_0035:
 	{
 		DateTime_t4283661327  L_9 = DateTimeOffset_get_UtcDateTime_m2831969300(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_10 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_10 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		bool L_11 = DateTime_op_GreaterThan_m3846016869(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
@@ -41183,7 +41211,7 @@ extern "C"  void DateTimeOffset__ctor_m2612619655 (DateTimeOffset_t3884714306 * 
 	{
 		TimeSpan_t413522987  L_1 = ___offset1;
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_2 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_2 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		bool L_3 = TimeSpan_op_Inequality_m2184437271(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
@@ -41279,7 +41307,7 @@ IL_00a7:
 		__this->set_utc_offset_3(L_22);
 		DateTime_t4283661327  L_23 = DateTimeOffset_get_UtcDateTime_m2831969300(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_24 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
+		DateTime_t4283661327  L_24 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
 		bool L_25 = DateTime_op_LessThan_m35073816(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
 		if (L_25)
 		{
@@ -41289,7 +41317,7 @@ IL_00a7:
 	{
 		DateTime_t4283661327  L_26 = DateTimeOffset_get_UtcDateTime_m2831969300(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_27 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		bool L_28 = DateTime_op_GreaterThan_m3846016869(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
 		if (!L_28)
 		{
@@ -41399,15 +41427,15 @@ extern "C"  void DateTimeOffset__cctor_m2485435494 (Il2CppObject * __this /* sta
 	GenericEqualityComparer_1_t3824060004 * V_1 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t4283661327_il2cpp_TypeInfo_var);
-		DateTime_t4283661327  L_0 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_2();
+		DateTime_t4283661327  L_0 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MaxValue_12();
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_1 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		DateTimeOffset_t3884714306  L_2;
 		memset(&L_2, 0, sizeof(L_2));
 		DateTimeOffset__ctor_m2612619655(&L_2, L_0, L_1, /*hidden argument*/NULL);
 		((DateTimeOffset_t3884714306_StaticFields*)DateTimeOffset_t3884714306_il2cpp_TypeInfo_var->static_fields)->set_MaxValue_0(L_2);
-		DateTime_t4283661327  L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_3();
-		TimeSpan_t413522987  L_4 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		DateTime_t4283661327  L_3 = ((DateTime_t4283661327_StaticFields*)DateTime_t4283661327_il2cpp_TypeInfo_var->static_fields)->get_MinValue_13();
+		TimeSpan_t413522987  L_4 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		DateTimeOffset_t3884714306  L_5;
 		memset(&L_5, 0, sizeof(L_5));
 		DateTimeOffset__ctor_m2612619655(&L_5, L_3, L_4, /*hidden argument*/NULL);
@@ -41767,7 +41795,7 @@ IL_007f:
 	{
 		DateTime_t4283661327  L_21 = DateTimeOffset_get_UtcDateTime_m2831969300(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t413522987_il2cpp_TypeInfo_var);
-		TimeSpan_t413522987  L_22 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_2();
+		TimeSpan_t413522987  L_22 = ((TimeSpan_t413522987_StaticFields*)TimeSpan_t413522987_il2cpp_TypeInfo_var->static_fields)->get_Zero_7();
 		Nullable_1_t497649510  L_23;
 		memset(&L_23, 0, sizeof(L_23));
 		Nullable_1__ctor_m4008503583(&L_23, L_22, /*hidden argument*/Nullable_1__ctor_m4008503583_MethodInfo_var);
@@ -48794,6 +48822,16 @@ extern "C"  Delegate_t3310234105 * Delegate_CreateDelegate_m2273250141 (Il2CppOb
 		bool L_2 = ___throwOnBindFailure2;
 		Delegate_t3310234105 * L_3 = Delegate_CreateDelegate_m1630815211(NULL /*static, unused*/, L_0, NULL, L_1, L_2, /*hidden argument*/NULL);
 		return L_3;
+	}
+}
+// System.Delegate System.Delegate::CreateDelegate(System.Type,System.Reflection.MethodInfo)
+extern "C"  Delegate_t3310234105 * Delegate_CreateDelegate_m2816771104 (Il2CppObject * __this /* static, unused */, Type_t * ___type0, MethodInfo_t * ___method1, const MethodInfo* method)
+{
+	{
+		Type_t * L_0 = ___type0;
+		MethodInfo_t * L_1 = ___method1;
+		Delegate_t3310234105 * L_2 = Delegate_CreateDelegate_m2273250141(NULL /*static, unused*/, L_0, L_1, (bool)1, /*hidden argument*/NULL);
+		return L_2;
 	}
 }
 // System.Delegate System.Delegate::CreateDelegate(System.Type,System.Object,System.String)
@@ -57313,6 +57351,14 @@ extern "C"  bool Environment_get_SocketSecurityEnabled_m2002704895 (Il2CppObject
 	using namespace il2cpp::icalls;
 	typedef bool (*Environment_get_SocketSecurityEnabled_m2002704895_ftn) ();
 	return  ((Environment_get_SocketSecurityEnabled_m2002704895_ftn)mscorlib::System::Environment::get_SocketSecurityEnabled) ();
+}
+// System.Boolean System.Environment::get_UnityWebSecurityEnabled()
+extern "C"  bool Environment_get_UnityWebSecurityEnabled_m2392762195 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		bool L_0 = Environment_get_SocketSecurityEnabled_m2002704895(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
 }
 // System.String System.Environment::get_NewLine()
 extern "C"  String_t* Environment_get_NewLine_m1034655108 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)

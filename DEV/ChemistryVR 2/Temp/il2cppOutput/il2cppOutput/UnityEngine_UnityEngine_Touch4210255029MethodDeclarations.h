@@ -27,6 +27,8 @@ struct Touch_t4210255029_marshaled_com;
 extern "C"  int32_t Touch_get_fingerId_m1427167959 (Touch_t4210255029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
 extern "C"  Vector2_t4282066565  Touch_get_position_m1943849441 (Touch_t4210255029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Touch::get_deltaPosition()
+extern "C"  Vector2_t4282066565  Touch_get_deltaPosition_m3983677995 (Touch_t4210255029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
 extern "C"  int32_t Touch_get_phase_m3314549414 (Touch_t4210255029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchType UnityEngine.Touch::get_type()
